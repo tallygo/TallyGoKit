@@ -1,0 +1,10 @@
+framework module TallyGoKit {
+  umbrella header "TallyGoKit.h"
+
+  export *
+  module * { export * }
+}
+
+module TallyGoKit.Swift {
+    header "TallyGoKit-Swift.h"
+}
