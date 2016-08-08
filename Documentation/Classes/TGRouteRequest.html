@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TGBaseResponse Class Reference</title>
+    <title>TGRouteRequest Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/TGBaseResponse" class="dashAnchor"></a>
-    <a title="TGBaseResponse Class Reference"></a>
+    <a name="//apple_ref/swift/Class/TGRouteRequest" class="dashAnchor"></a>
+    <a title="TGRouteRequest Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">TallyGoKit Docs</a> (89% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">TallyGoKit Reference</a>
         <img id="carat" src="../img/carat.png" />
-        TGBaseResponse Class Reference
+        TGRouteRequest Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -81,14 +81,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>TGBaseResponse</h1>
+            <h1>TGRouteRequest</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGBaseResponse</span><span class="p">:</span> <span class="kt">TGBaseObject</span></code></pre>
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGRouteRequest</span><span class="p">:</span> <span class="kt">TGBaseRequest</span></code></pre>
 
                 </div>
               </div>
-            <p>The base class for all response classes.</p>
+            <p>Request for turn by turn navigation.</p>
 
           </section>
           <section class="section task-group-section">
@@ -97,9 +97,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vC10TallyGoKit14TGBaseResponse4dataGSqCSo6NSData_"></a>
-                    <a name="//apple_ref/swift/Property/data" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC10TallyGoKit14TGBaseResponse4dataGSqCSo6NSData_">data</a>
+                    <a name="/s:OC10TallyGoKit14TGRouteRequest18TGRouteRequestType"></a>
+                    <a name="//apple_ref/swift/Enum/TGRouteRequestType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:OC10TallyGoKit14TGRouteRequest18TGRouteRequestType">TGRouteRequestType</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -107,14 +107,15 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The data of the response</p>
+                        <p>The request type defines the time parameter as either the desired arrival time or the departure time.</p>
 
+                        <a href="../Classes/TGRouteRequest/TGRouteRequestType.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">private(set)</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">NSData</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGRouteRequestType</span><span class="p">:</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -124,9 +125,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vC10TallyGoKit14TGBaseResponse7requestGSqCS_13TGBaseRequest_"></a>
-                    <a name="//apple_ref/swift/Property/request" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC10TallyGoKit14TGBaseResponse7requestGSqCS_13TGBaseRequest_">request</a>
+                    <a name="/s:vC10TallyGoKit14TGRouteRequest5startVSC22CLLocationCoordinate2D"></a>
+                    <a name="//apple_ref/swift/Property/start" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit14TGRouteRequest5startVSC22CLLocationCoordinate2D">start</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -134,14 +135,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The original TallyGo request object</p>
+                        <p>The origin of the requested route.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">private(set)</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">request</span><span class="p">:</span> <span class="kt">TGBaseRequest</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">start</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span></code></pre>
 
                         </div>
                       </div>
@@ -151,9 +152,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vC10TallyGoKit14TGBaseResponse8responseGSqCSo11URLResponse_"></a>
-                    <a name="//apple_ref/swift/Property/response" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC10TallyGoKit14TGBaseResponse8responseGSqCSo11URLResponse_">response</a>
+                    <a name="/s:vC10TallyGoKit14TGRouteRequest3endVSC22CLLocationCoordinate2D"></a>
+                    <a name="//apple_ref/swift/Property/end" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit14TGRouteRequest3endVSC22CLLocationCoordinate2D">end</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -161,14 +162,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The URLResponse object</p>
+                        <p>The destination of the requested route.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">private(set)</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">response</span><span class="p">:</span> <span class="kt">URLResponse</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">end</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span></code></pre>
 
                         </div>
                       </div>
@@ -178,9 +179,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vC10TallyGoKit14TGBaseResponse5errorGSqCSo7NSError_"></a>
-                    <a name="//apple_ref/swift/Property/error" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC10TallyGoKit14TGBaseResponse5errorGSqCSo7NSError_">error</a>
+                    <a name="/s:vC10TallyGoKit14TGRouteRequest4timeCSo6NSDate"></a>
+                    <a name="//apple_ref/swift/Property/time" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit14TGRouteRequest4timeCSo6NSDate">time</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -188,14 +189,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The return NSError object</p>
+                        <p>The desired departure (or arrival) time</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">private(set)</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">time</span><span class="p">:</span> <span class="kt">NSDate</span></code></pre>
 
                         </div>
                       </div>
@@ -205,9 +206,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vC10TallyGoKit14TGBaseResponse4taskGSqCSo18URLSessionDataTask_"></a>
-                    <a name="//apple_ref/swift/Property/task" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC10TallyGoKit14TGBaseResponse4taskGSqCSo18URLSessionDataTask_">task</a>
+                    <a name="/s:vC10TallyGoKit14TGRouteRequest11requestTypeOS0_18TGRouteRequestType"></a>
+                    <a name="//apple_ref/swift/Property/requestType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit14TGRouteRequest11requestTypeOS0_18TGRouteRequestType">requestType</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -215,14 +216,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The original URL SessionDataTask object</p>
+                        <p>The type of request, either arrival or departure time request.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">private(set)</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">task</span><span class="p">:</span> <span class="kt">URLSessionDataTask</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">requestType</span><span class="p">:</span> <span class="kt">TGRouteRequestType</span></code></pre>
 
                         </div>
                       </div>
@@ -232,9 +233,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC10TallyGoKit14TGBaseResponse11isCancelledFT_Sb"></a>
-                    <a name="//apple_ref/swift/Method/isCancelled()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10TallyGoKit14TGBaseResponse11isCancelledFT_Sb">isCancelled()</a>
+                    <a name="/s:vC10TallyGoKit14TGRouteRequest5speedGSqSd_"></a>
+                    <a name="//apple_ref/swift/Property/speed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit14TGRouteRequest5speedGSqSd_">speed</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -242,21 +243,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Used to determine if the task is cancelled.</p>
+                        <p>The current speed of the user. This is used to calculate drift.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isCancelled</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">speed</span><span class="p">:</span> <span class="kt">CLLocationSpeed</span><span class="p">?</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Bool</p>
-
                       </div>
                     </section>
                   </div>
@@ -264,9 +260,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vC10TallyGoKit14TGBaseResponse18shouldRetryRequestSb"></a>
-                    <a name="//apple_ref/swift/Property/shouldRetryRequest" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC10TallyGoKit14TGBaseResponse18shouldRetryRequestSb">shouldRetryRequest</a>
+                    <a name="/s:vC10TallyGoKit14TGRouteRequest6courseGSqSd_"></a>
+                    <a name="//apple_ref/swift/Property/course" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit14TGRouteRequest6courseGSqSd_">course</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -274,14 +270,46 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Used to determine if the request should be attempted again after refreshing the play session token.</p>
+                        <p>The current course of the user. This is used to calculate drift and starting direction.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">shouldRetryRequest</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">course</span><span class="p">:</span> <span class="kt">CLLocationDirection</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10TallyGoKit14TGRouteRequestcFT5startVSC22CLLocationCoordinate2D3endS1_4timeCSo6NSDate11requestTypeOS0_18TGRouteRequestType5speedGSqSd_6courseGSqSd__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(start:end:time:requestType:speed:course:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10TallyGoKit14TGRouteRequestcFT5startVSC22CLLocationCoordinate2D3endS1_4timeCSo6NSDate11requestTypeOS0_18TGRouteRequestType5speedGSqSd_6courseGSqSd__S0_">init(start:end:time:requestType:speed:course:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a route request with the required and optional parameters.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">start</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="p">,</span>
+                <span class="nv">end</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="p">,</span>
+                <span class="nv">time</span><span class="p">:</span> <span class="kt">NSDate</span><span class="p">,</span>
+                <span class="nv">requestType</span><span class="p">:</span> <span class="kt">TGRouteRequestType</span><span class="p">,</span>
+                <span class="nv">speed</span><span class="p">:</span> <span class="kt">CLLocationSpeed</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                <span class="nv">course</span><span class="p">:</span> <span class="kt">CLLocationDirection</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>

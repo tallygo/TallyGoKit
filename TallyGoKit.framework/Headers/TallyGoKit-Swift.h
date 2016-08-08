@@ -113,6 +113,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
 
+@interface NSDateFormatter (SWIFT_EXTENSION(TallyGoKit))
+@end
+
+
 @interface NSNumber (SWIFT_EXTENSION(TallyGoKit))
 @end
 
