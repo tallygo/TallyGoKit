@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TGResponseKey Enum Reference</title>
+    <title>TGTurn Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,18 +10,18 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Enum/TGResponseKey" class="dashAnchor"></a>
-    <a title="TGResponseKey Enum Reference"></a>
+    <a name="//apple_ref/swift/Class/TGTurn" class="dashAnchor"></a>
+    <a title="TGTurn Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">TallyGoKit Docs</a> (89% documented)</p>
+        <p><a href="../index.html">TallyGoKit Docs</a> (99% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">TallyGoKit Reference</a>
         <img id="carat" src="../img/carat.png" />
-        TGResponseKey Enum Reference
+        TGTurn Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -52,7 +52,19 @@
                 <a href="../Classes/TGConfigurationResponse.html">TGConfigurationResponse</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/TGHighway.html">TGHighway</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGHighway/TGHighwayType.html">– TGHighwayType</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/TGNavigation.html">TGNavigation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGPoint.html">TGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGRoute.html">TGRoute</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TGRouteRequest.html">TGRouteRequest</a>
@@ -61,18 +73,28 @@
                 <a href="../Classes/TGRouteRequest/TGRouteRequestType.html">– TGRouteRequestType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:C10TallyGoKit15TGRouteResponse">TGRouteResponse</a>
+                <a href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGStreet.html">TGStreet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGStreet/TGStreetFunction.html">– TGStreetFunction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGStreet/TGStreetConnection.html">– TGStreetConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGStreet/TGStreetDirection.html">– TGStreetDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGTurn.html">TGTurn</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGTurn/TGTurnDirection.html">– TGTurnDirection</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TallyGoKit.html">TallyGoKit</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="../Enums.html">Enums</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Enums/TGResponseKey.html">TGResponseKey</a>
               </li>
             </ul>
           </li>
@@ -81,14 +103,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>TGResponseKey</h1>
+            <h1>TGTurn</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGResponseKey</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGTurn</span><span class="p">:</span> <span class="kt">TGBaseObject</span></code></pre>
 
                 </div>
               </div>
-            <p>Enumeration of response keys.</p>
+            <p>Turn object.</p>
 
           </section>
           <section class="section task-group-section">
@@ -97,9 +119,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FO10TallyGoKit13TGResponseKey14tallyGoRootURLFMS0_S0_"></a>
-                    <a name="//apple_ref/swift/Element/tallyGoRootURL" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FO10TallyGoKit13TGResponseKey14tallyGoRootURLFMS0_S0_">tallyGoRootURL</a>
+                    <a name="/s:OC10TallyGoKit6TGTurn15TGTurnDirection"></a>
+                    <a name="//apple_ref/swift/Enum/TGTurnDirection" class="dashAnchor"></a>
+                    <a class="token" href="#/s:OC10TallyGoKit6TGTurn15TGTurnDirection">TGTurnDirection</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -107,30 +129,27 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Root server URL for all TallyGo API calls.</p>
+                        <p>The direction of travel at this turn.</p>
 
+                        <a href="../Classes/TGTurn/TGTurnDirection.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="k">case</span> <span class="n">tallyGoRootURL</span> <span class="o">=</span> <span class="s">"tallygo-root-url"</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGTurnDirection</span><span class="p">:</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FO10TallyGoKit13TGResponseKey4codeFMS0_S0_"></a>
-                    <a name="//apple_ref/swift/Element/code" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FO10TallyGoKit13TGResponseKey4codeFMS0_S0_">code</a>
+                    <a name="/s:vC10TallyGoKit6TGTurn6streetGSqCS_8TGStreet_"></a>
+                    <a name="//apple_ref/swift/Property/street" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit6TGTurn6streetGSqCS_8TGStreet_">street</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -138,30 +157,26 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The street being turned onto.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGResponseKey</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">street</span><span class="p">:</span> <span class="kt">TGStreet</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FO10TallyGoKit13TGResponseKey7messageFMS0_S0_"></a>
-                    <a name="//apple_ref/swift/Element/message" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FO10TallyGoKit13TGResponseKey7messageFMS0_S0_">message</a>
+                    <a name="/s:vC10TallyGoKit6TGTurn9directionOS0_15TGTurnDirection"></a>
+                    <a name="//apple_ref/swift/Property/direction" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit6TGTurn9directionOS0_15TGTurnDirection">direction</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -169,30 +184,26 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The direction of turn (or destination, when applicable).</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGResponseKey</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">direction</span><span class="p">:</span> <span class="kt">TGTurnDirection</span></code></pre>
 
                         </div>
                       </div>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FO10TallyGoKit13TGResponseKey8objectIdFMS0_S0_"></a>
-                    <a name="//apple_ref/swift/Element/objectId" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FO10TallyGoKit13TGResponseKey8objectIdFMS0_S0_">objectId</a>
+                    <a name="/s:vC10TallyGoKit6TGTurn11instructionGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/instruction" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit6TGTurn11instructionGSqSS_">instruction</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -200,45 +211,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The text describing the turn instruction for the turn-by-turn list.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGResponseKey</span><span class="p">:</span> <span class="kt">String</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:FO10TallyGoKit13TGResponseKey9userTokenFMS0_S0_"></a>
-                    <a name="//apple_ref/swift/Element/userToken" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FO10TallyGoKit13TGResponseKey9userTokenFMS0_S0_">userToken</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGResponseKey</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">instruction</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -250,7 +230,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2016 <a class="link" href="http://www.tallygo.com" target="_blank" rel="external">TallyGo</a>. All rights reserved. (Last updated: 2016-08-08)</p>
+          <p>&copy; 2016 <a class="link" href="http://www.tallygo.com" target="_blank" rel="external">TallyGo</a>. All rights reserved. (Last updated: 2016-08-09)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.6.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

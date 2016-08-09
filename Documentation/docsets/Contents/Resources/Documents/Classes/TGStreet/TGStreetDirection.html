@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TGRouteRequestType Enum Reference</title>
+    <title>TGStreetDirection Enum Reference</title>
     <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Enum/TGRouteRequestType" class="dashAnchor"></a>
-    <a title="TGRouteRequestType Enum Reference"></a>
+    <a name="//apple_ref/swift/Enum/TGStreetDirection" class="dashAnchor"></a>
+    <a title="TGStreetDirection Enum Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../../index.html">TallyGoKit Docs</a> (99% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../../index.html">TallyGoKit Reference</a>
         <img id="carat" src="../../img/carat.png" />
-        TGRouteRequestType Enum Reference
+        TGStreetDirection Enum Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -103,14 +103,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>TGRouteRequestType</h1>
+            <h1>TGStreetDirection</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGRouteRequestType</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGStreetDirection</span><span class="p">:</span> <span class="kt">String</span></code></pre>
 
                 </div>
               </div>
-            <p>The request type defines the time parameter as either the desired arrival time or the departure time.</p>
+            <p>The directionality of the street.</p>
 
           </section>
           <section class="section task-group-section">
@@ -119,9 +119,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FOC10TallyGoKit14TGRouteRequest18TGRouteRequestType11ArrivalTimeFMS1_S1_"></a>
-                    <a name="//apple_ref/swift/Element/ArrivalTime" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FOC10TallyGoKit14TGRouteRequest18TGRouteRequestType11ArrivalTimeFMS1_S1_">ArrivalTime</a>
+                    <a name="/s:FOC10TallyGoKit8TGStreet17TGStreetDirection5northFMS1_S1_"></a>
+                    <a name="//apple_ref/swift/Element/north" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC10TallyGoKit8TGStreet17TGStreetDirection5northFMS1_S1_">north</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -129,14 +129,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The time specified is the desired arrival time.</p>
+                        <p>North street direction.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">ArrivalTime</span> <span class="o">=</span> <span class="s">"ArrivalTime"</span></code></pre>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">north</span> <span class="o">=</span> <span class="s">"north"</span></code></pre>
 
                         </div>
                       </div>
@@ -150,9 +150,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FOC10TallyGoKit14TGRouteRequest18TGRouteRequestType13DepartureTimeFMS1_S1_"></a>
-                    <a name="//apple_ref/swift/Element/DepartureTime" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FOC10TallyGoKit14TGRouteRequest18TGRouteRequestType13DepartureTimeFMS1_S1_">DepartureTime</a>
+                    <a name="/s:FOC10TallyGoKit8TGStreet17TGStreetDirection5southFMS1_S1_"></a>
+                    <a name="//apple_ref/swift/Element/south" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC10TallyGoKit8TGStreet17TGStreetDirection5southFMS1_S1_">south</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -160,14 +160,107 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The time specified is the desired departure time.</p>
+                        <p>South street direction.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">DepartureTime</span> <span class="o">=</span> <span class="s">"DepartureTime"</span></code></pre>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">south</span> <span class="o">=</span> <span class="s">"south"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC10TallyGoKit8TGStreet17TGStreetDirection4eastFMS1_S1_"></a>
+                    <a name="//apple_ref/swift/Element/east" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC10TallyGoKit8TGStreet17TGStreetDirection4eastFMS1_S1_">east</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>East street direction.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">east</span> <span class="o">=</span> <span class="s">"east"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC10TallyGoKit8TGStreet17TGStreetDirection4westFMS1_S1_"></a>
+                    <a name="//apple_ref/swift/Element/west" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC10TallyGoKit8TGStreet17TGStreetDirection4westFMS1_S1_">west</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>West street direction.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">west</span> <span class="o">=</span> <span class="s">"west"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FOC10TallyGoKit8TGStreet17TGStreetDirection7unknownFMS1_S1_"></a>
+                    <a name="//apple_ref/swift/Element/unknown" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FOC10TallyGoKit8TGStreet17TGStreetDirection7unknownFMS1_S1_">unknown</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unknown street direction.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">unknown</span> <span class="o">=</span> <span class="s">""</span></code></pre>
 
                         </div>
                       </div>
