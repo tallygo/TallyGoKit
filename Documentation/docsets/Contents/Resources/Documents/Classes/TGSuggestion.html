@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TGSuggestion Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/TGSuggestion" class="dashAnchor"></a>
+    <a title="TGSuggestion Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">TallyGoKit Docs</a> (94% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">TallyGoKit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TGSuggestion Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TGAddress.html">TGAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C10TallyGoKit12TGBaseObject">TGBaseObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGBaseRequest.html">TGBaseRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGBaseResponse.html">TGBaseResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C10TallyGoKit13TGBaseService">TGBaseService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGConfiguration.html">TGConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C10TallyGoKit22TGConfigurationRequest">TGConfigurationRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGConfigurationResponse.html">TGConfigurationResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGFind.html">TGFind</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGHighway.html">TGHighway</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGHighway/TGHighwayType.html">– TGHighwayType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGNavigation.html">TGNavigation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGPoint.html">TGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGReverseGeocodeResponse.html">TGReverseGeocodeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGRoute.html">TGRoute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGRouteRequest.html">TGRouteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGRouteRequest/TGRouteRequestType.html">– TGRouteRequestType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGStreet.html">TGStreet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGStreet/TGStreetFunction.html">– TGStreetFunction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGStreet/TGStreetConnection.html">– TGStreetConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGStreet/TGStreetDirection.html">– TGStreetDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGSuggestRequest.html">TGSuggestRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGSuggestResponse.html">TGSuggestResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGSuggestion.html">TGSuggestion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGSuggestion/TGSuggestionOrigin.html">– TGSuggestionOrigin</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGTurn.html">TGTurn</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGTurn/TGTurnDirection.html">– TGTurnDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TallyGoKit.html">TallyGoKit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/TGSearchExtent.html">TGSearchExtent</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TGSuggestion</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGSuggestion</span><span class="p">:</span> <span class="kt">TGBaseObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Suggestion object.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:OC10TallyGoKit12TGSuggestion18TGSuggestionOrigin"></a>
+                    <a name="//apple_ref/swift/Enum/TGSuggestionOrigin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:OC10TallyGoKit12TGSuggestion18TGSuggestionOrigin">TGSuggestionOrigin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Origin enumeration.</p>
+
+                        <a href="../Classes/TGSuggestion/TGSuggestionOrigin.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGSuggestionOrigin</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion6originOS0_18TGSuggestionOrigin"></a>
+                    <a name="//apple_ref/swift/Property/origin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion6originOS0_18TGSuggestionOrigin">origin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The origin of the suggestion.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">origin</span><span class="p">:</span> <span class="kt">TGSuggestionOrigin</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion8providerGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/provider" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion8providerGSqSS_">provider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Provider&rsquo;s name.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">provider</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion5scoreGSqSd_"></a>
+                    <a name="//apple_ref/swift/Property/score" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion5scoreGSqSd_">score</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Provider&rsquo;s relevance score.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">score</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion11reviewCountGSqSi_"></a>
+                    <a name="//apple_ref/swift/Property/reviewCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion11reviewCountGSqSi_">reviewCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Number of reviews from provider.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">reviewCount</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion11providerUrlGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/providerUrl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion11providerUrlGSqSS_">providerUrl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>URL to a profile on the provider&rsquo;s website.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">providerUrl</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion7menuUrlGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/menuUrl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion7menuUrlGSqSS_">menuUrl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Menu mobile URL.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">menuUrl</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion5phoneGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/phone" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion5phoneGSqSS_">phone</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Phone number.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">phone</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion10categoriesGSaSS_"></a>
+                    <a name="//apple_ref/swift/Property/categories" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion10categoriesGSaSS_">categories</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Nonempty list of category names.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">categories</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion4textGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/text" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion4textGSqSS_">text</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Text of the suggestion. Contains place name and/or full address.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion8magicKeyGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/magicKey" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion8magicKeyGSqSS_">magicKey</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Value to be retained and passed into findAddressCandidates.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">magicKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion6ratingGSqSd_"></a>
+                    <a name="//apple_ref/swift/Property/rating" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion6ratingGSqSd_">rating</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Rating value depending on provider</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">rating</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion3urlGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/url" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion3urlGSqSS_">url</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Website URL</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit12TGSuggestion5priceGSqSi_"></a>
+                    <a name="//apple_ref/swift/Property/price" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit12TGSuggestion5priceGSqSi_">price</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An object containing the price tier from 1 (least pricey) - 4 (most pricey) and a message describing the price tier.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">price</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="http://www.tallygo.com" target="_blank" rel="external">TallyGo</a>. All rights reserved. (Last updated: 2016-08-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.6.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
