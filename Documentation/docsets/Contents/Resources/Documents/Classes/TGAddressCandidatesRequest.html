@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TGHighway Class Reference</title>
+    <title>TGAddressCandidatesRequest Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/TGHighway" class="dashAnchor"></a>
-    <a title="TGHighway Class Reference"></a>
+    <a name="//apple_ref/swift/Class/TGAddressCandidatesRequest" class="dashAnchor"></a>
+    <a title="TGAddressCandidatesRequest Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">TallyGoKit Docs</a> (95% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">TallyGoKit Reference</a>
         <img id="carat" src="../img/carat.png" />
-        TGHighway Class Reference
+        TGAddressCandidatesRequest Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -149,14 +149,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>TGHighway</h1>
+            <h1>TGAddressCandidatesRequest</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGHighway</span><span class="p">:</span> <span class="kt">TGBaseObject</span></code></pre>
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGAddressCandidatesRequest</span><span class="p">:</span> <span class="kt">TGBaseRequest</span></code></pre>
 
                 </div>
               </div>
-            <p>Highway object.</p>
+            <p>Request for finding address candidates</p>
 
           </section>
           <section class="section task-group-section">
@@ -165,9 +165,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:OC10TallyGoKit9TGHighway13TGHighwayType"></a>
-                    <a name="//apple_ref/swift/Enum/TGHighwayType" class="dashAnchor"></a>
-                    <a class="token" href="#/s:OC10TallyGoKit9TGHighway13TGHighwayType">TGHighwayType</a>
+                    <a name="/s:vC10TallyGoKit26TGAddressCandidatesRequest10singleLineSS"></a>
+                    <a name="//apple_ref/swift/Property/singleLine" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit26TGAddressCandidatesRequest10singleLineSS">singleLine</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -175,15 +175,15 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The type of highway.</p>
+                        <p>Specifies the location to be geocoded. This can be a street address, place name, postal code, or POI.
+The input address components need to be formatted as a single string.</p>
 
-                        <a href="../Classes/TGHighway/TGHighwayType.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGHighwayType</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">singleLine</span><span class="p">:</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -193,9 +193,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vC10TallyGoKit9TGHighway9directionOS0_13TGHighwayType"></a>
-                    <a name="//apple_ref/swift/Property/direction" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC10TallyGoKit9TGHighway9directionOS0_13TGHighwayType">direction</a>
+                    <a name="/s:vC10TallyGoKit26TGAddressCandidatesRequest8locationVSC22CLLocationCoordinate2D"></a>
+                    <a name="//apple_ref/swift/Property/location" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit26TGAddressCandidatesRequest8locationVSC22CLLocationCoordinate2D">location</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -203,14 +203,95 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The type of highway.</p>
+                        <p>Defines an origin point location.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">direction</span><span class="p">:</span> <span class="kt">TGHighwayType</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">location</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit26TGAddressCandidatesRequest12searchExtentGSqVS_14TGSearchExtent_"></a>
+                    <a name="//apple_ref/swift/Property/searchExtent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit26TGAddressCandidatesRequest12searchExtentGSqVS_14TGSearchExtent_">searchExtent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Default value is approximated LA city area. Bounding rectangle to search within. No candidates outside of the rectangle are returned.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">searchExtent</span><span class="p">:</span> <span class="kt">TGSearchExtent</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC10TallyGoKit26TGAddressCandidatesRequest8magicKeyGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/magicKey" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit26TGAddressCandidatesRequest8magicKeyGSqSS_">magicKey</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Value obtained from prior request to suggest API.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">magicKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC10TallyGoKit26TGAddressCandidatesRequestcFT10singleLineSS8locationVSC22CLLocationCoordinate2D12searchExtentGSqVS_14TGSearchExtent_8magicKeyGSqSS__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(singleLine:location:searchExtent:magicKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10TallyGoKit26TGAddressCandidatesRequestcFT10singleLineSS8locationVSC22CLLocationCoordinate2D12searchExtentGSqVS_14TGSearchExtent_8magicKeyGSqSS__S0_">init(singleLine:location:searchExtent:magicKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a find address request with the required and optional parameters.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">singleLine</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">location</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="p">,</span> <span class="nv">searchExtent</span><span class="p">:</span> <span class="kt">TGSearchExtent</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">magicKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>

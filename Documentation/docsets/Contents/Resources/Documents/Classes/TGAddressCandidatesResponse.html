@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TGHighway Class Reference</title>
+    <title>TGAddressCandidatesResponse Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/TGHighway" class="dashAnchor"></a>
-    <a title="TGHighway Class Reference"></a>
+    <a name="//apple_ref/swift/Class/TGAddressCandidatesResponse" class="dashAnchor"></a>
+    <a title="TGAddressCandidatesResponse Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">TallyGoKit Docs</a> (95% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">TallyGoKit Reference</a>
         <img id="carat" src="../img/carat.png" />
-        TGHighway Class Reference
+        TGAddressCandidatesResponse Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -149,14 +149,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>TGHighway</h1>
+            <h1>TGAddressCandidatesResponse</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGHighway</span><span class="p">:</span> <span class="kt">TGBaseObject</span></code></pre>
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGAddressCandidatesResponse</span><span class="p">:</span> <span class="kt">TGBaseResponse</span></code></pre>
 
                 </div>
               </div>
-            <p>Highway object.</p>
+            <p>Response object from the find address candidates function.</p>
 
           </section>
           <section class="section task-group-section">
@@ -165,9 +165,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:OC10TallyGoKit9TGHighway13TGHighwayType"></a>
-                    <a name="//apple_ref/swift/Enum/TGHighwayType" class="dashAnchor"></a>
-                    <a class="token" href="#/s:OC10TallyGoKit9TGHighway13TGHighwayType">TGHighwayType</a>
+                    <a name="/s:vC10TallyGoKit27TGAddressCandidatesResponse10candidatesGSaCS_11TGCandidate_"></a>
+                    <a name="//apple_ref/swift/Property/candidates" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC10TallyGoKit27TGAddressCandidatesResponse10candidatesGSaCS_11TGCandidate_">candidates</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -175,42 +175,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The type of highway.</p>
-
-                        <a href="../Classes/TGHighway/TGHighwayType.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGHighwayType</span><span class="p">:</span> <span class="kt">String</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:vC10TallyGoKit9TGHighway9directionOS0_13TGHighwayType"></a>
-                    <a name="//apple_ref/swift/Property/direction" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC10TallyGoKit9TGHighway9directionOS0_13TGHighwayType">direction</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The type of highway.</p>
+                        <p>A collection of candidate objects.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">direction</span><span class="p">:</span> <span class="kt">TGHighwayType</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">candidates</span> <span class="o">=</span> <span class="p">[</span><span class="kt">TGCandidate</span><span class="p">]()</span></code></pre>
 
                         </div>
                       </div>
