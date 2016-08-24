@@ -111,6 +111,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import Foundation;
+@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -121,6 +122,25 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 @interface NSNumber (SWIFT_EXTENSION(TallyGoKit))
+@end
+
+@class MGLMapView;
+@class NSBundle;
+@class NSCoder;
+
+/**
+  View controller with TallyGo navigation and Mapbox mapview
+*/
+SWIFT_CLASS("_TtC10TallyGoKit16TGViewController")
+@interface TGViewController : UIViewController
+/**
+  Mapbox MGLMapView
+*/
+@property (nonatomic, strong) MGLMapView * _Null_unspecified mapview;
+- (void)viewDidLoad;
+- (void)viewDidLayoutSubviews;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #pragma clang diagnostic pop
