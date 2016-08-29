@@ -125,8 +125,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @end
 
 @class MGLMapView;
-@class NSBundle;
 @class NSCoder;
+@class NSBundle;
 
 /**
   View controller with TallyGo navigation and Mapbox mapview
@@ -136,11 +136,11 @@ SWIFT_CLASS("_TtC10TallyGoKit16TGViewController")
 /**
   Mapbox MGLMapView
 */
-@property (nonatomic, strong) MGLMapView * _Null_unspecified mapview;
+@property (nonatomic, readonly, strong) MGLMapView * _Nonnull mapview;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
 #pragma clang diagnostic pop
