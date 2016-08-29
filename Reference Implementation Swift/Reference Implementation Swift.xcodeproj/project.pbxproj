@@ -16,6 +16,7 @@
 		AF16B0141D6DE0D4001F9802 /* TallyGoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF16B0061D6DDAFE001F9802 /* TallyGoKit.framework */; };
 		AF16B0161D6DE101001F9802 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF16B0151D6DE101001F9802 /* Mapbox.framework */; };
 		AF16B0171D6DE101001F9802 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF16B0151D6DE101001F9802 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFD631711D74E2B900008785 /* MapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD631701D74E2B900008785 /* MapViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		AF16AFFD1D6DD8C7001F9802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF16B0061D6DDAFE001F9802 /* TallyGoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TallyGoKit.framework; path = ../TallyGoKit.framework; sourceTree = "<group>"; };
 		AF16B0151D6DE101001F9802 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		AFD631701D74E2B900008785 /* MapViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				AF16AFF11D6DD8C7001F9802 /* AppDelegate.swift */,
 				AF16AFF31D6DD8C7001F9802 /* ViewController.swift */,
+				AFD631701D74E2B900008785 /* MapViewDelegate.swift */,
 				AF16AFF51D6DD8C7001F9802 /* Main.storyboard */,
 				AF16AFF81D6DD8C7001F9802 /* Assets.xcassets */,
 				AF16AFFA1D6DD8C7001F9802 /* LaunchScreen.storyboard */,
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD631711D74E2B900008785 /* MapViewDelegate.swift in Sources */,
 				AF16AFF41D6DD8C7001F9802 /* ViewController.swift in Sources */,
 				AF16AFF21D6DD8C7001F9802 /* AppDelegate.swift in Sources */,
 			);

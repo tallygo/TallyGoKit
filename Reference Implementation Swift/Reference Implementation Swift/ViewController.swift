@@ -11,11 +11,15 @@ import TallyGoKit
 import CoreLocation
 
 class ViewController: UIViewController {
+    
+    // Retain this instance
+    var mapViewDelegate = MapViewDelegate()
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let viewController = segue.destination as? TGViewController {
             viewController.origin = CLLocationCoordinate2DMake(34.050000, -118.250000)
             viewController.destination = CLLocationCoordinate2DMake(33.987760, -118.470784)
+            viewController.delegate = mapViewDelegate
         }
     }
 
