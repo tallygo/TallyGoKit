@@ -13,7 +13,7 @@ import CoreLocation
 class ViewController: UIViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "go", let viewController = segue.destination as? TGViewController {
+        if let viewController = segue.destination as? TGViewController {
             viewController.origin = CLLocationCoordinate2DMake(34.050000, -118.250000)
             viewController.destination = CLLocationCoordinate2DMake(33.987760, -118.470784)
         }

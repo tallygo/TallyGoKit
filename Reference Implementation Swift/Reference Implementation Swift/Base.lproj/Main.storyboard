@@ -23,7 +23,7 @@
                                 </constraints>
                                 <state key="normal" title="Go"/>
                                 <connections>
-                                    <segue destination="7Gf-Pi-g9g" kind="show" identifier="go" id="yof-vA-zWS"/>
+                                    <segue destination="7Gf-Pi-g9g" kind="show" identifier="" id="yof-vA-zWS"/>
                                 </connections>
                             </button>
                         </subviews>
