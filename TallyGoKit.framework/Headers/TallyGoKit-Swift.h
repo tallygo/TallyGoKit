@@ -112,8 +112,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import Foundation;
 @import UIKit;
-@import Mapbox;
-@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -145,19 +143,6 @@ SWIFT_CLASS("_TtC10TallyGoKit16TGViewController")
 - (void)viewDidLoad;
 - (void)viewDidLayoutSubviews;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-@protocol MGLAnnotation;
-@class MGLAnnotationImage;
-@class MGLPolyline;
-@class MGLShape;
-@class UIColor;
-
-@interface TGViewController (SWIFT_EXTENSION(TallyGoKit)) <MGLMapViewDelegate>
-- (MGLAnnotationImage * _Nullable)mapView:(MGLMapView * _Nonnull)mapView imageForAnnotation:(id <MGLAnnotation> _Nonnull)annotation;
-- (CGFloat)mapView:(MGLMapView * _Nonnull)mapView lineWidthForPolylineAnnotation:(MGLPolyline * _Nonnull)annotation;
-- (UIColor * _Nonnull)mapView:(MGLMapView * _Nonnull)mapView strokeColorForShapeAnnotation:(MGLShape * _Nonnull)annotation;
-- (CGFloat)mapView:(MGLMapView * _Nonnull)mapView alphaForShapeAnnotation:(MGLShape * _Nonnull)annotation;
 @end
 
 #pragma clang diagnostic pop
