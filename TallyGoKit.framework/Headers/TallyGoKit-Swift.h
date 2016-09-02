@@ -110,12 +110,17 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_UNAVAILABLE __attribute__((unavailable))
 #endif
 #if defined(__has_feature) && __has_feature(modules)
+@import CoreLocation;
 @import Foundation;
 @import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+
+@interface CLLocation (SWIFT_EXTENSION(TallyGoKit))
+@end
+
 
 @interface NSDateFormatter (SWIFT_EXTENSION(TallyGoKit))
 @end
@@ -126,7 +131,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class MGLMapView;
 @class NSCoder;
-@protocol MGLMapViewDelegate;
 @class NSBundle;
 
 /**
@@ -138,7 +142,14 @@ SWIFT_CLASS("_TtC10TallyGoKit16TGViewController")
   Mapbox MGLMapView
 */
 @property (nonatomic, readonly, strong) MGLMapView * _Nonnull mapview;
-@property (nonatomic, weak) id <MGLMapViewDelegate> _Nullable delegate;
+/**
+  Determines whether origin icon is displayed
+*/
+@property (nonatomic) BOOL showsOriginIcon;
+/**
+  Determines whether destination icon is displayed
+*/
+@property (nonatomic) BOOL showsDestinationIcon;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
