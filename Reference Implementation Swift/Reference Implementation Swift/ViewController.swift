@@ -20,10 +20,14 @@ class ViewController: UIViewController {
     var mapViewDelegate = MapViewDelegate()
     
     override func viewDidLoad() {
-        TallyGoKit.initialize(withAccessToken: "YOUR ACCESS TOKEN", simulatedCoordinate: origin)
+        TallyGoKit.initialize(withAccessToken: "YOUR ACCESS TOKEN")
         TallyGoKit.allowsDebug = true
     }
-
+    
+    @IBAction func enableSimulator(_ sender: AnyObject) {
+        TallyGoKit.simulatedCoordinate = origin
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let viewController = segue.destination as? TGViewController {
             viewController.showsOriginIcon = false

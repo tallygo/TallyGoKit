@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,21 +17,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JzU-b2-nhG">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="115" id="tom-2k-oO4"/>
-                                </constraints>
-                                <state key="normal" title="Go"/>
-                                <connections>
-                                    <segue destination="7Gf-Pi-g9g" kind="show" identifier="" id="yof-vA-zWS"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bV3-DE-JSt">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JzU-b2-nhG">
+                                        <color key="backgroundColor" red="0.75294117650000003" green="0.75294117650000003" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Go"/>
+                                        <connections>
+                                            <segue destination="7Gf-Pi-g9g" kind="show" identifier="" id="yof-vA-zWS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDu-3X-lnt">
+                                        <color key="backgroundColor" red="0.75294117650000003" green="0.75294117650000003" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Enable Sim"/>
+                                        <connections>
+                                            <action selector="enableSimulator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rwR-Im-R3x"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="JzU-b2-nhG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="256" id="Hpr-be-HUR"/>
-                            <constraint firstItem="JzU-b2-nhG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eXv-Pq-H5e"/>
-                            <constraint firstItem="JzU-b2-nhG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="v97-wu-NlO"/>
+                            <constraint firstItem="bV3-DE-JSt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BSj-bz-ldK"/>
+                            <constraint firstItem="bV3-DE-JSt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rpu-eQ-Qhi"/>
                         </constraints>
                     </view>
                 </viewController>
