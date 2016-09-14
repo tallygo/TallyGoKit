@@ -1,1 +1,103 @@
-{"warnings":[{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift","line":35,"symbol":"init(coder:)","symbol_kind":"source.lang.swift.decl.function.method.instance","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift","line":46,"symbol":"viewDidLoad()","symbol_kind":"source.lang.swift.decl.function.method.instance","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift","line":79,"symbol":"viewDidAppear(_:)","symbol_kind":"source.lang.swift.decl.function.method.instance","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift","line":115,"symbol":"viewDidLayoutSubviews()","symbol_kind":"source.lang.swift.decl.function.method.instance","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGCandidate.swift","line":12,"symbol":"TGCandidate","symbol_kind":"source.lang.swift.decl.class","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift","line":13,"symbol":"OSM","symbol_kind":"source.lang.swift.decl.enumelement","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift","line":14,"symbol":"ArcGIS","symbol_kind":"source.lang.swift.decl.enumelement","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift","line":15,"symbol":"TallyGo","symbol_kind":"source.lang.swift.decl.enumelement","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift","line":16,"symbol":"Yelp","symbol_kind":"source.lang.swift.decl.enumelement","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift","line":17,"symbol":"Foursquare","symbol_kind":"source.lang.swift.decl.enumelement","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift","line":18,"symbol":"MapBox","symbol_kind":"source.lang.swift.decl.enumelement","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift","line":19,"symbol":"unknown","symbol_kind":"source.lang.swift.decl.enumelement","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGRouteResponse.swift","line":14,"symbol":"route","symbol_kind":"source.lang.swift.decl.var.instance","warning":"undocumented"},{"file":"/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGPoint.swift","line":52,"symbol":"location","symbol_kind":"source.lang.swift.decl.var.instance","warning":"undocumented"}],"source_directory":"/Users/picciano1/Documents/Apps/TallyGoKit-Source"}
+{
+  "warnings": [
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGCandidate.swift",
+      "line": 12,
+      "symbol": "TGCandidate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift",
+      "line": 13,
+      "symbol": "TGOrigin.OSM",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift",
+      "line": 14,
+      "symbol": "TGOrigin.ArcGIS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift",
+      "line": 15,
+      "symbol": "TGOrigin.TallyGo",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift",
+      "line": 16,
+      "symbol": "TGOrigin.Yelp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift",
+      "line": 17,
+      "symbol": "TGOrigin.Foursquare",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift",
+      "line": 18,
+      "symbol": "TGOrigin.MapBox",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift",
+      "line": 19,
+      "symbol": "TGOrigin.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGPoint.swift",
+      "line": 52,
+      "symbol": "TGPoint.coordinate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGRouteResponse.swift",
+      "line": 14,
+      "symbol": "TGRouteResponse.route",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
+      "line": 35,
+      "symbol": "TGViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
+      "line": 47,
+      "symbol": "TGViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
+      "line": 81,
+      "symbol": "TGViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
+      "line": 117,
+      "symbol": "TGViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/picciano1/Documents/Apps/TallyGoKit-Source"
+}
