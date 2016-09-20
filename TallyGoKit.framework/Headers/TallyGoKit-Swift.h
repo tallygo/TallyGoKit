@@ -113,6 +113,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreLocation;
 @import Foundation;
 @import UIKit;
+@import ObjectiveC;
+@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -155,6 +157,104 @@ SWIFT_CLASS("_TtC10TallyGoKit16TGViewController")
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class UIColor;
+@class UIImage;
+
+SWIFT_CLASS("_TtC10TallyGoKit15TallyGoStyleKit")
+@interface TallyGoStyleKit : NSObject
+/**
+  / Colors
+*/
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _Nonnull tGWhite;)
++ (UIColor * _Nonnull)tGWhite;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _Nonnull tGRed;)
++ (UIColor * _Nonnull)tGRed;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _Nonnull tGGreen;)
++ (UIColor * _Nonnull)tGGreen;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _Nonnull tGBlue;)
++ (UIColor * _Nonnull)tGBlue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _Nonnull tGYellow;)
++ (UIColor * _Nonnull)tGYellow;
+/**
+  / Drawing Methods
+*/
++ (void)drawVisualTurnIndicatorWithFrame:(CGRect)frame approachColor:(UIColor * _Nonnull)approachColor image:(UIImage * _Nonnull)image approachIndicatorWidth:(CGFloat)approachIndicatorWidth street:(NSString * _Nonnull)street distance:(NSString * _Nonnull)distance;
++ (void)drawVisualTurnIndicatorWithSignWithFrame:(CGRect)frame approachColor:(UIColor * _Nonnull)approachColor sign:(UIImage * _Nonnull)sign image:(UIImage * _Nonnull)image approachIndicatorWidth:(CGFloat)approachIndicatorWidth street:(NSString * _Nonnull)street distance:(NSString * _Nonnull)distance;
++ (void)drawUTurnLeft;
++ (void)drawExitRight;
++ (void)drawMergeRight;
++ (void)drawUTurnRight;
++ (void)drawVTIDestination;
++ (void)drawHardLeft;
++ (void)drawHardRight;
++ (void)drawTurnLeft;
++ (void)drawVTIDestinationLeft;
++ (void)drawSlightRight;
++ (void)drawTurnRight;
++ (void)drawMerge;
++ (void)drawExitLeft;
++ (void)drawRightAtTheFork;
++ (void)drawVTIDestinationRight;
++ (void)drawSlightLeft;
++ (void)drawLeftAtTheFork;
++ (void)drawForward;
++ (void)drawCAHighwayWithHighwayNumber:(NSString * _Nonnull)highwayNumber;
++ (void)drawUSHighwayWithHighwayNumber:(NSString * _Nonnull)highwayNumber;
++ (void)drawInterstateWithHighwayNumber:(NSString * _Nonnull)highwayNumber nudge:(CGFloat)nudge;
+/**
+  / Generated Images
+*/
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfUTurnLeft;)
++ (UIImage * _Nonnull)imageOfUTurnLeft;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfExitRight;)
++ (UIImage * _Nonnull)imageOfExitRight;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfMergeRight;)
++ (UIImage * _Nonnull)imageOfMergeRight;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfUTurnRight;)
++ (UIImage * _Nonnull)imageOfUTurnRight;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfVTIDestination;)
++ (UIImage * _Nonnull)imageOfVTIDestination;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfHardLeft;)
++ (UIImage * _Nonnull)imageOfHardLeft;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfHardRight;)
++ (UIImage * _Nonnull)imageOfHardRight;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfTurnLeft;)
++ (UIImage * _Nonnull)imageOfTurnLeft;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfVTIDestinationLeft;)
++ (UIImage * _Nonnull)imageOfVTIDestinationLeft;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfSlightRight;)
++ (UIImage * _Nonnull)imageOfSlightRight;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfTurnRight;)
++ (UIImage * _Nonnull)imageOfTurnRight;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfMerge;)
++ (UIImage * _Nonnull)imageOfMerge;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfExitLeft;)
++ (UIImage * _Nonnull)imageOfExitLeft;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfRightAtTheFork;)
++ (UIImage * _Nonnull)imageOfRightAtTheFork;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfVTIDestinationRight;)
++ (UIImage * _Nonnull)imageOfVTIDestinationRight;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfSlightLeft;)
++ (UIImage * _Nonnull)imageOfSlightLeft;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfLeftAtTheFork;)
++ (UIImage * _Nonnull)imageOfLeftAtTheFork;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfForward;)
++ (UIImage * _Nonnull)imageOfForward;
++ (UIImage * _Nonnull)imageOfCAHighwayWithHighwayNumber:(NSString * _Nonnull)highwayNumber;
++ (UIImage * _Nonnull)imageOfUSHighwayWithHighwayNumber:(NSString * _Nonnull)highwayNumber;
++ (UIImage * _Nonnull)imageOfInterstateWithHighwayNumber:(NSString * _Nonnull)highwayNumber nudge:(CGFloat)nudge;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface UIColor (SWIFT_EXTENSION(TallyGoKit))
+@end
+
+
+@interface UIFont (SWIFT_EXTENSION(TallyGoKit))
++ (void)registerFontWithFilenameStringWithFilenameString:(NSString * _Nonnull)filenameString;
 @end
 
 #pragma clang diagnostic pop
