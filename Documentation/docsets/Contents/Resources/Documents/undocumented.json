@@ -22,6 +22,48 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGLocationManager.swift",
+      "line": 12,
+      "symbol": "TGLocationManagerDidUpdateLocationsNotification",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGLocationManager.swift",
+      "line": 13,
+      "symbol": "TGLocationManagerDidVisitNotification",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGLocationManager.swift",
+      "line": 14,
+      "symbol": "TGLocationManagerDidPauseLocationUpdatesNotification",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGLocationManager.swift",
+      "line": 15,
+      "symbol": "TGLocationManagerDidResumeLocationUpdatesNotification",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGLocationManager.swift",
+      "line": 17,
+      "symbol": "TGLocationManagerUserInfoLocationKey",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGLocationManager.swift",
+      "line": 18,
+      "symbol": "TGLocationManagerUserInfoVisitKey",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift",
       "line": 13,
       "symbol": "TGOrigin.OSM",
@@ -100,14 +142,14 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 86,
+      "line": 85,
       "symbol": "TGViewController.viewDidAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 122,
+      "line": 121,
       "symbol": "TGViewController.viewDidLayoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
