@@ -203,6 +203,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _N
 + (void)drawCAHighwayWithHighwayNumber:(NSString * _Nonnull)highwayNumber;
 + (void)drawUSHighwayWithHighwayNumber:(NSString * _Nonnull)highwayNumber;
 + (void)drawInterstateWithHighwayNumber:(NSString * _Nonnull)highwayNumber nudge:(CGFloat)nudge;
++ (void)drawRouteProgressWithFrame:(CGRect)frame approachIndicatorWidth:(CGFloat)approachIndicatorWidth firstLine:(NSString * _Nonnull)firstLine secondLine:(NSString * _Nonnull)secondLine;
 /**
   / Generated Images
 */
