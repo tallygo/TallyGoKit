@@ -177,6 +177,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _N
 + (UIColor * _Nonnull)tGBlue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _Nonnull tGYellow;)
 + (UIColor * _Nonnull)tGYellow;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _Nonnull tGButtonTextColor;)
++ (UIColor * _Nonnull)tGButtonTextColor;
 /**
   / Drawing Methods
 */
@@ -204,6 +206,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _N
 + (void)drawUSHighwayWithHighwayNumber:(NSString * _Nonnull)highwayNumber;
 + (void)drawInterstateWithHighwayNumber:(NSString * _Nonnull)highwayNumber nudge:(CGFloat)nudge;
 + (void)drawRouteProgressWithFrame:(CGRect)frame approachIndicatorWidth:(CGFloat)approachIndicatorWidth firstLine:(NSString * _Nonnull)firstLine secondLine:(NSString * _Nonnull)secondLine;
++ (void)drawStopNavigationButtonWithFrame:(CGRect)frame highlighted:(BOOL)highlighted;
++ (void)drawBigRedButtonWithFrame:(CGRect)frame fontSize:(CGFloat)fontSize highlighted:(BOOL)highlighted buttonText:(NSString * _Nonnull)buttonText;
++ (void)drawBigWhiteButtonWithFrame:(CGRect)frame fontSize:(CGFloat)fontSize highlighted:(BOOL)highlighted buttonText:(NSString * _Nonnull)buttonText;
++ (void)drawBigGreenButtonWithFrame:(CGRect)frame fontSize:(CGFloat)fontSize highlighted:(BOOL)highlighted buttonText:(NSString * _Nonnull)buttonText;
++ (void)drawBigGrayButtonWithFrame:(CGRect)frame fontSize:(CGFloat)fontSize highlighted:(BOOL)highlighted buttonText:(NSString * _Nonnull)buttonText;
++ (void)drawResumeNavigationButtonWithFrame:(CGRect)frame highlighted:(BOOL)highlighted;
 /**
   / Generated Images
 */
