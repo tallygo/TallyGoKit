@@ -13,7 +13,7 @@ import CoreLocation
 class ViewController: UIViewController {
     
     // Get these from somewhere
-    let origin = CLLocationCoordinate2DMake(34.050000, -118.250000)
+    let origin = CLLocationCoordinate2DMake( 34.050259, -118.249611)
     let destination = CLLocationCoordinate2DMake(33.987760, -118.470784)
     
     @IBOutlet weak var originLat: UITextField!

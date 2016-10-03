@@ -128,28 +128,28 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 38,
+      "line": 39,
       "symbol": "TGViewController.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 52,
+      "line": 53,
       "symbol": "TGViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 127,
+      "line": 156,
       "symbol": "TGViewController.viewDidAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 189,
+      "line": 218,
       "symbol": "TGViewController.viewDidLayoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
