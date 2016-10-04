@@ -156,7 +156,7 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoKit.swift",
-      "line": 46,
+      "line": 49,
       "symbol": "TallyGoKit.loadFonts()",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"

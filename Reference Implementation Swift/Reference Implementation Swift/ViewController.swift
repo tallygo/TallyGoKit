@@ -42,6 +42,10 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func enableTraffic(_ sender: UISwitch) {
+        TallyGoKit.showsTraffic = sender.isOn
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let viewController = segue.destination as? TGViewController {
             viewController.showsOriginIcon = false

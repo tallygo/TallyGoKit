@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TGNavigation Class Reference</title>
+    <title>TGMapStyle Enum Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/TGNavigation" class="dashAnchor"></a>
-    <a title="TGNavigation Class Reference"></a>
+    <a name="//apple_ref/swift/Enum/TGMapStyle" class="dashAnchor"></a>
+    <a title="TGMapStyle Enum Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">TallyGoKit Docs</a> (70% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">TallyGoKit Reference</a>
         <img id="carat" src="../img/carat.png" />
-        TGNavigation Class Reference
+        TGMapStyle Enum Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -195,14 +195,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>TGNavigation</h1>
+            <h1>TGMapStyle</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGNavigation</span><span class="p">:</span> <span class="kt"><a href="../Classes.html#/s:C10TallyGoKit13TGBaseService">TGBaseService</a></span></code></pre>
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TGMapStyle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
 
                 </div>
               </div>
-            <p>The navigation service.</p>
+            <p>URLs for the TallyGo map styles</p>
 
           </section>
           <section class="section task-group-section">
@@ -211,9 +211,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:ZFC10TallyGoKit12TGNavigation5routeFT7requestCS_14TGRouteRequest17completionHandlerFCS_15TGRouteResponseT__GSqCSo18URLSessionDataTask_"></a>
-                    <a name="//apple_ref/swift/Method/route(request:completionHandler:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:ZFC10TallyGoKit12TGNavigation5routeFT7requestCS_14TGRouteRequest17completionHandlerFCS_15TGRouteResponseT__GSqCSo18URLSessionDataTask_">route(request:completionHandler:)</a>
+                    <a name="/s:FO10TallyGoKit10TGMapStyle6normalFMS0_S0_"></a>
+                    <a name="//apple_ref/swift/Element/normal" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO10TallyGoKit10TGMapStyle6normalFMS0_S0_">normal</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -221,14 +221,45 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Find the shortest route, given start and end locations, a time and a search type.</p>
+                        <p>Normal map</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">static</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">route</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGRouteRequest.html">TGRouteRequest</a></span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/TGRouteResponse.html">TGRouteResponse</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())</span> <span class="o">-&gt;</span> <span class="kt">URLSessionDataTask</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">normal</span> <span class="o">=</span> <span class="s">"http://tiles.tallygo.com/map-style.json?traffic=0"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO10TallyGoKit10TGMapStyle7trafficFMS0_S0_"></a>
+                    <a name="//apple_ref/swift/Element/traffic" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO10TallyGoKit10TGMapStyle7trafficFMS0_S0_">traffic</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Map with traffic</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">traffic</span> <span class="o">=</span> <span class="s">"http://tiles.tallygo.com/map-style.json?traffic=1"</span></code></pre>
 
                         </div>
                       </div>
