@@ -110,6 +110,7 @@
 				AF16AFEA1D6DD8C7001F9802 /* Sources */,
 				AF16AFEB1D6DD8C7001F9802 /* Frameworks */,
 				AF16AFEC1D6DD8C7001F9802 /* Resources */,
+				AFDF77431DA4607C00BE4DBE /* Bump Build Number */,
 				AF16B0091D6DDC8D001F9802 /* Embed Frameworks */,
 				AF16B0181D6DE6D4001F9802 /* Strip Frameworks */,
 			);
@@ -184,6 +185,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh\"";
+		};
+		AFDF77431DA4607C00BE4DBE /* Bump Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bump Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "REV=`git rev-list HEAD | wc -l`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $REV\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
