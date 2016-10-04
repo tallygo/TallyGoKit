@@ -142,14 +142,14 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 156,
+      "line": 177,
       "symbol": "TGViewController.viewDidAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 218,
+      "line": 257,
       "symbol": "TGViewController.viewDidLayoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
