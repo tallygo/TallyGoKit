@@ -52,6 +52,7 @@ class ViewController: UIViewController {
             viewController.origin = origin
             viewController.destination = destination
             viewController.mapview.delegate = mapViewDelegate
+            viewController.mapview.tintColor = UIColor.red
         }
     }
 
