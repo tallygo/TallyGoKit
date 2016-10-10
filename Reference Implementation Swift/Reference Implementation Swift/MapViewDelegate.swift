@@ -11,10 +11,11 @@ import Mapbox
 
 class MapViewDelegate: NSObject, MGLMapViewDelegate {
     
+    let markerImage = UIImage(named: "Map Marker")!
+    
     // Customize image for map marker here
     func mapView(_ mapView: MGLMapView, imageFor annotation: MGLAnnotation) -> MGLAnnotationImage? {
-        let image = UIImage(named: "Map Marker")
-        return MGLAnnotationImage(image: image!, reuseIdentifier: "Destination")
+        return MGLAnnotationImage(image: markerImage, reuseIdentifier: "destination")
     }
     
     // Configure route line below
