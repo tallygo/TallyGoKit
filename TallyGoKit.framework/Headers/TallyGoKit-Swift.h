@@ -114,6 +114,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import UIKit;
 @import ObjectiveC;
+@import AVFoundation;
 @import CoreGraphics;
 #endif
 
@@ -152,11 +153,35 @@ SWIFT_CLASS("_TtC10TallyGoKit16TGViewController")
   Determines whether destination icon is displayed
 */
 @property (nonatomic) BOOL showsDestinationIcon;
+/**
+  Text that will be spoken as view is displayed
+*/
+@property (nonatomic, copy) NSString * _Nullable commencementSpeech;
+/**
+  Text that will be spoken when the user needs to proceed to the route
+*/
+@property (nonatomic, copy) NSString * _Nullable proceedToRouteSpeech;
+/**
+  Text that will be spoken upon arrival
+*/
+@property (nonatomic, copy) NSString * _Nullable arrivalSpeech;
+@property (nonatomic) BOOL showMakeWrongTurnButton;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class AVAudioPlayer;
+
+SWIFT_CLASS("_TtC10TallyGoKit16TGVoiceSynthesis")
+@interface TGVoiceSynthesis : NSObject <AVAudioPlayerDelegate>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TGVoiceSynthesis * _Nonnull shared;)
++ (TGVoiceSynthesis * _Nonnull)shared;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer * _Nonnull)player successfully:(BOOL)flag;
+- (void)audioPlayerDecodeErrorDidOccur:(AVAudioPlayer * _Nonnull)player error:(NSError * _Nullable)error;
 @end
 
 @class UIColor;
