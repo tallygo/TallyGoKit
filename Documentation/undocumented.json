@@ -1184,6 +1184,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGMultiRouteResponse.swift",
+      "line": 14,
+      "symbol": "TGMultiRouteResponse.multiRoute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGOrigin.swift",
       "line": 13,
       "symbol": "TGOrigin.OSM",
