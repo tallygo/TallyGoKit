@@ -1,5 +1,9 @@
 # TallyGoKit
 
+TallyGoKit is an SDK for your iOS application that ...blah blah blah. Matt?
+
+It is currectly designed for Swift 3.0 projects, including iPhone and iPad devices.
+
 ## API Documentation
 View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/tallygo/TallyGoKit/blob/develop/Documentation/index.html)
 
