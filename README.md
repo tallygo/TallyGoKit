@@ -9,7 +9,7 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
 
 ## Getting Started
 
-1. Request an Access Token from sdk@tallygo.com
+1. Request an Access Token from [sdk@tallygo.com](mailto:sdk@tallygo.com?subject=Token Request).
 1. Download the `TallyGoKit.framework` and include it in you target's "Linked Frameworks and Libraries"
 1. Install the [Mapbox framework](http://mapbox.s3.amazonaws.com/mapbox-gl-native/ios/builds/) and follow their [instructions](https://www.mapbox.com/ios-sdk/).
 1. Import the module.
@@ -43,4 +43,4 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
     
 ## Need help?
 
-Email us at [sdk@tallygo.com](mailto:sdk@tallygo.com).
+Email us at [sdk@tallygo.com](mailto:sdk@tallygo.com?subject=SDK Help Request).
