@@ -2,70 +2,70 @@
   "warnings": [
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/AES.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "AES.Error",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/AES.swift",
-      "line": 24,
+      "line": 25,
       "symbol": "AES.Variant",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/AES.swift",
-      "line": 25,
+      "line": 26,
       "symbol": "AES.Variant.aes128",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/AES.swift",
-      "line": 25,
+      "line": 26,
       "symbol": "AES.Variant.aes192",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/AES.swift",
-      "line": 25,
+      "line": 26,
       "symbol": "AES.Variant.aes256",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/AES.swift",
-      "line": 41,
+      "line": 42,
       "symbol": "AES.blockSize",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/AES.swift",
-      "line": 43,
+      "line": 44,
       "symbol": "AES.variant",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/AES.swift",
-      "line": 421,
+      "line": 424,
       "symbol": "AES.Encryptor",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/AES.swift",
-      "line": 455,
+      "line": 463,
       "symbol": "AES.Decryptor",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Array+Extension.swift",
-      "line": 27,
+      "line": 35,
       "symbol": "Array.init(hex:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -156,98 +156,105 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "Array.cs_arrayValue()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 20,
+      "line": 22,
       "symbol": "CSArrayType.toHexString()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 32,
+      "line": 35,
       "symbol": "CSArrayType.md5()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 36,
+      "line": 39,
       "symbol": "CSArrayType.sha1()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 40,
+      "line": 43,
       "symbol": "CSArrayType.sha224()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 44,
+      "line": 47,
       "symbol": "CSArrayType.sha256()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 48,
+      "line": 51,
       "symbol": "CSArrayType.sha384()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 52,
+      "line": 55,
       "symbol": "CSArrayType.sha512()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 56,
+      "line": 59,
+      "symbol": "CSArrayType.sha2(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
+      "line": 63,
       "symbol": "CSArrayType.sha3(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 60,
+      "line": 67,
       "symbol": "CSArrayType.crc32(seed:reflect:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 64,
+      "line": 71,
       "symbol": "CSArrayType.crc16(seed:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 68,
+      "line": 75,
       "symbol": "CSArrayType.encrypt(cipher:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 72,
+      "line": 79,
       "symbol": "CSArrayType.decrypt(cipher:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/CSArrayType+Extensions.swift",
-      "line": 76,
+      "line": 83,
       "symbol": "CSArrayType.authenticate(with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -289,49 +296,49 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/ChaCha20.swift",
-      "line": 9,
+      "line": 11,
       "symbol": "ChaCha20",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/ChaCha20.swift",
-      "line": 11,
+      "line": 13,
       "symbol": "ChaCha20.Error",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/ChaCha20.swift",
-      "line": 12,
+      "line": 14,
       "symbol": "ChaCha20.Error.invalidKeyOrInitializationVector",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/ChaCha20.swift",
-      "line": 15,
+      "line": 17,
       "symbol": "ChaCha20.blockSize",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/ChaCha20.swift",
-      "line": 69,
+      "line": 22,
       "symbol": "ChaCha20.init(key:iv:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/ChaCha20.swift",
-      "line": 155,
+      "line": 250,
       "symbol": "ChaCha20.Encryptor",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/ChaCha20.swift",
-      "line": 181,
+      "line": 277,
       "symbol": "ChaCha20.Decryptor",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
@@ -366,28 +373,28 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/AES+Foundation.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "AES.init(key:iv:blockMode:padding:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "CSArrayType.toBase64()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift",
-      "line": 20,
+      "line": 21,
       "symbol": "CSArrayType.init(base64:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "ChaCha20.init(key:iv:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -401,112 +408,112 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 29,
+      "line": 28,
       "symbol": "Data.sha1()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 33,
+      "line": 32,
       "symbol": "Data.sha224()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 37,
+      "line": 36,
       "symbol": "Data.sha256()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 41,
+      "line": 40,
       "symbol": "Data.sha384()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 45,
+      "line": 44,
       "symbol": "Data.sha512()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 49,
+      "line": 48,
       "symbol": "Data.sha3(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 53,
+      "line": 52,
       "symbol": "Data.crc32(seed:reflect:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 57,
+      "line": 56,
       "symbol": "Data.crc16(seed:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 61,
+      "line": 60,
       "symbol": "Data.encrypt(cipher:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 65,
+      "line": 64,
       "symbol": "Data.decrypt(cipher:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 69,
+      "line": 68,
       "symbol": "Data.authenticate(with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 76,
+      "line": 75,
       "symbol": "Data.bytes",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift",
-      "line": 80,
+      "line": 79,
       "symbol": "Data.toHexString()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/HMAC+Foundation.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "HMAC.init(key:variant:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "Rabbit.init(key:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift",
-      "line": 19,
+      "line": 20,
       "symbol": "Rabbit.init(key:iv:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -624,6 +631,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/MD5.swift",
+      "line": 45,
+      "symbol": "MD5.calculate(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/NoPadding.swift",
       "line": 9,
       "symbol": "NoPadding",
@@ -632,7 +646,7 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/NoPadding.swift",
-      "line": 10,
+      "line": 11,
       "symbol": "NoPadding.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -695,28 +709,28 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/PKCS5/PBKDF2.swift",
-      "line": 24,
+      "line": 25,
       "symbol": "PKCS5.PBKDF2.Error",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/PKCS5/PBKDF2.swift",
-      "line": 25,
+      "line": 26,
       "symbol": "PKCS5.PBKDF2.Error.invalidInput",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/PKCS5/PBKDF2.swift",
-      "line": 26,
+      "line": 27,
       "symbol": "PKCS5.PBKDF2.Error.derivedKeyTooLong",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/PKCS5/PBKDF2.swift",
-      "line": 63,
+      "line": 64,
       "symbol": "PKCS5.PBKDF2.calculate()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -772,14 +786,14 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/PKCS7.swift",
-      "line": 22,
+      "line": 21,
       "symbol": "PKCS7.add(to:blockSize:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/PKCS7.swift",
-      "line": 39,
+      "line": 38,
       "symbol": "PKCS7.remove(from:blockSize:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -807,16 +821,23 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Poly1305.swift",
-      "line": 14,
+      "line": 16,
       "symbol": "Poly1305.Error",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Poly1305.swift",
-      "line": 15,
+      "line": 17,
       "symbol": "Poly1305.Error.authenticateError",
       "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Poly1305.swift",
+      "line": 20,
+      "symbol": "Poly1305.blockSize",
+      "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
@@ -876,6 +897,27 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA1.swift",
+      "line": 9,
+      "symbol": "SHA1",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA1.swift",
+      "line": 18,
+      "symbol": "SHA1.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA1.swift",
+      "line": 21,
+      "symbol": "SHA1.calculate(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA2.swift",
       "line": null,
       "symbol": "SHA2",
@@ -891,58 +933,65 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA2.swift",
-      "line": 22,
-      "symbol": "SHA2.init(variant:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA2.swift",
-      "line": 32,
+      "line": 23,
       "symbol": "SHA2.Variant",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA2.swift",
-      "line": 33,
+      "line": 24,
       "symbol": "SHA2.Variant.sha224",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA2.swift",
-      "line": 33,
+      "line": 24,
       "symbol": "SHA2.Variant.sha256",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA2.swift",
-      "line": 33,
+      "line": 24,
       "symbol": "SHA2.Variant.sha384",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA2.swift",
-      "line": 33,
+      "line": 24,
       "symbol": "SHA2.Variant.sha512",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA2.swift",
-      "line": 35,
+      "line": 26,
       "symbol": "SHA2.Variant.digestLength",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA2.swift",
-      "line": 39,
+      "line": 30,
       "symbol": "SHA2.Variant.blockSize",
       "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA2.swift",
+      "line": 97,
+      "symbol": "SHA2.init(variant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA2.swift",
+      "line": 137,
+      "symbol": "SHA2.calculate(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -961,57 +1010,64 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA3.swift",
-      "line": 32,
+      "line": 26,
+      "symbol": "SHA3.blockSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA3.swift",
+      "line": 27,
+      "symbol": "SHA3.digestLength",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA3.swift",
+      "line": 33,
       "symbol": "SHA3.Variant",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA3.swift",
-      "line": 33,
+      "line": 34,
       "symbol": "SHA3.Variant.sha224",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA3.swift",
-      "line": 33,
+      "line": 34,
       "symbol": "SHA3.Variant.sha256",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA3.swift",
-      "line": 33,
+      "line": 34,
       "symbol": "SHA3.Variant.sha384",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA3.swift",
-      "line": 33,
+      "line": 34,
       "symbol": "SHA3.Variant.sha512",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA3.swift",
-      "line": 35,
-      "symbol": "SHA3.Variant.digestLength",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA3.swift",
-      "line": 39,
-      "symbol": "SHA3.Variant.blockSize",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA3.swift",
-      "line": 77,
+      "line": 78,
       "symbol": "SHA3.init(variant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/SHA3.swift",
+      "line": 84,
+      "symbol": "SHA3.calculate(for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -1080,42 +1136,42 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/UInt8+Extension.swift",
-      "line": 16,
+      "line": 15,
       "symbol": "_UInt8Type",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Updatable.swift",
-      "line": 53,
+      "line": 52,
       "symbol": "Updatable.finish()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/Updatable.swift",
-      "line": 64,
+      "line": 63,
       "symbol": "Updatable.finish(output:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/ZeroPadding.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "ZeroPadding.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/ZeroPadding.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "ZeroPadding.add(to:blockSize:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/CryptoSwift/Sources/CryptoSwift/ZeroPadding.swift",
-      "line": 23,
+      "line": 24,
       "symbol": "ZeroPadding.remove(from:blockSize:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -1135,10 +1191,227 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGBaseObject.swift",
+      "line": 16,
+      "symbol": "TGBaseObject.json",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGBaseObject.swift",
+      "line": 18,
+      "symbol": "TGBaseObject.init(json:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGBaseObject.swift",
+      "line": 22,
+      "symbol": "TGBaseObject.getValue(key:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGBoundaryRequest.swift",
+      "line": 9,
+      "symbol": "TGBoundaryRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGBoundaryResponse.swift",
+      "line": 9,
+      "symbol": "TGBoundaryResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGBoundaryResponse.swift",
+      "line": 11,
+      "symbol": "TGBoundaryResponse.featureCollection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGButton.swift",
+      "line": 12,
+      "symbol": "TGButton",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGButton.swift",
+      "line": 25,
+      "symbol": "TGButton.isHighlighted",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGButton.swift",
+      "line": 36,
+      "symbol": "TGButton.isEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGButton.swift",
+      "line": 42,
+      "symbol": "TGButton.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGButton.swift",
+      "line": 47,
+      "symbol": "TGButton.draw(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGCandidate.swift",
       "line": 12,
       "symbol": "TGCandidate",
       "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGConfiguration.swift",
+      "line": 71,
+      "symbol": "TGConfiguration.waitForConfiguration(completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGFeature.swift",
+      "line": 11,
+      "symbol": "TGFeature",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGFeature.swift",
+      "line": 13,
+      "symbol": "TGFeature.geometry",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGFeature.swift",
+      "line": 21,
+      "symbol": "TGFeature.contains(coordinate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGFeatureCollection.swift",
+      "line": 11,
+      "symbol": "TGFeatureCollection",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGFeatureCollection.swift",
+      "line": 13,
+      "symbol": "TGFeatureCollection.features",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGFeatureCollection.swift",
+      "line": 27,
+      "symbol": "TGFeatureCollection.contains(coordinate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGGeoJSONObject.swift",
+      "line": 11,
+      "symbol": "TGGeoJSONObject",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGGeoJSONObject.swift",
+      "line": 13,
+      "symbol": "TGGeoJSONObject.TGGeoJSONObjectType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGGeoJSONObject.swift",
+      "line": 14,
+      "symbol": "TGGeoJSONObject.TGGeoJSONObjectType.featureCollection",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGGeoJSONObject.swift",
+      "line": 15,
+      "symbol": "TGGeoJSONObject.TGGeoJSONObjectType.feature",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGGeoJSONObject.swift",
+      "line": 16,
+      "symbol": "TGGeoJSONObject.TGGeoJSONObjectType.polygon",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGGeoJSONObject.swift",
+      "line": 17,
+      "symbol": "TGGeoJSONObject.TGGeoJSONObjectType.point",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGGeoJSONObject.swift",
+      "line": 20,
+      "symbol": "TGGeoJSONObject.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGGeoJSONObject.swift",
+      "line": 28,
+      "symbol": "TGGeoJSONObject.geoJSONObject(json:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGGeoJSONObject.swift",
+      "line": 45,
+      "symbol": "TGGeoJSONObject.contains(coordinate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGIdleTimer.swift",
+      "line": 11,
+      "symbol": "TGIdleTimer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGIdleTimer.swift",
+      "line": 13,
+      "symbol": "TGIdleTimer.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGIdleTimer.swift",
+      "line": 15,
+      "symbol": "TGIdleTimer.disableIdleTimer()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGIdleTimer.swift",
+      "line": 20,
+      "symbol": "TGIdleTimer.enableIdleTimer(afterTimeInterval:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -1185,9 +1458,16 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGMultiRouteResponse.swift",
-      "line": 14,
+      "line": 12,
       "symbol": "TGMultiRouteResponse.multiRoute",
       "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGNavigation.swift",
+      "line": 54,
+      "symbol": "TGNavigation.getBoundary(request:completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
@@ -1241,16 +1521,114 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGPoint.swift",
-      "line": 52,
+      "line": 51,
       "symbol": "TGPoint.coordinate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGRouteResponse.swift",
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGPointShape.swift",
+      "line": 11,
+      "symbol": "TGPointShape",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGPointShape.swift",
+      "line": 13,
+      "symbol": "TGPointShape.coordinate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGPointUpdateRequest.swift",
+      "line": 12,
+      "symbol": "TGPointUpdateRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGPointUpdateRequest.swift",
       "line": 14,
+      "symbol": "TGPointUpdateRequest.pointUpdates",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGPointUpdateRequest.swift",
+      "line": 35,
+      "symbol": "TGPointUpdate",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGPolygon.swift",
+      "line": 11,
+      "symbol": "TGPolygon",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGPolygon.swift",
+      "line": 13,
+      "symbol": "TGPolygon.coordinates",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGPolygon.swift",
+      "line": 33,
+      "symbol": "TGPolygon.contains(coordinate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGRouteResponse.swift",
+      "line": 12,
       "symbol": "TGRouteResponse.route",
       "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGRouteUpdateRequest.swift",
+      "line": 12,
+      "symbol": "TGRouteUpdateRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGRouteUpdateRequest.swift",
+      "line": 14,
+      "symbol": "TGRouteUpdateRequest.routeUpdates",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGRouteUpdateRequest.swift",
+      "line": 35,
+      "symbol": "TGRouteUpdate",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGUpdate.swift",
+      "line": 11,
+      "symbol": "TGUpdate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGUpdateManager.swift",
+      "line": 12,
+      "symbol": "TGUpdateManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGUpdateResponse.swift",
+      "line": 11,
+      "symbol": "TGUpdateResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
@@ -1269,28 +1647,35 @@
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 55,
+      "line": 58,
       "symbol": "TGViewController.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 69,
+      "line": 74,
       "symbol": "TGViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 120,
+      "line": 138,
+      "symbol": "TGViewController.preferredStatusBarStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
+      "line": 142,
       "symbol": "TGViewController.viewDidAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 321,
+      "line": 361,
       "symbol": "TGViewController.viewDidLayoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -1429,142 +1814,170 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoice.swift",
-      "line": 31,
-      "symbol": "TGVoice.Unknown",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "TGVoiceSynthesisResponseCode",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "TGVoiceSynthesisResponseCode.failed",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 16,
+      "line": 17,
       "symbol": "TGVoiceSynthesisResponseCode.notPlayedVolumeAtZero",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 17,
+      "line": 18,
       "symbol": "TGVoiceSynthesisResponseCode.notPlayedInPause",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 18,
+      "line": 19,
       "symbol": "TGVoiceSynthesisResponseCode.queued",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 19,
+      "line": 20,
       "symbol": "TGVoiceSynthesisResponseCode.loadedFromFileCache",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 20,
-      "symbol": "TGVoiceSynthesisResponseCode.loadedFromVocalWare",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
       "line": 21,
-      "symbol": "TGVoiceSynthesisResponseCode.preloaded",
+      "symbol": "TGVoiceSynthesisResponseCode.loadedFromVoxService",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
       "line": 22,
-      "symbol": "TGVoiceSynthesisResponseCode.alreadyPreloaded",
+      "symbol": "TGVoiceSynthesisResponseCode.preloaded",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
       "line": 23,
+      "symbol": "TGVoiceSynthesisResponseCode.alreadyPreloaded",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
+      "line": 24,
       "symbol": "TGVoiceSynthesisResponseCode.removed",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 32,
+      "line": 33,
       "symbol": "TGVoiceSynthesis",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 34,
+      "line": 35,
       "symbol": "TGVoiceSynthesis.shared",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 36,
+      "line": 37,
       "symbol": "TGVoiceSynthesis.currentVoice",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 53,
+      "line": 54,
+      "symbol": "TGVoiceSynthesis.enabled",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
+      "line": 63,
+      "symbol": "TGVoiceSynthesis.deleteAudioCache()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
+      "line": 67,
       "symbol": "TGVoiceSynthesis.preload(text:completionHandler:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 76,
+      "line": 96,
       "symbol": "TGVoiceSynthesis.unload(text:completionHandler:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 87,
+      "line": 107,
       "symbol": "TGVoiceSynthesis.say(text:saveInCache:completionHandler:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 157,
+      "line": 183,
       "symbol": "TGVoiceSynthesis.audioPlayerDidFinishPlaying(_:successfully:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 161,
+      "line": 187,
       "symbol": "TGVoiceSynthesis.audioPlayerDecodeErrorDidOccur(_:error:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoKit.swift",
-      "line": 51,
+      "line": 13,
+      "symbol": "TallyGoKitSimulatedCoordinateDidChangeNotification",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoKit.swift",
+      "line": 62,
       "symbol": "TallyGoKit.loadFonts()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoKit.swift",
+      "line": 67,
+      "symbol": "TallyGoKit.currentLocation",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoKit.swift",
+      "line": 112,
+      "symbol": "TallyGoKit.createMapView()",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
@@ -1767,48 +2180,48 @@
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
       "line": 856,
-      "symbol": "TallyGoStyleKit.drawRouteProgress(frame:approachIndicatorWidth:firstLine:secondLine:)",
+      "symbol": "TallyGoStyleKit.drawRouteProgress(frame:approachIndicatorWidth:firstLine:secondLine:thirdLine:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 956,
+      "line": 972,
       "symbol": "TallyGoStyleKit.drawStopNavigationButton(frame:highlighted:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1089,
+      "line": 1105,
       "symbol": "TallyGoStyleKit.drawBigRedButton(frame:fontSize:highlighted:buttonText:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1161,
+      "line": 1177,
       "symbol": "TallyGoStyleKit.drawBigWhiteButton(frame:fontSize:highlighted:buttonText:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1222,
+      "line": 1238,
       "symbol": "TallyGoStyleKit.drawBigGreenButton(frame:fontSize:highlighted:buttonText:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1293,
+      "line": 1309,
       "symbol": "TallyGoStyleKit.drawBigGrayButton(frame:fontSize:highlighted:buttonText:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1364,
+      "line": 1380,
       "symbol": "TallyGoStyleKit.drawResumeNavigationButton(frame:highlighted:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
@@ -1816,141 +2229,162 @@
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
       "line": 1483,
+      "symbol": "TallyGoStyleKit.drawCloseButton(frame:resizing:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
+      "line": 1536,
       "symbol": "TallyGoStyleKit.imageOfExitRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1497,
+      "line": 1550,
       "symbol": "TallyGoStyleKit.imageOfMergeRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1511,
+      "line": 1564,
       "symbol": "TallyGoStyleKit.imageOfUTurnRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1525,
+      "line": 1578,
       "symbol": "TallyGoStyleKit.imageOfVTIDestination",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1539,
+      "line": 1592,
       "symbol": "TallyGoStyleKit.imageOfHardLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1553,
+      "line": 1606,
       "symbol": "TallyGoStyleKit.imageOfHardRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1567,
+      "line": 1620,
       "symbol": "TallyGoStyleKit.imageOfTurnLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1581,
+      "line": 1634,
       "symbol": "TallyGoStyleKit.imageOfVTIDestinationLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1595,
+      "line": 1648,
       "symbol": "TallyGoStyleKit.imageOfSlightRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1609,
+      "line": 1662,
       "symbol": "TallyGoStyleKit.imageOfTurnRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1623,
+      "line": 1676,
       "symbol": "TallyGoStyleKit.imageOfMerge",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1637,
+      "line": 1690,
       "symbol": "TallyGoStyleKit.imageOfExitLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1651,
+      "line": 1704,
       "symbol": "TallyGoStyleKit.imageOfRightAtTheFork",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1665,
+      "line": 1718,
       "symbol": "TallyGoStyleKit.imageOfVTIDestinationRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1679,
+      "line": 1732,
       "symbol": "TallyGoStyleKit.imageOfSlightLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1693,
+      "line": 1746,
       "symbol": "TallyGoStyleKit.imageOfLeftAtTheFork",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1707,
+      "line": 1760,
       "symbol": "TallyGoStyleKit.imageOfForward",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1721,
+      "line": 1774,
       "symbol": "TallyGoStyleKit.imageOfCAHighway(highwayNumber:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1731,
+      "line": 1784,
       "symbol": "TallyGoStyleKit.imageOfUSHighway(highwayNumber:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1741,
+      "line": 1794,
       "symbol": "TallyGoStyleKit.imageOfInterstate(highwayNumber:nudge:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
+      "line": 1989,
+      "symbol": "TallyGoStyleKit.ResizingBehavior",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
+      "line": 1990,
+      "symbol": "TallyGoStyleKit.ResizingBehavior.aspectFit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
