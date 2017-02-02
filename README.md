@@ -1,4 +1,42 @@
 # TallyGoKit
 
-API Documentation
-https://htmlpreview.github.io/?https://github.com/tallygo/TallyGoKit/blob/develop/Documentation/index.html
+## API Documentation
+View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/tallygo/TallyGoKit/blob/develop/Documentation/index.html)
+
+## Getting Started
+
+1. Request an Access Token from sdk@tallygo.com
+1. Download the `TallyGoKit.framework` and include it in you target's "Linked Frameworks and Libraries"
+1. Install the [Mapbox framework](http://mapbox.s3.amazonaws.com/mapbox-gl-native/ios/builds/) and follow their [instructions](https://www.mapbox.com/ios-sdk/).
+1. Import the module.
+
+    ```swift
+    import TallyGoKit
+    ```
+1. Initialize the TallyGoKit with your access token.
+
+    ```swift
+    TallyGoKit.initialize(withAccessToken: "YOUR ACCESS TOKEN")
+    ```
+1. Create an instance of `TGViewController` in your storyboard.
+1. Set a few attributes when you prepare for segue.
+
+    ```swift
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let viewController = segue.destination as? TGViewController {
+            viewController.showsOriginIcon = false
+            viewController.origin = origin
+            viewController.destination = destination
+            viewController.mapview.delegate = mapViewDelegate
+            viewController.mapview.tintColor = UIColor.red
+            viewController.commencementSpeech = "Let's go."
+            viewController.proceedToRouteSpeech = "Please proceed to the route."
+            viewController.arrivalSpeech = "You have arrived."
+            viewController.voice = .Julie
+        }  
+    }
+    ```
+    
+## Need help?
+
+Email us at [sdk@tallygo.com](mailto:sdk@tallygo.com).
