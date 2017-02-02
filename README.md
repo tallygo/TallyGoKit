@@ -1,3 +1,5 @@
+![TallyGo Logo](https://raw.githubusercontent.com/tallygo/TallyGoKit/develop/TallyGoLogo.png "TallyGo Logo")
+
 # TallyGoKit
 
 TallyGoKit is an SDK for your iOS application that ...blah blah blah. Matt?
