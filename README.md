@@ -29,6 +29,10 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
 1. Set a few attributes when you prepare for segue.
 
     ```swift
+    // Get these from somewhere
+    let origin = CLLocationCoordinate2DMake( 34.050259, -118.249611)
+    let destination = CLLocationCoordinate2DMake(33.987760, -118.470784)
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let viewController = segue.destination as? TGViewController {
             viewController.showsOriginIcon = false
