@@ -1,4 +1,4 @@
-![TallyGo Logo](https://raw.githubusercontent.com/tallygo/TallyGoKit/develop/TallyGoLogo.png "TallyGo Logo")
+![TallyGo Logo](http://www.tallygo.com/img/tallygo-logo-basic.png "TallyGo Logo")
 
 # TallyGoKit
 
