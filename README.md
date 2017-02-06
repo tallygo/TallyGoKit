@@ -2,7 +2,7 @@
 
 # TallyGoKit
 
-TallyGoKit is an SDK for your iOS application that ...blah blah blah. Matt?
+TallyGoKit is an SDK that enables you to embed turn-by-turn navigation directly in your iOS app.
 
 It is currectly designed for Swift 3.0 projects, including iPhone and iPad devices.
 
