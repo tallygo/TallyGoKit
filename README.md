@@ -1,4 +1,4 @@
-![TallyGo Logo](http://www.tallygo.com/img/tallygo-logo-basic.png "TallyGo Logo")
+![TallyGo Logo](http://www.tallygo.com/img/tallygo-logo-basic2.png "TallyGo Logo")
 
 # TallyGoKit
 
