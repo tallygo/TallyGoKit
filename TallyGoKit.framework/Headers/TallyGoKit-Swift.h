@@ -120,6 +120,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import UIKit;
 @import CoreGraphics;
 @import ObjectiveC;
+@import Mapbox;
 @import AVFoundation;
 #endif
 
@@ -131,10 +132,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 @interface NSDateFormatter (SWIFT_EXTENSION(TallyGoKit))
-@end
-
-
-@interface NSNumber (SWIFT_EXTENSION(TallyGoKit))
 @end
 
 @class NSCoder;
@@ -160,12 +157,20 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TGIdleTimer 
 @end
 
 
+SWIFT_CLASS("_TtC10TallyGoKit15TGStyledMapView")
+@interface TGStyledMapView : MGLMapView
+@property (nonatomic, copy) NSURL * _Null_unspecified styleURL;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame styleURL:(NSURL * _Nullable)styleURL OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC10TallyGoKit15TGUpdateManager")
 @interface TGUpdateManager : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
-@class MGLMapView;
 @class NSBundle;
 
 /**
