@@ -1,10 +1,8 @@
-![TallyGo Logo](https://raw.githubusercontent.com/tallygo/TallyGoKit/develop/TallyGoLogo.png "TallyGo Logo")
+![TallyGo Logo](http://www.tallygo.com/img/TallyGo-NavSDK-logo.png "TallyGo SDK Logo")
 
 # TallyGoKit
 
-TallyGoKit is an SDK for your iOS application that ...blah blah blah. Matt?
-
-It is currectly designed for Swift 3.0 projects, including iPhone and iPad devices.
+The TallyGo Navigation SDK (TallyGoKit) enables you to embed turn-by-turn navigation features directly in your iOS app. It is currectly designed for Swift 3.0 projects, including iPhone and iPad devices.
 
 ## API Documentation
 View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/tallygo/TallyGoKit/blob/develop/Documentation/index.html)
@@ -50,6 +48,9 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
 1. Find address from coordinate example code:
 
     ```swift
+    var selectedAddress: TGAddress?
+    var selectedLocation: CLLocationCoordinate2D?
+    
     func reverseGeocode(coordinate: CLLocationCoordinate2D) {
         let request = TGReverseGeocodeRequest(location: coordinate)
         
