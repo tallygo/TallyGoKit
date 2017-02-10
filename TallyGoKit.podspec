@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'TallyGoKit'
-    s.version           = '1.0.0'
+    s.version           = '1.0.1'
     s.summary           = 'The TallyGo Navigation SDK (TallyGoKit) enables you to embed turn-by-turn navigation features directly in your iOS app.'
     s.homepage          = 'http://tallygo.com'
 
