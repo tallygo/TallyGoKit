@@ -6,5 +6,6 @@ target 'Reference Implementation Swift' do
   use_frameworks!
 
   # Pods for Reference Implementation Swift
+  pod 'TallyGoKit'
 
 end
