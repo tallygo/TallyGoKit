@@ -12,28 +12,9 @@
 		AF16AFF71D6DD8C7001F9802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF16AFF51D6DD8C7001F9802 /* Main.storyboard */; };
 		AF16AFF91D6DD8C7001F9802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF16AFF81D6DD8C7001F9802 /* Assets.xcassets */; };
 		AF16AFFC1D6DD8C7001F9802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF16AFFA1D6DD8C7001F9802 /* LaunchScreen.storyboard */; };
-		AF16B00A1D6DDC9A001F9802 /* TallyGoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF16B0061D6DDAFE001F9802 /* TallyGoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AF16B0141D6DE0D4001F9802 /* TallyGoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF16B0061D6DDAFE001F9802 /* TallyGoKit.framework */; };
-		AF16B0161D6DE101001F9802 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF16B0151D6DE101001F9802 /* Mapbox.framework */; };
-		AF16B0171D6DE101001F9802 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF16B0151D6DE101001F9802 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AFD631711D74E2B900008785 /* MapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD631701D74E2B900008785 /* MapViewDelegate.swift */; };
 		D569B96797444AA0516E1988 /* Pods_Reference_Implementation_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06CF5D1196F5097B54446BA /* Pods_Reference_Implementation_Swift.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		AF16B0091D6DDC8D001F9802 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				AF16B00A1D6DDC9A001F9802 /* TallyGoKit.framework in Embed Frameworks */,
-				AF16B0171D6DE101001F9802 /* Mapbox.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4FB77E18C3B34772F6246EDE /* Pods-Reference Implementation Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reference Implementation Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reference Implementation Swift/Pods-Reference Implementation Swift.release.xcconfig"; sourceTree = "<group>"; };
@@ -45,8 +26,6 @@
 		AF16AFF81D6DD8C7001F9802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF16AFFB1D6DD8C7001F9802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF16AFFD1D6DD8C7001F9802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF16B0061D6DDAFE001F9802 /* TallyGoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TallyGoKit.framework; path = ../TallyGoKit.framework; sourceTree = "<group>"; };
-		AF16B0151D6DE101001F9802 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
 		AFD631701D74E2B900008785 /* MapViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewDelegate.swift; sourceTree = "<group>"; };
 		B06CF5D1196F5097B54446BA /* Pods_Reference_Implementation_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reference_Implementation_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,8 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF16B0141D6DE0D4001F9802 /* TallyGoKit.framework in Frameworks */,
-				AF16B0161D6DE101001F9802 /* Mapbox.framework in Frameworks */,
 				D569B96797444AA0516E1988 /* Pods_Reference_Implementation_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,8 +86,6 @@
 		AF16B0051D6DDAFE001F9802 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF16B0151D6DE101001F9802 /* Mapbox.framework */,
-				AF16B0061D6DDAFE001F9802 /* TallyGoKit.framework */,
 				B06CF5D1196F5097B54446BA /* Pods_Reference_Implementation_Swift.framework */,
 			);
 			name = Frameworks;
@@ -128,10 +103,9 @@
 				AF16AFEB1D6DD8C7001F9802 /* Frameworks */,
 				AF16AFEC1D6DD8C7001F9802 /* Resources */,
 				AFDF77431DA4607C00BE4DBE /* Bump Build Number */,
-				AF16B0091D6DDC8D001F9802 /* Embed Frameworks */,
-				AF16B0181D6DE6D4001F9802 /* Strip Frameworks */,
 				67E83E73FF73226CBDC1DEFD /* [CP] Embed Pods Frameworks */,
 				DC39C344EBDD3082BA66E85D /* [CP] Copy Pods Resources */,
+				AF16B0181D6DE6D4001F9802 /* Strip Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,7 +123,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = TallyGo;
 				TargetAttributes = {
 					AF16AFED1D6DD8C7001F9802 = {
@@ -317,6 +291,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -367,6 +342,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -398,10 +374,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 64YUT8C7ML;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/..",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = "Reference Implementation Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks \"$(SRCROOT)/CommonCrypto.framework\"";
@@ -417,10 +389,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 64YUT8C7ML;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/..",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = "Reference Implementation Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks \"$(SRCROOT)/CommonCrypto.framework\"";
