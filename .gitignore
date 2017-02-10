@@ -5,7 +5,6 @@
 ## Build generated
 build/
 DerivedData
-external-frameworks
 
 ## Various settings
 *.pbxuser
@@ -31,6 +30,7 @@ xcuserdata
 ## CocoaPods
 Pods/
 Podfile.lock
+*.xcworkspace
 
 ## Carthage
 Carthage/
