@@ -13,8 +13,8 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
 1. If you use Cocoapods, just add `pod 'TallyGoKit'` to your Podfile.
 1. If you do not wish to use Cocoapods, download the `TallyGoKit.framework` and include it in you target's "Linked Frameworks and Libraries"
 1. Have a look at the [Reference Implementation](https://github.com/tallygo/TallyGoKit/tree/develop/Reference%20Implementation%20Swift).
-1. Install the Mapbox framework and follow their [instructions](https://www.mapbox.com/ios-sdk/).
-1. If you're not using Cocoapods to manage the dependencies, you'll also need to get CryptoSwift and SwiftyJSON. Both of these are excellent open source frameworks and are needed by TallyGoKit.
+1. If you're not using Cocoapods to manage the dependencies, you'll also need to get Mapbox, CryptoSwift and SwiftyJSON. These  are open source frameworks and are required by TallyGoKit.
+1. Configure the Mapbox framework and follow their [instructions](https://www.mapbox.com/ios-sdk/).
 1. Import the module.
 
     ```swift
