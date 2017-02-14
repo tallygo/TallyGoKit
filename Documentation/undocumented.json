@@ -281,6 +281,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGMapStyle.swift",
+      "line": 17,
+      "symbol": "TGMapStyle.trafficTestString",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGMultiRouteResponse.swift",
       "line": 12,
       "symbol": "TGMultiRouteResponse.multiRoute",
