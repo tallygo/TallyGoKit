@@ -79,8 +79,6 @@ Email us at [sdk@tallygo.com](mailto:sdk@tallygo.com?subject=SDK Help Request).
 
 * **Voice Guidance** - Choose from a variety of voices that sound like real humans, providing timely spoken prompts to guide users to the destination without the need to look at the screen.
 
-* **Route Overview and Turn List** - See a visual overview of the route and list of individual turns based on real-time traffic and accident data.
-
 * **Dynamic Re-Routing** - Route dynamically updates based on driving speed when the user misses a turn or goes off route.
 
 * **Real-time Sensors and Traffic Prediction** - Routes take advantage of a patented near-future traffic prediction algorithm that processes millions of minute-level traffic readings each day from loop sensors installed throughout the road network.
@@ -102,3 +100,5 @@ Email us at [sdk@tallygo.com](mailto:sdk@tallygo.com?subject=SDK Help Request).
 * **Voice Search** `COMING SOON` - Search by speaking into the microphone instead of typing in a destination.
 
 * **Advanced Route Planning (Best Time To Go)** `COMING SOON` - Specify a window of time and receive the best time to go in that window to reduce travel time.
+
+* **Dynamic Dispatch** `COMING SOON` - need content
