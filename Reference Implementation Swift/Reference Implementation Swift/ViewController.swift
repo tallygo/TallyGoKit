@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let viewController = segue.destination as? TGViewController {
+        if let viewController = segue.destination as? TGNavViewController {
             viewController.showsOriginIcon = false
             viewController.origin = origin
             viewController.destination = destination
