@@ -25,7 +25,7 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
     ```swift
     TallyGoKit.initialize(withAccessToken: "YOUR ACCESS TOKEN")
     ```
-1. Create an instance of `TGViewController` in your storyboard.
+1. Create an instance of `TGNavViewController` in your storyboard.
 1. Set a few attributes when you prepare for segue.
 
     ```swift
@@ -34,7 +34,7 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
     let destination = CLLocationCoordinate2DMake(33.987760, -118.470784)
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let viewController = segue.destination as? TGViewController {
+        if let viewController = segue.destination as? TGNavViewController {
             viewController.showsOriginIcon = false
             viewController.origin = origin
             viewController.destination = destination
