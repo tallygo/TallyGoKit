@@ -156,28 +156,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TGIdleTimer 
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-SWIFT_CLASS("_TtC10TallyGoKit15TGStyledMapView")
-@interface TGStyledMapView : MGLMapView
-@property (nonatomic, copy) NSURL * _Null_unspecified styleURL;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithFrame:(CGRect)frame styleURL:(NSURL * _Nullable)styleURL OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC10TallyGoKit15TGUpdateManager")
-@interface TGUpdateManager : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-@end
-
+@class MGLMapView;
 @class NSBundle;
 
 /**
   View controller with TallyGo navigation and Mapbox mapview
 */
-SWIFT_CLASS("_TtC10TallyGoKit16TGViewController")
-@interface TGViewController : UIViewController
+SWIFT_CLASS("_TtC10TallyGoKit19TGNavViewController")
+@interface TGNavViewController : UIViewController
 /**
   Mapbox MGLMapView
 */
@@ -213,6 +199,21 @@ SWIFT_CLASS("_TtC10TallyGoKit16TGViewController")
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC10TallyGoKit15TGStyledMapView")
+@interface TGStyledMapView : MGLMapView
+@property (nonatomic, copy) NSURL * _Null_unspecified styleURL;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame styleURL:(NSURL * _Nullable)styleURL OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10TallyGoKit15TGUpdateManager")
+@interface TGUpdateManager : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
 @class AVAudioPlayer;

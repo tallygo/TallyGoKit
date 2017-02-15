@@ -295,6 +295,55 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGNavViewController.swift",
+      "line": 46,
+      "symbol": "TGNavViewController.voice",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGNavViewController.swift",
+      "line": 48,
+      "symbol": "TGNavViewController.showMakeWrongTurnButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGNavViewController.swift",
+      "line": 58,
+      "symbol": "TGNavViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGNavViewController.swift",
+      "line": 74,
+      "symbol": "TGNavViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGNavViewController.swift",
+      "line": 138,
+      "symbol": "TGNavViewController.preferredStatusBarStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGNavViewController.swift",
+      "line": 142,
+      "symbol": "TGNavViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGNavViewController.swift",
+      "line": 361,
+      "symbol": "TGNavViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGNavigation.swift",
       "line": 54,
       "symbol": "TGNavigation.getBoundary(request:completionHandler:)",
@@ -474,55 +523,6 @@
       "line": 11,
       "symbol": "TGUpdateResponse",
       "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 46,
-      "symbol": "TGViewController.voice",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 48,
-      "symbol": "TGViewController.showMakeWrongTurnButton",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 58,
-      "symbol": "TGViewController.init(coder:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 74,
-      "symbol": "TGViewController.viewDidLoad()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 138,
-      "symbol": "TGViewController.preferredStatusBarStyle",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 142,
-      "symbol": "TGViewController.viewDidAppear(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGViewController.swift",
-      "line": 361,
-      "symbol": "TGViewController.viewDidLayoutSubviews()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
