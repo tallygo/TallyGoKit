@@ -138,20 +138,44 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC10TallyGoKit8TGButton")
 @interface TGButton : UIButton
+/**
+  Redraws the button is the highlighting is changed.
+*/
 @property (nonatomic, setter=setHighlighted:) BOOL isHighlighted;
+/**
+  Redraws the button if the enabled value is changed.
+*/
 @property (nonatomic, setter=setEnabled:) BOOL isEnabled;
+/**
+  Redraws the button when the subviews are layed out.
+*/
 - (void)layoutSubviews;
+/**
+  Draws the button image.
+*/
 - (void)drawRect:(CGRect)rect;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
+/**
+  A class that facilitiates disabling the device’s idle timer.
+*/
 SWIFT_CLASS("_TtC10TallyGoKit11TGIdleTimer")
 @interface TGIdleTimer : NSObject
+/**
+  The shared instance of TGIdleTimer.
+*/
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TGIdleTimer * _Nonnull shared;)
 + (TGIdleTimer * _Nonnull)shared;
+/**
+  Disables the idle timer and prevents the device from sleeping.
+*/
 - (void)disableIdleTimer;
+/**
+  Enables the idle timer and allows the device to sleep, but only after the given delay.
+*/
 - (void)enableIdleTimerAfterTimeInterval:(NSTimeInterval)afterTimeInterval;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -188,46 +212,82 @@ SWIFT_CLASS("_TtC10TallyGoKit19TGNavViewController")
   Text that will be spoken upon arrival
 */
 @property (nonatomic, copy) NSString * _Nullable arrivalSpeech;
+/**
+  Do not use. For internal testing only.
+*/
 @property (nonatomic) BOOL showMakeWrongTurnButton;
 /**
   Address to be displayed in the route progress bar
 */
 @property (nonatomic, copy) NSString * _Nullable destinationAddress;
+/**
+  The default initializer.
+*/
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+/**
+  Configures the map, add notification observers, and requests the route.
+*/
 - (void)viewDidLoad;
+/**
+  Sets the status bar style.
+*/
 @property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+/**
+  Shows the user’s location
+*/
 - (void)viewDidAppear:(BOOL)animated;
+/**
+  Position the subviews.
+*/
 - (void)viewDidLayoutSubviews;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
 
+/**
+  A subclass of MGLMapView that uses the TallyGo map style and updates traffic lines.
+*/
 SWIFT_CLASS("_TtC10TallyGoKit15TGStyledMapView")
 @interface TGStyledMapView : MGLMapView
+/**
+  The URL of the map style.
+*/
 @property (nonatomic, copy) NSURL * _Null_unspecified styleURL;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame styleURL:(NSURL * _Nullable)styleURL OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-SWIFT_CLASS("_TtC10TallyGoKit15TGUpdateManager")
-@interface TGUpdateManager : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-@end
-
 @class AVAudioPlayer;
 
+/**
+  Service to speak and preload voice prompts.
+*/
 SWIFT_CLASS("_TtC10TallyGoKit16TGVoiceSynthesis")
 @interface TGVoiceSynthesis : NSObject <AVAudioPlayerDelegate>
+/**
+  The shared instance of TGVoiceSynthesis.
+*/
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TGVoiceSynthesis * _Nonnull shared;)
 + (TGVoiceSynthesis * _Nonnull)shared;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
+/**
+  Allows the voice service to be turned on/off globally.
+*/
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL enabled;)
 + (BOOL)enabled;
 + (void)setEnabled:(BOOL)newValue;
+/**
+  Deletes all of the cached audio from disk.
+*/
 + (void)deleteAudioCache;
+/**
+  Used internally. Client app should not call this method.
+*/
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer * _Nonnull)player successfully:(BOOL)flag;
+/**
+  Used internally. Client app should not call this method.
+*/
 - (void)audioPlayerDecodeErrorDidOccur:(AVAudioPlayer * _Nonnull)player error:(NSError * _Nullable)error;
 @end
 
@@ -353,6 +413,9 @@ typedef SWIFT_ENUM(NSInteger, ResizingBehavior) {
 
 
 @interface UIFont (SWIFT_EXTENSION(TallyGoKit))
+/**
+  Allows a custom font to be used.
+*/
 + (void)registerFontWithFilenameStringWithFilenameString:(NSString * _Nonnull)filenameString;
 @end
 
