@@ -1,45 +1,10 @@
 {
   "warnings": [
     {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/String+Distance.swift",
-      "line": 12,
-      "symbol": "MilesPerMeter",
-      "symbol_kind": "source.lang.swift.decl.var.global",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/String+Distance.swift",
-      "line": 13,
-      "symbol": "FeetPerMile",
-      "symbol_kind": "source.lang.swift.decl.var.global",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGBoundaryRequest.swift",
-      "line": 9,
-      "symbol": "TGBoundaryRequest",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGButton.swift",
       "line": 13,
       "symbol": "TGButton",
       "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TGPoint.swift",
-      "line": 53,
-      "symbol": "TGPoint.coordinate",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/picciano1/Documents/Apps/TallyGoKit-Source/TallyGoKit/TallyGoKit.swift",
-      "line": 13,
-      "symbol": "TallyGoKitSimulatedCoordinateDidChangeNotification",
-      "symbol_kind": "source.lang.swift.decl.var.global",
       "warning": "undocumented"
     },
     {
