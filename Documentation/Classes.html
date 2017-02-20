@@ -363,7 +363,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Address object.</p>
+                        <p>Represents a street address.</p>
 
                         <a href="Classes/TGAddress.html" class="slightly-smaller">See more</a>
                       </div>
@@ -609,7 +609,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The configuration service.</p>
+                        <p>Retrieves remote configuration information for the internal operation of the SDK.</p>
 
                         <a href="Classes/TGConfiguration.html" class="slightly-smaller">See more</a>
                       </div>
@@ -704,7 +704,15 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The find service.</p>
+                        <p>Provides access to the TallyGo Find service for street address and point-of-interest searching, as well as reverse geocoding.</p>
+
+<p>The suggest method is used to populate a list of suggestions while the user is typing. Suggest will generally return faster than the search method, but results returned from suggest do not include specific location information. Instead they include include a suggestionKey. When the user selects a suggestion from the list, pass the corresponding suggestionKey to the search method, which returns all available information, including a precise geographic coordinate.</p>
+
+<p>When the user selects a specific sugegstion, call the search method with a search request to get the full address and location information. The search request should be populated with the same location as was used when the suggest call was made, the <q>singleLine</q> attribute should be the <q>text</q> value from the suggestion, and the <q>suggestionKey</q> should be the value from the <q>suggestion.suggestionKey</q>.</p>
+
+<p>Results from the search and suggest method may come from a variety of information sources, including Open Street Maps, ArcGIS, TallyGo, Yelp, Foursquare, and Mapbox.</p>
+
+<p>Some of the information providers, notably Yelp, have specific requirements on how to display results from their API. Be sure to read and follow the guidlines here: <a href="https://www.yelp.com/developers/display_requirements">https://www.yelp.com/developers/display_requirements</a></p>
 
                         <a href="Classes/TGFind.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1216,7 +1224,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Request for finding locations</p>
+                        <p>Defines parameters for a location search performed with TGFind.search()</p>
 
                         <a href="Classes/TGSearchRequest.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1280,7 +1288,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A search result item in the search response.</p>
+                        <p>A search result, including geographic location.
+Returned from TGFind.search</p>
 
                         <a href="Classes/TGSearchResult.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1408,7 +1417,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Suggestion object.</p>
+                        <p>This is an autocomplete suggestion.
+To get full info including location, make a call to TGFind.search and include the sugestionKey value from the suggestion.</p>
 
                         <a href="Classes/TGSuggestion.html" class="slightly-smaller">See more</a>
                       </div>

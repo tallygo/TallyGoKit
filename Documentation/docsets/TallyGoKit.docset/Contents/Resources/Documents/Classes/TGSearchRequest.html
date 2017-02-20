@@ -295,7 +295,7 @@
 
                 </div>
               </div>
-            <p>Request for finding locations</p>
+            <p>Defines parameters for a location search performed with TGFind.search()</p>
 
           </section>
           <section class="section task-group-section">
@@ -314,7 +314,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Specifies the location to be geocoded. This can be a street address, place name, postal code, or POI.
+                        <p>Specifies the location to be geocoded. This can be a street address, place name, postal code, or point of interest.
 The input address components need to be formatted as a single string.</p>
 
                       </div>
@@ -342,7 +342,8 @@ The input address components need to be formatted as a single string.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Defines an origin point location.</p>
+                        <p>Defines an origin point location to improve the search results.
+Possible values include the user&rsquo;s current location, or the center point of their current view.</p>
 
                       </div>
                       <div class="declaration">
@@ -369,7 +370,7 @@ The input address components need to be formatted as a single string.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Default value is approximated LA city area. Bounding rectangle to search within. No candidates outside of the rectangle are returned.</p>
+                        <p>Default value is approximated LA city area. Bounding rectangle to search within. No results outside of the rectangle are returned.</p>
 
                       </div>
                       <div class="declaration">
@@ -396,7 +397,7 @@ The input address components need to be formatted as a single string.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Value obtained from prior request to suggest API.</p>
+                        <p>Value obtained from prior request to suggest API, used to get the location of a specific suggestion.</p>
 
                       </div>
                       <div class="declaration">
