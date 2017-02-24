@@ -181,6 +181,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TGIdleTimer 
 @end
 
 @class MGLMapView;
+@class UIStoryboardSegue;
 @class NSBundle;
 
 /**
@@ -240,6 +241,14 @@ SWIFT_CLASS("_TtC10TallyGoKit19TGNavViewController")
   Position the subviews.
 */
 - (void)viewDidLayoutSubviews;
+/**
+  IBAction for unwind segues.
+*/
+- (IBAction)backAction:(UIStoryboardSegue * _Nonnull)segue;
+/**
+  Override point to perform addtional layout tasks. Default implementation does nothing.
+*/
+@property (nonatomic, copy) void (^ _Nullable performAdditionalLayout)(void);
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
