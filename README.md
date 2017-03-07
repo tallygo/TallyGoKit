@@ -47,25 +47,6 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
         }  
     }
     ```
-1. Find address from coordinate example code:
-
-    ```swift
-    var selectedAddress: TGAddress?
-    var selectedLocation: CLLocationCoordinate2D?
-    
-    func reverseGeocode(coordinate: CLLocationCoordinate2D) {
-        let request = TGReverseGeocodeRequest(location: coordinate)
-        
-        TGFind.reverseGeocode(request: request) { (response) in
-            if let error = response.error {
-                debugPrint("Reverse Geocoding Error: \(error)")
-            }
-            
-            self.selectedAddress = response.address
-            self.selectedLocation = response.location
-        }
-    }
-    ```
     
 ## Need help?
 
