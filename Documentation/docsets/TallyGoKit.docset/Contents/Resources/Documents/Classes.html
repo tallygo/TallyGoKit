@@ -904,7 +904,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Highway object.</p>
+                        <p>Represents a highway.</p>
 
                         <a href="Classes/TGHighway.html" class="slightly-smaller">See more</a>
                       </div>
@@ -968,7 +968,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The navigation service.</p>
+                        <p>Provides an interface to TallyGo&rsquo;s navigation API.</p>
 
                         <a href="Classes/TGNavigation.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1032,7 +1032,13 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Point object.</p>
+                        <p>TGPoint represents a specific location along the route, and may also contain data important at that location.</p>
+
+<p>Points occur at locations considered important for any of these reasons:
+- Start and end points of a segment
+- Geographic significance, like a bend in the road
+- A location that requires navigation instructions to be given to the driver. Refer to notify and say memebrs.
+- An intersection. If the driver needs to make a turn, the turn property contains information about the action the driver should take.</p>
 
                         <a href="Classes/TGPoint.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1128,7 +1134,11 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Route object.</p>
+                        <p>TGRoute represents a drivable route between points in the road network. A route consists of one or more segments, which in turn consist of a collection of points on the road network. </p>
+
+<p>A segment consists of an ordered collection of points. Points serve a few purposes. First, they express the shape of the path along the road. Points also allow the routing engine to insert specific instructions, like an instruction to prepare for an upcoming highway exit.</p>
+
+<p>See TGSegment and TGPoint for details.</p>
 
                         <a href="Classes/TGRoute.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1321,7 +1331,9 @@ Returned from TGFind.search</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Route segment object.</p>
+                        <p>TGSegment represets one segment of a route. A route from location A to B will consist of only one segment. Introducing a stop along the way will result in two segments, from A to B, and B to C. Similar to routes, each segment has its own distance, and estimated travel time.</p>
+
+<p>A segment consists of a sequence of points which represent the geographic shape of the route. Points may also include information about turns or other instructions necessary to navigate the route. See TGPoint.</p>
 
                         <a href="Classes/TGSegment.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1353,7 +1365,7 @@ Returned from TGFind.search</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Street object.</p>
+                        <p>Represents a street.</p>
 
                         <a href="Classes/TGStreet.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1514,7 +1526,8 @@ To get full info including location, make a call to TGFind.search and include th
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Turn object.</p>
+                        <p>TGTurn represents a turn at a specific point in the route.
+Contains information about the direction of the turn, the instruction for the driver, and the street being turned onto.</p>
 
                         <a href="Classes/TGTurn.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1566,7 +1579,7 @@ To get full info including location, make a call to TGFind.search and include th
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-03-07)</p>
+          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-03-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

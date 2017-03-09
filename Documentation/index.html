@@ -288,12 +288,78 @@
         <section>
           <section class="section">
             
-            <a href='#tallygokit-source' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='tallygokit-source'>TallyGoKit-Source</h1>
+            <a href='#tallygokit' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='tallygokit'>TallyGoKit</h1>
+
+<p>The TallyGo Navigation SDK (TallyGoKit) enables you to embed turn-by-turn navigation features directly in your iOS app. It is currently designed for Swift 3.0 projects, including iPhone and iPad devices.</p>
+<a href='#getting-started' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='getting-started'>Getting Started</h2>
+
+<ol>
+<li>If you don&rsquo;t already have one, request an Access Token from <a href="mailto:sdk@tallygo.com?subject=SDK%20Token%20Request">sdk@tallygo.com</a>.</li>
+<li>If you use Cocoapods, just add <code>pod &#39;TallyGoKit&#39;</code> to your Podfile.</li>
+<li>If you do not wish to use Cocoapods, download the <code>TallyGoKit.framework</code> and include it in you target&rsquo;s <q>Linked Frameworks and Libraries</q></li>
+<li>Have a look at the <a href="https://github.com/tallygo/TallyGoKit/tree/develop/Reference%20Implementation%20Swift">Reference Implementation</a>.</li>
+<li>If you&rsquo;re not using Cocoapods to manage the dependencies, you&rsquo;ll also need to get Mapbox, CryptoSwift and SwiftyJSON. These  are open source frameworks and are required by TallyGoKit.</li>
+<li>Configure the Mapbox framework and follow their <a href="https://www.mapbox.com/ios-sdk/">instructions</a>.</li>
+<li><p>Import the module.</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">TallyGoKit</span>
+</code></pre></li>
+<li><p>Initialize the TallyGoKit with your access token.</p>
+<pre class="highlight swift"><code><span class="kt">TallyGoKit</span><span class="o">.</span><span class="nf">initialize</span><span class="p">(</span><span class="nv">withAccessToken</span><span class="p">:</span> <span class="s">"YOUR ACCESS TOKEN"</span><span class="p">)</span>
+</code></pre></li>
+<li><p>Need to test without leaving your desk? Use the driving simulator.</p>
+<pre class="highlight plaintext"><code>TallyGoKit.simulatedCoordinate = CLLocationCoordinate2DMake(34.050259, -118.249611)
+</code></pre></li>
+<li><p>Create an instance of <code>TGNavViewController</code> in your storyboard.</p></li>
+<li><p>Set a few attributes when you prepare for segue.</p>
+<pre class="highlight swift"><code><span class="c1">// Get these from somewhere</span>
+<span class="k">let</span> <span class="nv">origin</span> <span class="o">=</span> <span class="kt">CLLocationCoordinate2DMake</span><span class="p">(</span><span class="mf">34.050259</span><span class="p">,</span> <span class="o">-</span><span class="mf">118.249611</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">destination</span> <span class="o">=</span> <span class="kt">CLLocationCoordinate2DMake</span><span class="p">(</span><span class="mf">33.987760</span><span class="p">,</span> <span class="o">-</span><span class="mf">118.470784</span><span class="p">)</span>
+
+<span class="k">override</span> <span class="kd">func</span> <span class="nf">prepare</span><span class="p">(</span><span class="k">for</span> <span class="nv">segue</span><span class="p">:</span> <span class="kt">UIStoryboardSegue</span><span class="p">,</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="k">let</span> <span class="nv">viewController</span> <span class="o">=</span> <span class="n">segue</span><span class="o">.</span><span class="n">destination</span> <span class="k">as?</span> <span class="kt">TGNavViewController</span> <span class="p">{</span>
+        <span class="n">viewController</span><span class="o">.</span><span class="n">showsOriginIcon</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="n">viewController</span><span class="o">.</span><span class="n">origin</span> <span class="o">=</span> <span class="n">origin</span>
+        <span class="n">viewController</span><span class="o">.</span><span class="n">destination</span> <span class="o">=</span> <span class="n">destination</span>
+        <span class="n">viewController</span><span class="o">.</span><span class="n">mapview</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="n">mapViewDelegate</span>
+        <span class="n">viewController</span><span class="o">.</span><span class="n">mapview</span><span class="o">.</span><span class="n">tintColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="o">.</span><span class="n">red</span>
+        <span class="n">viewController</span><span class="o">.</span><span class="n">commencementSpeech</span> <span class="o">=</span> <span class="s">"Let's go."</span>
+        <span class="n">viewController</span><span class="o">.</span><span class="n">proceedToRouteSpeech</span> <span class="o">=</span> <span class="s">"Please proceed to the route."</span>
+        <span class="n">viewController</span><span class="o">.</span><span class="n">arrivalSpeech</span> <span class="o">=</span> <span class="s">"You have arrived."</span>
+        <span class="n">viewController</span><span class="o">.</span><span class="n">voice</span> <span class="o">=</span> <span class="o">.</span><span class="kt">Julie</span>
+    <span class="p">}</span>  
+<span class="p">}</span>
+</code></pre></li>
+</ol>
+<a href='#need-help' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='need-help'>Need help?</h2>
+
+<p>Email us at <a href="mailto:sdk@tallygo.com?subject=SDK%20Help%20Request">sdk@tallygo.com</a>.</p>
+<a href='#sdk-feature-summary' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='sdk-feature-summary'>SDK Feature Summary</h2>
+
+<ul>
+<li><p><strong>Start of Route</strong> - Advanced start-of-route logic seamlessly manages thorny use cases like starting away from route, GPS drift, or starting route in parking garages or other elevated structures.</p></li>
+<li><p><strong>Turn-by-Turn Navigation</strong> - Modern turn-by-turn navigation uses accurate and robust road network data, including exit sign data and time-based turn restrictions.</p></li>
+<li><p><strong>Voice Guidance</strong> - Choose from a variety of voices that sound like real humans, providing timely spoken prompts to guide users to the destination without the need to look at the screen.</p></li>
+<li><p><strong>Dynamic Re-Routing</strong> - Route dynamically updates based on driving speed when the user misses a turn or goes off route.</p></li>
+<li><p><strong>Real-time Sensors and Traffic Prediction</strong> - Routes take advantage of a patented near-future traffic prediction algorithm that processes millions of minute-level traffic readings each day from loop sensors installed throughout the road network.</p></li>
+<li><p><strong>Time-Dependent Routing</strong> - Patented dynamic routing algorithm calculates on-the-fly across billions of possible routes to identify actual fastest route while still delivering industry-leading response times.</p></li>
+<li><p><strong>Real-time Accident Data</strong> - Real-time accidents with accurate clear times and other metadata displayed on the map without the need for user reporting, derived from real-time feed of highway patrol data. Routing algorithm intelligently incorporates accidents and clear times to avoid cascading effects of congestion on roads near the accident.</p></li>
+<li><p><strong>Waypoints</strong> - Provide multiple waypoint routes that you can use to build your custom navigation experience, to avoid constant starting and stopping at each destination.</p></li>
+<li><p><strong>Advanced Route Planning (Leave at X, Arrive by X)</strong> - Take advantage of route planning rather than simply departing at the current time. Specify a future time to leave, or specify a future time to arrive at the destination, and then receive a route customized to that timeframe based on future real-time traffic prediction. Easily enable push notifications as reminders of these upcoming trips.</p></li>
+<li><p><strong>Visual Turn Indicator</strong> - Color-coded visual turn indicator makes it easy for users to get ready for upcoming turns.</p></li>
+<li><p><strong>Branding</strong> - Customize icons, route line colors, and voice prompts to match the experience of your existing app.</p></li>
+</ul>
+<a href='#features-on-the-roadmap' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h4 id='features-on-the-roadmap'>Features on the Roadmap</h4>
+
+<ul>
+<li><p><strong>Voice Search</strong> <code>COMING SOON</code> - Search by speaking into the microphone instead of typing in a destination.</p></li>
+<li><p><strong>Advanced Route Planning (Best Time To Go)</strong> <code>COMING SOON</code> - Specify a window of time and receive the best time to go in that window to reduce travel time.</p></li>
+<li><p><strong>Dynamic Dispatch</strong> <code>COMING SOON</code> - A REST API to optimally dispatch drivers to locations. Improve the efficiency of your business by grouping pickups and dropoffs, and dynamically re-route drivers upon new pickup requests.</p></li>
+</ul>
 
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-03-07)</p>
+          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-03-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
