@@ -25,6 +25,11 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
     ```swift
     TallyGoKit.initialize(withAccessToken: "YOUR ACCESS TOKEN")
     ```
+1. Need to test without leaving your desk? Use the driving simulator.
+
+    ```
+    TallyGoKit.simulatedCoordinate = CLLocationCoordinate2DMake(34.050259, -118.249611)
+    ```
 1. Create an instance of `TGNavViewController` in your storyboard.
 1. Set a few attributes when you prepare for segue.
 
