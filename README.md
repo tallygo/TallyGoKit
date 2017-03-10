@@ -87,4 +87,4 @@ Email us at [sdk@tallygo.com](mailto:sdk@tallygo.com?subject=SDK Help Request).
 
 * **Advanced Route Planning (Best Time To Go)** `COMING SOON` - Specify a window of time and receive the best time to go in that window to reduce travel time.
 
-* **Dynamic Dispatch** `COMING SOON` - need content
+* **Dynamic Dispatch** `COMING SOON` - A REST API to optimally dispatch drivers to locations. Improve the efficiency of your business by grouping pickups and dropoffs, and dynamically re-route drivers upon new pickup requests.
