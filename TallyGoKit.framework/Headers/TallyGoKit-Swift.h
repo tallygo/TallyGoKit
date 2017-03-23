@@ -253,6 +253,10 @@ SWIFT_CLASS("_TtC10TallyGoKit19TGNavViewController")
 @end
 
 
+@interface TGNavViewController (SWIFT_EXTENSION(TallyGoKit))
+@end
+
+
 /**
   A subclass of MGLMapView that uses the TallyGo map style and updates traffic lines.
 */
