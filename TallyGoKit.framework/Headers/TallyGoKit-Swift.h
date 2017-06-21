@@ -231,6 +231,36 @@ SWIFT_CLASS("_TtC10TallyGoKit19TGNavViewController")
 @end
 
 
+/// View controller that allows the user to find locations by entering text searches. This feature is currently in beta and the implementation may change.
+SWIFT_CLASS("_TtC10TallyGoKit22TGSearchViewController")
+@interface TGSearchViewController : UIViewController
+/// Use this function to force the cancel button to display. This is useful, for example, if your app has other means to select a location.
+- (void)showCancelButton;
+/// Use this function to notify the search view controller to reset, for example, after completing or cancelling a route.
+- (void)reset;
+/// Factory method to create an instance of TGSearchViewController.
++ (TGSearchViewController * _Nonnull)create SWIFT_WARN_UNUSED_RESULT;
+/// If you choose to override this method, you should call super.viewDidLoad().
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class UITableViewCell;
+
+@interface TGSearchViewController (SWIFT_EXTENSION(TallyGoKit)) <UITableViewDataSource>
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface TGSearchViewController (SWIFT_EXTENSION(TallyGoKit)) <UITableViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
 /// A subclass of MGLMapView that uses the TallyGo map style and updates traffic lines.
 SWIFT_CLASS("_TtC10TallyGoKit15TGStyledMapView")
 @interface TGStyledMapView : MGLMapView
@@ -248,7 +278,6 @@ SWIFT_CLASS("_TtC10TallyGoKit27TGTurnListBaseTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
 
 SWIFT_CLASS("_TtC10TallyGoKit24TGTurnListViewController")
 @interface TGTurnListViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
@@ -360,6 +389,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _N
 + (void)drawTLSlightLeft;
 + (void)drawBackButtonWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
 + (void)drawMapMarkerWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
++ (void)drawBackArrowWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
++ (void)drawSearchBackgroundWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
++ (void)drawSearchIconWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
 /// / Generated Images
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfUTurnLeft;)
 + (UIImage * _Nonnull)imageOfUTurnLeft SWIFT_WARN_UNUSED_RESULT;
@@ -448,6 +480,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _N
 + (UIImage * _Nonnull)imageOfBackButton SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfMapMarker;)
 + (UIImage * _Nonnull)imageOfMapMarker SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfSearchIcon;)
++ (UIImage * _Nonnull)imageOfSearchIcon SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

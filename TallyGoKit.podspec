@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'TallyGoKit'
-    s.version           = '1.1.4'
+    s.version           = '1.2.0'
     s.summary           = 'The TallyGo Navigation SDK (TallyGoKit) enables you to embed turn-by-turn navigation features directly in your iOS app.'
     s.homepage          = 'http://tallygo.com'
 
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Custom', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :http => 'https://github.com/tallygo/TallyGoKit/releases/download/1.1.4/TallyGoKit.zip' }
+    s.source            = { :http => 'https://github.com/tallygo/TallyGoKit/releases/download/1.2.0/TallyGoKit.zip' }
 
     s.ios.deployment_target = '9.0'
     s.ios.vendored_frameworks = 'TallyGoKit.framework'
