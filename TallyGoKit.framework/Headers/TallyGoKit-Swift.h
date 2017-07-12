@@ -138,7 +138,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import ObjectiveC;
 @import Mapbox;
-@import AVFoundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -231,6 +230,28 @@ SWIFT_CLASS("_TtC10TallyGoKit19TGNavViewController")
 @end
 
 
+SWIFT_CLASS("_TtC10TallyGoKit29TGSearchResultsViewController")
+@interface TGSearchResultsViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class UITableViewCell;
+
+@interface TGSearchResultsViewController (SWIFT_EXTENSION(TallyGoKit)) <UITableViewDataSource>
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface TGSearchResultsViewController (SWIFT_EXTENSION(TallyGoKit)) <UITableViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
 /// View controller that allows the user to find locations by entering text searches. This feature is currently in beta and the implementation may change.
 SWIFT_CLASS("_TtC10TallyGoKit22TGSearchViewController")
 @interface TGSearchViewController : UIViewController
@@ -246,8 +267,6 @@ SWIFT_CLASS("_TtC10TallyGoKit22TGSearchViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
-@class UITableViewCell;
 
 @interface TGSearchViewController (SWIFT_EXTENSION(TallyGoKit)) <UITableViewDataSource>
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -290,27 +309,6 @@ SWIFT_CLASS("_TtC10TallyGoKit24TGTurnListViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class AVAudioPlayer;
-
-/// Service to speak and preload voice prompts.
-SWIFT_CLASS("_TtC10TallyGoKit16TGVoiceSynthesis")
-@interface TGVoiceSynthesis : NSObject <AVAudioPlayerDelegate>
-/// The shared instance of TGVoiceSynthesis.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TGVoiceSynthesis * _Nonnull shared;)
-+ (TGVoiceSynthesis * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-/// Allows the voice service to be turned on/off globally.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL enabled;)
-+ (BOOL)enabled SWIFT_WARN_UNUSED_RESULT;
-+ (void)setEnabled:(BOOL)newValue;
-/// Deletes all of the cached audio from disk.
-+ (void)deleteAudioCache;
-/// Used internally. Client app should not call this method.
-- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer * _Nonnull)player successfully:(BOOL)flag;
-/// Used internally. Client app should not call this method.
-- (void)audioPlayerDecodeErrorDidOccur:(AVAudioPlayer * _Nonnull)player error:(NSError * _Nullable)error;
-@end
-
 @class UIColor;
 @class UIImage;
 enum TallyGoStyleKitResizingBehavior : NSInteger;
@@ -332,6 +330,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _N
 + (UIColor * _Nonnull)tGButtonTextColor SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _Nonnull tGYellowGreen;)
 + (UIColor * _Nonnull)tGYellowGreen SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _Nonnull mediumGrey;)
++ (UIColor * _Nonnull)mediumGrey SWIFT_WARN_UNUSED_RESULT;
 /// / Drawing Methods
 + (void)drawVisualTurnIndicatorWithFrame:(CGRect)frame approachColor:(UIColor * _Nonnull)approachColor image:(UIImage * _Nonnull)image approachIndicatorWidth:(CGFloat)approachIndicatorWidth street:(NSString * _Nonnull)street distance:(NSString * _Nonnull)distance;
 + (void)drawVisualTurnIndicatorWithSignWithFrame:(CGRect)frame approachColor:(UIColor * _Nonnull)approachColor sign:(UIImage * _Nonnull)sign image:(UIImage * _Nonnull)image approachIndicatorWidth:(CGFloat)approachIndicatorWidth street:(NSString * _Nonnull)street distance:(NSString * _Nonnull)distance;
@@ -508,6 +508,10 @@ typedef SWIFT_ENUM_NAMED(NSInteger, TallyGoStyleKitResizingBehavior, "ResizingBe
 @interface UIFont (SWIFT_EXTENSION(TallyGoKit))
 /// Allows a custom font to be used.
 + (void)registerFontWithFilenameStringWithFilenameString:(NSString * _Nonnull)filenameString;
+@end
+
+
+@interface UIImage (SWIFT_EXTENSION(TallyGoKit))
 @end
 
 

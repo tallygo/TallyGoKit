@@ -14,7 +14,7 @@
     <a title="TGVoiceSynthesisResponseCode Enum Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">TallyGoKit Docs</a> (72% documented)</p>
+        <p><a href="../index.html">TallyGoKit Docs</a> (65% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -124,6 +124,21 @@
                 <a href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/TGSearchCategory.html">TGSearchCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGSearchCategory/ShortName.html">– ShortName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C10TallyGoKit23TGSearchCategoryRequest">TGSearchCategoryRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C10TallyGoKit24TGSearchCategoryResponse">TGSearchCategoryResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGSearchCategoryService.html">TGSearchCategoryService</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/TGSearchRequest.html">TGSearchRequest</a>
               </li>
               <li class="nav-group-task">
@@ -131,6 +146,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TGSearchResult.html">TGSearchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGSearchResultsViewController.html">TGSearchResultsViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TGSearchViewController.html">TGSearchViewController</a>
@@ -175,6 +193,9 @@
                 <a href="../Classes/TGTurnListViewController.html">TGTurnListViewController</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes.html#/s:C10TallyGoKit7TGVoice">TGVoice</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/TGVoiceSynthesis.html">TGVoiceSynthesis</a>
               </li>
               <li class="nav-group-task">
@@ -196,9 +217,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10TallyGoKit13MilesPerMeterSd">MilesPerMeter</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:v10TallyGoKit14TGDefaultVoiceOS_7TGVoice">TGDefaultVoice</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10TallyGoKit52TGLocationManagerDidPauseLocationUpdatesNotificationVCSo14NSNotification4Name">TGLocationManagerDidPauseLocationUpdatesNotification</a>
@@ -269,9 +287,6 @@
                 <a href="../Enums/TGOrigin.html">TGOrigin</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/TGVoice.html">TGVoice</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/TGVoiceSynthesisResponseCode.html">TGVoiceSynthesisResponseCode</a>
               </li>
             </ul>
@@ -290,6 +305,9 @@
           <li class="nav-group-name">
             <a href="../Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/TGSearchResultsViewControllerDelegate.html">TGSearchResultsViewControllerDelegate</a>
+              </li>
               <li class="nav-group-task">
                 <a href="../Protocols/TGSearchViewControllerDelegate.html">TGSearchViewControllerDelegate</a>
               </li>
@@ -345,6 +363,37 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight"><code><span class="k">case</span> <span class="n">failed</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode5emptyFMS0_S0_"></a>
+                    <a name="//apple_ref/swift/Element/empty" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode5emptyFMS0_S0_">empty</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The request text is empty.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">empty</span></code></pre>
 
                         </div>
                       </div>
@@ -461,7 +510,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Voice prompt is queued to playback after current prompt is finished.</p>
+                        <p>Voice synthesis queued.</p>
 
                       </div>
                       <div class="declaration">
@@ -482,9 +531,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode19loadedFromFileCacheFMS0_S0_"></a>
-                    <a name="//apple_ref/swift/Element/loadedFromFileCache" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode19loadedFromFileCacheFMS0_S0_">loadedFromFileCache</a>
+                    <a name="/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode6playedFMS0_S0_"></a>
+                    <a name="//apple_ref/swift/Element/played" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode6playedFMS0_S0_">played</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -492,138 +541,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Used internally.</p>
+                        <p>Voice synthesis played.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="k">case</span> <span class="n">loadedFromFileCache</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode20loadedFromVoxServiceFMS0_S0_"></a>
-                    <a name="//apple_ref/swift/Element/loadedFromVoxService" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode20loadedFromVoxServiceFMS0_S0_">loadedFromVoxService</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Used internally.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="k">case</span> <span class="n">loadedFromVoxService</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode9preloadedFMS0_S0_"></a>
-                    <a name="//apple_ref/swift/Element/preloaded" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode9preloadedFMS0_S0_">preloaded</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Voice prompt was preloaded successfully.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="k">case</span> <span class="n">preloaded</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode16alreadyPreloadedFMS0_S0_"></a>
-                    <a name="//apple_ref/swift/Element/alreadyPreloaded" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode16alreadyPreloadedFMS0_S0_">alreadyPreloaded</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Requested prompt was previously preloaded.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="k">case</span> <span class="n">alreadyPreloaded</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode7removedFMS0_S0_"></a>
-                    <a name="//apple_ref/swift/Element/removed" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FO10TallyGoKit28TGVoiceSynthesisResponseCode7removedFMS0_S0_">removed</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Prompt was successfully unloaded.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="k">case</span> <span class="n">removed</span></code></pre>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">played</span></code></pre>
 
                         </div>
                       </div>
@@ -635,7 +560,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-06-21)</p>
+          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-07-12)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.5</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

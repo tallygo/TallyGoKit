@@ -14,7 +14,7 @@
     <a title="TGVoiceSynthesis Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">TallyGoKit Docs</a> (72% documented)</p>
+        <p><a href="../index.html">TallyGoKit Docs</a> (65% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -124,6 +124,21 @@
                 <a href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/TGSearchCategory.html">TGSearchCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGSearchCategory/ShortName.html">– ShortName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C10TallyGoKit23TGSearchCategoryRequest">TGSearchCategoryRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C10TallyGoKit24TGSearchCategoryResponse">TGSearchCategoryResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGSearchCategoryService.html">TGSearchCategoryService</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/TGSearchRequest.html">TGSearchRequest</a>
               </li>
               <li class="nav-group-task">
@@ -131,6 +146,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TGSearchResult.html">TGSearchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGSearchResultsViewController.html">TGSearchResultsViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TGSearchViewController.html">TGSearchViewController</a>
@@ -175,6 +193,9 @@
                 <a href="../Classes/TGTurnListViewController.html">TGTurnListViewController</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes.html#/s:C10TallyGoKit7TGVoice">TGVoice</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/TGVoiceSynthesis.html">TGVoiceSynthesis</a>
               </li>
               <li class="nav-group-task">
@@ -196,9 +217,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10TallyGoKit13MilesPerMeterSd">MilesPerMeter</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:v10TallyGoKit14TGDefaultVoiceOS_7TGVoice">TGDefaultVoice</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Global Variables.html#/s:v10TallyGoKit52TGLocationManagerDidPauseLocationUpdatesNotificationVCSo14NSNotification4Name">TGLocationManagerDidPauseLocationUpdatesNotification</a>
@@ -269,9 +287,6 @@
                 <a href="../Enums/TGOrigin.html">TGOrigin</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/TGVoice.html">TGVoice</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/TGVoiceSynthesisResponseCode.html">TGVoiceSynthesisResponseCode</a>
               </li>
             </ul>
@@ -290,6 +305,9 @@
           <li class="nav-group-name">
             <a href="../Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/TGSearchResultsViewControllerDelegate.html">TGSearchResultsViewControllerDelegate</a>
+              </li>
               <li class="nav-group-task">
                 <a href="../Protocols/TGSearchViewControllerDelegate.html">TGSearchViewControllerDelegate</a>
               </li>
@@ -314,7 +332,7 @@
             <h1>TGVoiceSynthesis</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGVoiceSynthesis</span><span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">AVAudioPlayerDelegate</span></code></pre>
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGVoiceSynthesis</span></code></pre>
 
                 </div>
               </div>
@@ -354,33 +372,6 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vC10TallyGoKit16TGVoiceSynthesis12currentVoiceOS_7TGVoice"></a>
-                    <a name="//apple_ref/swift/Property/currentVoice" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vC10TallyGoKit16TGVoiceSynthesis12currentVoiceOS_7TGVoice">currentVoice</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The currently selected voice to use for prompts.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">currentVoice</span> <span class="o">=</span> <span class="kt"><a href="../Global Variables.html#/s:v10TallyGoKit14TGDefaultVoiceOS_7TGVoice">TGDefaultVoice</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:ZvC10TallyGoKit16TGVoiceSynthesis7enabledSb"></a>
                     <a name="//apple_ref/swift/Variable/enabled" class="dashAnchor"></a>
                     <a class="token" href="#/s:ZvC10TallyGoKit16TGVoiceSynthesis7enabledSb">enabled</a>
@@ -408,90 +399,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:ZFC10TallyGoKit16TGVoiceSynthesis16deleteAudioCacheFT_T_"></a>
-                    <a name="//apple_ref/swift/Method/deleteAudioCache()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:ZFC10TallyGoKit16TGVoiceSynthesis16deleteAudioCacheFT_T_">deleteAudioCache()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Deletes all of the cached audio from disk.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">deleteAudioCache</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:FC10TallyGoKit16TGVoiceSynthesis7preloadFT4textSS17completionHandlerGSqFOS_28TGVoiceSynthesisResponseCodeT___T_"></a>
-                    <a name="//apple_ref/swift/Method/preload(text:completionHandler:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10TallyGoKit16TGVoiceSynthesis7preloadFT4textSS17completionHandlerGSqFOS_28TGVoiceSynthesisResponseCodeT___T_">preload(text:completionHandler:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Loads the requested audio into the disk cache.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">preload</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="p">((</span><span class="kt"><a href="../Enums/TGVoiceSynthesisResponseCode.html">TGVoiceSynthesisResponseCode</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:FC10TallyGoKit16TGVoiceSynthesis6unloadFT4textSS17completionHandlerGSqFOS_28TGVoiceSynthesisResponseCodeT___T_"></a>
-                    <a name="//apple_ref/swift/Method/unload(text:completionHandler:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10TallyGoKit16TGVoiceSynthesis6unloadFT4textSS17completionHandlerGSqFOS_28TGVoiceSynthesisResponseCodeT___T_">unload(text:completionHandler:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Removes the requested audio from the disk cache.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">unload</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="p">((</span><span class="kt"><a href="../Enums/TGVoiceSynthesisResponseCode.html">TGVoiceSynthesisResponseCode</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:FC10TallyGoKit16TGVoiceSynthesis3sayFT4textSS11saveInCacheSb17completionHandlerGSqFOS_28TGVoiceSynthesisResponseCodeT___T_"></a>
-                    <a name="//apple_ref/swift/Method/say(text:saveInCache:completionHandler:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10TallyGoKit16TGVoiceSynthesis3sayFT4textSS11saveInCacheSb17completionHandlerGSqFOS_28TGVoiceSynthesisResponseCodeT___T_">say(text:saveInCache:completionHandler:)</a>
+                    <a name="/s:FC10TallyGoKit16TGVoiceSynthesis3sayFT4textSS_OS_28TGVoiceSynthesisResponseCode"></a>
+                    <a name="//apple_ref/swift/Method/say(text:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC10TallyGoKit16TGVoiceSynthesis3sayFT4textSS_OS_28TGVoiceSynthesisResponseCode">say(text:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -506,61 +416,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">say</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">saveInCache</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="p">((</span><span class="kt"><a href="../Enums/TGVoiceSynthesisResponseCode.html">TGVoiceSynthesisResponseCode</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:FC10TallyGoKit16TGVoiceSynthesis27audioPlayerDidFinishPlayingFTCSo13AVAudioPlayer12successfullySb_T_"></a>
-                    <a name="//apple_ref/swift/Method/audioPlayerDidFinishPlaying(_:successfully:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10TallyGoKit16TGVoiceSynthesis27audioPlayerDidFinishPlayingFTCSo13AVAudioPlayer12successfullySb_T_">audioPlayerDidFinishPlaying(_:successfully:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Used internally. Client app should not call this method.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">audioPlayerDidFinishPlaying</span><span class="p">(</span><span class="n">_</span> <span class="nv">player</span><span class="p">:</span> <span class="kt">AVAudioPlayer</span><span class="p">,</span> <span class="n">successfully</span> <span class="nv">flag</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:FC10TallyGoKit16TGVoiceSynthesis30audioPlayerDecodeErrorDidOccurFTCSo13AVAudioPlayer5errorGSqPs5Error___T_"></a>
-                    <a name="//apple_ref/swift/Method/audioPlayerDecodeErrorDidOccur(_:error:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10TallyGoKit16TGVoiceSynthesis30audioPlayerDecodeErrorDidOccurFTCSo13AVAudioPlayer5errorGSqPs5Error___T_">audioPlayerDecodeErrorDidOccur(_:error:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Used internally. Client app should not call this method.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">audioPlayerDecodeErrorDidOccur</span><span class="p">(</span><span class="n">_</span> <span class="nv">player</span><span class="p">:</span> <span class="kt">AVAudioPlayer</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">say</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/TGVoiceSynthesisResponseCode.html">TGVoiceSynthesisResponseCode</a></span></code></pre>
 
                         </div>
                       </div>
@@ -572,7 +428,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-06-21)</p>
+          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-07-12)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.5</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
