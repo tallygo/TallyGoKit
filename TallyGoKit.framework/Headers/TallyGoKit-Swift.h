@@ -138,6 +138,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import ObjectiveC;
 @import Mapbox;
+@import AVFoundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -307,6 +308,31 @@ SWIFT_CLASS("_TtC10TallyGoKit24TGTurnListViewController")
 - (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// Service to speak and preload voice prompts.
+SWIFT_CLASS("_TtC10TallyGoKit16TGVoiceSynthesis")
+@interface TGVoiceSynthesis : NSObject
+/// The shared instance of TGVoiceSynthesis.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TGVoiceSynthesis * _Nonnull shared;)
++ (TGVoiceSynthesis * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+/// Allows the voice service to be turned on/off globally.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL enabled;)
++ (BOOL)enabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setEnabled:(BOOL)newValue;
+@end
+
+@class AVSpeechSynthesizer;
+@class AVSpeechUtterance;
+
+@interface TGVoiceSynthesis (SWIFT_EXTENSION(TallyGoKit)) <AVSpeechSynthesizerDelegate>
+- (void)speechSynthesizer:(AVSpeechSynthesizer * _Nonnull)synthesizer didPauseSpeechUtterance:(AVSpeechUtterance * _Nonnull)utterance;
+- (void)speechSynthesizer:(AVSpeechSynthesizer * _Nonnull)synthesizer didStartSpeechUtterance:(AVSpeechUtterance * _Nonnull)utterance;
+- (void)speechSynthesizer:(AVSpeechSynthesizer * _Nonnull)synthesizer didCancelSpeechUtterance:(AVSpeechUtterance * _Nonnull)utterance;
+- (void)speechSynthesizer:(AVSpeechSynthesizer * _Nonnull)synthesizer didFinishSpeechUtterance:(AVSpeechUtterance * _Nonnull)utterance;
+- (void)speechSynthesizer:(AVSpeechSynthesizer * _Nonnull)synthesizer didContinueSpeechUtterance:(AVSpeechUtterance * _Nonnull)utterance;
 @end
 
 @class UIColor;
