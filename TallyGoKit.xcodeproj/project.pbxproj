@@ -1,0 +1,1264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		472AF286B179C13DB9C8D955 /* Pods_TallyGoKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7550A4AE303FDC2A816FD27E /* Pods_TallyGoKitTests.framework */; };
+		AF01FDA81E033BE400DB141C /* TGArrivedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01FDA61E033BE400DB141C /* TGArrivedViewController.swift */; };
+		AF01FDA91E033BE400DB141C /* TGArrivedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF01FDA71E033BE400DB141C /* TGArrivedViewController.xib */; };
+		AF0510B81D5D19140048FF1C /* TGSearchExtent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0510B71D5D19140048FF1C /* TGSearchExtent.swift */; };
+		AF0510BA1D5D1B040048FF1C /* CLLocationCoordinate2D+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0510B91D5D1B040048FF1C /* CLLocationCoordinate2D+String.swift */; };
+		AF0510BC1D5D27F00048FF1C /* TGSuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0510BB1D5D27F00048FF1C /* TGSuggestion.swift */; };
+		AF0D06831D5D0B65002AD10F /* TGFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D06821D5D0B65002AD10F /* TGFind.swift */; };
+		AF0D06851D5D0C11002AD10F /* TGSuggestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D06841D5D0C11002AD10F /* TGSuggestRequest.swift */; };
+		AF0D06871D5D0C44002AD10F /* TGSuggestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D06861D5D0C44002AD10F /* TGSuggestResponse.swift */; };
+		AF1C4D261D75F58A000EA165 /* TGLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1C4D251D75F58A000EA165 /* TGLocationManager.swift */; };
+		AF1D99731D6B8924004775F3 /* TGNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1D99721D6B8924004775F3 /* TGNavViewController.swift */; };
+		AF2862871D51466E007D5241 /* TGConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2862861D51466E007D5241 /* TGConnection.swift */; };
+		AF2B4EE01D4FC7C6003310FF /* TGConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B4EDF1D4FC7C6003310FF /* TGConfiguration.swift */; };
+		AF3643661D949D5200E6D6E3 /* TimeInterval+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3643651D949D5200E6D6E3 /* TimeInterval+Conversion.swift */; };
+		AF41B40D1D91A59D004321E7 /* UIFont+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41B40C1D91A59D004321E7 /* UIFont+Custom.swift */; };
+		AF4ABB191D999AA300259754 /* TGOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4ABB181D999AA300259754 /* TGOverlayViewController.swift */; };
+		AF4ABB1E1D999FE000259754 /* TGCancelConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4ABB1C1D999FE000259754 /* TGCancelConfirmationViewController.swift */; };
+		AF4ABB1F1D999FE000259754 /* TGCancelConfirmationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF4ABB1D1D999FE000259754 /* TGCancelConfirmationViewController.xib */; };
+		AF4ABB211D99A10C00259754 /* TGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4ABB201D99A10C00259754 /* TGButton.swift */; };
+		AF585AB11D4FB01600A15A4B /* TallyGoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF585AA71D4FB01600A15A4B /* TallyGoKit.framework */; };
+		AF585AB61D4FB01600A15A4B /* TallyGoKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF585AB51D4FB01600A15A4B /* TallyGoKitTests.swift */; };
+		AF585AB81D4FB01600A15A4B /* TallyGoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AF585AAA1D4FB01600A15A4B /* TallyGoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF585AC91D4FB77100A15A4B /* TallyGoKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF585AC81D4FB77100A15A4B /* TallyGoKit.swift */; };
+		AF625EF41DB7E4E400105FBA /* TGSoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF625EF31DB7E4E400105FBA /* TGSoundManager.swift */; };
+		AF625EF61DB7EF7100105FBA /* TGVoiceSynthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF625EF51DB7EF7100105FBA /* TGVoiceSynthesis.swift */; };
+		AF6379A61D778CDC00221994 /* TGTelemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6379A51D778CDC00221994 /* TGTelemetry.swift */; };
+		AF6379A81D779D4200221994 /* CLLocationCoordinate2D+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6379A71D779D4200221994 /* CLLocationCoordinate2D+Distance.swift */; };
+		AF6379AA1D779D5700221994 /* CLLocation+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6379A91D779D5700221994 /* CLLocation+Distance.swift */; };
+		AF6775DD1DB974A200313C0A /* TGPoint+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6775DC1DB974A200313C0A /* TGPoint+Audio.swift */; };
+		AF7618FE1D77353500946AF3 /* String+Truncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7618FD1D77353500946AF3 /* String+Truncate.swift */; };
+		AF7FFBBB1DA2A7B4009F57E8 /* TGReroutingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7FFBB91DA2A7B4009F57E8 /* TGReroutingViewController.swift */; };
+		AF7FFBBC1DA2A7B4009F57E8 /* TGReroutingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7FFBBA1DA2A7B4009F57E8 /* TGReroutingViewController.xib */; };
+		AF8284AF1DAED04D00915AEF /* TGLogRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8284AE1DAED04D00915AEF /* TGLogRequest.swift */; };
+		AF8284B11DAED05E00915AEF /* TGLogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8284B01DAED05E00915AEF /* TGLogResponse.swift */; };
+		AF8E0DBE1D61FCF5006D97BD /* TGSearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8E0DBD1D61FCF5006D97BD /* TGSearchRequest.swift */; };
+		AF8E0DC01D61FD0F006D97BD /* TGSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8E0DBF1D61FD0F006D97BD /* TGSearchResponse.swift */; };
+		AF8E0DC21D61FD2C006D97BD /* TGSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8E0DC11D61FD2C006D97BD /* TGSearchResult.swift */; };
+		AF8E0DC41D6209E4006D97BD /* TGOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8E0DC31D6209E4006D97BD /* TGOrigin.swift */; };
+		AF9669E01D9C25F600EE1165 /* TGProceedToRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9669DE1D9C25F600EE1165 /* TGProceedToRouteViewController.swift */; };
+		AF9669E11D9C25F600EE1165 /* TGProceedToRouteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF9669DF1D9C25F600EE1165 /* TGProceedToRouteViewController.xib */; };
+		AF966A111D5E7E6A00E533FF /* TGReverseGeocodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF966A101D5E7E6A00E533FF /* TGReverseGeocodeRequest.swift */; };
+		AF966A131D5E7E7D00E533FF /* TGReverseGeocodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF966A121D5E7E7D00E533FF /* TGReverseGeocodeResponse.swift */; };
+		AF966A151D5E817500E533FF /* TGAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF966A141D5E817500E533FF /* TGAddress.swift */; };
+		AF9F71561D946DD7003EC168 /* TGRouteProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F71551D946DD7003EC168 /* TGRouteProgress.swift */; };
+		AF9F71581D946DF0003EC168 /* TGRouteProgressLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F71571D946DF0003EC168 /* TGRouteProgressLayer.swift */; };
+		AFA4F55F1E3C001500258B50 /* TGUpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA4F55E1E3C001500258B50 /* TGUpdateManager.swift */; };
+		AFAA433A1D5A657C00AB6EE5 /* TGRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA43391D5A657C00AB6EE5 /* TGRoute.swift */; };
+		AFAA433C1D5A685F00AB6EE5 /* TGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA433B1D5A685F00AB6EE5 /* TGPoint.swift */; };
+		AFAA433E1D5A6D3500AB6EE5 /* TGTurn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA433D1D5A6D3500AB6EE5 /* TGTurn.swift */; };
+		AFAA43401D5A735600AB6EE5 /* TGStreet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA433F1D5A735600AB6EE5 /* TGStreet.swift */; };
+		AFAA43421D5A7AB200AB6EE5 /* TGHighway.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA43411D5A7AB200AB6EE5 /* TGHighway.swift */; };
+		AFAC7CB71D590792001AC723 /* DateFormatter+RFC3339.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC7CB61D590792001AC723 /* DateFormatter+RFC3339.swift */; };
+		AFADADCB1D79E55F00DAC0C8 /* TGDrivingSimulatorMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFADADCA1D79E55F00DAC0C8 /* TGDrivingSimulatorMapView.swift */; };
+		AFADADCD1D79F6F000DAC0C8 /* TGSimulatedLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFADADCC1D79F6F000DAC0C8 /* TGSimulatedLocationManager.swift */; };
+		AFADADCF1D79F80900DAC0C8 /* TGRealLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFADADCE1D79F80900DAC0C8 /* TGRealLocationManager.swift */; };
+		AFD0C9161E3BB7E60033C7F0 /* TGUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C9151E3BB7E60033C7F0 /* TGUpdate.swift */; };
+		AFD0C9181E3BB8050033C7F0 /* TGPointUpdateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C9171E3BB8050033C7F0 /* TGPointUpdateRequest.swift */; };
+		AFD0C91A1E3BB8150033C7F0 /* TGRouteUpdateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C9191E3BB8150033C7F0 /* TGRouteUpdateRequest.swift */; };
+		AFD0C91C1E3BB8250033C7F0 /* TGUpdateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C91B1E3BB8250033C7F0 /* TGUpdateResponse.swift */; };
+		AFD0C91E1E3BC6C30033C7F0 /* Date+ISO8601.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C91D1E3BC6C30033C7F0 /* Date+ISO8601.swift */; };
+		AFD9FA131E4A61CD00B4883B /* TGStyledMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9FA121E4A61CD00B4883B /* TGStyledMapView.swift */; };
+		AFDF77421DA45A5400BE4DBE /* TGMapStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF77411DA45A5400BE4DBE /* TGMapStyle.swift */; };
+		AFE5092F1D87069000AD205A /* CLLocationCoordinate2D+Bearing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5092E1D87069000AD205A /* CLLocationCoordinate2D+Bearing.swift */; };
+		AFEA63531D4FD07A0062BC64 /* TGBaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA63521D4FD07A0062BC64 /* TGBaseObject.swift */; };
+		AFEA63591D4FD2730062BC64 /* TGBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA63581D4FD2730062BC64 /* TGBaseRequest.swift */; };
+		AFEA635B1D4FD37A0062BC64 /* TGBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA635A1D4FD37A0062BC64 /* TGBaseResponse.swift */; };
+		AFEA635E1D4FD4460062BC64 /* TGReponseKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA635D1D4FD4460062BC64 /* TGReponseKey.swift */; };
+		AFEA63601D4FD5580062BC64 /* TGConfigurationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA635F1D4FD5580062BC64 /* TGConfigurationRequest.swift */; };
+		AFEA63621D4FD56F0062BC64 /* TGConfigurationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA63611D4FD56F0062BC64 /* TGConfigurationResponse.swift */; };
+		AFEA63651D4FD5E90062BC64 /* String+URLEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA63641D4FD5E90062BC64 /* String+URLEncode.swift */; };
+		AFEA63681D4FD69E0062BC64 /* TGBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA63671D4FD69E0062BC64 /* TGBaseService.swift */; };
+		AFEAC15F1D9073D70099D3CC /* TallyGoStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7618F21D77292400946AF3 /* TallyGoStyleKit.swift */; };
+		AFEAC1601D9074850099D3CC /* TGVisualTurnIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7618F41D772A3E00946AF3 /* TGVisualTurnIndicator.swift */; };
+		AFEAC1611D9074870099D3CC /* TGVisualTurnIndicatorLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7618F61D772A6700946AF3 /* TGVisualTurnIndicatorLayer.swift */; };
+		AFEAC1631D908BD00099D3CC /* String+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEAC1621D908BD00099D3CC /* String+Distance.swift */; };
+		AFEBE5461E2D4703009F37F5 /* TGGeoJSONPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEBE5451E2D4703009F37F5 /* TGGeoJSONPoint.swift */; };
+		AFF0B51E1D78A58000F23866 /* TGPointIndexShortestDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF0B51D1D78A58000F23866 /* TGPointIndexShortestDistance.swift */; };
+		AFF0B5201D78A59A00F23866 /* TGShortestDistanceAndNearestCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF0B51F1D78A59A00F23866 /* TGShortestDistanceAndNearestCoordinate.swift */; };
+		AFF1EA641D52A43F008FA09C /* TGNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF1EA631D52A43F008FA09C /* TGNavigation.swift */; };
+		AFF1EA661D52A476008FA09C /* TGRouteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF1EA651D52A476008FA09C /* TGRouteRequest.swift */; };
+		AFF1EA681D52A48B008FA09C /* TGRouteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF1EA671D52A48B008FA09C /* TGRouteResponse.swift */; };
+		AFF5B81A1E26A727008AACC9 /* TGBoundaryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5B8191E26A727008AACC9 /* TGBoundaryRequest.swift */; };
+		AFF5B81C1E26A772008AACC9 /* TGBoundaryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5B81B1E26A772008AACC9 /* TGBoundaryResponse.swift */; };
+		AFF5B81E1E26A852008AACC9 /* TGGeoJSONFeatureCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5B81D1E26A852008AACC9 /* TGGeoJSONFeatureCollection.swift */; };
+		AFF5B8201E26A85C008AACC9 /* TGGeoJSONFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5B81F1E26A85C008AACC9 /* TGGeoJSONFeature.swift */; };
+		AFF5B8221E26A869008AACC9 /* TGGeoJSONPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5B8211E26A869008AACC9 /* TGGeoJSONPolygon.swift */; };
+		AFF5B8241E26A8B3008AACC9 /* TGGeoJSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5B8231E26A8B3008AACC9 /* TGGeoJSONObject.swift */; };
+		AFF83DF01E295CF5005B3BF1 /* CLLocationCoordinate2D+Containment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF83DEF1E295CF5005B3BF1 /* CLLocationCoordinate2D+Containment.swift */; };
+		AFFAF5291DBFCDA100930608 /* TGSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF5281DBFCDA100930608 /* TGSegment.swift */; };
+		AFFBE59E1E424F34001D06EF /* TGIdleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFBE59D1E424F34001D06EF /* TGIdleTimer.swift */; };
+		AFFD37171E1DA2E80036FE65 /* URLSession+Synchronous.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD37161E1DA2E80036FE65 /* URLSession+Synchronous.swift */; };
+		B402CC201EB0E4050063BC51 /* TGKeyboardInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402CC1F1EB0E4050063BC51 /* TGKeyboardInstructionsViewController.swift */; };
+		B40D75621EB234E8009B883A /* TGMoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40D75611EB234E8009B883A /* TGMoreInfoViewController.swift */; };
+		B41232751EF1868B00A38C70 /* TGBackArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41232741EF1868B00A38C70 /* TGBackArrow.swift */; };
+		B44E0F5A1EBA6EDE0090F339 /* TurnList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44E0F591EBA6EDE0090F339 /* TurnList.storyboard */; };
+		B44E0F5C1EBA6F090090F339 /* TGTurnListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E0F5B1EBA6F090090F339 /* TGTurnListViewController.swift */; };
+		B44E0F5E1EBA6F880090F339 /* TGTurnListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E0F5D1EBA6F880090F339 /* TGTurnListButton.swift */; };
+		B44E0F601EBA70860090F339 /* TGTurnListBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E0F5F1EBA70860090F339 /* TGTurnListBaseTableViewCell.swift */; };
+		B44E0F621EBA71630090F339 /* TGTurnListOriginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E0F611EBA71630090F339 /* TGTurnListOriginTableViewCell.swift */; };
+		B44E0F641EBA718B0090F339 /* TGTurnListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E0F631EBA718B0090F339 /* TGTurnListTableViewCell.swift */; };
+		B44E0F661EBA71C60090F339 /* TGTurnListDestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E0F651EBA71C60090F339 /* TGTurnListDestinationTableViewCell.swift */; };
+		B44E0F681EBA759E0090F339 /* TGTurnListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E0F671EBA759E0090F339 /* TGTurnListFactory.swift */; };
+		B468128B1F05473E00B81E35 /* UIImage+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468128A1F05473E00B81E35 /* UIImage+Scale.swift */; };
+		B46EF5DE1F0D5D4B00537242 /* TGSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46EF5DD1F0D5D4B00537242 /* TGSearchResultsViewController.swift */; };
+		B47C907B1F1581DC00661FBF /* TGVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C907A1F1581DC00661FBF /* TGVoice.swift */; };
+		B47F6FB91EAE65EC0078C3E3 /* TGFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6FB81EAE65EC0078C3E3 /* TGFeedback.swift */; };
+		B47F6FBB1EAE65FB0078C3E3 /* TGFeedbackRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6FBA1EAE65FB0078C3E3 /* TGFeedbackRequest.swift */; };
+		B47F6FBD1EAE660F0078C3E3 /* TGFeedbackResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6FBC1EAE660F0078C3E3 /* TGFeedbackResponse.swift */; };
+		B47F6FBF1EAE66B50078C3E3 /* TGFeedbackTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6FBE1EAE66B50078C3E3 /* TGFeedbackTopics.swift */; };
+		B47F6FC21EAE66CD0078C3E3 /* TGFeedbackTopicsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6FC11EAE66CD0078C3E3 /* TGFeedbackTopicsRequest.swift */; };
+		B47F6FC41EAE66E20078C3E3 /* TGFeedbackTopicsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6FC31EAE66E20078C3E3 /* TGFeedbackTopicsResponse.swift */; };
+		B47F6FC61EAE673B0078C3E3 /* TGFeedbackTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6FC51EAE673B0078C3E3 /* TGFeedbackTopic.swift */; };
+		B47F6FC81EAE78180078C3E3 /* UIDevice+ModelName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F6FC71EAE78180078C3E3 /* UIDevice+ModelName.swift */; };
+		B49D91491EAFD2C300AD3045 /* Feedback.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49D91481EAFD2C300AD3045 /* Feedback.storyboard */; };
+		B49D914B1EAFD31500AD3045 /* TGFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D914A1EAFD31500AD3045 /* TGFeedbackViewController.swift */; };
+		B49D914D1EAFD35600AD3045 /* TGFeedbackFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D914C1EAFD35600AD3045 /* TGFeedbackFactory.swift */; };
+		B4B54A0D1EF057AA007732E9 /* TGPassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B54A0C1EF057AA007732E9 /* TGPassThroughView.swift */; };
+		B4D0DA5D1EEF49EB00E003D6 /* TGSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0DA5C1EEF49EB00E003D6 /* TGSearchViewController.swift */; };
+		B4D0DA5F1EEF49F400E003D6 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D0DA5E1EEF49F400E003D6 /* Search.storyboard */; };
+		B4D789381EF1F3A800CAAF97 /* TGResultsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D789371EF1F3A800CAAF97 /* TGResultsContainer.swift */; };
+		B4DC8FE01E93E7D60081B8F4 /* TGTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DC8FDF1E93E7D60081B8F4 /* TGTrip.swift */; };
+		B4DC8FE21E93E80D0081B8F4 /* TGTripRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DC8FE11E93E80D0081B8F4 /* TGTripRequest.swift */; };
+		B4DC8FE41E93E81A0081B8F4 /* TGTripResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DC8FE31E93E81A0081B8F4 /* TGTripResponse.swift */; };
+		B4DC8FE61E9421610081B8F4 /* TGTripManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DC8FE51E9421610081B8F4 /* TGTripManager.swift */; };
+		B4F2DC1E1EB24F6800316D93 /* TGFeedbackReceivedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F2DC1D1EB24F6800316D93 /* TGFeedbackReceivedViewController.swift */; };
+		B4F6219A1F03F27A008E321A /* TGSearchCategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F621991F03F27A008E321A /* TGSearchCategoryService.swift */; };
+		B4F6219C1F03F2A3008E321A /* TGSearchCategoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F6219B1F03F2A3008E321A /* TGSearchCategoryRequest.swift */; };
+		B4F6219E1F03F2BA008E321A /* TGSearchCategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F6219D1F03F2BA008E321A /* TGSearchCategoryResponse.swift */; };
+		B4F621A01F03F2D2008E321A /* TGSearchCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F6219F1F03F2D2008E321A /* TGSearchCategory.swift */; };
+		BBF063F3842804A689F2E1F7 /* Pods_TallyGoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341DED63CCAF0D7846FF2093 /* Pods_TallyGoKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF585AB21D4FB01600A15A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF585A9E1D4FB01600A15A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF585AA61D4FB01600A15A4B;
+			remoteInfo = TallyGoKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E317CF532CAFA14AC97E0C /* Pods-TallyGoKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TallyGoKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TallyGoKitTests/Pods-TallyGoKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		16B97BEB894343E701AAFEB6 /* Pods-TallyGoKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TallyGoKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TallyGoKitTests/Pods-TallyGoKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		341DED63CCAF0D7846FF2093 /* Pods_TallyGoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TallyGoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B165FFB49EB396DC69B6070 /* Pods-TallyGoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TallyGoKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TallyGoKit/Pods-TallyGoKit.release.xcconfig"; sourceTree = "<group>"; };
+		7550A4AE303FDC2A816FD27E /* Pods_TallyGoKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TallyGoKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8148DE461BED0947BD7AF446 /* Pods-TallyGoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TallyGoKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TallyGoKit/Pods-TallyGoKit.debug.xcconfig"; sourceTree = "<group>"; };
+		AF01FDA61E033BE400DB141C /* TGArrivedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGArrivedViewController.swift; sourceTree = "<group>"; };
+		AF01FDA71E033BE400DB141C /* TGArrivedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TGArrivedViewController.xib; sourceTree = "<group>"; };
+		AF0510B71D5D19140048FF1C /* TGSearchExtent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSearchExtent.swift; sourceTree = "<group>"; };
+		AF0510B91D5D1B040048FF1C /* CLLocationCoordinate2D+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+String.swift"; sourceTree = "<group>"; };
+		AF0510BB1D5D27F00048FF1C /* TGSuggestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSuggestion.swift; sourceTree = "<group>"; };
+		AF0D06821D5D0B65002AD10F /* TGFind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFind.swift; sourceTree = "<group>"; };
+		AF0D06841D5D0C11002AD10F /* TGSuggestRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSuggestRequest.swift; sourceTree = "<group>"; };
+		AF0D06861D5D0C44002AD10F /* TGSuggestResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSuggestResponse.swift; sourceTree = "<group>"; };
+		AF1C4D251D75F58A000EA165 /* TGLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGLocationManager.swift; sourceTree = "<group>"; };
+		AF1D99721D6B8924004775F3 /* TGNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGNavViewController.swift; sourceTree = "<group>"; };
+		AF2862861D51466E007D5241 /* TGConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGConnection.swift; sourceTree = "<group>"; };
+		AF2B4EDF1D4FC7C6003310FF /* TGConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGConfiguration.swift; sourceTree = "<group>"; };
+		AF3643651D949D5200E6D6E3 /* TimeInterval+Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Conversion.swift"; sourceTree = "<group>"; };
+		AF41B40C1D91A59D004321E7 /* UIFont+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Custom.swift"; sourceTree = "<group>"; };
+		AF4ABB181D999AA300259754 /* TGOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGOverlayViewController.swift; sourceTree = "<group>"; };
+		AF4ABB1C1D999FE000259754 /* TGCancelConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGCancelConfirmationViewController.swift; sourceTree = "<group>"; };
+		AF4ABB1D1D999FE000259754 /* TGCancelConfirmationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TGCancelConfirmationViewController.xib; sourceTree = "<group>"; };
+		AF4ABB201D99A10C00259754 /* TGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGButton.swift; sourceTree = "<group>"; };
+		AF585AA71D4FB01600A15A4B /* TallyGoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TallyGoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF585AAA1D4FB01600A15A4B /* TallyGoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TallyGoKit.h; sourceTree = "<group>"; };
+		AF585AAB1D4FB01600A15A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF585AB01D4FB01600A15A4B /* TallyGoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyGoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF585AB51D4FB01600A15A4B /* TallyGoKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyGoKitTests.swift; sourceTree = "<group>"; };
+		AF585AB71D4FB01600A15A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF585AC81D4FB77100A15A4B /* TallyGoKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TallyGoKit.swift; sourceTree = "<group>"; };
+		AF625EF31DB7E4E400105FBA /* TGSoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSoundManager.swift; sourceTree = "<group>"; };
+		AF625EF51DB7EF7100105FBA /* TGVoiceSynthesis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGVoiceSynthesis.swift; sourceTree = "<group>"; };
+		AF6379A51D778CDC00221994 /* TGTelemetry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTelemetry.swift; sourceTree = "<group>"; };
+		AF6379A71D779D4200221994 /* CLLocationCoordinate2D+Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Distance.swift"; sourceTree = "<group>"; };
+		AF6379A91D779D5700221994 /* CLLocation+Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Distance.swift"; sourceTree = "<group>"; };
+		AF6775DC1DB974A200313C0A /* TGPoint+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TGPoint+Audio.swift"; sourceTree = "<group>"; };
+		AF7618F01D77268300946AF3 /* TallyGoKit.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = TallyGoKit.pcvd; sourceTree = "<group>"; };
+		AF7618F21D77292400946AF3 /* TallyGoStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TallyGoStyleKit.swift; sourceTree = "<group>"; };
+		AF7618F41D772A3E00946AF3 /* TGVisualTurnIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGVisualTurnIndicator.swift; sourceTree = "<group>"; };
+		AF7618F61D772A6700946AF3 /* TGVisualTurnIndicatorLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGVisualTurnIndicatorLayer.swift; sourceTree = "<group>"; };
+		AF7618FD1D77353500946AF3 /* String+Truncate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Truncate.swift"; sourceTree = "<group>"; };
+		AF7FFBB91DA2A7B4009F57E8 /* TGReroutingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGReroutingViewController.swift; sourceTree = "<group>"; };
+		AF7FFBBA1DA2A7B4009F57E8 /* TGReroutingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TGReroutingViewController.xib; sourceTree = "<group>"; };
+		AF8284AE1DAED04D00915AEF /* TGLogRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGLogRequest.swift; sourceTree = "<group>"; };
+		AF8284B01DAED05E00915AEF /* TGLogResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGLogResponse.swift; sourceTree = "<group>"; };
+		AF8E0DBD1D61FCF5006D97BD /* TGSearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSearchRequest.swift; sourceTree = "<group>"; };
+		AF8E0DBF1D61FD0F006D97BD /* TGSearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSearchResponse.swift; sourceTree = "<group>"; };
+		AF8E0DC11D61FD2C006D97BD /* TGSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSearchResult.swift; sourceTree = "<group>"; };
+		AF8E0DC31D6209E4006D97BD /* TGOrigin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGOrigin.swift; sourceTree = "<group>"; };
+		AF9669DE1D9C25F600EE1165 /* TGProceedToRouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGProceedToRouteViewController.swift; sourceTree = "<group>"; };
+		AF9669DF1D9C25F600EE1165 /* TGProceedToRouteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TGProceedToRouteViewController.xib; sourceTree = "<group>"; };
+		AF966A101D5E7E6A00E533FF /* TGReverseGeocodeRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGReverseGeocodeRequest.swift; sourceTree = "<group>"; };
+		AF966A121D5E7E7D00E533FF /* TGReverseGeocodeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGReverseGeocodeResponse.swift; sourceTree = "<group>"; };
+		AF966A141D5E817500E533FF /* TGAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGAddress.swift; sourceTree = "<group>"; };
+		AF9F71551D946DD7003EC168 /* TGRouteProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGRouteProgress.swift; sourceTree = "<group>"; };
+		AF9F71571D946DF0003EC168 /* TGRouteProgressLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGRouteProgressLayer.swift; sourceTree = "<group>"; };
+		AFA4F55E1E3C001500258B50 /* TGUpdateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGUpdateManager.swift; sourceTree = "<group>"; };
+		AFAA43391D5A657C00AB6EE5 /* TGRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGRoute.swift; sourceTree = "<group>"; };
+		AFAA433B1D5A685F00AB6EE5 /* TGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPoint.swift; sourceTree = "<group>"; };
+		AFAA433D1D5A6D3500AB6EE5 /* TGTurn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTurn.swift; sourceTree = "<group>"; };
+		AFAA433F1D5A735600AB6EE5 /* TGStreet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGStreet.swift; sourceTree = "<group>"; };
+		AFAA43411D5A7AB200AB6EE5 /* TGHighway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGHighway.swift; sourceTree = "<group>"; };
+		AFAC7CB61D590792001AC723 /* DateFormatter+RFC3339.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+RFC3339.swift"; sourceTree = "<group>"; };
+		AFADADCA1D79E55F00DAC0C8 /* TGDrivingSimulatorMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGDrivingSimulatorMapView.swift; sourceTree = "<group>"; };
+		AFADADCC1D79F6F000DAC0C8 /* TGSimulatedLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSimulatedLocationManager.swift; sourceTree = "<group>"; };
+		AFADADCE1D79F80900DAC0C8 /* TGRealLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGRealLocationManager.swift; sourceTree = "<group>"; };
+		AFB7607F1E5500CE00ACF4E9 /* GenDocs.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = GenDocs.sh; sourceTree = "<group>"; };
+		AFD0C9151E3BB7E60033C7F0 /* TGUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGUpdate.swift; sourceTree = "<group>"; };
+		AFD0C9171E3BB8050033C7F0 /* TGPointUpdateRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPointUpdateRequest.swift; sourceTree = "<group>"; };
+		AFD0C9191E3BB8150033C7F0 /* TGRouteUpdateRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGRouteUpdateRequest.swift; sourceTree = "<group>"; };
+		AFD0C91B1E3BB8250033C7F0 /* TGUpdateResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGUpdateResponse.swift; sourceTree = "<group>"; };
+		AFD0C91D1E3BC6C30033C7F0 /* Date+ISO8601.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+ISO8601.swift"; sourceTree = "<group>"; };
+		AFD9FA121E4A61CD00B4883B /* TGStyledMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGStyledMapView.swift; sourceTree = "<group>"; };
+		AFDF77411DA45A5400BE4DBE /* TGMapStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGMapStyle.swift; sourceTree = "<group>"; };
+		AFE5092E1D87069000AD205A /* CLLocationCoordinate2D+Bearing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Bearing.swift"; sourceTree = "<group>"; };
+		AFEA63521D4FD07A0062BC64 /* TGBaseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGBaseObject.swift; sourceTree = "<group>"; };
+		AFEA63581D4FD2730062BC64 /* TGBaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGBaseRequest.swift; sourceTree = "<group>"; };
+		AFEA635A1D4FD37A0062BC64 /* TGBaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGBaseResponse.swift; sourceTree = "<group>"; };
+		AFEA635D1D4FD4460062BC64 /* TGReponseKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGReponseKey.swift; sourceTree = "<group>"; };
+		AFEA635F1D4FD5580062BC64 /* TGConfigurationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGConfigurationRequest.swift; sourceTree = "<group>"; };
+		AFEA63611D4FD56F0062BC64 /* TGConfigurationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGConfigurationResponse.swift; sourceTree = "<group>"; };
+		AFEA63641D4FD5E90062BC64 /* String+URLEncode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLEncode.swift"; sourceTree = "<group>"; };
+		AFEA63671D4FD69E0062BC64 /* TGBaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGBaseService.swift; sourceTree = "<group>"; };
+		AFEAC1621D908BD00099D3CC /* String+Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Distance.swift"; sourceTree = "<group>"; };
+		AFEBE5451E2D4703009F37F5 /* TGGeoJSONPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGGeoJSONPoint.swift; sourceTree = "<group>"; };
+		AFF0B51D1D78A58000F23866 /* TGPointIndexShortestDistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPointIndexShortestDistance.swift; sourceTree = "<group>"; };
+		AFF0B51F1D78A59A00F23866 /* TGShortestDistanceAndNearestCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGShortestDistanceAndNearestCoordinate.swift; sourceTree = "<group>"; };
+		AFF1EA631D52A43F008FA09C /* TGNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGNavigation.swift; sourceTree = "<group>"; };
+		AFF1EA651D52A476008FA09C /* TGRouteRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGRouteRequest.swift; sourceTree = "<group>"; };
+		AFF1EA671D52A48B008FA09C /* TGRouteResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGRouteResponse.swift; sourceTree = "<group>"; };
+		AFF250D01E4CD5260068BC38 /* TallyGoKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TallyGoKit.podspec; sourceTree = "<group>"; };
+		AFF5B8191E26A727008AACC9 /* TGBoundaryRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGBoundaryRequest.swift; sourceTree = "<group>"; };
+		AFF5B81B1E26A772008AACC9 /* TGBoundaryResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGBoundaryResponse.swift; sourceTree = "<group>"; };
+		AFF5B81D1E26A852008AACC9 /* TGGeoJSONFeatureCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGGeoJSONFeatureCollection.swift; sourceTree = "<group>"; };
+		AFF5B81F1E26A85C008AACC9 /* TGGeoJSONFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGGeoJSONFeature.swift; sourceTree = "<group>"; };
+		AFF5B8211E26A869008AACC9 /* TGGeoJSONPolygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGGeoJSONPolygon.swift; sourceTree = "<group>"; };
+		AFF5B8231E26A8B3008AACC9 /* TGGeoJSONObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGGeoJSONObject.swift; sourceTree = "<group>"; };
+		AFF83DEF1E295CF5005B3BF1 /* CLLocationCoordinate2D+Containment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Containment.swift"; sourceTree = "<group>"; };
+		AFFAF5281DBFCDA100930608 /* TGSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSegment.swift; sourceTree = "<group>"; };
+		AFFBE59D1E424F34001D06EF /* TGIdleTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGIdleTimer.swift; sourceTree = "<group>"; };
+		AFFD37161E1DA2E80036FE65 /* URLSession+Synchronous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Synchronous.swift"; sourceTree = "<group>"; };
+		B402CC1F1EB0E4050063BC51 /* TGKeyboardInstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGKeyboardInstructionsViewController.swift; sourceTree = "<group>"; };
+		B40D75611EB234E8009B883A /* TGMoreInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGMoreInfoViewController.swift; sourceTree = "<group>"; };
+		B41232741EF1868B00A38C70 /* TGBackArrow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGBackArrow.swift; sourceTree = "<group>"; };
+		B44E0F591EBA6EDE0090F339 /* TurnList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TurnList.storyboard; sourceTree = "<group>"; };
+		B44E0F5B1EBA6F090090F339 /* TGTurnListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTurnListViewController.swift; sourceTree = "<group>"; };
+		B44E0F5D1EBA6F880090F339 /* TGTurnListButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTurnListButton.swift; sourceTree = "<group>"; };
+		B44E0F5F1EBA70860090F339 /* TGTurnListBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTurnListBaseTableViewCell.swift; sourceTree = "<group>"; };
+		B44E0F611EBA71630090F339 /* TGTurnListOriginTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTurnListOriginTableViewCell.swift; sourceTree = "<group>"; };
+		B44E0F631EBA718B0090F339 /* TGTurnListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTurnListTableViewCell.swift; sourceTree = "<group>"; };
+		B44E0F651EBA71C60090F339 /* TGTurnListDestinationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTurnListDestinationTableViewCell.swift; sourceTree = "<group>"; };
+		B44E0F671EBA759E0090F339 /* TGTurnListFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTurnListFactory.swift; sourceTree = "<group>"; };
+		B468128A1F05473E00B81E35 /* UIImage+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Scale.swift"; sourceTree = "<group>"; };
+		B46EF5DD1F0D5D4B00537242 /* TGSearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSearchResultsViewController.swift; sourceTree = "<group>"; };
+		B47C907A1F1581DC00661FBF /* TGVoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGVoice.swift; sourceTree = "<group>"; };
+		B47F6FB81EAE65EC0078C3E3 /* TGFeedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFeedback.swift; sourceTree = "<group>"; };
+		B47F6FBA1EAE65FB0078C3E3 /* TGFeedbackRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFeedbackRequest.swift; sourceTree = "<group>"; };
+		B47F6FBC1EAE660F0078C3E3 /* TGFeedbackResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFeedbackResponse.swift; sourceTree = "<group>"; };
+		B47F6FBE1EAE66B50078C3E3 /* TGFeedbackTopics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFeedbackTopics.swift; sourceTree = "<group>"; };
+		B47F6FC11EAE66CD0078C3E3 /* TGFeedbackTopicsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFeedbackTopicsRequest.swift; sourceTree = "<group>"; };
+		B47F6FC31EAE66E20078C3E3 /* TGFeedbackTopicsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFeedbackTopicsResponse.swift; sourceTree = "<group>"; };
+		B47F6FC51EAE673B0078C3E3 /* TGFeedbackTopic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFeedbackTopic.swift; sourceTree = "<group>"; };
+		B47F6FC71EAE78180078C3E3 /* UIDevice+ModelName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+ModelName.swift"; sourceTree = "<group>"; };
+		B482F98E1E70EB31006D9A9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B49013491EAFA98400C31E18 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = "Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework"; sourceTree = "<group>"; };
+		B49D91481EAFD2C300AD3045 /* Feedback.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feedback.storyboard; sourceTree = "<group>"; };
+		B49D914A1EAFD31500AD3045 /* TGFeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFeedbackViewController.swift; sourceTree = "<group>"; };
+		B49D914C1EAFD35600AD3045 /* TGFeedbackFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFeedbackFactory.swift; sourceTree = "<group>"; };
+		B4B54A0C1EF057AA007732E9 /* TGPassThroughView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPassThroughView.swift; sourceTree = "<group>"; };
+		B4D0DA5C1EEF49EB00E003D6 /* TGSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSearchViewController.swift; sourceTree = "<group>"; };
+		B4D0DA5E1EEF49F400E003D6 /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		B4D789371EF1F3A800CAAF97 /* TGResultsContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGResultsContainer.swift; sourceTree = "<group>"; };
+		B4DC8FDF1E93E7D60081B8F4 /* TGTrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTrip.swift; sourceTree = "<group>"; };
+		B4DC8FE11E93E80D0081B8F4 /* TGTripRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTripRequest.swift; sourceTree = "<group>"; };
+		B4DC8FE31E93E81A0081B8F4 /* TGTripResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTripResponse.swift; sourceTree = "<group>"; };
+		B4DC8FE51E9421610081B8F4 /* TGTripManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGTripManager.swift; sourceTree = "<group>"; };
+		B4F2DC1D1EB24F6800316D93 /* TGFeedbackReceivedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFeedbackReceivedViewController.swift; sourceTree = "<group>"; };
+		B4F621991F03F27A008E321A /* TGSearchCategoryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSearchCategoryService.swift; sourceTree = "<group>"; };
+		B4F6219B1F03F2A3008E321A /* TGSearchCategoryRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSearchCategoryRequest.swift; sourceTree = "<group>"; };
+		B4F6219D1F03F2BA008E321A /* TGSearchCategoryResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSearchCategoryResponse.swift; sourceTree = "<group>"; };
+		B4F6219F1F03F2D2008E321A /* TGSearchCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSearchCategory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF585AA31D4FB01600A15A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF063F3842804A689F2E1F7 /* Pods_TallyGoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF585AAD1D4FB01600A15A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF585AB11D4FB01600A15A4B /* TallyGoKit.framework in Frameworks */,
+				472AF286B179C13DB9C8D955 /* Pods_TallyGoKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF0510B61D5D185A0048FF1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF966A141D5E817500E533FF /* TGAddress.swift */,
+				AF8E0DC11D61FD2C006D97BD /* TGSearchResult.swift */,
+				AF8E0DC31D6209E4006D97BD /* TGOrigin.swift */,
+				AF0510B71D5D19140048FF1C /* TGSearchExtent.swift */,
+				AF0510BB1D5D27F00048FF1C /* TGSuggestion.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AF0D06811D5D0B3E002AD10F /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				AF0D06821D5D0B65002AD10F /* TGFind.swift */,
+				AF8E0DBD1D61FCF5006D97BD /* TGSearchRequest.swift */,
+				AF8E0DBF1D61FD0F006D97BD /* TGSearchResponse.swift */,
+				AF966A101D5E7E6A00E533FF /* TGReverseGeocodeRequest.swift */,
+				AF966A121D5E7E7D00E533FF /* TGReverseGeocodeResponse.swift */,
+				AF0D06841D5D0C11002AD10F /* TGSuggestRequest.swift */,
+				AF0D06861D5D0C44002AD10F /* TGSuggestResponse.swift */,
+				AF0510B61D5D185A0048FF1C /* Model */,
+			);
+			name = Find;
+			sourceTree = "<group>";
+		};
+		AF1C4D241D75F521000EA165 /* User Location and Telemetry */ = {
+			isa = PBXGroup;
+			children = (
+				AFD9FA121E4A61CD00B4883B /* TGStyledMapView.swift */,
+				AFADADCA1D79E55F00DAC0C8 /* TGDrivingSimulatorMapView.swift */,
+				AFDF77411DA45A5400BE4DBE /* TGMapStyle.swift */,
+				AF1C4D251D75F58A000EA165 /* TGLocationManager.swift */,
+				AFF0B51D1D78A58000F23866 /* TGPointIndexShortestDistance.swift */,
+				AFADADCE1D79F80900DAC0C8 /* TGRealLocationManager.swift */,
+				AF6379A51D778CDC00221994 /* TGTelemetry.swift */,
+				AFF0B51F1D78A59A00F23866 /* TGShortestDistanceAndNearestCoordinate.swift */,
+				AFADADCC1D79F6F000DAC0C8 /* TGSimulatedLocationManager.swift */,
+			);
+			name = "User Location and Telemetry";
+			sourceTree = "<group>";
+		};
+		AF1D99711D6B88F8004775F3 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				B4D0DA5B1EEF49C700E003D6 /* Search */,
+				B44E0F581EBA6EB00090F339 /* Turn List */,
+				AFFBE59D1E424F34001D06EF /* TGIdleTimer.swift */,
+				AF1D99721D6B8924004775F3 /* TGNavViewController.swift */,
+				B4B54A0C1EF057AA007732E9 /* TGPassThroughView.swift */,
+				B49D91471EAFD1D700AD3045 /* Feedback */,
+				AF8A408A1D99AD7D00AAA0F4 /* Overlays */,
+				AF8A408B1D99AD8400AAA0F4 /* Buttons */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		AF2862851D51462B007D5241 /* Connection Logging */ = {
+			isa = PBXGroup;
+			children = (
+				AF2862861D51466E007D5241 /* TGConnection.swift */,
+				AF8284AE1DAED04D00915AEF /* TGLogRequest.swift */,
+				AF8284B01DAED05E00915AEF /* TGLogResponse.swift */,
+			);
+			name = "Connection Logging";
+			sourceTree = "<group>";
+		};
+		AF2B4EDE1D4FC797003310FF /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				AF2B4EDF1D4FC7C6003310FF /* TGConfiguration.swift */,
+				AFEA635F1D4FD5580062BC64 /* TGConfigurationRequest.swift */,
+				AFEA63611D4FD56F0062BC64 /* TGConfigurationResponse.swift */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		AF585A9D1D4FB01600A15A4B = {
+			isa = PBXGroup;
+			children = (
+				AFF250D01E4CD5260068BC38 /* TallyGoKit.podspec */,
+				B482F98E1E70EB31006D9A9B /* README.md */,
+				AFB7607F1E5500CE00ACF4E9 /* GenDocs.sh */,
+				AF585AA91D4FB01600A15A4B /* TallyGoKit */,
+				AF585AB41D4FB01600A15A4B /* TallyGoKitTests */,
+				AF585AA81D4FB01600A15A4B /* Products */,
+				AF9B64BD1DB575D000E2B68D /* Frameworks */,
+				CCE10C2D344AC483FB0DFC59 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AF585AA81D4FB01600A15A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF585AA71D4FB01600A15A4B /* TallyGoKit.framework */,
+				AF585AB01D4FB01600A15A4B /* TallyGoKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF585AA91D4FB01600A15A4B /* TallyGoKit */ = {
+			isa = PBXGroup;
+			children = (
+				AF585AAA1D4FB01600A15A4B /* TallyGoKit.h */,
+				AF585AAB1D4FB01600A15A4B /* Info.plist */,
+				AF585AC81D4FB77100A15A4B /* TallyGoKit.swift */,
+				AF7618EE1D77263D00946AF3 /* Assets */,
+				AF625EF21DB7E26300105FBA /* Audio */,
+				AFEA63511D4FD05F0062BC64 /* Base Classes */,
+				AF2B4EDE1D4FC797003310FF /* Configuration */,
+				AF2862851D51462B007D5241 /* Connection Logging */,
+				AFEA635C1D4FD4310062BC64 /* Enumerations */,
+				AFEA63631D4FD5CC0062BC64 /* Extensions */,
+				B47F6FB61EAE65AD0078C3E3 /* Feedback */,
+				AF0D06811D5D0B3E002AD10F /* Find */,
+				AFF1EA621D52A220008FA09C /* Navigation */,
+				B4F621981F03F21D008E321A /* Search Category */,
+				B4DC8FDE1E93E7740081B8F4 /* Trip */,
+				AFD0C9141E3BB7C30033C7F0 /* Update */,
+				AF1C4D241D75F521000EA165 /* User Location and Telemetry */,
+				AF1D99711D6B88F8004775F3 /* User Interface */,
+			);
+			path = TallyGoKit;
+			sourceTree = "<group>";
+		};
+		AF585AB41D4FB01600A15A4B /* TallyGoKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF585AB51D4FB01600A15A4B /* TallyGoKitTests.swift */,
+				AF585AB71D4FB01600A15A4B /* Info.plist */,
+			);
+			path = TallyGoKitTests;
+			sourceTree = "<group>";
+		};
+		AF625EF21DB7E26300105FBA /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				AF625EF31DB7E4E400105FBA /* TGSoundManager.swift */,
+				AF625EF51DB7EF7100105FBA /* TGVoiceSynthesis.swift */,
+				B47C907A1F1581DC00661FBF /* TGVoice.swift */,
+				AF6775DC1DB974A200313C0A /* TGPoint+Audio.swift */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		AF7618EE1D77263D00946AF3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AF7618EF1D77264900946AF3 /* PaintCode */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		AF7618EF1D77264900946AF3 /* PaintCode */ = {
+			isa = PBXGroup;
+			children = (
+				AF7618F01D77268300946AF3 /* TallyGoKit.pcvd */,
+				AF7618F21D77292400946AF3 /* TallyGoStyleKit.swift */,
+			);
+			name = PaintCode;
+			sourceTree = "<group>";
+		};
+		AF8A408A1D99AD7D00AAA0F4 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				AF7618F41D772A3E00946AF3 /* TGVisualTurnIndicator.swift */,
+				AF7618F61D772A6700946AF3 /* TGVisualTurnIndicatorLayer.swift */,
+				AF9F71551D946DD7003EC168 /* TGRouteProgress.swift */,
+				AF9F71571D946DF0003EC168 /* TGRouteProgressLayer.swift */,
+				AF4ABB181D999AA300259754 /* TGOverlayViewController.swift */,
+				AF4ABB1C1D999FE000259754 /* TGCancelConfirmationViewController.swift */,
+				AF4ABB1D1D999FE000259754 /* TGCancelConfirmationViewController.xib */,
+				AF9669DE1D9C25F600EE1165 /* TGProceedToRouteViewController.swift */,
+				AF9669DF1D9C25F600EE1165 /* TGProceedToRouteViewController.xib */,
+				AF7FFBB91DA2A7B4009F57E8 /* TGReroutingViewController.swift */,
+				AF7FFBBA1DA2A7B4009F57E8 /* TGReroutingViewController.xib */,
+				AF01FDA61E033BE400DB141C /* TGArrivedViewController.swift */,
+				AF01FDA71E033BE400DB141C /* TGArrivedViewController.xib */,
+			);
+			name = Overlays;
+			sourceTree = "<group>";
+		};
+		AF8A408B1D99AD8400AAA0F4 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				AF4ABB201D99A10C00259754 /* TGButton.swift */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		AF9B64BD1DB575D000E2B68D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B49013491EAFA98400C31E18 /* Mapbox.framework */,
+				341DED63CCAF0D7846FF2093 /* Pods_TallyGoKit.framework */,
+				7550A4AE303FDC2A816FD27E /* Pods_TallyGoKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFAA43381D5A655300AB6EE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFFAF5281DBFCDA100930608 /* TGSegment.swift */,
+				AFAA43391D5A657C00AB6EE5 /* TGRoute.swift */,
+				AFAA433B1D5A685F00AB6EE5 /* TGPoint.swift */,
+				AFAA433D1D5A6D3500AB6EE5 /* TGTurn.swift */,
+				AFAA433F1D5A735600AB6EE5 /* TGStreet.swift */,
+				AFAA43411D5A7AB200AB6EE5 /* TGHighway.swift */,
+				AFF5B8231E26A8B3008AACC9 /* TGGeoJSONObject.swift */,
+				AFF5B81D1E26A852008AACC9 /* TGGeoJSONFeatureCollection.swift */,
+				AFF5B81F1E26A85C008AACC9 /* TGGeoJSONFeature.swift */,
+				AFF5B8211E26A869008AACC9 /* TGGeoJSONPolygon.swift */,
+				AFEBE5451E2D4703009F37F5 /* TGGeoJSONPoint.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AFD0C9141E3BB7C30033C7F0 /* Update */ = {
+			isa = PBXGroup;
+			children = (
+				AFD0C9151E3BB7E60033C7F0 /* TGUpdate.swift */,
+				AFA4F55E1E3C001500258B50 /* TGUpdateManager.swift */,
+				AFD0C9171E3BB8050033C7F0 /* TGPointUpdateRequest.swift */,
+				AFD0C9191E3BB8150033C7F0 /* TGRouteUpdateRequest.swift */,
+				AFD0C91B1E3BB8250033C7F0 /* TGUpdateResponse.swift */,
+			);
+			name = Update;
+			sourceTree = "<group>";
+		};
+		AFEA63511D4FD05F0062BC64 /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFEA63521D4FD07A0062BC64 /* TGBaseObject.swift */,
+				AFEA63581D4FD2730062BC64 /* TGBaseRequest.swift */,
+				AFEA635A1D4FD37A0062BC64 /* TGBaseResponse.swift */,
+				AFEA63671D4FD69E0062BC64 /* TGBaseService.swift */,
+			);
+			name = "Base Classes";
+			sourceTree = "<group>";
+		};
+		AFEA635C1D4FD4310062BC64 /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				AFEA635D1D4FD4460062BC64 /* TGReponseKey.swift */,
+			);
+			name = Enumerations;
+			sourceTree = "<group>";
+		};
+		AFEA63631D4FD5CC0062BC64 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF6379A91D779D5700221994 /* CLLocation+Distance.swift */,
+				AFE5092E1D87069000AD205A /* CLLocationCoordinate2D+Bearing.swift */,
+				AFF83DEF1E295CF5005B3BF1 /* CLLocationCoordinate2D+Containment.swift */,
+				AF6379A71D779D4200221994 /* CLLocationCoordinate2D+Distance.swift */,
+				AF0510B91D5D1B040048FF1C /* CLLocationCoordinate2D+String.swift */,
+				AFAC7CB61D590792001AC723 /* DateFormatter+RFC3339.swift */,
+				AFD0C91D1E3BC6C30033C7F0 /* Date+ISO8601.swift */,
+				AFEAC1621D908BD00099D3CC /* String+Distance.swift */,
+				AF7618FD1D77353500946AF3 /* String+Truncate.swift */,
+				AFEA63641D4FD5E90062BC64 /* String+URLEncode.swift */,
+				AF3643651D949D5200E6D6E3 /* TimeInterval+Conversion.swift */,
+				B47F6FC71EAE78180078C3E3 /* UIDevice+ModelName.swift */,
+				AF41B40C1D91A59D004321E7 /* UIFont+Custom.swift */,
+				B468128A1F05473E00B81E35 /* UIImage+Scale.swift */,
+				AFFD37161E1DA2E80036FE65 /* URLSession+Synchronous.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		AFF1EA621D52A220008FA09C /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				AFF1EA631D52A43F008FA09C /* TGNavigation.swift */,
+				AFF1EA651D52A476008FA09C /* TGRouteRequest.swift */,
+				AFF1EA671D52A48B008FA09C /* TGRouteResponse.swift */,
+				AFF5B8191E26A727008AACC9 /* TGBoundaryRequest.swift */,
+				AFF5B81B1E26A772008AACC9 /* TGBoundaryResponse.swift */,
+				AFAA43381D5A655300AB6EE5 /* Model */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		B44E0F581EBA6EB00090F339 /* Turn List */ = {
+			isa = PBXGroup;
+			children = (
+				B44E0F591EBA6EDE0090F339 /* TurnList.storyboard */,
+				B44E0F671EBA759E0090F339 /* TGTurnListFactory.swift */,
+				B44E0F5B1EBA6F090090F339 /* TGTurnListViewController.swift */,
+				B44E0F5D1EBA6F880090F339 /* TGTurnListButton.swift */,
+				B44E0F5F1EBA70860090F339 /* TGTurnListBaseTableViewCell.swift */,
+				B44E0F611EBA71630090F339 /* TGTurnListOriginTableViewCell.swift */,
+				B44E0F631EBA718B0090F339 /* TGTurnListTableViewCell.swift */,
+				B44E0F651EBA71C60090F339 /* TGTurnListDestinationTableViewCell.swift */,
+			);
+			name = "Turn List";
+			sourceTree = "<group>";
+		};
+		B47F6FB61EAE65AD0078C3E3 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				B47F6FB81EAE65EC0078C3E3 /* TGFeedback.swift */,
+				B47F6FBA1EAE65FB0078C3E3 /* TGFeedbackRequest.swift */,
+				B47F6FBC1EAE660F0078C3E3 /* TGFeedbackResponse.swift */,
+				B47F6FBE1EAE66B50078C3E3 /* TGFeedbackTopics.swift */,
+				B47F6FC51EAE673B0078C3E3 /* TGFeedbackTopic.swift */,
+				B47F6FC11EAE66CD0078C3E3 /* TGFeedbackTopicsRequest.swift */,
+				B47F6FC31EAE66E20078C3E3 /* TGFeedbackTopicsResponse.swift */,
+			);
+			name = Feedback;
+			sourceTree = "<group>";
+		};
+		B49D91471EAFD1D700AD3045 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				B49D91481EAFD2C300AD3045 /* Feedback.storyboard */,
+				B49D914C1EAFD35600AD3045 /* TGFeedbackFactory.swift */,
+				B49D914A1EAFD31500AD3045 /* TGFeedbackViewController.swift */,
+				B402CC1F1EB0E4050063BC51 /* TGKeyboardInstructionsViewController.swift */,
+				B40D75611EB234E8009B883A /* TGMoreInfoViewController.swift */,
+				B4F2DC1D1EB24F6800316D93 /* TGFeedbackReceivedViewController.swift */,
+			);
+			name = Feedback;
+			sourceTree = "<group>";
+		};
+		B4D0DA5B1EEF49C700E003D6 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B4D0DA5C1EEF49EB00E003D6 /* TGSearchViewController.swift */,
+				B46EF5DD1F0D5D4B00537242 /* TGSearchResultsViewController.swift */,
+				B41232741EF1868B00A38C70 /* TGBackArrow.swift */,
+				B4D789371EF1F3A800CAAF97 /* TGResultsContainer.swift */,
+				B4D0DA5E1EEF49F400E003D6 /* Search.storyboard */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		B4DC8FDE1E93E7740081B8F4 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				B4DC8FDF1E93E7D60081B8F4 /* TGTrip.swift */,
+				B4DC8FE51E9421610081B8F4 /* TGTripManager.swift */,
+				B4DC8FE11E93E80D0081B8F4 /* TGTripRequest.swift */,
+				B4DC8FE31E93E81A0081B8F4 /* TGTripResponse.swift */,
+			);
+			name = Trip;
+			sourceTree = "<group>";
+		};
+		B4F621981F03F21D008E321A /* Search Category */ = {
+			isa = PBXGroup;
+			children = (
+				B4F621991F03F27A008E321A /* TGSearchCategoryService.swift */,
+				B4F6219B1F03F2A3008E321A /* TGSearchCategoryRequest.swift */,
+				B4F6219D1F03F2BA008E321A /* TGSearchCategoryResponse.swift */,
+				B4F6219F1F03F2D2008E321A /* TGSearchCategory.swift */,
+			);
+			name = "Search Category";
+			sourceTree = "<group>";
+		};
+		CCE10C2D344AC483FB0DFC59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8148DE461BED0947BD7AF446 /* Pods-TallyGoKit.debug.xcconfig */,
+				4B165FFB49EB396DC69B6070 /* Pods-TallyGoKit.release.xcconfig */,
+				16B97BEB894343E701AAFEB6 /* Pods-TallyGoKitTests.debug.xcconfig */,
+				04E317CF532CAFA14AC97E0C /* Pods-TallyGoKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AF585AA41D4FB01600A15A4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF585AB81D4FB01600A15A4B /* TallyGoKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AF585AA61D4FB01600A15A4B /* TallyGoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF585ABB1D4FB01600A15A4B /* Build configuration list for PBXNativeTarget "TallyGoKit" */;
+			buildPhases = (
+				F6BB05EA3D923E9FDCFD7091 /* [CP] Check Pods Manifest.lock */,
+				AF585AA21D4FB01600A15A4B /* Sources */,
+				AF585AA31D4FB01600A15A4B /* Frameworks */,
+				AF585AA41D4FB01600A15A4B /* Headers */,
+				AF585AA51D4FB01600A15A4B /* Resources */,
+				4BEF57DD0E91487EDB516AA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TallyGoKit;
+			productName = TallyGoKit;
+			productReference = AF585AA71D4FB01600A15A4B /* TallyGoKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF585AAF1D4FB01600A15A4B /* TallyGoKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF585ABE1D4FB01600A15A4B /* Build configuration list for PBXNativeTarget "TallyGoKitTests" */;
+			buildPhases = (
+				7EE8718FFD2655E6E88E52E5 /* [CP] Check Pods Manifest.lock */,
+				AF585AAC1D4FB01600A15A4B /* Sources */,
+				AF585AAD1D4FB01600A15A4B /* Frameworks */,
+				AF585AAE1D4FB01600A15A4B /* Resources */,
+				BC6DF6DB9107743C4BBF0459 /* [CP] Embed Pods Frameworks */,
+				2974EAC6BD882D46311088DD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF585AB31D4FB01600A15A4B /* PBXTargetDependency */,
+			);
+			name = TallyGoKitTests;
+			productName = TallyGoKitTests;
+			productReference = AF585AB01D4FB01600A15A4B /* TallyGoKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF585A9E1D4FB01600A15A4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TG;
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = TallyGo;
+				TargetAttributes = {
+					AF585AA61D4FB01600A15A4B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 64YUT8C7ML;
+						DevelopmentTeamName = TALLYGO;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					AF585AAF1D4FB01600A15A4B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 64YUT8C7ML;
+						DevelopmentTeamName = TALLYGO;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF585AA11D4FB01600A15A4B /* Build configuration list for PBXProject "TallyGoKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF585A9D1D4FB01600A15A4B;
+			productRefGroup = AF585AA81D4FB01600A15A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF585AA61D4FB01600A15A4B /* TallyGoKit */,
+				AF585AAF1D4FB01600A15A4B /* TallyGoKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF585AA51D4FB01600A15A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49D91491EAFD2C300AD3045 /* Feedback.storyboard in Resources */,
+				AF9669E11D9C25F600EE1165 /* TGProceedToRouteViewController.xib in Resources */,
+				AF01FDA91E033BE400DB141C /* TGArrivedViewController.xib in Resources */,
+				AF4ABB1F1D999FE000259754 /* TGCancelConfirmationViewController.xib in Resources */,
+				AF7FFBBC1DA2A7B4009F57E8 /* TGReroutingViewController.xib in Resources */,
+				B4D0DA5F1EEF49F400E003D6 /* Search.storyboard in Resources */,
+				B44E0F5A1EBA6EDE0090F339 /* TurnList.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF585AAE1D4FB01600A15A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2974EAC6BD882D46311088DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TallyGoKitTests/Pods-TallyGoKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BEF57DD0E91487EDB516AA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TallyGoKit/Pods-TallyGoKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EE8718FFD2655E6E88E52E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6DF6DB9107743C4BBF0459 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TallyGoKitTests/Pods-TallyGoKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6BB05EA3D923E9FDCFD7091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF585AA21D4FB01600A15A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFADADCD1D79F6F000DAC0C8 /* TGSimulatedLocationManager.swift in Sources */,
+				B4D789381EF1F3A800CAAF97 /* TGResultsContainer.swift in Sources */,
+				AF7618FE1D77353500946AF3 /* String+Truncate.swift in Sources */,
+				AF2862871D51466E007D5241 /* TGConnection.swift in Sources */,
+				AFEBE5461E2D4703009F37F5 /* TGGeoJSONPoint.swift in Sources */,
+				AF585AC91D4FB77100A15A4B /* TallyGoKit.swift in Sources */,
+				AF4ABB1E1D999FE000259754 /* TGCancelConfirmationViewController.swift in Sources */,
+				AFEA63681D4FD69E0062BC64 /* TGBaseService.swift in Sources */,
+				AFD0C91E1E3BC6C30033C7F0 /* Date+ISO8601.swift in Sources */,
+				AFEA63531D4FD07A0062BC64 /* TGBaseObject.swift in Sources */,
+				AFEA63651D4FD5E90062BC64 /* String+URLEncode.swift in Sources */,
+				B44E0F641EBA718B0090F339 /* TGTurnListTableViewCell.swift in Sources */,
+				AFF0B51E1D78A58000F23866 /* TGPointIndexShortestDistance.swift in Sources */,
+				AFF5B8241E26A8B3008AACC9 /* TGGeoJSONObject.swift in Sources */,
+				AF9669E01D9C25F600EE1165 /* TGProceedToRouteViewController.swift in Sources */,
+				AFEAC15F1D9073D70099D3CC /* TallyGoStyleKit.swift in Sources */,
+				AF1D99731D6B8924004775F3 /* TGNavViewController.swift in Sources */,
+				AF8E0DC21D61FD2C006D97BD /* TGSearchResult.swift in Sources */,
+				B47F6FBF1EAE66B50078C3E3 /* TGFeedbackTopics.swift in Sources */,
+				AF0510BA1D5D1B040048FF1C /* CLLocationCoordinate2D+String.swift in Sources */,
+				AF2B4EE01D4FC7C6003310FF /* TGConfiguration.swift in Sources */,
+				AF0510BC1D5D27F00048FF1C /* TGSuggestion.swift in Sources */,
+				AFEA63601D4FD5580062BC64 /* TGConfigurationRequest.swift in Sources */,
+				AFAA433E1D5A6D3500AB6EE5 /* TGTurn.swift in Sources */,
+				B47F6FC21EAE66CD0078C3E3 /* TGFeedbackTopicsRequest.swift in Sources */,
+				B44E0F661EBA71C60090F339 /* TGTurnListDestinationTableViewCell.swift in Sources */,
+				AFF0B5201D78A59A00F23866 /* TGShortestDistanceAndNearestCoordinate.swift in Sources */,
+				AFF5B81C1E26A772008AACC9 /* TGBoundaryResponse.swift in Sources */,
+				B47F6FB91EAE65EC0078C3E3 /* TGFeedback.swift in Sources */,
+				AFF5B8221E26A869008AACC9 /* TGGeoJSONPolygon.swift in Sources */,
+				B44E0F5C1EBA6F090090F339 /* TGTurnListViewController.swift in Sources */,
+				AFFAF5291DBFCDA100930608 /* TGSegment.swift in Sources */,
+				AF6379AA1D779D5700221994 /* CLLocation+Distance.swift in Sources */,
+				AFD0C9181E3BB8050033C7F0 /* TGPointUpdateRequest.swift in Sources */,
+				AFDF77421DA45A5400BE4DBE /* TGMapStyle.swift in Sources */,
+				AF8E0DC41D6209E4006D97BD /* TGOrigin.swift in Sources */,
+				B4F2DC1E1EB24F6800316D93 /* TGFeedbackReceivedViewController.swift in Sources */,
+				AFD0C91C1E3BB8250033C7F0 /* TGUpdateResponse.swift in Sources */,
+				AF625EF41DB7E4E400105FBA /* TGSoundManager.swift in Sources */,
+				B4F6219C1F03F2A3008E321A /* TGSearchCategoryRequest.swift in Sources */,
+				AF01FDA81E033BE400DB141C /* TGArrivedViewController.swift in Sources */,
+				AF6379A81D779D4200221994 /* CLLocationCoordinate2D+Distance.swift in Sources */,
+				AF6775DD1DB974A200313C0A /* TGPoint+Audio.swift in Sources */,
+				AF3643661D949D5200E6D6E3 /* TimeInterval+Conversion.swift in Sources */,
+				B4DC8FE61E9421610081B8F4 /* TGTripManager.swift in Sources */,
+				AF4ABB211D99A10C00259754 /* TGButton.swift in Sources */,
+				B44E0F681EBA759E0090F339 /* TGTurnListFactory.swift in Sources */,
+				AF966A151D5E817500E533FF /* TGAddress.swift in Sources */,
+				AFADADCB1D79E55F00DAC0C8 /* TGDrivingSimulatorMapView.swift in Sources */,
+				AF41B40D1D91A59D004321E7 /* UIFont+Custom.swift in Sources */,
+				B468128B1F05473E00B81E35 /* UIImage+Scale.swift in Sources */,
+				B4D0DA5D1EEF49EB00E003D6 /* TGSearchViewController.swift in Sources */,
+				AF7FFBBB1DA2A7B4009F57E8 /* TGReroutingViewController.swift in Sources */,
+				AFAA43401D5A735600AB6EE5 /* TGStreet.swift in Sources */,
+				AFFBE59E1E424F34001D06EF /* TGIdleTimer.swift in Sources */,
+				B40D75621EB234E8009B883A /* TGMoreInfoViewController.swift in Sources */,
+				AF9F71581D946DF0003EC168 /* TGRouteProgressLayer.swift in Sources */,
+				AF0510B81D5D19140048FF1C /* TGSearchExtent.swift in Sources */,
+				B49D914D1EAFD35600AD3045 /* TGFeedbackFactory.swift in Sources */,
+				B4DC8FE01E93E7D60081B8F4 /* TGTrip.swift in Sources */,
+				B47F6FC61EAE673B0078C3E3 /* TGFeedbackTopic.swift in Sources */,
+				AFE5092F1D87069000AD205A /* CLLocationCoordinate2D+Bearing.swift in Sources */,
+				AFF1EA661D52A476008FA09C /* TGRouteRequest.swift in Sources */,
+				AF966A131D5E7E7D00E533FF /* TGReverseGeocodeResponse.swift in Sources */,
+				B402CC201EB0E4050063BC51 /* TGKeyboardInstructionsViewController.swift in Sources */,
+				AFF5B81E1E26A852008AACC9 /* TGGeoJSONFeatureCollection.swift in Sources */,
+				AF966A111D5E7E6A00E533FF /* TGReverseGeocodeRequest.swift in Sources */,
+				AFEAC1631D908BD00099D3CC /* String+Distance.swift in Sources */,
+				AFF1EA681D52A48B008FA09C /* TGRouteResponse.swift in Sources */,
+				AF8284AF1DAED04D00915AEF /* TGLogRequest.swift in Sources */,
+				AF1C4D261D75F58A000EA165 /* TGLocationManager.swift in Sources */,
+				B4B54A0D1EF057AA007732E9 /* TGPassThroughView.swift in Sources */,
+				B47F6FBB1EAE65FB0078C3E3 /* TGFeedbackRequest.swift in Sources */,
+				B44E0F5E1EBA6F880090F339 /* TGTurnListButton.swift in Sources */,
+				AFFD37171E1DA2E80036FE65 /* URLSession+Synchronous.swift in Sources */,
+				B47F6FC81EAE78180078C3E3 /* UIDevice+ModelName.swift in Sources */,
+				AFADADCF1D79F80900DAC0C8 /* TGRealLocationManager.swift in Sources */,
+				B46EF5DE1F0D5D4B00537242 /* TGSearchResultsViewController.swift in Sources */,
+				AF8E0DC01D61FD0F006D97BD /* TGSearchResponse.swift in Sources */,
+				AFEA635B1D4FD37A0062BC64 /* TGBaseResponse.swift in Sources */,
+				AFD0C9161E3BB7E60033C7F0 /* TGUpdate.swift in Sources */,
+				AFEA63621D4FD56F0062BC64 /* TGConfigurationResponse.swift in Sources */,
+				AFF83DF01E295CF5005B3BF1 /* CLLocationCoordinate2D+Containment.swift in Sources */,
+				B4DC8FE21E93E80D0081B8F4 /* TGTripRequest.swift in Sources */,
+				AFA4F55F1E3C001500258B50 /* TGUpdateManager.swift in Sources */,
+				AFF5B8201E26A85C008AACC9 /* TGGeoJSONFeature.swift in Sources */,
+				AF9F71561D946DD7003EC168 /* TGRouteProgress.swift in Sources */,
+				AFAA433C1D5A685F00AB6EE5 /* TGPoint.swift in Sources */,
+				AF0D06851D5D0C11002AD10F /* TGSuggestRequest.swift in Sources */,
+				AF4ABB191D999AA300259754 /* TGOverlayViewController.swift in Sources */,
+				AFAA433A1D5A657C00AB6EE5 /* TGRoute.swift in Sources */,
+				B41232751EF1868B00A38C70 /* TGBackArrow.swift in Sources */,
+				AF6379A61D778CDC00221994 /* TGTelemetry.swift in Sources */,
+				B47C907B1F1581DC00661FBF /* TGVoice.swift in Sources */,
+				B47F6FC41EAE66E20078C3E3 /* TGFeedbackTopicsResponse.swift in Sources */,
+				AFD9FA131E4A61CD00B4883B /* TGStyledMapView.swift in Sources */,
+				B49D914B1EAFD31500AD3045 /* TGFeedbackViewController.swift in Sources */,
+				AFEA635E1D4FD4460062BC64 /* TGReponseKey.swift in Sources */,
+				AFEAC1601D9074850099D3CC /* TGVisualTurnIndicator.swift in Sources */,
+				AFEAC1611D9074870099D3CC /* TGVisualTurnIndicatorLayer.swift in Sources */,
+				AF0D06831D5D0B65002AD10F /* TGFind.swift in Sources */,
+				B47F6FBD1EAE660F0078C3E3 /* TGFeedbackResponse.swift in Sources */,
+				AFF5B81A1E26A727008AACC9 /* TGBoundaryRequest.swift in Sources */,
+				B4DC8FE41E93E81A0081B8F4 /* TGTripResponse.swift in Sources */,
+				B44E0F621EBA71630090F339 /* TGTurnListOriginTableViewCell.swift in Sources */,
+				AFAC7CB71D590792001AC723 /* DateFormatter+RFC3339.swift in Sources */,
+				AF8284B11DAED05E00915AEF /* TGLogResponse.swift in Sources */,
+				B4F6219A1F03F27A008E321A /* TGSearchCategoryService.swift in Sources */,
+				B44E0F601EBA70860090F339 /* TGTurnListBaseTableViewCell.swift in Sources */,
+				B4F6219E1F03F2BA008E321A /* TGSearchCategoryResponse.swift in Sources */,
+				B4F621A01F03F2D2008E321A /* TGSearchCategory.swift in Sources */,
+				AFEA63591D4FD2730062BC64 /* TGBaseRequest.swift in Sources */,
+				AFAA43421D5A7AB200AB6EE5 /* TGHighway.swift in Sources */,
+				AF8E0DBE1D61FCF5006D97BD /* TGSearchRequest.swift in Sources */,
+				AF0D06871D5D0C44002AD10F /* TGSuggestResponse.swift in Sources */,
+				AFF1EA641D52A43F008FA09C /* TGNavigation.swift in Sources */,
+				AFD0C91A1E3BB8150033C7F0 /* TGRouteUpdateRequest.swift in Sources */,
+				AF625EF61DB7EF7100105FBA /* TGVoiceSynthesis.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF585AAC1D4FB01600A15A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF585AB61D4FB01600A15A4B /* TallyGoKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF585AB31D4FB01600A15A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF585AA61D4FB01600A15A4B /* TallyGoKit */;
+			targetProxy = AF585AB21D4FB01600A15A4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF585AB91D4FB01600A15A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF585ABA1D4FB01600A15A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF585ABC1D4FB01600A15A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8148DE461BED0947BD7AF446 /* Pods-TallyGoKit.debug.xcconfig */;
+			buildSettings = {
+				BITCODE_GENERATION_MODE = marker;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/Mapbox-iOS-SDK/dynamic",
+				);
+				INFOPLIST_FILE = TallyGoKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-fembed-bitcode-marker",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tallygo.TallyGoKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF585ABD1D4FB01600A15A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B165FFB49EB396DC69B6070 /* Pods-TallyGoKit.release.xcconfig */;
+			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/Mapbox-iOS-SDK/dynamic",
+				);
+				INFOPLIST_FILE = TallyGoKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-fembed-bitcode",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tallygo.TallyGoKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AF585ABF1D4FB01600A15A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B97BEB894343E701AAFEB6 /* Pods-TallyGoKitTests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TallyGoKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks \"$(SRCROOT)/\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tallygo.TallyGoKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF585AC01D4FB01600A15A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E317CF532CAFA14AC97E0C /* Pods-TallyGoKitTests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TallyGoKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks \"$(SRCROOT)/\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tallygo.TallyGoKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF585AA11D4FB01600A15A4B /* Build configuration list for PBXProject "TallyGoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF585AB91D4FB01600A15A4B /* Debug */,
+				AF585ABA1D4FB01600A15A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF585ABB1D4FB01600A15A4B /* Build configuration list for PBXNativeTarget "TallyGoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF585ABC1D4FB01600A15A4B /* Debug */,
+				AF585ABD1D4FB01600A15A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF585ABE1D4FB01600A15A4B /* Build configuration list for PBXNativeTarget "TallyGoKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF585ABF1D4FB01600A15A4B /* Debug */,
+				AF585AC01D4FB01600A15A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF585A9E1D4FB01600A15A4B /* Project object */;
+}
