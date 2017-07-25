@@ -7,7 +7,7 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
 
 ## Getting Started
 
-1. If you don't already have one, request an Access Token from [sdk@tallygo.com](mailto:sdk@tallygo.com?subject=SDK Token Request).
+1. If you don't already have one, request an Access Token by signing up for an account at [tallygo.com](http://www.tallygo.com/sign-up).
 1. If you use Cocoapods, just add `pod 'TallyGoKit'` to your Podfile.
 1. If you do not wish to use Cocoapods, download the `TallyGoKit.framework` and include it in you target's "Linked Frameworks and Libraries"
 1. Have a look at the [Reference Implementation](https://github.com/tallygo/TallyGoKit/tree/develop/Reference%20Implementation%20Swift).
