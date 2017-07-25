@@ -1,5 +1,3 @@
-![TallyGo Logo](http://www.tallygo.com/img/tallygo-logo-basic2.png "TallyGo SDK Logo")
-
 # TallyGoKit
 
 The TallyGo Navigation SDK (TallyGoKit) enables you to embed turn-by-turn navigation features directly in your iOS app. It is currently designed for Swift 3.0 projects, including iPhone and iPad devices.
