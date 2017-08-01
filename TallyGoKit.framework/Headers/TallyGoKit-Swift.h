@@ -134,10 +134,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import CoreLocation;
 @import Foundation;
+@import Mapbox;
 @import UIKit;
 @import CoreGraphics;
 @import ObjectiveC;
-@import Mapbox;
 @import AVFoundation;
 #endif
 
@@ -149,6 +149,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 @interface NSDateFormatter (SWIFT_EXTENSION(TallyGoKit))
+@end
+
+
+@interface MGLMapView (SWIFT_EXTENSION(TallyGoKit))
 @end
 
 @class NSCoder;
@@ -168,27 +172,37 @@ SWIFT_CLASS("_TtC10TallyGoKit8TGButton")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-/// A class that facilitiates disabling the device’s idle timer.
-SWIFT_CLASS("_TtC10TallyGoKit11TGIdleTimer")
-@interface TGIdleTimer : NSObject
-/// The shared instance of TGIdleTimer.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TGIdleTimer * _Nonnull shared;)
-+ (TGIdleTimer * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-/// Disables the idle timer and prevents the device from sleeping.
-- (void)disableIdleTimer;
-/// Enables the idle timer and allows the device to sleep, but only after the given delay.
-- (void)enableIdleTimerAfterTimeInterval:(NSTimeInterval)afterTimeInterval;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class MGLMapView;
 @class UIStoryboardSegue;
 @class NSBundle;
 
+SWIFT_CLASS("_TtC10TallyGoKit24TGFeedbackViewController")
+@interface TGFeedbackViewController : UIViewController
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull storyboardName;)
++ (NSString * _Nonnull)storyboardName SWIFT_WARN_UNUSED_RESULT;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+
+@interface TGFeedbackViewController (SWIFT_EXTENSION(TallyGoKit)) <UITableViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+@class UITableViewCell;
+
+@interface TGFeedbackViewController (SWIFT_EXTENSION(TallyGoKit)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
 /// View controller with TallyGo navigation and Mapbox mapview
-SWIFT_CLASS("_TtC10TallyGoKit19TGNavViewController")
-@interface TGNavViewController : UIViewController
+SWIFT_CLASS("_TtC10TallyGoKit24TGGuidanceViewController")
+@interface TGGuidanceViewController : UIViewController
 /// Mapbox MGLMapView
 @property (nonatomic, readonly, strong) MGLMapView * _Nonnull mapview;
 /// Determines whether origin icon is displayed
@@ -227,7 +241,25 @@ SWIFT_CLASS("_TtC10TallyGoKit19TGNavViewController")
 @end
 
 
-@interface TGNavViewController (SWIFT_EXTENSION(TallyGoKit))
+@interface TGGuidanceViewController (SWIFT_EXTENSION(TallyGoKit))
+@end
+
+
+@interface TGGuidanceViewController (SWIFT_EXTENSION(TallyGoKit))
+@end
+
+
+/// A class that facilitiates disabling the device’s idle timer.
+SWIFT_CLASS("_TtC10TallyGoKit11TGIdleTimer")
+@interface TGIdleTimer : NSObject
+/// The shared instance of TGIdleTimer.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TGIdleTimer * _Nonnull shared;)
++ (TGIdleTimer * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+/// Disables the idle timer and prevents the device from sleeping.
+- (void)disableIdleTimer;
+/// Enables the idle timer and allows the device to sleep, but only after the given delay.
+- (void)enableIdleTimerAfterTimeInterval:(NSTimeInterval)afterTimeInterval;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -238,8 +270,6 @@ SWIFT_CLASS("_TtC10TallyGoKit29TGSearchResultsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
-@class UITableViewCell;
 
 @interface TGSearchResultsViewController (SWIFT_EXTENSION(TallyGoKit)) <UITableViewDataSource>
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -301,6 +331,8 @@ SWIFT_CLASS("_TtC10TallyGoKit27TGTurnListBaseTableViewCell")
 
 SWIFT_CLASS("_TtC10TallyGoKit24TGTurnListViewController")
 @interface TGTurnListViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull storyboardName;)
++ (NSString * _Nonnull)storyboardName SWIFT_WARN_UNUSED_RESULT;
 - (void)viewDidLoad;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -418,6 +450,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _N
 + (void)drawBackArrowWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
 + (void)drawSearchBackgroundWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
 + (void)drawSearchIconWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
++ (void)drawMenuButtonWithHighlighted:(BOOL)highlighted;
++ (void)drawStopNavigationIconWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
++ (void)drawSendFeedbackIconWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
++ (void)drawRouteOverviewIconWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
++ (void)drawTurnListIconWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
++ (void)drawSoundIconWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
 /// / Generated Images
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfUTurnLeft;)
 + (UIImage * _Nonnull)imageOfUTurnLeft SWIFT_WARN_UNUSED_RESULT;
@@ -508,6 +546,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _N
 + (UIImage * _Nonnull)imageOfMapMarker SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfSearchIcon;)
 + (UIImage * _Nonnull)imageOfSearchIcon SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfStopNavigationIcon;)
++ (UIImage * _Nonnull)imageOfStopNavigationIcon SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfSendFeedbackIcon;)
++ (UIImage * _Nonnull)imageOfSendFeedbackIcon SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfRouteOverviewIcon;)
++ (UIImage * _Nonnull)imageOfRouteOverviewIcon SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfTurnListIcon;)
++ (UIImage * _Nonnull)imageOfTurnListIcon SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfSoundIcon;)
++ (UIImage * _Nonnull)imageOfSoundIcon SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
