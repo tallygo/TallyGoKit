@@ -37,7 +37,7 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
     let destination = CLLocationCoordinate2DMake(33.987760, -118.470784)
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let viewController = segue.destination as? TGNavViewController {
+        if let viewController = segue.destination as? TGGuidanceViewController {
             viewController.showsOriginIcon = false
             viewController.origin = origin
             viewController.destination = destination
