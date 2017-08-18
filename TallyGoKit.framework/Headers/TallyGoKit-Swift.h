@@ -203,6 +203,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// View controller with TallyGo navigation and Mapbox mapview
 SWIFT_CLASS("_TtC10TallyGoKit24TGGuidanceViewController")
 @interface TGGuidanceViewController : UIViewController
+/// Storyboad name
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull storyboardName;)
++ (NSString * _Nonnull)storyboardName SWIFT_WARN_UNUSED_RESULT;
 /// Mapbox MGLMapView
 @property (nonatomic, readonly, strong) MGLMapView * _Nonnull mapview;
 /// Determines whether origin icon is displayed
@@ -215,18 +218,20 @@ SWIFT_CLASS("_TtC10TallyGoKit24TGGuidanceViewController")
 @property (nonatomic, copy) NSString * _Nullable proceedToRouteSpeech;
 /// Text that will be spoken upon arrival
 @property (nonatomic, copy) NSString * _Nullable arrivalSpeech;
+/// Text used in local notification if app is in background
+@property (nonatomic, copy) NSString * _Nullable arrivalNotification;
 /// Do not use. For internal testing only.
 @property (nonatomic) BOOL showMakeWrongTurnButton;
 /// Address to be displayed in the route progress bar
 @property (nonatomic, copy) NSString * _Nullable destinationAddress;
 /// Address to be displayed in the arrival overlay under the address
 @property (nonatomic, copy) NSString * _Nullable destinationAddressLine2;
-/// The default initializer.
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 /// Configures the map, add notification observers, and requests the route.
 - (void)viewDidLoad;
 /// Sets the status bar style.
 @property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+/// Hides the navigation bar
+- (void)viewWillAppear:(BOOL)animated;
 /// Shows the user’s location
 - (void)viewDidAppear:(BOOL)animated;
 /// Position the subviews.
@@ -237,7 +242,8 @@ SWIFT_CLASS("_TtC10TallyGoKit24TGGuidanceViewController")
 @property (nonatomic, copy) void (^ _Nullable performAdditionalLayout)(void);
 /// Override point to perform tasks at arrival. Default implementation does nothing.
 @property (nonatomic, copy) void (^ _Nullable performActionOnArrival)(void);
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -260,6 +266,53 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TGIdleTimer 
 /// Enables the idle timer and allows the device to sleep, but only after the given delay.
 - (void)enableIdleTimerAfterTimeInterval:(NSTimeInterval)afterTimeInterval;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10TallyGoKit24TGOverviewViewController")
+@interface TGOverviewViewController : UIViewController
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull storyboardName;)
++ (NSString * _Nonnull)storyboardName SWIFT_WARN_UNUSED_RESULT;
+- (void)viewDidLoad;
+- (void)viewDidLayoutSubviews;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@protocol MGLAnnotation;
+@class MGLAnnotationImage;
+@class MGLPolyline;
+@class MGLShape;
+@class UIColor;
+
+@interface TGOverviewViewController (SWIFT_EXTENSION(TallyGoKit)) <MGLMapViewDelegate>
+- (MGLAnnotationImage * _Nullable)mapView:(MGLMapView * _Nonnull)mapView imageForAnnotation:(id <MGLAnnotation> _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)mapView:(MGLMapView * _Nonnull)mapView lineWidthForPolylineAnnotation:(MGLPolyline * _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
+- (UIColor * _Nonnull)mapView:(MGLMapView * _Nonnull)mapView strokeColorForShapeAnnotation:(MGLShape * _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)mapView:(MGLMapView * _Nonnull)mapView alphaForShapeAnnotation:(MGLShape * _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC10TallyGoKit28TGRoutePreviewViewController")
+@interface TGRoutePreviewViewController : UIViewController
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull storyboardName;)
++ (NSString * _Nonnull)storyboardName SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, copy) NSString * _Nullable originAddress;
+@property (nonatomic, copy) NSString * _Nullable destinationAddress;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
+@property (nonatomic, copy) void (^ _Nullable onTallyGo)(void);
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface TGRoutePreviewViewController (SWIFT_EXTENSION(TallyGoKit)) <MGLMapViewDelegate>
+- (MGLAnnotationImage * _Nullable)mapView:(MGLMapView * _Nonnull)mapView imageForAnnotation:(id <MGLAnnotation> _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)mapView:(MGLMapView * _Nonnull)mapView lineWidthForPolylineAnnotation:(MGLPolyline * _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
+- (UIColor * _Nonnull)mapView:(MGLMapView * _Nonnull)mapView strokeColorForShapeAnnotation:(MGLShape * _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)mapView:(MGLMapView * _Nonnull)mapView alphaForShapeAnnotation:(MGLShape * _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -367,7 +420,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL enabled;)
 - (void)speechSynthesizer:(AVSpeechSynthesizer * _Nonnull)synthesizer didContinueSpeechUtterance:(AVSpeechUtterance * _Nonnull)utterance;
 @end
 
-@class UIColor;
 @class UIImage;
 enum TallyGoStyleKitResizingBehavior : NSInteger;
 
@@ -447,6 +499,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _N
 + (void)drawTLSlightLeft;
 + (void)drawBackButtonWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
 + (void)drawMapMarkerWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
++ (void)drawSmallMapMarkerWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
 + (void)drawBackArrowWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
 + (void)drawSearchBackgroundWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
 + (void)drawSearchIconWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
@@ -456,6 +509,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIColor * _N
 + (void)drawRouteOverviewIconWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
 + (void)drawTurnListIconWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
 + (void)drawSoundIconWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
++ (void)drawSelectionArrowWithFrame:(CGRect)targetFrame resizing:(enum TallyGoStyleKitResizingBehavior)resizing;
 /// / Generated Images
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfUTurnLeft;)
 + (UIImage * _Nonnull)imageOfUTurnLeft SWIFT_WARN_UNUSED_RESULT;
@@ -544,6 +598,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _N
 + (UIImage * _Nonnull)imageOfBackButton SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfMapMarker;)
 + (UIImage * _Nonnull)imageOfMapMarker SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfSmallMapMarker;)
++ (UIImage * _Nonnull)imageOfSmallMapMarker SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfSearchIcon;)
 + (UIImage * _Nonnull)imageOfSearchIcon SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfStopNavigationIcon;)
@@ -556,6 +612,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _N
 + (UIImage * _Nonnull)imageOfTurnListIcon SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfSoundIcon;)
 + (UIImage * _Nonnull)imageOfSoundIcon SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfSelectionArrow;)
++ (UIImage * _Nonnull)imageOfSelectionArrow SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

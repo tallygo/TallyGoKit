@@ -14,7 +14,7 @@
     <a title="TallyGoStyleKit Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">TallyGoKit Docs</a> (61% documented)</p>
+        <p><a href="../index.html">TallyGoKit Docs</a> (57% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -64,6 +64,15 @@
                 <a href="../Classes/TGConfigurationResponse.html">TGConfigurationResponse</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes.html#/s:C10TallyGoKit14TGEventRequest">TGEventRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C10TallyGoKit15TGEventResponse">TGEventResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGEventService.html">TGEventService</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/TGFeedbackViewController.html">TGFeedbackViewController</a>
               </li>
               <li class="nav-group-task">
@@ -103,6 +112,9 @@
                 <a href="../Classes/TGNavigation.html">TGNavigation</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/TGOverviewViewController.html">TGOverviewViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/TGPoint.html">TGPoint</a>
               </li>
               <li class="nav-group-task">
@@ -113,6 +125,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TGRoute.html">TGRoute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TGRoutePreviewViewController.html">TGRoutePreviewViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TGRouteRequest.html">TGRouteRequest</a>
@@ -519,7 +534,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="kd">dynamic</span> <span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">drawVisualTurnIndicator</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span> <span class="o">=</span> <span class="kt">CGRect</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="mi">320</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="mi">80</span><span class="p">),</span> <span class="nv">approachColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="p">(</span><span class="nv">red</span><span class="p">:</span> <span class="mf">0.427</span><span class="p">,</span> <span class="nv">green</span><span class="p">:</span> <span class="mf">0.655</span><span class="p">,</span> <span class="nv">blue</span><span class="p">:</span> <span class="mf">0.075</span><span class="p">,</span> <span class="nv">alpha</span><span class="p">:</span> <span class="mf">1.000</span><span class="p">),</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">,</span> <span class="nv">approachIndicatorWidth</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">163</span><span class="p">,</span> <span class="nv">street</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"Stewart Street"</span><span class="p">,</span> <span class="nv">distance</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"5.2 miles"</span><span class="p">)</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="kd">dynamic</span> <span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">drawVisualTurnIndicator</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span> <span class="o">=</span> <span class="kt">CGRect</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="mi">320</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="mi">100</span><span class="p">),</span> <span class="nv">approachColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="p">(</span><span class="nv">red</span><span class="p">:</span> <span class="mf">0.427</span><span class="p">,</span> <span class="nv">green</span><span class="p">:</span> <span class="mf">0.655</span><span class="p">,</span> <span class="nv">blue</span><span class="p">:</span> <span class="mf">0.075</span><span class="p">,</span> <span class="nv">alpha</span><span class="p">:</span> <span class="mf">1.000</span><span class="p">),</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">,</span> <span class="nv">approachIndicatorWidth</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">163</span><span class="p">,</span> <span class="nv">street</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"Stewart Street"</span><span class="p">,</span> <span class="nv">distance</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"5.2 miles"</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -1574,6 +1589,25 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:ZFC10TallyGoKit15TallyGoStyleKit18drawSmallMapMarkerFT5frameVSC6CGRect8resizingOS0_16ResizingBehavior_T_"></a>
+                    <a name="//apple_ref/swift/Method/drawSmallMapMarker(frame:resizing:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC10TallyGoKit15TallyGoStyleKit18drawSmallMapMarkerFT5frameVSC6CGRect8resizingOS0_16ResizingBehavior_T_">drawSmallMapMarker(frame:resizing:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:ZFC10TallyGoKit15TallyGoStyleKit13drawBackArrowFT5frameVSC6CGRect8resizingOS0_16ResizingBehavior_T_"></a>
                     <a name="//apple_ref/swift/Method/drawBackArrow(frame:resizing:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:ZFC10TallyGoKit15TallyGoStyleKit13drawBackArrowFT5frameVSC6CGRect8resizingOS0_16ResizingBehavior_T_">drawBackArrow(frame:resizing:)</a>
@@ -1729,6 +1763,25 @@
                     <a name="/s:ZFC10TallyGoKit15TallyGoStyleKit13drawSoundIconFT5frameVSC6CGRect8resizingOS0_16ResizingBehavior_T_"></a>
                     <a name="//apple_ref/swift/Method/drawSoundIcon(frame:resizing:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:ZFC10TallyGoKit15TallyGoStyleKit13drawSoundIconFT5frameVSC6CGRect8resizingOS0_16ResizingBehavior_T_">drawSoundIcon(frame:resizing:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC10TallyGoKit15TallyGoStyleKit18drawSelectionArrowFT5frameVSC6CGRect8resizingOS0_16ResizingBehavior_T_"></a>
+                    <a name="//apple_ref/swift/Method/drawSelectionArrow(frame:resizing:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC10TallyGoKit15TallyGoStyleKit18drawSelectionArrowFT5frameVSC6CGRect8resizingOS0_16ResizingBehavior_T_">drawSelectionArrow(frame:resizing:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2608,6 +2661,25 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:ZvC10TallyGoKit15TallyGoStyleKit21imageOfSmallMapMarkerCSo7UIImage"></a>
+                    <a name="//apple_ref/swift/Variable/imageOfSmallMapMarker" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvC10TallyGoKit15TallyGoStyleKit21imageOfSmallMapMarkerCSo7UIImage">imageOfSmallMapMarker</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:ZvC10TallyGoKit15TallyGoStyleKit17imageOfSearchIconCSo7UIImage"></a>
                     <a name="//apple_ref/swift/Variable/imageOfSearchIcon" class="dashAnchor"></a>
                     <a class="token" href="#/s:ZvC10TallyGoKit15TallyGoStyleKit17imageOfSearchIconCSo7UIImage">imageOfSearchIcon</a>
@@ -2722,6 +2794,25 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:ZvC10TallyGoKit15TallyGoStyleKit21imageOfSelectionArrowCSo7UIImage"></a>
+                    <a name="//apple_ref/swift/Variable/imageOfSelectionArrow" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvC10TallyGoKit15TallyGoStyleKit21imageOfSelectionArrowCSo7UIImage">imageOfSelectionArrow</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:OC10TallyGoKit15TallyGoStyleKit16ResizingBehavior"></a>
                     <a name="//apple_ref/swift/Enum/ResizingBehavior" class="dashAnchor"></a>
                     <a class="token" href="#/s:OC10TallyGoKit15TallyGoStyleKit16ResizingBehavior">ResizingBehavior</a>
@@ -2744,7 +2835,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-08-01)</p>
+          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-08-18)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.5</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

@@ -1,6 +1,20 @@
 {
   "warnings": [
     {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGEventRequest.swift",
+      "line": 11,
+      "symbol": "TGEventRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGEventResponse.swift",
+      "line": 11,
+      "symbol": "TGEventResponse",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGFeedbackViewController.swift",
       "line": null,
       "symbol": "TGFeedbackViewController",
@@ -67,6 +81,181 @@
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGFeedbackViewController.swift",
       "line": 112,
       "symbol": "TGFeedbackViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
+      "line": null,
+      "symbol": "TGOverviewViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
+      "line": 12,
+      "symbol": "TGOverviewViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
+      "line": 19,
+      "symbol": "TGOverviewViewController.storyboardName",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
+      "line": 23,
+      "symbol": "TGOverviewViewController.segment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
+      "line": 25,
+      "symbol": "TGOverviewViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
+      "line": 48,
+      "symbol": "TGOverviewViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
+      "line": 83,
+      "symbol": "TGOverviewViewController.mapView(_:imageFor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
+      "line": 99,
+      "symbol": "TGOverviewViewController.mapView(_:lineWidthForPolylineAnnotation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
+      "line": 103,
+      "symbol": "TGOverviewViewController.mapView(_:strokeColorForShapeAnnotation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
+      "line": 107,
+      "symbol": "TGOverviewViewController.mapView(_:alphaForShapeAnnotation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": null,
+      "symbol": "TGRoutePreviewViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 12,
+      "symbol": "TGRoutePreviewViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 27,
+      "symbol": "TGRoutePreviewViewController.storyboardName",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 31,
+      "symbol": "TGRoutePreviewViewController.segment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 32,
+      "symbol": "TGRoutePreviewViewController.origin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 33,
+      "symbol": "TGRoutePreviewViewController.originAddress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 34,
+      "symbol": "TGRoutePreviewViewController.destinationAddress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 38,
+      "symbol": "TGRoutePreviewViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 107,
+      "symbol": "TGRoutePreviewViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 111,
+      "symbol": "TGRoutePreviewViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 128,
+      "symbol": "TGRoutePreviewViewController.onTallyGo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 160,
+      "symbol": "TGRoutePreviewViewController.mapView(_:imageFor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 176,
+      "symbol": "TGRoutePreviewViewController.mapView(_:lineWidthForPolylineAnnotation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 180,
+      "symbol": "TGRoutePreviewViewController.mapView(_:strokeColorForShapeAnnotation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "line": 184,
+      "symbol": "TGRoutePreviewViewController.mapView(_:alphaForShapeAnnotation:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -499,35 +688,42 @@
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 23,
+      "line": 17,
+      "symbol": "TGTurnListViewController.segment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
+      "line": 24,
       "symbol": "TGTurnListViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 37,
+      "line": 39,
       "symbol": "TGTurnListViewController.tableView(_:numberOfRowsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 42,
+      "line": 44,
       "symbol": "TGTurnListViewController.tableView(_:cellForRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 63,
+      "line": 65,
       "symbol": "TGTurnListViewController.tableView(_:heightForRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 71,
+      "line": 73,
       "symbol": "TGTurnListViewController.tableView(_:willDisplay:forRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -576,49 +772,49 @@
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 130,
+      "line": 134,
       "symbol": "TallyGoStyleKit.tGRed",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 131,
+      "line": 135,
       "symbol": "TallyGoStyleKit.tGGreen",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 132,
+      "line": 136,
       "symbol": "TallyGoStyleKit.tGBlue",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 133,
+      "line": 137,
       "symbol": "TallyGoStyleKit.tGYellow",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 134,
+      "line": 138,
       "symbol": "TallyGoStyleKit.tGButtonTextColor",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 135,
+      "line": 139,
       "symbol": "TallyGoStyleKit.tGYellowGreen",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 136,
+      "line": 140,
       "symbol": "TallyGoStyleKit.mediumGrey",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
@@ -632,805 +828,833 @@
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 321,
+      "line": 317,
       "symbol": "TallyGoStyleKit.drawUTurnLeft()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 345,
+      "line": 341,
       "symbol": "TallyGoStyleKit.drawExitRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 373,
+      "line": 369,
       "symbol": "TallyGoStyleKit.drawMergeRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 407,
+      "line": 403,
       "symbol": "TallyGoStyleKit.drawUTurnRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 432,
+      "line": 428,
       "symbol": "TallyGoStyleKit.drawVTIDestination()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 453,
+      "line": 449,
       "symbol": "TallyGoStyleKit.drawHardLeft()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 475,
+      "line": 471,
       "symbol": "TallyGoStyleKit.drawHardRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 497,
+      "line": 493,
       "symbol": "TallyGoStyleKit.drawTurnLeft()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 519,
+      "line": 515,
       "symbol": "TallyGoStyleKit.drawVTIDestinationLeft()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 551,
+      "line": 547,
       "symbol": "TallyGoStyleKit.drawSlightRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 573,
+      "line": 569,
       "symbol": "TallyGoStyleKit.drawTurnRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 595,
+      "line": 591,
       "symbol": "TallyGoStyleKit.drawMerge()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 628,
+      "line": 624,
       "symbol": "TallyGoStyleKit.drawExitLeft()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 656,
+      "line": 652,
       "symbol": "TallyGoStyleKit.drawRightAtTheFork()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 690,
+      "line": 686,
       "symbol": "TallyGoStyleKit.drawVTIDestinationRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 722,
+      "line": 718,
       "symbol": "TallyGoStyleKit.drawSlightLeft()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 744,
+      "line": 740,
       "symbol": "TallyGoStyleKit.drawLeftAtTheFork()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 778,
+      "line": 774,
       "symbol": "TallyGoStyleKit.drawForward()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 796,
+      "line": 792,
       "symbol": "TallyGoStyleKit.drawCAHighway(highwayNumber:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 855,
+      "line": 851,
       "symbol": "TallyGoStyleKit.drawUSHighway(highwayNumber:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 903,
+      "line": 899,
       "symbol": "TallyGoStyleKit.drawInterstate(highwayNumber:nudge:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 982,
+      "line": 978,
       "symbol": "TallyGoStyleKit.drawRouteProgress(frame:approachIndicatorWidth:firstLine:secondLine:thirdLine:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1110,
+      "line": 1106,
       "symbol": "TallyGoStyleKit.drawStopNavigationButton(frame:highlighted:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1247,
+      "line": 1243,
       "symbol": "TallyGoStyleKit.drawBigRedButton(frame:fontSize:highlighted:buttonText:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1323,
+      "line": 1319,
       "symbol": "TallyGoStyleKit.drawBigWhiteButton(frame:fontSize:highlighted:buttonText:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1388,
+      "line": 1384,
       "symbol": "TallyGoStyleKit.drawBigGreenButton(frame:fontSize:highlighted:buttonText:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1463,
+      "line": 1459,
       "symbol": "TallyGoStyleKit.drawBigGrayButton(frame:fontSize:highlighted:buttonText:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1538,
+      "line": 1534,
       "symbol": "TallyGoStyleKit.drawResumeNavigationButton(frame:highlighted:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1645,
+      "line": 1641,
       "symbol": "TallyGoStyleKit.drawCloseButton(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1682,
+      "line": 1678,
       "symbol": "TallyGoStyleKit.drawKeyboardInstructions(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3234,
+      "line": 3230,
       "symbol": "TallyGoStyleKit.drawGreenCheckmark(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3273,
+      "line": 3269,
       "symbol": "TallyGoStyleKit.drawTurnListButton(highlighted:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3488,
+      "line": 3484,
       "symbol": "TallyGoStyleKit.drawTLMerge()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3522,
+      "line": 3518,
       "symbol": "TallyGoStyleKit.drawTLRightAtTheFork()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3557,
+      "line": 3553,
       "symbol": "TallyGoStyleKit.drawTLSlightRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3581,
+      "line": 3577,
       "symbol": "TallyGoStyleKit.drawTLExitRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3610,
+      "line": 3606,
       "symbol": "TallyGoStyleKit.drawTLUTurnLeft()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3636,
+      "line": 3632,
       "symbol": "TallyGoStyleKit.drawTLLeftAtTheFork()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3671,
+      "line": 3667,
       "symbol": "TallyGoStyleKit.drawTLTurnRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3695,
+      "line": 3691,
       "symbol": "TallyGoStyleKit.drawTLMergeRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3730,
+      "line": 3726,
       "symbol": "TallyGoStyleKit.drawTLTurnLeft()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3754,
+      "line": 3750,
       "symbol": "TallyGoStyleKit.drawTLExitLeft()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3783,
+      "line": 3779,
       "symbol": "TallyGoStyleKit.drawTLUTurnRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3810,
+      "line": 3806,
       "symbol": "TallyGoStyleKit.drawTLHardRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3834,
+      "line": 3830,
       "symbol": "TallyGoStyleKit.drawTLHardLeft()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3858,
+      "line": 3854,
       "symbol": "TallyGoStyleKit.drawTLDestinationLeft()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3893,
+      "line": 3889,
       "symbol": "TallyGoStyleKit.drawTLDistanceIcon(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3919,
+      "line": 3915,
       "symbol": "TallyGoStyleKit.drawTLForward()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3939,
+      "line": 3935,
       "symbol": "TallyGoStyleKit.drawTLDestination()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3953,
+      "line": 3949,
       "symbol": "TallyGoStyleKit.drawTLOrigin()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3977,
+      "line": 3973,
       "symbol": "TallyGoStyleKit.drawTLDestinationRight()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4012,
+      "line": 4008,
       "symbol": "TallyGoStyleKit.drawTLSlightLeft()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4036,
+      "line": 4032,
       "symbol": "TallyGoStyleKit.drawBackButton(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4067,
+      "line": 4063,
       "symbol": "TallyGoStyleKit.drawMapMarker(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4164,
+      "line": 4160,
+      "symbol": "TallyGoStyleKit.drawSmallMapMarker(frame:resizing:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
+      "line": 4184,
       "symbol": "TallyGoStyleKit.drawBackArrow(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4213,
+      "line": 4233,
       "symbol": "TallyGoStyleKit.drawSearchBackground(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4242,
+      "line": 4262,
       "symbol": "TallyGoStyleKit.drawSearchIcon(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4286,
+      "line": 4306,
       "symbol": "TallyGoStyleKit.drawMenuButton(highlighted:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4368,
+      "line": 4388,
       "symbol": "TallyGoStyleKit.drawStopNavigationIcon(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4463,
+      "line": 4483,
       "symbol": "TallyGoStyleKit.drawSendFeedbackIcon(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4511,
+      "line": 4531,
       "symbol": "TallyGoStyleKit.drawRouteOverviewIcon(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4646,
+      "line": 4666,
       "symbol": "TallyGoStyleKit.drawTurnListIcon(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4810,
+      "line": 4830,
       "symbol": "TallyGoStyleKit.drawSoundIcon(frame:resizing:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4901,
+      "line": 4905,
+      "symbol": "TallyGoStyleKit.drawSelectionArrow(frame:resizing:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
+      "line": 4958,
       "symbol": "TallyGoStyleKit.imageOfExitRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4915,
+      "line": 4972,
       "symbol": "TallyGoStyleKit.imageOfMergeRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4929,
+      "line": 4986,
       "symbol": "TallyGoStyleKit.imageOfUTurnRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4943,
+      "line": 5000,
       "symbol": "TallyGoStyleKit.imageOfVTIDestination",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4957,
+      "line": 5014,
       "symbol": "TallyGoStyleKit.imageOfHardLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4971,
+      "line": 5028,
       "symbol": "TallyGoStyleKit.imageOfHardRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4985,
+      "line": 5042,
       "symbol": "TallyGoStyleKit.imageOfTurnLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4999,
+      "line": 5056,
       "symbol": "TallyGoStyleKit.imageOfVTIDestinationLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5013,
+      "line": 5070,
       "symbol": "TallyGoStyleKit.imageOfSlightRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5027,
+      "line": 5084,
       "symbol": "TallyGoStyleKit.imageOfTurnRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5041,
+      "line": 5098,
       "symbol": "TallyGoStyleKit.imageOfMerge",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5055,
+      "line": 5112,
       "symbol": "TallyGoStyleKit.imageOfExitLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5069,
+      "line": 5126,
       "symbol": "TallyGoStyleKit.imageOfRightAtTheFork",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5083,
+      "line": 5140,
       "symbol": "TallyGoStyleKit.imageOfVTIDestinationRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5097,
+      "line": 5154,
       "symbol": "TallyGoStyleKit.imageOfSlightLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5111,
+      "line": 5168,
       "symbol": "TallyGoStyleKit.imageOfLeftAtTheFork",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5125,
+      "line": 5182,
       "symbol": "TallyGoStyleKit.imageOfForward",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5139,
+      "line": 5196,
       "symbol": "TallyGoStyleKit.imageOfCAHighway(highwayNumber:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5149,
+      "line": 5206,
       "symbol": "TallyGoStyleKit.imageOfUSHighway(highwayNumber:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5159,
+      "line": 5216,
       "symbol": "TallyGoStyleKit.imageOfInterstate(highwayNumber:nudge:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5169,
+      "line": 5226,
       "symbol": "TallyGoStyleKit.imageOfKeyboardInstructions",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5183,
+      "line": 5240,
       "symbol": "TallyGoStyleKit.imageOfGreenCheckmark",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5197,
+      "line": 5254,
       "symbol": "TallyGoStyleKit.imageOfTLMerge",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5211,
+      "line": 5268,
       "symbol": "TallyGoStyleKit.imageOfTLRightAtTheFork",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5225,
+      "line": 5282,
       "symbol": "TallyGoStyleKit.imageOfTLSlightRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5239,
+      "line": 5296,
       "symbol": "TallyGoStyleKit.imageOfTLExitRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5253,
+      "line": 5310,
       "symbol": "TallyGoStyleKit.imageOfTLUTurnLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5267,
+      "line": 5324,
       "symbol": "TallyGoStyleKit.imageOfTLLeftAtTheFork",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5281,
+      "line": 5338,
       "symbol": "TallyGoStyleKit.imageOfTLTurnRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5295,
+      "line": 5352,
       "symbol": "TallyGoStyleKit.imageOfTLMergeRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5309,
+      "line": 5366,
       "symbol": "TallyGoStyleKit.imageOfTLTurnLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5323,
+      "line": 5380,
       "symbol": "TallyGoStyleKit.imageOfTLExitLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5337,
+      "line": 5394,
       "symbol": "TallyGoStyleKit.imageOfTLUTurnRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5351,
+      "line": 5408,
       "symbol": "TallyGoStyleKit.imageOfTLHardRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5365,
+      "line": 5422,
       "symbol": "TallyGoStyleKit.imageOfTLHardLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5379,
+      "line": 5436,
       "symbol": "TallyGoStyleKit.imageOfTLDestinationLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5393,
+      "line": 5450,
       "symbol": "TallyGoStyleKit.imageOfTLDistanceIcon",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5407,
+      "line": 5464,
       "symbol": "TallyGoStyleKit.imageOfTLForward",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5421,
+      "line": 5478,
       "symbol": "TallyGoStyleKit.imageOfTLDestination",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5435,
+      "line": 5492,
       "symbol": "TallyGoStyleKit.imageOfTLOrigin",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5449,
+      "line": 5506,
       "symbol": "TallyGoStyleKit.imageOfTLDestinationRight",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5463,
+      "line": 5520,
       "symbol": "TallyGoStyleKit.imageOfTLSlightLeft",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5477,
+      "line": 5534,
       "symbol": "TallyGoStyleKit.imageOfBackButton",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5491,
+      "line": 5548,
       "symbol": "TallyGoStyleKit.imageOfMapMarker",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5505,
+      "line": 5562,
+      "symbol": "TallyGoStyleKit.imageOfSmallMapMarker",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
+      "line": 5576,
       "symbol": "TallyGoStyleKit.imageOfSearchIcon",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5519,
+      "line": 5590,
       "symbol": "TallyGoStyleKit.imageOfStopNavigationIcon",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5533,
+      "line": 5604,
       "symbol": "TallyGoStyleKit.imageOfSendFeedbackIcon",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5547,
+      "line": 5618,
       "symbol": "TallyGoStyleKit.imageOfRouteOverviewIcon",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5561,
+      "line": 5632,
       "symbol": "TallyGoStyleKit.imageOfTurnListIcon",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5575,
+      "line": 5646,
       "symbol": "TallyGoStyleKit.imageOfSoundIcon",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 6075,
+      "line": 5660,
+      "symbol": "TallyGoStyleKit.imageOfSelectionArrow",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
+      "line": 6180,
       "symbol": "TallyGoStyleKit.ResizingBehavior",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 6076,
+      "line": 6181,
       "symbol": "TallyGoStyleKit.ResizingBehavior.aspectFit",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
