@@ -28,7 +28,7 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
     ```
     TallyGoKit.simulatedCoordinate = CLLocationCoordinate2DMake(34.050259, -118.249611)
     ```
-1. Set a few attributes when you prepare for segue.
+1. Create the view controller and set a few attributes.
 
     ```swift
     // Get these from somewhere
