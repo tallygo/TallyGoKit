@@ -28,27 +28,27 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
     ```
     TallyGoKit.simulatedCoordinate = CLLocationCoordinate2DMake(34.050259, -118.249611)
     ```
-1. Create an instance of `TGNavViewController` in your storyboard.
-1. Set a few attributes when you prepare for segue.
+1. Create the view controller and set a few attributes.
 
     ```swift
     // Get these from somewhere
     let origin = CLLocationCoordinate2DMake(34.050259, -118.249611)
     let destination = CLLocationCoordinate2DMake(33.987760, -118.470784)
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let viewController = segue.destination as? TGGuidanceViewController {
-            viewController.showsOriginIcon = false
-            viewController.origin = origin
-            viewController.destination = destination
-            viewController.mapview.delegate = mapViewDelegate
-            viewController.mapview.tintColor = UIColor.red
-            viewController.commencementSpeech = "Let's go."
-            viewController.proceedToRouteSpeech = "Please proceed to the route."
-            viewController.arrivalSpeech = "You have arrived."
-            viewController.voice = .Julie
-        }  
-    }
+    // Create and configure the guidance view controller
+    let viewController = TGGuidanceViewController.makeFromStoryboard()
+    viewController.showsOriginIcon = false
+    viewController.origin = origin
+    viewController.destination = destination
+    viewController.mapview.delegate = mapViewDelegate
+    viewController.mapview.tintColor = UIColor.red
+    viewController.commencementSpeech = "Let's go."
+    viewController.proceedToRouteSpeech = "Please proceed to the route."
+    viewController.arrivalSpeech = "You have arrived."
+    viewController.voice = .Julie
+    
+    // Display it
+    navigationController?.pushViewController(viewController, animated: true)
     ```
     
 ## Need help?
