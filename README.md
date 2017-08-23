@@ -28,7 +28,6 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
     ```
     TallyGoKit.simulatedCoordinate = CLLocationCoordinate2DMake(34.050259, -118.249611)
     ```
-1. Create an instance of `TGNavViewController` in your storyboard.
 1. Set a few attributes when you prepare for segue.
 
     ```swift
