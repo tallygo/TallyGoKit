@@ -32,8 +32,6 @@ class ViewController: UIViewController {
         originLon.text = String(origin.longitude)
         destinationLat.text = String(destination.latitude)
         destinationLon.text = String(destination.longitude)
-        
-        TGVoiceSynthesis.shared.currentVoice = .Julie
     }
     
     @IBAction func enableSimulator(_ sender: UISwitch) {
@@ -49,22 +47,21 @@ class ViewController: UIViewController {
     }
     
     @IBAction func testAudioAction(_ sender: AnyObject) {
-        TGVoiceSynthesis.shared.currentVoice = .Julie
         TGVoiceSynthesis.shared.say(text: "Welcome to TallyGo.")
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let viewController = segue.destination as? TGNavViewController {
-            viewController.showsOriginIcon = false
-            viewController.origin = origin
-            viewController.destination = destination
-            viewController.mapview.delegate = mapViewDelegate
-            viewController.mapview.tintColor = UIColor.red
-            viewController.commencementSpeech = "Let's go."
-            viewController.proceedToRouteSpeech = "Please proceed to the route."
-            viewController.arrivalSpeech = "You have arrived."
-            viewController.voice = .Julie
-        }
+    @IBAction func goAction(_ sender: Any) {
+        let viewController = TGGuidanceViewController.makeFromStoryboard()
+        viewController.showsOriginIcon = false
+        viewController.origin = origin
+        viewController.destination = destination
+        viewController.mapview.delegate = mapViewDelegate
+        viewController.mapview.tintColor = UIColor.red
+        viewController.commencementSpeech = "Let's go."
+        viewController.proceedToRouteSpeech = "Please proceed to the route."
+        viewController.arrivalSpeech = "You have arrived."
+        
+        present(viewController, animated: true, completion: nil)
     }
 
 }

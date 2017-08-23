@@ -368,25 +368,25 @@
 <li><p>Need to test without leaving your desk? Use the driving simulator.</p>
 <pre class="highlight plaintext"><code>TallyGoKit.simulatedCoordinate = CLLocationCoordinate2DMake(34.050259, -118.249611)
 </code></pre></li>
-<li><p>Create an instance of <code>TGGuidanceController</code> in your storyboard.</p></li>
-<li><p>Set a few attributes when you prepare for segue.</p>
+<li><p>Create the view controller and set a few attributes.</p>
 <pre class="highlight swift"><code><span class="c1">// Get these from somewhere</span>
 <span class="k">let</span> <span class="nv">origin</span> <span class="o">=</span> <span class="kt">CLLocationCoordinate2DMake</span><span class="p">(</span><span class="mf">34.050259</span><span class="p">,</span> <span class="o">-</span><span class="mf">118.249611</span><span class="p">)</span>
 <span class="k">let</span> <span class="nv">destination</span> <span class="o">=</span> <span class="kt">CLLocationCoordinate2DMake</span><span class="p">(</span><span class="mf">33.987760</span><span class="p">,</span> <span class="o">-</span><span class="mf">118.470784</span><span class="p">)</span>
 
-<span class="k">override</span> <span class="kd">func</span> <span class="nf">prepare</span><span class="p">(</span><span class="k">for</span> <span class="nv">segue</span><span class="p">:</span> <span class="kt">UIStoryboardSegue</span><span class="p">,</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?)</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="k">let</span> <span class="nv">viewController</span> <span class="o">=</span> <span class="n">segue</span><span class="o">.</span><span class="n">destination</span> <span class="k">as?</span> <span class="kt">TGGuidanceController</span> <span class="p">{</span>
-        <span class="n">viewController</span><span class="o">.</span><span class="n">showsOriginIcon</span> <span class="o">=</span> <span class="kc">false</span>
-        <span class="n">viewController</span><span class="o">.</span><span class="n">origin</span> <span class="o">=</span> <span class="n">origin</span>
-        <span class="n">viewController</span><span class="o">.</span><span class="n">destination</span> <span class="o">=</span> <span class="n">destination</span>
-        <span class="n">viewController</span><span class="o">.</span><span class="n">mapview</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="n">mapViewDelegate</span>
-        <span class="n">viewController</span><span class="o">.</span><span class="n">mapview</span><span class="o">.</span><span class="n">tintColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="o">.</span><span class="n">red</span>
-        <span class="n">viewController</span><span class="o">.</span><span class="n">commencementSpeech</span> <span class="o">=</span> <span class="s">"Let's go."</span>
-        <span class="n">viewController</span><span class="o">.</span><span class="n">proceedToRouteSpeech</span> <span class="o">=</span> <span class="s">"Please proceed to the route."</span>
-        <span class="n">viewController</span><span class="o">.</span><span class="n">arrivalSpeech</span> <span class="o">=</span> <span class="s">"You have arrived."</span>
-        <span class="n">viewController</span><span class="o">.</span><span class="n">voice</span> <span class="o">=</span> <span class="o">.</span><span class="kt">Julie</span>
-    <span class="p">}</span>  
-<span class="p">}</span>
+<span class="c1">// Create and configure the guidance view controller</span>
+<span class="k">let</span> <span class="nv">viewController</span> <span class="o">=</span> <span class="kt">TGGuidanceViewController</span><span class="o">.</span><span class="nf">makeFromStoryboard</span><span class="p">()</span>
+<span class="n">viewController</span><span class="o">.</span><span class="n">showsOriginIcon</span> <span class="o">=</span> <span class="kc">false</span>
+<span class="n">viewController</span><span class="o">.</span><span class="n">origin</span> <span class="o">=</span> <span class="n">origin</span>
+<span class="n">viewController</span><span class="o">.</span><span class="n">destination</span> <span class="o">=</span> <span class="n">destination</span>
+<span class="n">viewController</span><span class="o">.</span><span class="n">mapview</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="n">mapViewDelegate</span>
+<span class="n">viewController</span><span class="o">.</span><span class="n">mapview</span><span class="o">.</span><span class="n">tintColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="o">.</span><span class="n">red</span>
+<span class="n">viewController</span><span class="o">.</span><span class="n">commencementSpeech</span> <span class="o">=</span> <span class="s">"Let's go."</span>
+<span class="n">viewController</span><span class="o">.</span><span class="n">proceedToRouteSpeech</span> <span class="o">=</span> <span class="s">"Please proceed to the route."</span>
+<span class="n">viewController</span><span class="o">.</span><span class="n">arrivalSpeech</span> <span class="o">=</span> <span class="s">"You have arrived."</span>
+<span class="n">viewController</span><span class="o">.</span><span class="n">voice</span> <span class="o">=</span> <span class="o">.</span><span class="kt">Julie</span>
+
+<span class="c1">// Display it</span>
+<span class="n">navigationController</span><span class="p">?</span><span class="o">.</span><span class="nf">pushViewController</span><span class="p">(</span><span class="n">viewController</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">)</span>
 </code></pre></li>
 </ol>
 <a href='#need-help' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='need-help'>Need help?</h2>
@@ -418,7 +418,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-08-18)</p>
+          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-08-23)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.5</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
