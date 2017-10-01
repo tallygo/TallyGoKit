@@ -45,7 +45,6 @@ View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/
     viewController.commencementSpeech = "Let's go."
     viewController.proceedToRouteSpeech = "Please proceed to the route."
     viewController.arrivalSpeech = "You have arrived."
-    viewController.voice = .Julie
     
     // Display it
     navigationController?.pushViewController(viewController, animated: true)
