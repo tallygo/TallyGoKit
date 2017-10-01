@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double TallyGoKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char TallyGoKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TallyGoKit/PublicHeader.h>
-
+#import <TallyGoKit/MGLMapView+LocationValidation.h>
 
