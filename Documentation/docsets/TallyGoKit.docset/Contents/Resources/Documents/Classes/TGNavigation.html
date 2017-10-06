@@ -4,352 +4,370 @@
     <title>TGNavigation Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
+
     <a name="//apple_ref/swift/Class/TGNavigation" class="dashAnchor"></a>
+
     <a title="TGNavigation Class Reference"></a>
-    <header>
-      <div class="content-wrapper">
-        <p><a href="../index.html">TallyGoKit Docs</a> (58% documented)</p>
-      </div>
-    </header>
-    <div class="content-wrapper">
-      <p id="breadcrumbs">
-        <a href="../index.html">TallyGoKit Reference</a>
-        <img id="carat" src="../img/carat.png" />
-        TGNavigation Class Reference
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          TallyGoKit Docs
+        </a>
+         (58% documented)
       </p>
-    </div>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">TallyGoKit Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      TGNavigation Class Reference
+    </p>
+
     <div class="content-wrapper">
-      <nav class="sidebar">
+      <nav class="navigation">
         <ul class="nav-groups">
           <li class="nav-group-name">
-            <a href="../Classes.html">Classes</a>
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Classes/TGAddress.html">TGAddress</a>
+                <a class="nav-group-task-link" href="../Classes/TGAddress.html">TGAddress</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGBaseObject.html">TGBaseObject</a>
+                <a class="nav-group-task-link" href="../Classes/TGBaseObject.html">TGBaseObject</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGBaseRequest.html">TGBaseRequest</a>
+                <a class="nav-group-task-link" href="../Classes/TGBaseRequest.html">TGBaseRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGBaseResponse.html">TGBaseResponse</a>
+                <a class="nav-group-task-link" href="../Classes/TGBaseResponse.html">TGBaseResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:10TallyGoKit13TGBaseServiceC">TGBaseService</a>
+                <a class="nav-group-task-link" href="../Classes.html#/s:10TallyGoKit13TGBaseServiceC">TGBaseService</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:10TallyGoKit17TGBoundaryRequestC">TGBoundaryRequest</a>
+                <a class="nav-group-task-link" href="../Classes.html#/s:10TallyGoKit17TGBoundaryRequestC">TGBoundaryRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGBoundaryResponse.html">TGBoundaryResponse</a>
+                <a class="nav-group-task-link" href="../Classes/TGBoundaryResponse.html">TGBoundaryResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGButton.html">TGButton</a>
+                <a class="nav-group-task-link" href="../Classes/TGButton.html">TGButton</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGConfiguration.html">TGConfiguration</a>
+                <a class="nav-group-task-link" href="../Classes/TGConfiguration.html">TGConfiguration</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:10TallyGoKit22TGConfigurationRequestC">TGConfigurationRequest</a>
+                <a class="nav-group-task-link" href="../Classes.html#/s:10TallyGoKit22TGConfigurationRequestC">TGConfigurationRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGConfigurationResponse.html">TGConfigurationResponse</a>
+                <a class="nav-group-task-link" href="../Classes/TGConfigurationResponse.html">TGConfigurationResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:10TallyGoKit14TGEventRequestC">TGEventRequest</a>
+                <a class="nav-group-task-link" href="../Classes.html#/s:10TallyGoKit14TGEventRequestC">TGEventRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:10TallyGoKit15TGEventResponseC">TGEventResponse</a>
+                <a class="nav-group-task-link" href="../Classes.html#/s:10TallyGoKit15TGEventResponseC">TGEventResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGEventService.html">TGEventService</a>
+                <a class="nav-group-task-link" href="../Classes/TGEventService.html">TGEventService</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGFeedbackViewController.html">TGFeedbackViewController</a>
+                <a class="nav-group-task-link" href="../Classes/TGFeedbackViewController.html">TGFeedbackViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGFind.html">TGFind</a>
+                <a class="nav-group-task-link" href="../Classes/TGFind.html">TGFind</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGGeoJSONFeature.html">TGGeoJSONFeature</a>
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONFeature.html">TGGeoJSONFeature</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGGeoJSONFeatureCollection.html">TGGeoJSONFeatureCollection</a>
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONFeatureCollection.html">TGGeoJSONFeatureCollection</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGGeoJSONObject.html">TGGeoJSONObject</a>
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONObject.html">TGGeoJSONObject</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGGeoJSONObject/TGGeoJSONObjectType.html">– TGGeoJSONObjectType</a>
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONObject/TGGeoJSONObjectType.html">– TGGeoJSONObjectType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGGeoJSONPoint.html">TGGeoJSONPoint</a>
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONPoint.html">TGGeoJSONPoint</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGGeoJSONPolygon.html">TGGeoJSONPolygon</a>
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONPolygon.html">TGGeoJSONPolygon</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGGuidanceViewController.html">TGGuidanceViewController</a>
+                <a class="nav-group-task-link" href="../Classes/TGGuidanceViewController.html">TGGuidanceViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGHighway.html">TGHighway</a>
+                <a class="nav-group-task-link" href="../Classes/TGHighway.html">TGHighway</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGHighway/TGHighwayType.html">– TGHighwayType</a>
+                <a class="nav-group-task-link" href="../Classes/TGHighway/TGHighwayType.html">– TGHighwayType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGIdleTimer.html">TGIdleTimer</a>
+                <a class="nav-group-task-link" href="../Classes/TGIdleTimer.html">TGIdleTimer</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGNavigation.html">TGNavigation</a>
+                <a class="nav-group-task-link" href="../Classes/TGNavigation.html">TGNavigation</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGOverviewViewController.html">TGOverviewViewController</a>
+                <a class="nav-group-task-link" href="../Classes/TGOverviewViewController.html">TGOverviewViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGPoint.html">TGPoint</a>
+                <a class="nav-group-task-link" href="../Classes/TGPoint.html">TGPoint</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a>
+                <a class="nav-group-task-link" href="../Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGReverseGeocodeResponse.html">TGReverseGeocodeResponse</a>
+                <a class="nav-group-task-link" href="../Classes/TGReverseGeocodeResponse.html">TGReverseGeocodeResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGRoute.html">TGRoute</a>
+                <a class="nav-group-task-link" href="../Classes/TGRoute.html">TGRoute</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGRoutePreviewViewController.html">TGRoutePreviewViewController</a>
+                <a class="nav-group-task-link" href="../Classes/TGRoutePreviewViewController.html">TGRoutePreviewViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGRouteRequest.html">TGRouteRequest</a>
+                <a class="nav-group-task-link" href="../Classes/TGRouteRequest.html">TGRouteRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGRouteRequest/TGRouteRequestType.html">– TGRouteRequestType</a>
+                <a class="nav-group-task-link" href="../Classes/TGRouteRequest/TGRouteRequestType.html">– TGRouteRequestType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
+                <a class="nav-group-task-link" href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGSearchCategory.html">TGSearchCategory</a>
+                <a class="nav-group-task-link" href="../Classes/TGSearchCategory.html">TGSearchCategory</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGSearchCategory/ShortName.html">– ShortName</a>
+                <a class="nav-group-task-link" href="../Classes/TGSearchCategory/ShortName.html">– ShortName</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:10TallyGoKit23TGSearchCategoryRequestC">TGSearchCategoryRequest</a>
+                <a class="nav-group-task-link" href="../Classes.html#/s:10TallyGoKit23TGSearchCategoryRequestC">TGSearchCategoryRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:10TallyGoKit24TGSearchCategoryResponseC">TGSearchCategoryResponse</a>
+                <a class="nav-group-task-link" href="../Classes.html#/s:10TallyGoKit24TGSearchCategoryResponseC">TGSearchCategoryResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGSearchCategoryService.html">TGSearchCategoryService</a>
+                <a class="nav-group-task-link" href="../Classes/TGSearchCategoryService.html">TGSearchCategoryService</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGSearchRequest.html">TGSearchRequest</a>
+                <a class="nav-group-task-link" href="../Classes/TGSearchRequest.html">TGSearchRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGSearchResponse.html">TGSearchResponse</a>
+                <a class="nav-group-task-link" href="../Classes/TGSearchResponse.html">TGSearchResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGSearchResult.html">TGSearchResult</a>
+                <a class="nav-group-task-link" href="../Classes/TGSearchResult.html">TGSearchResult</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGSearchResultsViewController.html">TGSearchResultsViewController</a>
+                <a class="nav-group-task-link" href="../Classes/TGSearchResultsViewController.html">TGSearchResultsViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGSearchViewController.html">TGSearchViewController</a>
+                <a class="nav-group-task-link" href="../Classes/TGSearchViewController.html">TGSearchViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGSegment.html">TGSegment</a>
+                <a class="nav-group-task-link" href="../Classes/TGSegment.html">TGSegment</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGStreet.html">TGStreet</a>
+                <a class="nav-group-task-link" href="../Classes/TGStreet.html">TGStreet</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGStreet/TGStreetFunction.html">– TGStreetFunction</a>
+                <a class="nav-group-task-link" href="../Classes/TGStreet/TGStreetFunction.html">– TGStreetFunction</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGStreet/TGStreetConnection.html">– TGStreetConnection</a>
+                <a class="nav-group-task-link" href="../Classes/TGStreet/TGStreetConnection.html">– TGStreetConnection</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGStreet/TGStreetDirection.html">– TGStreetDirection</a>
+                <a class="nav-group-task-link" href="../Classes/TGStreet/TGStreetDirection.html">– TGStreetDirection</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGStyledMapView.html">TGStyledMapView</a>
+                <a class="nav-group-task-link" href="../Classes/TGStyledMapView.html">TGStyledMapView</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGSuggestRequest.html">TGSuggestRequest</a>
+                <a class="nav-group-task-link" href="../Classes/TGSuggestRequest.html">TGSuggestRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGSuggestResponse.html">TGSuggestResponse</a>
+                <a class="nav-group-task-link" href="../Classes/TGSuggestResponse.html">TGSuggestResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGSuggestion.html">TGSuggestion</a>
+                <a class="nav-group-task-link" href="../Classes/TGSuggestion.html">TGSuggestion</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGTurn.html">TGTurn</a>
+                <a class="nav-group-task-link" href="../Classes/TGTurn.html">TGTurn</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGTurn/TGTurnDirection.html">– TGTurnDirection</a>
+                <a class="nav-group-task-link" href="../Classes/TGTurn/TGTurnDirection.html">– TGTurnDirection</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/c:@M@TallyGoKit@objc(cs)TGTurnListBaseTableViewCell">TGTurnListBaseTableViewCell</a>
+                <a class="nav-group-task-link" href="../Classes.html#/c:@M@TallyGoKit@objc(cs)TGTurnListBaseTableViewCell">TGTurnListBaseTableViewCell</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGTurnListViewController.html">TGTurnListViewController</a>
+                <a class="nav-group-task-link" href="../Classes/TGTurnListViewController.html">TGTurnListViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:10TallyGoKit7TGVoiceC">TGVoice</a>
+                <a class="nav-group-task-link" href="../Classes.html#/s:10TallyGoKit7TGVoiceC">TGVoice</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TGVoiceSynthesis.html">TGVoiceSynthesis</a>
+                <a class="nav-group-task-link" href="../Classes/TGVoiceSynthesis.html">TGVoiceSynthesis</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TallyGoKit.html">TallyGoKit</a>
+                <a class="nav-group-task-link" href="../Classes/TallyGoKit.html">TallyGoKit</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TallyGoStyleKit.html">TallyGoStyleKit</a>
+                <a class="nav-group-task-link" href="../Classes/TallyGoStyleKit.html">TallyGoStyleKit</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/TallyGoStyleKit/ResizingBehavior.html">– ResizingBehavior</a>
+                <a class="nav-group-task-link" href="../Classes/TallyGoStyleKit/ResizingBehavior.html">– ResizingBehavior</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Global Variables.html">Global Variables</a>
+            <a class="nav-group-name-link" href="../Global Variables.html">Global Variables</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit11FeetPerMileSdv">FeetPerMile</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit11FeetPerMileSdv">FeetPerMile</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit13MilesPerMeterSdv">MilesPerMeter</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit13MilesPerMeterSdv">MilesPerMeter</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit52TGLocationManagerDidPauseLocationUpdatesNotificationSo14NSNotificationC4NameVv">TGLocationManagerDidPauseLocationUpdatesNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit52TGLocationManagerDidPauseLocationUpdatesNotificationSo14NSNotificationC4NameVv">TGLocationManagerDidPauseLocationUpdatesNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit53TGLocationManagerDidResumeLocationUpdatesNotificationSo14NSNotificationC4NameVv">TGLocationManagerDidResumeLocationUpdatesNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit53TGLocationManagerDidResumeLocationUpdatesNotificationSo14NSNotificationC4NameVv">TGLocationManagerDidResumeLocationUpdatesNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit47TGLocationManagerDidUpdateLocationsNotificationSo14NSNotificationC4NameVv">TGLocationManagerDidUpdateLocationsNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit47TGLocationManagerDidUpdateLocationsNotificationSo14NSNotificationC4NameVv">TGLocationManagerDidUpdateLocationsNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit37TGLocationManagerDidVisitNotificationSo14NSNotificationC4NameVv">TGLocationManagerDidVisitNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit37TGLocationManagerDidVisitNotificationSo14NSNotificationC4NameVv">TGLocationManagerDidVisitNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit36TGLocationManagerUserInfoLocationKeySSv">TGLocationManagerUserInfoLocationKey</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit36TGLocationManagerUserInfoLocationKeySSv">TGLocationManagerUserInfoLocationKey</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit33TGLocationManagerUserInfoVisitKeySSv">TGLocationManagerUserInfoVisitKey</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit33TGLocationManagerUserInfoVisitKeySSv">TGLocationManagerUserInfoVisitKey</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit32TGTelemetryCancelledNotificationSo14NSNotificationC4NameVv">TGTelemetryCancelledNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit32TGTelemetryCancelledNotificationSo14NSNotificationC4NameVv">TGTelemetryCancelledNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit32TGTelemetryConcludedNotificationSo14NSNotificationC4NameVv">TGTelemetryConcludedNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit32TGTelemetryConcludedNotificationSo14NSNotificationC4NameVv">TGTelemetryConcludedNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit41TGTelemetryCurrentPointChangeNotificationSo14NSNotificationC4NameVv">TGTelemetryCurrentPointChangeNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit41TGTelemetryCurrentPointChangeNotificationSo14NSNotificationC4NameVv">TGTelemetryCurrentPointChangeNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit34TGTelemetryInitializedNotificationSo14NSNotificationC4NameVv">TGTelemetryInitializedNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit34TGTelemetryInitializedNotificationSo14NSNotificationC4NameVv">TGTelemetryInitializedNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit37TGTelemetryNextTurnChangeNotificationSo14NSNotificationC4NameVv">TGTelemetryNextTurnChangeNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit37TGTelemetryNextTurnChangeNotificationSo14NSNotificationC4NameVv">TGTelemetryNextTurnChangeNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit31TGTelemetryOffRouteNotificationSo14NSNotificationC4NameVv">TGTelemetryOffRouteNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit31TGTelemetryOffRouteNotificationSo14NSNotificationC4NameVv">TGTelemetryOffRouteNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit40TGTelemetryProceedingToRouteNotificationSo14NSNotificationC4NameVv">TGTelemetryProceedingToRouteNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit40TGTelemetryProceedingToRouteNotificationSo14NSNotificationC4NameVv">TGTelemetryProceedingToRouteNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit31TGTelemetryReroutedNotificationSo14NSNotificationC4NameVv">TGTelemetryReroutedNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit31TGTelemetryReroutedNotificationSo14NSNotificationC4NameVv">TGTelemetryReroutedNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit32TGTelemetryReroutingNotificationSo14NSNotificationC4NameVv">TGTelemetryReroutingNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit32TGTelemetryReroutingNotificationSo14NSNotificationC4NameVv">TGTelemetryReroutingNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit30TGTelemetryStartedNotificationSo14NSNotificationC4NameVv">TGTelemetryStartedNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit30TGTelemetryStartedNotificationSo14NSNotificationC4NameVv">TGTelemetryStartedNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit33TGTelemetryUserInfoFromPointIndexSSv">TGTelemetryUserInfoFromPointIndex</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit33TGTelemetryUserInfoFromPointIndexSSv">TGTelemetryUserInfoFromPointIndex</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit31TGTelemetryUserInfoToPointIndexSSv">TGTelemetryUserInfoToPointIndex</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit31TGTelemetryUserInfoToPointIndexSSv">TGTelemetryUserInfoToPointIndex</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit33TGTelemetryUserInfoTurnPointIndexSSv">TGTelemetryUserInfoTurnPointIndex</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit33TGTelemetryUserInfoTurnPointIndexSSv">TGTelemetryUserInfoTurnPointIndex</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Global Variables.html#/s:10TallyGoKit0abC40SimulatedCoordinateDidChangeNotificationSo14NSNotificationC4NameVv">TallyGoKitSimulatedCoordinateDidChangeNotification</a>
+                <a class="nav-group-task-link" href="../Global Variables.html#/s:10TallyGoKit0abC40SimulatedCoordinateDidChangeNotificationSo14NSNotificationC4NameVv">TallyGoKitSimulatedCoordinateDidChangeNotification</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Enums.html">Enumerations</a>
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Enums/TGOrigin.html">TGOrigin</a>
+                <a class="nav-group-task-link" href="../Enums/TGOrigin.html">TGOrigin</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/TGVoiceSynthesisResponseCode.html">TGVoiceSynthesisResponseCode</a>
+                <a class="nav-group-task-link" href="../Enums/TGVoiceSynthesisResponseCode.html">TGVoiceSynthesisResponseCode</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Extensions.html">Extensions</a>
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Extensions/MGLCoordinateBounds.html">MGLCoordinateBounds</a>
+                <a class="nav-group-task-link" href="../Extensions/MGLCoordinateBounds.html">MGLCoordinateBounds</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/UIDevice.html">UIDevice</a>
+                <a class="nav-group-task-link" href="../Extensions/UIDevice.html">UIDevice</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/UIFont.html">UIFont</a>
+                <a class="nav-group-task-link" href="../Extensions/UIFont.html">UIFont</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Protocols.html">Protocols</a>
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Protocols/TGSearchResultsViewControllerDelegate.html">TGSearchResultsViewControllerDelegate</a>
+                <a class="nav-group-task-link" href="../Protocols/TGSearchResultsViewControllerDelegate.html">TGSearchResultsViewControllerDelegate</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/TGSearchViewControllerDelegate.html">TGSearchViewControllerDelegate</a>
+                <a class="nav-group-task-link" href="../Protocols/TGSearchViewControllerDelegate.html">TGSearchViewControllerDelegate</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/TGStoryboardInitializable.html">TGStoryboardInitializable</a>
+                <a class="nav-group-task-link" href="../Protocols/TGStoryboardInitializable.html">TGStoryboardInitializable</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Structs.html">Structures</a>
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Structs/TGMapStyle.html">TGMapStyle</a>
+                <a class="nav-group-task-link" href="../Structs/TGMapStyle.html">TGMapStyle</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/TGSearchExtent.html">TGSearchExtent</a>
+                <a class="nav-group-task-link" href="../Structs/TGSearchExtent.html">TGSearchExtent</a>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
       <article class="main-content">
-        <section>
-          <section class="section">
+
+        <section class="section">
+          <div class="section-content">
             <h1>TGNavigation</h1>
               <div class="declaration">
                 <div class="language">
@@ -359,10 +377,13 @@
               </div>
             <p>Provides an interface to TallyGo&rsquo;s navigation API.</p>
 
-          </section>
-          <section class="section task-group-section">
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
@@ -419,14 +440,15 @@
                 </li>
               </ul>
             </div>
-          </section>
+          </div>
         </section>
-        <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-10-01)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
-        </section>
+
       </article>
     </div>
+    <section class="footer">
+      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-10-06)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
   </body>
 </div>
 </html>
