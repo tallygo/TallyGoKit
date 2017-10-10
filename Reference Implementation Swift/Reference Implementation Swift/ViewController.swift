@@ -57,6 +57,7 @@ class ViewController: UIViewController {
         viewController.destination = destination
         viewController.mapview.delegate = mapViewDelegate
         viewController.mapview.tintColor = UIColor.red
+        viewController.mapview.attributionButton.isHidden = true
         viewController.commencementSpeech = "Let's go."
         viewController.proceedToRouteSpeech = "Please proceed to the route."
         viewController.arrivalSpeech = "You have arrived."
