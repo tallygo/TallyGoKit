@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|  
     s.name              = 'TallyGoKit'
     s.version           = '1.4.2'
-    s.summary           = 'The TallyGo iOS SDK (TallyGoKit) enables you to embed state-of-the-art real-time navigation into your iOS app with virtually no development effort.'
+    s.summary           = 'The TallyGo iOS SDK (TallyGoKit) enables you to embed state-of-the-art real-time navigation into your iOS app.'
     s.homepage          = 'http://tallygo.com'
 
     s.author            = { 'Name' => 'sdk@tallygo.com' }
