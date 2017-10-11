@@ -226,49 +226,49 @@
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 107,
+      "line": 106,
       "symbol": "TGRoutePreviewViewController.viewWillAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 111,
+      "line": 110,
       "symbol": "TGRoutePreviewViewController.viewDidLayoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 128,
+      "line": 127,
       "symbol": "TGRoutePreviewViewController.onTallyGo",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 160,
+      "line": 159,
       "symbol": "TGRoutePreviewViewController.mapView(_:imageFor:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 176,
+      "line": 175,
       "symbol": "TGRoutePreviewViewController.mapView(_:lineWidthForPolylineAnnotation:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 180,
+      "line": 179,
       "symbol": "TGRoutePreviewViewController.mapView(_:strokeColorForShapeAnnotation:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 184,
+      "line": 183,
       "symbol": "TGRoutePreviewViewController.mapView(_:alphaForShapeAnnotation:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -534,35 +534,35 @@
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 290,
+      "line": 295,
       "symbol": "TGSearchViewController.textFieldShouldReturn(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 305,
+      "line": 310,
       "symbol": "TGSearchViewController.tableView(_:didSelectRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 320,
+      "line": 325,
       "symbol": "TGSearchViewController.tableView(_:willDisplay:forRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 328,
+      "line": 333,
       "symbol": "TGSearchViewController.tableView(_:cellForRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 360,
+      "line": 365,
       "symbol": "TGSearchViewController.tableView(_:numberOfRowsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
