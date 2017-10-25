@@ -93,7 +93,7 @@
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGGuidanceViewController.swift",
-      "line": 165,
+      "line": 190,
       "symbol": "TGGuidanceViewController.viewWillDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -205,70 +205,70 @@
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 33,
+      "line": 34,
       "symbol": "TGRoutePreviewViewController.originAddress",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 34,
+      "line": 40,
       "symbol": "TGRoutePreviewViewController.destinationAddress",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 38,
+      "line": 48,
       "symbol": "TGRoutePreviewViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 106,
+      "line": 122,
       "symbol": "TGRoutePreviewViewController.viewWillAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 110,
+      "line": 126,
       "symbol": "TGRoutePreviewViewController.viewDidLayoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 127,
+      "line": 143,
       "symbol": "TGRoutePreviewViewController.onTallyGo",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 159,
+      "line": 175,
       "symbol": "TGRoutePreviewViewController.mapView(_:imageFor:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 175,
+      "line": 191,
       "symbol": "TGRoutePreviewViewController.mapView(_:lineWidthForPolylineAnnotation:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 179,
+      "line": 195,
       "symbol": "TGRoutePreviewViewController.mapView(_:strokeColorForShapeAnnotation:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
-      "line": 183,
+      "line": 199,
       "symbol": "TGRoutePreviewViewController.mapView(_:alphaForShapeAnnotation:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -534,35 +534,35 @@
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 290,
+      "line": 340,
       "symbol": "TGSearchViewController.textFieldShouldReturn(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 305,
+      "line": 355,
       "symbol": "TGSearchViewController.tableView(_:didSelectRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 320,
+      "line": 370,
       "symbol": "TGSearchViewController.tableView(_:willDisplay:forRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 328,
+      "line": 378,
       "symbol": "TGSearchViewController.tableView(_:cellForRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 359,
+      "line": 409,
       "symbol": "TGSearchViewController.tableView(_:numberOfRowsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -716,35 +716,35 @@
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 24,
+      "line": 23,
       "symbol": "TGTurnListViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 39,
+      "line": 38,
       "symbol": "TGTurnListViewController.tableView(_:numberOfRowsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 44,
+      "line": 42,
       "symbol": "TGTurnListViewController.tableView(_:cellForRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 65,
+      "line": 62,
       "symbol": "TGTurnListViewController.tableView(_:heightForRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 73,
+      "line": 70,
       "symbol": "TGTurnListViewController.tableView(_:willDisplay:forRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
