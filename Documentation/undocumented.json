@@ -751,35 +751,35 @@
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 89,
+      "line": 88,
       "symbol": "TGVoiceSynthesis.speechSynthesizer(_:didPause:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 93,
+      "line": 92,
       "symbol": "TGVoiceSynthesis.speechSynthesizer(_:didStart:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 97,
+      "line": 96,
       "symbol": "TGVoiceSynthesis.speechSynthesizer(_:didCancel:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 101,
+      "line": 100,
       "symbol": "TGVoiceSynthesis.speechSynthesizer(_:didFinish:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 105,
+      "line": 104,
       "symbol": "TGVoiceSynthesis.speechSynthesizer(_:didContinue:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
