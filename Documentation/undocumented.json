@@ -93,7 +93,7 @@
     },
     {
       "file": "/Users/picciano/Documents/TallyGo/TallyGoKit-Source/TallyGoKit/TGGuidanceViewController.swift",
-      "line": 190,
+      "line": 193,
       "symbol": "TGGuidanceViewController.viewWillDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
