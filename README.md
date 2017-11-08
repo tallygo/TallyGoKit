@@ -1,71 +1,28 @@
-![TallyGo Logo](http://www.tallygo.com/img/TallyGo-NavSDK-logo.png "TallyGo SDK Logo")
+# TallyGo iOS SDK `BETA`
 
-# TallyGoKit
+The TallyGo iOS SDK (TallyGoKit) enables you to embed state-of-the-art real-time navigation into your iOS app with virtually no development effort.
 
-The TallyGo Navigation SDK (TallyGoKit) enables you to embed turn-by-turn navigation features directly in your iOS app. It is currently designed for Swift 3.0 projects, including iPhone and iPad devices.
+---
 
-## API Documentation
-View the [API Documentation] (https://htmlpreview.github.io/?https://github.com/tallygo/TallyGoKit/blob/develop/Documentation/index.html)
+## iOS SDK Features
+Packed with modern features, our navigation experience is on par with industry-leading consumer turn-by-turn navigation apps. There’s no need to waste your valuable resources trying to build this yourself — we've got you covered!
 
-## Getting Started
+- **TURN-BY-TURN NAVIGATION** - State-of-the-art navigation system integrates real-time traffic and accident data to provide optimal driving directions to users.
 
-1. Request an Access Token from [sdk@tallygo.com](mailto:sdk@tallygo.com?subject=SDK Token Request).
-1. If you use Cocoapods, just add `pod 'TallyGoKit'` to your Podfile.
-1. If you do not wish to use Cocoapods, download the `TallyGoKit.framework` and include it in you target's "Linked Frameworks and Libraries"
-1. Have a look at the [Reference Implementation](https://github.com/tallygo/TallyGoKit/tree/develop/Reference%20Implementation%20Swift).
-1. Install the Mapbox framework and follow their [instructions](https://www.mapbox.com/ios-sdk/).
-1. Import the module.
+- **TIME-DEPENDENT ROUTING** - Patented routing algorithm calculates the fastest route based on near-future traffic prediction while delivering sub-second response times.
 
-    ```swift
-    import TallyGoKit
-    ```
-1. Initialize the TallyGoKit with your access token.
+- **VOICE GUIDANCE** - A natural-sounding voice provide timely spoken instructions that guide you to your destination.
 
-    ```swift
-    TallyGoKit.initialize(withAccessToken: "YOUR ACCESS TOKEN")
-    ```
-1. Create an instance of `TGViewController` in your storyboard.
-1. Set a few attributes when you prepare for segue.
+- **ROBUST ROAD NETWORK** - Comprehensive road network data includes accurate exit sign data, time-based turn restrictions, one-way streets, and private roadways.
 
-    ```swift
-    // Get these from somewhere
-    let origin = CLLocationCoordinate2DMake(34.050259, -118.249611)
-    let destination = CLLocationCoordinate2DMake(33.987760, -118.470784)
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let viewController = segue.destination as? TGViewController {
-            viewController.showsOriginIcon = false
-            viewController.origin = origin
-            viewController.destination = destination
-            viewController.mapview.delegate = mapViewDelegate
-            viewController.mapview.tintColor = UIColor.red
-            viewController.commencementSpeech = "Let's go."
-            viewController.proceedToRouteSpeech = "Please proceed to the route."
-            viewController.arrivalSpeech = "You have arrived."
-            viewController.voice = .Julie
-        }  
-    }
-    ```
-1. Find address from coordinate example code:
+- **REAL-TIME TRAFFIC** - Intelligent routes use millions of minute-level traffic readings from loop sensors installed in the roads.
 
-    ```swift
-    var selectedAddress: TGAddress?
-    var selectedLocation: CLLocationCoordinate2D?
-    
-    func reverseGeocode(coordinate: CLLocationCoordinate2D) {
-        let request = TGReverseGeocodeRequest(location: coordinate)
-        
-        TGFind.reverseGeocode(request: request) { (response) in
-            if let error = response.error {
-                debugPrint("Reverse Geocoding Error: \(error)")
-            }
-            
-            self.selectedAddress = response.address
-            self.selectedLocation = response.location
-        }
-    }
-    ```
-    
-## Need help?
+- **REAL-TIME ACCIDENTS** - Accurate clear times and other meta data are displayed by directly accessing highway patrol data.
 
-Email us at [sdk@tallygo.com](mailto:sdk@tallygo.com?subject=SDK Help Request).
+- **CONTEXTUAL SEARCH** - Intelligent search API incorporates multiple search sources (Yelp, Foursquare, OSM) to return location results based on geographic relevance.
+
+- **ADVANCED TELEMETRY** - Track driver location granularly, which enables features like displaying driver location to consumers.
+
+---
+
+[See our docs on the TallyGo website](http://www.tallygo.com/ios-docs) for a detailed step-by-step guide on installation and getting navigation up and running in your app.

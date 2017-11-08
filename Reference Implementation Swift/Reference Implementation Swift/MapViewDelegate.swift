@@ -11,14 +11,15 @@ import Mapbox
 
 class MapViewDelegate: NSObject, MGLMapViewDelegate {
     
+    // Optionally provide a custom map marker.
     let markerImage = UIImage(named: "Map Marker")!
     
-    // Customize image for map marker here
+    // Return customized image for map marker here. This is optional.
     func mapView(_ mapView: MGLMapView, imageFor annotation: MGLAnnotation) -> MGLAnnotationImage? {
         return MGLAnnotationImage(image: markerImage, reuseIdentifier: "destination")
     }
     
-    // Configure route line below
+    // Configure route line below. These are optional.
     func mapView(_ mapView: MGLMapView, lineWidthForPolylineAnnotation annotation: MGLPolyline) -> CGFloat {
         return 4.0
     }

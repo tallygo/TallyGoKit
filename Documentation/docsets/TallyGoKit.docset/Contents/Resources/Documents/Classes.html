@@ -4,296 +4,391 @@
     <title>Classes  Reference</title>
     <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="css/highlight.css" />
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <script src="js/jquery.min.js" defer></script>
     <script src="js/jazzy.js" defer></script>
     
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
   </head>
   <body>
+
+
     <a title="Classes  Reference"></a>
-    <header>
-      <div class="content-wrapper">
-        <p><a href="index.html">TallyGoKit Docs</a> (55% documented)</p>
-      </div>
-    </header>
-    <div class="content-wrapper">
-      <p id="breadcrumbs">
-        <a href="index.html">TallyGoKit Reference</a>
-        <img id="carat" src="img/carat.png" />
-        Classes  Reference
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          TallyGoKit Docs
+        </a>
+         (58% documented)
       </p>
-    </div>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">TallyGoKit Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Classes  Reference
+    </p>
+
     <div class="content-wrapper">
-      <nav class="sidebar">
+      <nav class="navigation">
         <ul class="nav-groups">
           <li class="nav-group-name">
-            <a href="Classes.html">Classes</a>
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Classes/TGAddress.html">TGAddress</a>
+                <a class="nav-group-task-link" href="Classes/TGAddress.html">TGAddress</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGAddressCandidatesRequest.html">TGAddressCandidatesRequest</a>
+                <a class="nav-group-task-link" href="Classes/TGBaseObject.html">TGBaseObject</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGAddressCandidatesResponse.html">TGAddressCandidatesResponse</a>
+                <a class="nav-group-task-link" href="Classes/TGBaseRequest.html">TGBaseRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGBaseObject.html">TGBaseObject</a>
+                <a class="nav-group-task-link" href="Classes/TGBaseResponse.html">TGBaseResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGBaseRequest.html">TGBaseRequest</a>
+                <a class="nav-group-task-link" href="Classes.html#/s:10TallyGoKit13TGBaseServiceC">TGBaseService</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGBaseResponse.html">TGBaseResponse</a>
+                <a class="nav-group-task-link" href="Classes.html#/s:10TallyGoKit17TGBoundaryRequestC">TGBoundaryRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes.html#/s:C10TallyGoKit13TGBaseService">TGBaseService</a>
+                <a class="nav-group-task-link" href="Classes/TGBoundaryResponse.html">TGBoundaryResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes.html#/s:C10TallyGoKit17TGBoundaryRequest">TGBoundaryRequest</a>
+                <a class="nav-group-task-link" href="Classes/TGButton.html">TGButton</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGBoundaryResponse.html">TGBoundaryResponse</a>
+                <a class="nav-group-task-link" href="Classes/TGConfiguration.html">TGConfiguration</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGButton.html">TGButton</a>
+                <a class="nav-group-task-link" href="Classes.html#/s:10TallyGoKit22TGConfigurationRequestC">TGConfigurationRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGCandidate.html">TGCandidate</a>
+                <a class="nav-group-task-link" href="Classes/TGConfigurationResponse.html">TGConfigurationResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGConfiguration.html">TGConfiguration</a>
+                <a class="nav-group-task-link" href="Classes.html#/s:10TallyGoKit14TGEventRequestC">TGEventRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes.html#/s:C10TallyGoKit22TGConfigurationRequest">TGConfigurationRequest</a>
+                <a class="nav-group-task-link" href="Classes.html#/s:10TallyGoKit15TGEventResponseC">TGEventResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGConfigurationResponse.html">TGConfigurationResponse</a>
+                <a class="nav-group-task-link" href="Classes/TGEventService.html">TGEventService</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGFeature.html">TGFeature</a>
+                <a class="nav-group-task-link" href="Classes/TGFeedbackViewController.html">TGFeedbackViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGFeatureCollection.html">TGFeatureCollection</a>
+                <a class="nav-group-task-link" href="Classes/TGFind.html">TGFind</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGFind.html">TGFind</a>
+                <a class="nav-group-task-link" href="Classes/TGGeoJSONFeature.html">TGGeoJSONFeature</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGGeoJSONObject.html">TGGeoJSONObject</a>
+                <a class="nav-group-task-link" href="Classes/TGGeoJSONFeatureCollection.html">TGGeoJSONFeatureCollection</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGGeoJSONObject/TGGeoJSONObjectType.html">– TGGeoJSONObjectType</a>
+                <a class="nav-group-task-link" href="Classes/TGGeoJSONObject.html">TGGeoJSONObject</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGHighway.html">TGHighway</a>
+                <a class="nav-group-task-link" href="Classes/TGGeoJSONObject/TGGeoJSONObjectType.html">– TGGeoJSONObjectType</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGHighway/TGHighwayType.html">– TGHighwayType</a>
+                <a class="nav-group-task-link" href="Classes/TGGeoJSONPoint.html">TGGeoJSONPoint</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGIdleTimer.html">TGIdleTimer</a>
+                <a class="nav-group-task-link" href="Classes/TGGeoJSONPolygon.html">TGGeoJSONPolygon</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGMultiRoute.html">TGMultiRoute</a>
+                <a class="nav-group-task-link" href="Classes/TGGuidanceViewController.html">TGGuidanceViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGMultiRouteRequest.html">TGMultiRouteRequest</a>
+                <a class="nav-group-task-link" href="Classes/TGHighway.html">TGHighway</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGMultiRouteRequest/TGRouteRequestType.html">– TGRouteRequestType</a>
+                <a class="nav-group-task-link" href="Classes/TGHighway/TGHighwayType.html">– TGHighwayType</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGMultiRouteResponse.html">TGMultiRouteResponse</a>
+                <a class="nav-group-task-link" href="Classes/TGIdleTimer.html">TGIdleTimer</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGNavigation.html">TGNavigation</a>
+                <a class="nav-group-task-link" href="Classes/TGNavigation.html">TGNavigation</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGPoint.html">TGPoint</a>
+                <a class="nav-group-task-link" href="Classes/TGOverviewViewController.html">TGOverviewViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGPointShape.html">TGPointShape</a>
+                <a class="nav-group-task-link" href="Classes/TGPoint.html">TGPoint</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGPointUpdateRequest.html">TGPointUpdateRequest</a>
+                <a class="nav-group-task-link" href="Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGPolygon.html">TGPolygon</a>
+                <a class="nav-group-task-link" href="Classes/TGReverseGeocodeResponse.html">TGReverseGeocodeResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a>
+                <a class="nav-group-task-link" href="Classes/TGRoute.html">TGRoute</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGReverseGeocodeResponse.html">TGReverseGeocodeResponse</a>
+                <a class="nav-group-task-link" href="Classes/TGRoutePreviewViewController.html">TGRoutePreviewViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGRoute.html">TGRoute</a>
+                <a class="nav-group-task-link" href="Classes/TGRouteRequest.html">TGRouteRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGRouteRequest.html">TGRouteRequest</a>
+                <a class="nav-group-task-link" href="Classes/TGRouteRequest/TGRouteRequestType.html">– TGRouteRequestType</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGRouteRequest/TGRouteRequestType.html">– TGRouteRequestType</a>
+                <a class="nav-group-task-link" href="Classes/TGRouteResponse.html">TGRouteResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGRouteResponse.html">TGRouteResponse</a>
+                <a class="nav-group-task-link" href="Classes/TGSearchCategory.html">TGSearchCategory</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes.html#/s:C10TallyGoKit14TGRouteSegment">TGRouteSegment</a>
+                <a class="nav-group-task-link" href="Classes/TGSearchCategory/ShortName.html">– ShortName</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGRouteUpdateRequest.html">TGRouteUpdateRequest</a>
+                <a class="nav-group-task-link" href="Classes.html#/s:10TallyGoKit23TGSearchCategoryRequestC">TGSearchCategoryRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGStreet.html">TGStreet</a>
+                <a class="nav-group-task-link" href="Classes.html#/s:10TallyGoKit24TGSearchCategoryResponseC">TGSearchCategoryResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGStreet/TGStreetFunction.html">– TGStreetFunction</a>
+                <a class="nav-group-task-link" href="Classes/TGSearchCategoryService.html">TGSearchCategoryService</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGStreet/TGStreetConnection.html">– TGStreetConnection</a>
+                <a class="nav-group-task-link" href="Classes/TGSearchRequest.html">TGSearchRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGStreet/TGStreetDirection.html">– TGStreetDirection</a>
+                <a class="nav-group-task-link" href="Classes/TGSearchResponse.html">TGSearchResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGStyledMapView.html">TGStyledMapView</a>
+                <a class="nav-group-task-link" href="Classes/TGSearchResult.html">TGSearchResult</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGSuggestRequest.html">TGSuggestRequest</a>
+                <a class="nav-group-task-link" href="Classes/TGSearchResultsViewController.html">TGSearchResultsViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGSuggestResponse.html">TGSuggestResponse</a>
+                <a class="nav-group-task-link" href="Classes/TGSearchViewController.html">TGSearchViewController</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGSuggestion.html">TGSuggestion</a>
+                <a class="nav-group-task-link" href="Classes/TGSegment.html">TGSegment</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGTurn.html">TGTurn</a>
+                <a class="nav-group-task-link" href="Classes/TGStreet.html">TGStreet</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGTurn/TGTurnDirection.html">– TGTurnDirection</a>
+                <a class="nav-group-task-link" href="Classes/TGStreet/TGStreetFunction.html">– TGStreetFunction</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGUpdate.html">TGUpdate</a>
+                <a class="nav-group-task-link" href="Classes/TGStreet/TGStreetConnection.html">– TGStreetConnection</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes.html#/s:C10TallyGoKit15TGUpdateManager">TGUpdateManager</a>
+                <a class="nav-group-task-link" href="Classes/TGStreet/TGStreetDirection.html">– TGStreetDirection</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes.html#/s:C10TallyGoKit16TGUpdateResponse">TGUpdateResponse</a>
+                <a class="nav-group-task-link" href="Classes/TGStyledMapView.html">TGStyledMapView</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGViewController.html">TGViewController</a>
+                <a class="nav-group-task-link" href="Classes/TGSuggestRequest.html">TGSuggestRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TGVoiceSynthesis.html">TGVoiceSynthesis</a>
+                <a class="nav-group-task-link" href="Classes/TGSuggestResponse.html">TGSuggestResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TallyGoKit.html">TallyGoKit</a>
+                <a class="nav-group-task-link" href="Classes/TGSuggestion.html">TGSuggestion</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TallyGoStyleKit.html">TallyGoStyleKit</a>
+                <a class="nav-group-task-link" href="Classes/TGTurn.html">TGTurn</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/TallyGoStyleKit/ResizingBehavior.html">– ResizingBehavior</a>
+                <a class="nav-group-task-link" href="Classes/TGTurn/TGTurnDirection.html">– TGTurnDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes.html#/c:@M@TallyGoKit@objc(cs)TGTurnListBaseTableViewCell">TGTurnListBaseTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/TGTurnListViewController.html">TGTurnListViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes.html#/s:10TallyGoKit7TGVoiceC">TGVoice</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/TGVoiceSynthesis.html">TGVoiceSynthesis</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/TallyGoKit.html">TallyGoKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/TallyGoStyleKit.html">TallyGoStyleKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/TallyGoStyleKit/ResizingBehavior.html">– ResizingBehavior</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Global Variables.html">Global Variables</a>
+            <a class="nav-group-name-link" href="Global Variables.html">Global Variables</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Global Variables.html#/s:v10TallyGoKit11FeetPerMileSd">FeetPerMile</a>
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit11FeetPerMileSdv">FeetPerMile</a>
               </li>
               <li class="nav-group-task">
-                <a href="Global Variables.html#/s:v10TallyGoKit13MilesPerMeterSd">MilesPerMeter</a>
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit13MilesPerMeterSdv">MilesPerMeter</a>
               </li>
               <li class="nav-group-task">
-                <a href="Global Variables.html#/s:v10TallyGoKit14TGDefaultVoiceOS_7TGVoice">TGDefaultVoice</a>
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit52TGLocationManagerDidPauseLocationUpdatesNotificationSo14NSNotificationC4NameVv">TGLocationManagerDidPauseLocationUpdatesNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="Global Variables.html#/s:v10TallyGoKit52TGLocationManagerDidPauseLocationUpdatesNotificationVCSo14NSNotification4Name">TGLocationManagerDidPauseLocationUpdatesNotification</a>
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit53TGLocationManagerDidResumeLocationUpdatesNotificationSo14NSNotificationC4NameVv">TGLocationManagerDidResumeLocationUpdatesNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="Global Variables.html#/s:v10TallyGoKit53TGLocationManagerDidResumeLocationUpdatesNotificationVCSo14NSNotification4Name">TGLocationManagerDidResumeLocationUpdatesNotification</a>
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit47TGLocationManagerDidUpdateLocationsNotificationSo14NSNotificationC4NameVv">TGLocationManagerDidUpdateLocationsNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="Global Variables.html#/s:v10TallyGoKit47TGLocationManagerDidUpdateLocationsNotificationVCSo14NSNotification4Name">TGLocationManagerDidUpdateLocationsNotification</a>
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit37TGLocationManagerDidVisitNotificationSo14NSNotificationC4NameVv">TGLocationManagerDidVisitNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="Global Variables.html#/s:v10TallyGoKit37TGLocationManagerDidVisitNotificationVCSo14NSNotification4Name">TGLocationManagerDidVisitNotification</a>
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit36TGLocationManagerUserInfoLocationKeySSv">TGLocationManagerUserInfoLocationKey</a>
               </li>
               <li class="nav-group-task">
-                <a href="Global Variables.html#/s:v10TallyGoKit36TGLocationManagerUserInfoLocationKeySS">TGLocationManagerUserInfoLocationKey</a>
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit33TGLocationManagerUserInfoVisitKeySSv">TGLocationManagerUserInfoVisitKey</a>
               </li>
               <li class="nav-group-task">
-                <a href="Global Variables.html#/s:v10TallyGoKit33TGLocationManagerUserInfoVisitKeySS">TGLocationManagerUserInfoVisitKey</a>
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit32TGTelemetryCancelledNotificationSo14NSNotificationC4NameVv">TGTelemetryCancelledNotification</a>
               </li>
               <li class="nav-group-task">
-                <a href="Global Variables.html#/s:v10TallyGoKit50TallyGoKitSimulatedCoordinateDidChangeNotificationVCSo14NSNotification4Name">TallyGoKitSimulatedCoordinateDidChangeNotification</a>
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit32TGTelemetryConcludedNotificationSo14NSNotificationC4NameVv">TGTelemetryConcludedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit41TGTelemetryCurrentPointChangeNotificationSo14NSNotificationC4NameVv">TGTelemetryCurrentPointChangeNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit34TGTelemetryInitializedNotificationSo14NSNotificationC4NameVv">TGTelemetryInitializedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit37TGTelemetryNextTurnChangeNotificationSo14NSNotificationC4NameVv">TGTelemetryNextTurnChangeNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit31TGTelemetryOffRouteNotificationSo14NSNotificationC4NameVv">TGTelemetryOffRouteNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit40TGTelemetryProceedingToRouteNotificationSo14NSNotificationC4NameVv">TGTelemetryProceedingToRouteNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit31TGTelemetryReroutedNotificationSo14NSNotificationC4NameVv">TGTelemetryReroutedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit32TGTelemetryReroutingNotificationSo14NSNotificationC4NameVv">TGTelemetryReroutingNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit30TGTelemetryStartedNotificationSo14NSNotificationC4NameVv">TGTelemetryStartedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit33TGTelemetryUserInfoFromPointIndexSSv">TGTelemetryUserInfoFromPointIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit31TGTelemetryUserInfoToPointIndexSSv">TGTelemetryUserInfoToPointIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit33TGTelemetryUserInfoTurnPointIndexSSv">TGTelemetryUserInfoTurnPointIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit0abC37ConfigurationFailedToLoadNotificationSo14NSNotificationC4NameVv">TallyGoKitConfigurationFailedToLoadNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit0abC31ConfigurationLoadedNotificationSo14NSNotificationC4NameVv">TallyGoKitConfigurationLoadedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Global Variables.html#/s:10TallyGoKit0abC40SimulatedCoordinateDidChangeNotificationSo14NSNotificationC4NameVv">TallyGoKitSimulatedCoordinateDidChangeNotification</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Enums.html">Enums</a>
+            <a class="nav-group-name-link" href="Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Enums/TGMapStyle.html">TGMapStyle</a>
+                <a class="nav-group-task-link" href="Enums/TGOrigin.html">TGOrigin</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/TGOrigin.html">TGOrigin</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/TGVoice.html">TGVoice</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Enums/TGVoiceSynthesisResponseCode.html">TGVoiceSynthesisResponseCode</a>
+                <a class="nav-group-task-link" href="Enums/TGVoiceSynthesisResponseCode.html">TGVoiceSynthesisResponseCode</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Extensions.html">Extensions</a>
+            <a class="nav-group-name-link" href="Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Extensions/UIFont.html">UIFont</a>
+                <a class="nav-group-task-link" href="Extensions/MGLCoordinateBounds.html">MGLCoordinateBounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/UIFont.html">UIFont</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Structs.html">Structs</a>
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Structs.html#/s:V10TallyGoKit13TGPointUpdate">TGPointUpdate</a>
+                <a class="nav-group-task-link" href="Protocols/TGSearchResultsViewControllerDelegate.html">TGSearchResultsViewControllerDelegate</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs.html#/s:V10TallyGoKit13TGRouteUpdate">TGRouteUpdate</a>
+                <a class="nav-group-task-link" href="Protocols/TGSearchViewControllerDelegate.html">TGSearchViewControllerDelegate</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/TGSearchExtent.html">TGSearchExtent</a>
+                <a class="nav-group-task-link" href="Protocols/TGStoryboardInitializable.html">TGStoryboardInitializable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/TGMapStyle.html">TGMapStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/TGSearchExtent.html">TGSearchExtent</a>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
       <article class="main-content">
-        <section>
-          <section class="section">
+
+        <section class="section">
+          <div class="section-content">
             <h1>Classes</h1>
             <p>The following classes are available globally.</p>
 
-          </section>
-          <section class="section task-group-section">
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit10TallyGoKit"></a>
+                    <a name="/s:10TallyGoKitAAC"></a>
                     <a name="//apple_ref/swift/Class/TallyGoKit" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit10TallyGoKit">TallyGoKit</a>
+                    <a class="token" href="#/s:10TallyGoKitAAC">TallyGoKit</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -319,13 +414,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit15TallyGoStyleKit"></a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TallyGoStyleKit"></a>
                     <a name="//apple_ref/swift/Class/TallyGoStyleKit" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit15TallyGoStyleKit">TallyGoStyleKit</a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TallyGoStyleKit">TallyGoStyleKit</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -343,13 +438,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit9TGAddress"></a>
+                    <a name="/s:10TallyGoKit9TGAddressC"></a>
                     <a name="//apple_ref/swift/Class/TGAddress" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit9TGAddress">TGAddress</a>
+                    <a class="token" href="#/s:10TallyGoKit9TGAddressC">TGAddress</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -357,7 +452,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Address object.</p>
+                        <p>Represents a street address.</p>
 
                         <a href="Classes/TGAddress.html" class="slightly-smaller">See more</a>
                       </div>
@@ -375,77 +470,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit26TGAddressCandidatesRequest"></a>
-                    <a name="//apple_ref/swift/Class/TGAddressCandidatesRequest" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit26TGAddressCandidatesRequest">TGAddressCandidatesRequest</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Request for finding address candidates</p>
-
-                        <a href="Classes/TGAddressCandidatesRequest.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGAddressCandidatesRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/TGBaseRequest.html">TGBaseRequest</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit27TGAddressCandidatesResponse"></a>
-                    <a name="//apple_ref/swift/Class/TGAddressCandidatesResponse" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit27TGAddressCandidatesResponse">TGAddressCandidatesResponse</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Response object from the find address candidates function.</p>
-
-                        <a href="Classes/TGAddressCandidatesResponse.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGAddressCandidatesResponse</span><span class="p">:</span> <span class="kt"><a href="Classes/TGBaseResponse.html">TGBaseResponse</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit12TGBaseObject"></a>
+                    <a name="/s:10TallyGoKit12TGBaseObjectC"></a>
                     <a name="//apple_ref/swift/Class/TGBaseObject" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit12TGBaseObject">TGBaseObject</a>
+                    <a class="token" href="#/s:10TallyGoKit12TGBaseObjectC">TGBaseObject</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -471,13 +502,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit13TGBaseRequest"></a>
+                    <a name="/s:10TallyGoKit13TGBaseRequestC"></a>
                     <a name="//apple_ref/swift/Class/TGBaseRequest" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit13TGBaseRequest">TGBaseRequest</a>
+                    <a class="token" href="#/s:10TallyGoKit13TGBaseRequestC">TGBaseRequest</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -503,13 +534,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit14TGBaseResponse"></a>
+                    <a name="/s:10TallyGoKit14TGBaseResponseC"></a>
                     <a name="//apple_ref/swift/Class/TGBaseResponse" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit14TGBaseResponse">TGBaseResponse</a>
+                    <a class="token" href="#/s:10TallyGoKit14TGBaseResponseC">TGBaseResponse</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -535,13 +566,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit13TGBaseService"></a>
+                    <a name="/s:10TallyGoKit13TGBaseServiceC"></a>
                     <a name="//apple_ref/swift/Class/TGBaseService" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit13TGBaseService">TGBaseService</a>
+                    <a class="token" href="#/s:10TallyGoKit13TGBaseServiceC">TGBaseService</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -566,13 +597,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit17TGBoundaryRequest"></a>
+                    <a name="/s:10TallyGoKit17TGBoundaryRequestC"></a>
                     <a name="//apple_ref/swift/Class/TGBoundaryRequest" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit17TGBoundaryRequest">TGBoundaryRequest</a>
+                    <a class="token" href="#/s:10TallyGoKit17TGBoundaryRequestC">TGBoundaryRequest</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -580,110 +611,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>A request to get the area coverered by the navigation service.</p>
 
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit18TGBoundaryResponse"></a>
-                    <a name="//apple_ref/swift/Class/TGBoundaryResponse" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit18TGBoundaryResponse">TGBoundaryResponse</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Classes/TGBoundaryResponse.html" class="slightly-smaller">See more</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit8TGButton"></a>
-                    <a name="//apple_ref/swift/Class/TGButton" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit8TGButton">TGButton</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Classes/TGButton.html" class="slightly-smaller">See more</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit11TGCandidate"></a>
-                    <a name="//apple_ref/swift/Class/TGCandidate" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit11TGCandidate">TGCandidate</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Classes/TGCandidate.html" class="slightly-smaller">See more</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit15TGConfiguration"></a>
-                    <a name="//apple_ref/swift/Class/TGConfiguration" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit15TGConfiguration">TGConfiguration</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The configuration service.</p>
-
-                        <a href="Classes/TGConfiguration.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGConfiguration</span><span class="p">:</span> <span class="kt"><a href="Classes.html#/s:C10TallyGoKit13TGBaseService">TGBaseService</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGBoundaryRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/TGBaseRequest.html">TGBaseRequest</a></span></code></pre>
 
                         </div>
                       </div>
@@ -693,13 +628,109 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit22TGConfigurationRequest"></a>
+                    <a name="/s:10TallyGoKit18TGBoundaryResponseC"></a>
+                    <a name="//apple_ref/swift/Class/TGBoundaryResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit18TGBoundaryResponseC">TGBoundaryResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The response that contains the boundary of the covered navigational area.</p>
+
+                        <a href="Classes/TGBoundaryResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGBoundaryResponse</span><span class="p">:</span> <span class="kt"><a href="Classes/TGBaseResponse.html">TGBaseResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGButton"></a>
+                    <a name="//apple_ref/swift/Class/TGButton" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGButton">TGButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A stylized subclass of UIButton</p>
+
+                        <a href="Classes/TGButton.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGButton</span><span class="p">:</span> <span class="kt">UIButton</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit15TGConfigurationC"></a>
+                    <a name="//apple_ref/swift/Class/TGConfiguration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit15TGConfigurationC">TGConfiguration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieves remote configuration information for the internal operation of the SDK.</p>
+
+                        <a href="Classes/TGConfiguration.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGConfiguration</span><span class="p">:</span> <span class="kt"><a href="Classes.html#/s:10TallyGoKit13TGBaseServiceC">TGBaseService</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit22TGConfigurationRequestC"></a>
                     <a name="//apple_ref/swift/Class/TGConfigurationRequest" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit22TGConfigurationRequest">TGConfigurationRequest</a>
+                    <a class="token" href="#/s:10TallyGoKit22TGConfigurationRequestC">TGConfigurationRequest</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -724,13 +755,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit23TGConfigurationResponse"></a>
+                    <a name="/s:10TallyGoKit23TGConfigurationResponseC"></a>
                     <a name="//apple_ref/swift/Class/TGConfigurationResponse" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit23TGConfigurationResponse">TGConfigurationResponse</a>
+                    <a class="token" href="#/s:10TallyGoKit23TGConfigurationResponseC">TGConfigurationResponse</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -756,13 +787,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit9TGFeature"></a>
-                    <a name="//apple_ref/swift/Class/TGFeature" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit9TGFeature">TGFeature</a>
+                    <a name="/s:10TallyGoKit14TGEventRequestC"></a>
+                    <a name="//apple_ref/swift/Class/TGEventRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit14TGEventRequestC">TGEventRequest</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -772,7 +803,6 @@
                       <div class="abstract">
                         <p>Undocumented</p>
 
-                        <a href="Classes/TGFeature.html" class="slightly-smaller">See more</a>
                       </div>
                     </section>
                   </div>
@@ -780,13 +810,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit19TGFeatureCollection"></a>
-                    <a name="//apple_ref/swift/Class/TGFeatureCollection" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit19TGFeatureCollection">TGFeatureCollection</a>
+                    <a name="/s:10TallyGoKit15TGEventResponseC"></a>
+                    <a name="//apple_ref/swift/Class/TGEventResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit15TGEventResponseC">TGEventResponse</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -796,7 +826,6 @@
                       <div class="abstract">
                         <p>Undocumented</p>
 
-                        <a href="Classes/TGFeatureCollection.html" class="slightly-smaller">See more</a>
                       </div>
                     </section>
                   </div>
@@ -804,13 +833,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit6TGFind"></a>
-                    <a name="//apple_ref/swift/Class/TGFind" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit6TGFind">TGFind</a>
+                    <a name="/s:10TallyGoKit14TGEventServiceC"></a>
+                    <a name="//apple_ref/swift/Class/TGEventService" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit14TGEventServiceC">TGEventService</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -818,15 +847,15 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The find service.</p>
+                        <p>Provides an interface to TallyGo&rsquo;s events API providing accident and road hazard information.</p>
 
-                        <a href="Classes/TGFind.html" class="slightly-smaller">See more</a>
+                        <a href="Classes/TGEventService.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGFind</span><span class="p">:</span> <span class="kt"><a href="Classes.html#/s:C10TallyGoKit13TGBaseService">TGBaseService</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGEventService</span><span class="p">:</span> <span class="kt"><a href="Classes.html#/s:10TallyGoKit13TGBaseServiceC">TGBaseService</a></span></code></pre>
 
                         </div>
                       </div>
@@ -836,13 +865,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit15TGGeoJSONObject"></a>
-                    <a name="//apple_ref/swift/Class/TGGeoJSONObject" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit15TGGeoJSONObject">TGGeoJSONObject</a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGFeedbackViewController"></a>
+                    <a name="//apple_ref/swift/Class/TGFeedbackViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGFeedbackViewController">TGFeedbackViewController</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -852,7 +881,7 @@
                       <div class="abstract">
                         <p>Undocumented</p>
 
-                        <a href="Classes/TGGeoJSONObject.html" class="slightly-smaller">See more</a>
+                        <a href="Classes/TGFeedbackViewController.html" class="slightly-smaller">See more</a>
                       </div>
                     </section>
                   </div>
@@ -860,13 +889,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit9TGHighway"></a>
-                    <a name="//apple_ref/swift/Class/TGHighway" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit9TGHighway">TGHighway</a>
+                    <a name="/s:10TallyGoKit6TGFindC"></a>
+                    <a name="//apple_ref/swift/Class/TGFind" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit6TGFindC">TGFind</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -874,7 +903,239 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Highway object.</p>
+                        <p>Provides access to the TallyGo Find service for street address and point-of-interest searching, as well as reverse geocoding.</p>
+
+<p>The suggest method is used to populate a list of suggestions while the user is typing. Suggest will generally return faster than the search method, but results returned from suggest do not include specific location information. Instead they include include a suggestionKey. When the user selects a suggestion from the list, pass the corresponding suggestionKey to the search method, which returns all available information, including a precise geographic coordinate.</p>
+
+<p>When the user selects a specific sugegstion, call the search method with a search request to get the full address and location information. The search request should be populated with the same location as was used when the suggest call was made, the <q>singleLine</q> attribute should be the <q>text</q> value from the suggestion, and the <q>suggestionKey</q> should be the value from the <q>suggestion.suggestionKey</q>.</p>
+
+<p>Results from the search and suggest method may come from a variety of information sources, including Open Street Maps, ArcGIS, TallyGo, Yelp, Foursquare, and Mapbox.</p>
+
+<p>Some of the information providers, notably Yelp, have specific requirements on how to display results from their API. Be sure to read and follow the guidlines here: <a href="https://www.yelp.com/developers/display_requirements">https://www.yelp.com/developers/display_requirements</a></p>
+
+                        <a href="Classes/TGFind.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGFind</span><span class="p">:</span> <span class="kt"><a href="Classes.html#/s:10TallyGoKit13TGBaseServiceC">TGBaseService</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit16TGGeoJSONFeatureC"></a>
+                    <a name="//apple_ref/swift/Class/TGGeoJSONFeature" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit16TGGeoJSONFeatureC">TGGeoJSONFeature</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A GeoJSON feature.</p>
+
+                        <a href="Classes/TGGeoJSONFeature.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TGGeoJSONFeature</span><span class="p">:</span> <span class="kt"><a href="Classes/TGGeoJSONObject.html">TGGeoJSONObject</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit26TGGeoJSONFeatureCollectionC"></a>
+                    <a name="//apple_ref/swift/Class/TGGeoJSONFeatureCollection" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGGeoJSONFeatureCollectionC">TGGeoJSONFeatureCollection</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A collection of GeoJSON features.</p>
+
+                        <a href="Classes/TGGeoJSONFeatureCollection.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGGeoJSONFeatureCollection</span><span class="p">:</span> <span class="kt"><a href="Classes/TGGeoJSONObject.html">TGGeoJSONObject</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit15TGGeoJSONObjectC"></a>
+                    <a name="//apple_ref/swift/Class/TGGeoJSONObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit15TGGeoJSONObjectC">TGGeoJSONObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A GeoJSON object.</p>
+
+                        <a href="Classes/TGGeoJSONObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TGGeoJSONObject</span><span class="p">:</span> <span class="kt"><a href="Classes/TGBaseObject.html">TGBaseObject</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit14TGGeoJSONPointC"></a>
+                    <a name="//apple_ref/swift/Class/TGGeoJSONPoint" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit14TGGeoJSONPointC">TGGeoJSONPoint</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A GeoJSON object that represents a single point.</p>
+
+                        <a href="Classes/TGGeoJSONPoint.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGGeoJSONPoint</span><span class="p">:</span> <span class="kt"><a href="Classes/TGGeoJSONObject.html">TGGeoJSONObject</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit16TGGeoJSONPolygonC"></a>
+                    <a name="//apple_ref/swift/Class/TGGeoJSONPolygon" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit16TGGeoJSONPolygonC">TGGeoJSONPolygon</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A GeoJSON polygon.</p>
+
+                        <a href="Classes/TGGeoJSONPolygon.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGGeoJSONPolygon</span><span class="p">:</span> <span class="kt"><a href="Classes/TGGeoJSONObject.html">TGGeoJSONObject</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController"></a>
+                    <a name="//apple_ref/swift/Class/TGGuidanceViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController">TGGuidanceViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>View controller with TallyGo navigation and Mapbox mapview</p>
+
+                        <a href="Classes/TGGuidanceViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">final</span> <span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGGuidanceViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt"><a href="Protocols/TGStoryboardInitializable.html">TGStoryboardInitializable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit9TGHighwayC"></a>
+                    <a name="//apple_ref/swift/Class/TGHighway" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit9TGHighwayC">TGHighway</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents a highway.</p>
 
                         <a href="Classes/TGHighway.html" class="slightly-smaller">See more</a>
                       </div>
@@ -892,13 +1153,77 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit11TGIdleTimer"></a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGIdleTimer"></a>
                     <a name="//apple_ref/swift/Class/TGIdleTimer" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit11TGIdleTimer">TGIdleTimer</a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGIdleTimer">TGIdleTimer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A class that facilitiates disabling the device&rsquo;s idle timer.</p>
+
+                        <a href="Classes/TGIdleTimer.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGIdleTimer</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit12TGNavigationC"></a>
+                    <a name="//apple_ref/swift/Class/TGNavigation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit12TGNavigationC">TGNavigation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Provides an interface to TallyGo&rsquo;s navigation API.</p>
+
+                        <a href="Classes/TGNavigation.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGNavigation</span><span class="p">:</span> <span class="kt"><a href="Classes.html#/s:10TallyGoKit13TGBaseServiceC">TGBaseService</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGOverviewViewController"></a>
+                    <a name="//apple_ref/swift/Class/TGOverviewViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGOverviewViewController">TGOverviewViewController</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -908,7 +1233,7 @@
                       <div class="abstract">
                         <p>Undocumented</p>
 
-                        <a href="Classes/TGIdleTimer.html" class="slightly-smaller">See more</a>
+                        <a href="Classes/TGOverviewViewController.html" class="slightly-smaller">See more</a>
                       </div>
                     </section>
                   </div>
@@ -916,141 +1241,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit12TGMultiRoute"></a>
-                    <a name="//apple_ref/swift/Class/TGMultiRoute" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit12TGMultiRoute">TGMultiRoute</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Route object.</p>
-
-                        <a href="Classes/TGMultiRoute.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGMultiRoute</span><span class="p">:</span> <span class="kt"><a href="Classes/TGBaseObject.html">TGBaseObject</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit19TGMultiRouteRequest"></a>
-                    <a name="//apple_ref/swift/Class/TGMultiRouteRequest" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit19TGMultiRouteRequest">TGMultiRouteRequest</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Request for turn by turn navigation with multiple waypoints.</p>
-
-                        <a href="Classes/TGMultiRouteRequest.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGMultiRouteRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/TGBaseRequest.html">TGBaseRequest</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit20TGMultiRouteResponse"></a>
-                    <a name="//apple_ref/swift/Class/TGMultiRouteResponse" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit20TGMultiRouteResponse">TGMultiRouteResponse</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Response object from navigation API call.</p>
-
-                        <a href="Classes/TGMultiRouteResponse.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGMultiRouteResponse</span><span class="p">:</span> <span class="kt"><a href="Classes/TGRouteResponse.html">TGRouteResponse</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit12TGNavigation"></a>
-                    <a name="//apple_ref/swift/Class/TGNavigation" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit12TGNavigation">TGNavigation</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The navigation service.</p>
-
-                        <a href="Classes/TGNavigation.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGNavigation</span><span class="p">:</span> <span class="kt"><a href="Classes.html#/s:C10TallyGoKit13TGBaseService">TGBaseService</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit7TGPoint"></a>
+                    <a name="/s:10TallyGoKit7TGPointC"></a>
                     <a name="//apple_ref/swift/Class/TGPoint" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit7TGPoint">TGPoint</a>
+                    <a class="token" href="#/s:10TallyGoKit7TGPointC">TGPoint</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1058,7 +1255,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Point object.</p>
+                        <p>TGPoint represents a specific location along the route, and may also contain data important at that location.</p>
+
+<p>Points occur at locations considered important for any of these reasons:</p>
+
+<ul>
+<li>Start and end points of a segment</li>
+<li>Geographic significance, like a bend in the road</li>
+<li>A location that requires navigation instructions to be given to the driver. Refer to notify and say memebrs.</li>
+<li>An intersection. If the driver needs to make a turn, the turn property contains information about the action the driver should take.</li>
+</ul>
 
                         <a href="Classes/TGPoint.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1076,85 +1282,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit12TGPointShape"></a>
-                    <a name="//apple_ref/swift/Class/TGPointShape" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit12TGPointShape">TGPointShape</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Classes/TGPointShape.html" class="slightly-smaller">See more</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit20TGPointUpdateRequest"></a>
-                    <a name="//apple_ref/swift/Class/TGPointUpdateRequest" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit20TGPointUpdateRequest">TGPointUpdateRequest</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Classes/TGPointUpdateRequest.html" class="slightly-smaller">See more</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit9TGPolygon"></a>
-                    <a name="//apple_ref/swift/Class/TGPolygon" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit9TGPolygon">TGPolygon</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Classes/TGPolygon.html" class="slightly-smaller">See more</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit23TGReverseGeocodeRequest"></a>
+                    <a name="/s:10TallyGoKit23TGReverseGeocodeRequestC"></a>
                     <a name="//apple_ref/swift/Class/TGReverseGeocodeRequest" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit23TGReverseGeocodeRequest">TGReverseGeocodeRequest</a>
+                    <a class="token" href="#/s:10TallyGoKit23TGReverseGeocodeRequestC">TGReverseGeocodeRequest</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1180,13 +1314,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit24TGReverseGeocodeResponse"></a>
+                    <a name="/s:10TallyGoKit24TGReverseGeocodeResponseC"></a>
                     <a name="//apple_ref/swift/Class/TGReverseGeocodeResponse" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit24TGReverseGeocodeResponse">TGReverseGeocodeResponse</a>
+                    <a class="token" href="#/s:10TallyGoKit24TGReverseGeocodeResponseC">TGReverseGeocodeResponse</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1212,13 +1346,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit7TGRoute"></a>
+                    <a name="/s:10TallyGoKit7TGRouteC"></a>
                     <a name="//apple_ref/swift/Class/TGRoute" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit7TGRoute">TGRoute</a>
+                    <a class="token" href="#/s:10TallyGoKit7TGRouteC">TGRoute</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1226,7 +1360,11 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Route object.</p>
+                        <p>TGRoute represents a drivable route between points in the road network. A route consists of one or more segments, which in turn consist of a collection of points on the road network. </p>
+
+<p>A segment consists of an ordered collection of points. Points serve a few purposes. First, they express the shape of the path along the road. Points also allow the routing engine to insert specific instructions, like an instruction to prepare for an upcoming highway exit.</p>
+
+<p>See TGSegment and TGPoint for details.</p>
 
                         <a href="Classes/TGRoute.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1244,13 +1382,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit14TGRouteRequest"></a>
-                    <a name="//apple_ref/swift/Class/TGRouteRequest" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit14TGRouteRequest">TGRouteRequest</a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGRoutePreviewViewController"></a>
+                    <a name="//apple_ref/swift/Class/TGRoutePreviewViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGRoutePreviewViewController">TGRoutePreviewViewController</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1258,7 +1396,31 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Request for turn by turn navigation.</p>
+                        <p>Undocumented</p>
+
+                        <a href="Classes/TGRoutePreviewViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit14TGRouteRequestC"></a>
+                    <a name="//apple_ref/swift/Class/TGRouteRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit14TGRouteRequestC">TGRouteRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Request for turn by turn navigation with multiple waypoints.</p>
 
                         <a href="Classes/TGRouteRequest.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1276,13 +1438,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit15TGRouteResponse"></a>
+                    <a name="/s:10TallyGoKit15TGRouteResponseC"></a>
                     <a name="//apple_ref/swift/Class/TGRouteResponse" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit15TGRouteResponse">TGRouteResponse</a>
+                    <a class="token" href="#/s:10TallyGoKit15TGRouteResponseC">TGRouteResponse</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1308,44 +1470,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit14TGRouteSegment"></a>
-                    <a name="//apple_ref/swift/Class/TGRouteSegment" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit14TGRouteSegment">TGRouteSegment</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Route segment object.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGRouteSegment</span><span class="p">:</span> <span class="kt"><a href="Classes/TGRoute.html">TGRoute</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit20TGRouteUpdateRequest"></a>
-                    <a name="//apple_ref/swift/Class/TGRouteUpdateRequest" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit20TGRouteUpdateRequest">TGRouteUpdateRequest</a>
+                    <a name="/s:10TallyGoKit16TGSearchCategoryC"></a>
+                    <a name="//apple_ref/swift/Class/TGSearchCategory" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit16TGSearchCategoryC">TGSearchCategory</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1355,7 +1486,7 @@
                       <div class="abstract">
                         <p>Undocumented</p>
 
-                        <a href="Classes/TGRouteUpdateRequest.html" class="slightly-smaller">See more</a>
+                        <a href="Classes/TGSearchCategory.html" class="slightly-smaller">See more</a>
                       </div>
                     </section>
                   </div>
@@ -1363,13 +1494,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit8TGStreet"></a>
-                    <a name="//apple_ref/swift/Class/TGStreet" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit8TGStreet">TGStreet</a>
+                    <a name="/s:10TallyGoKit23TGSearchCategoryRequestC"></a>
+                    <a name="//apple_ref/swift/Class/TGSearchCategoryRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit23TGSearchCategoryRequestC">TGSearchCategoryRequest</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1377,7 +1508,264 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Street object.</p>
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit24TGSearchCategoryResponseC"></a>
+                    <a name="//apple_ref/swift/Class/TGSearchCategoryResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit24TGSearchCategoryResponseC">TGSearchCategoryResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit23TGSearchCategoryServiceC"></a>
+                    <a name="//apple_ref/swift/Class/TGSearchCategoryService" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit23TGSearchCategoryServiceC">TGSearchCategoryService</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Classes/TGSearchCategoryService.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit15TGSearchRequestC"></a>
+                    <a name="//apple_ref/swift/Class/TGSearchRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit15TGSearchRequestC">TGSearchRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Defines parameters for a location search performed with TGFind.search()</p>
+
+                        <a href="Classes/TGSearchRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGSearchRequest</span><span class="p">:</span> <span class="kt"><a href="Classes/TGBaseRequest.html">TGBaseRequest</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit16TGSearchResponseC"></a>
+                    <a name="//apple_ref/swift/Class/TGSearchResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit16TGSearchResponseC">TGSearchResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Response object from the search function.</p>
+
+                        <a href="Classes/TGSearchResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGSearchResponse</span><span class="p">:</span> <span class="kt"><a href="Classes/TGBaseResponse.html">TGBaseResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit14TGSearchResultC"></a>
+                    <a name="//apple_ref/swift/Class/TGSearchResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit14TGSearchResultC">TGSearchResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A search result, including geographic location.
+Returned from TGFind.search</p>
+
+                        <a href="Classes/TGSearchResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGSearchResult</span><span class="p">:</span> <span class="kt"><a href="Classes/TGBaseObject.html">TGBaseObject</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGSearchResultsViewController"></a>
+                    <a name="//apple_ref/swift/Class/TGSearchResultsViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGSearchResultsViewController">TGSearchResultsViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Classes/TGSearchResultsViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGSearchViewController"></a>
+                    <a name="//apple_ref/swift/Class/TGSearchViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGSearchViewController">TGSearchViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>View controller that allows the user to find locations by entering text searches. This feature is currently in beta and the implementation may change.</p>
+
+                        <a href="Classes/TGSearchViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGSearchViewController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit9TGSegmentC"></a>
+                    <a name="//apple_ref/swift/Class/TGSegment" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit9TGSegmentC">TGSegment</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>TGSegment represets one segment of a route. A route from location A to B will consist of only one segment. Introducing a stop along the way will result in two segments, from A to B, and B to C. Similar to routes, each segment has its own distance, and estimated travel time.</p>
+
+<p>A segment consists of a sequence of points which represent the geographic shape of the route. Points may also include information about turns or other instructions necessary to navigate the route. See TGPoint.</p>
+
+                        <a href="Classes/TGSegment.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGSegment</span><span class="p">:</span> <span class="kt"><a href="Classes/TGBaseObject.html">TGBaseObject</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit8TGStreetC"></a>
+                    <a name="//apple_ref/swift/Class/TGStreet" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit8TGStreetC">TGStreet</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents a street.</p>
 
                         <a href="Classes/TGStreet.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1395,13 +1783,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit15TGStyledMapView"></a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGStyledMapView"></a>
                     <a name="//apple_ref/swift/Class/TGStyledMapView" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit15TGStyledMapView">TGStyledMapView</a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGStyledMapView">TGStyledMapView</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1409,9 +1797,17 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>A subclass of MGLMapView that uses the TallyGo map style and updates traffic lines.</p>
 
                         <a href="Classes/TGStyledMapView.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGStyledMapView</span><span class="p">:</span> <span class="kt">MGLMapView</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -1419,13 +1815,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit12TGSuggestion"></a>
+                    <a name="/s:10TallyGoKit12TGSuggestionC"></a>
                     <a name="//apple_ref/swift/Class/TGSuggestion" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit12TGSuggestion">TGSuggestion</a>
+                    <a class="token" href="#/s:10TallyGoKit12TGSuggestionC">TGSuggestion</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1433,7 +1829,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Suggestion object.</p>
+                        <p>This is an autocomplete suggestion.
+To get full info including location, make a call to TGFind.search and include the sugestionKey value from the suggestion.</p>
 
                         <a href="Classes/TGSuggestion.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1451,13 +1848,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit16TGSuggestRequest"></a>
+                    <a name="/s:10TallyGoKit16TGSuggestRequestC"></a>
                     <a name="//apple_ref/swift/Class/TGSuggestRequest" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit16TGSuggestRequest">TGSuggestRequest</a>
+                    <a class="token" href="#/s:10TallyGoKit16TGSuggestRequestC">TGSuggestRequest</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1483,13 +1880,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit17TGSuggestResponse"></a>
+                    <a name="/s:10TallyGoKit17TGSuggestResponseC"></a>
                     <a name="//apple_ref/swift/Class/TGSuggestResponse" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit17TGSuggestResponse">TGSuggestResponse</a>
+                    <a class="token" href="#/s:10TallyGoKit17TGSuggestResponseC">TGSuggestResponse</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1515,13 +1912,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit6TGTurn"></a>
+                    <a name="/s:10TallyGoKit6TGTurnC"></a>
                     <a name="//apple_ref/swift/Class/TGTurn" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit6TGTurn">TGTurn</a>
+                    <a class="token" href="#/s:10TallyGoKit6TGTurnC">TGTurn</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1529,7 +1926,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Turn object.</p>
+                        <p>TGTurn represents a turn at a specific point in the route.
+Contains information about the direction of the turn, the instruction for the driver, and the street being turned onto.</p>
 
                         <a href="Classes/TGTurn.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1547,37 +1945,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit8TGUpdate"></a>
-                    <a name="//apple_ref/swift/Class/TGUpdate" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit8TGUpdate">TGUpdate</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Classes/TGUpdate.html" class="slightly-smaller">See more</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:C10TallyGoKit15TGUpdateManager"></a>
-                    <a name="//apple_ref/swift/Class/TGUpdateManager" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit15TGUpdateManager">TGUpdateManager</a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnListBaseTableViewCell"></a>
+                    <a name="//apple_ref/swift/Class/TGTurnListBaseTableViewCell" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnListBaseTableViewCell">TGTurnListBaseTableViewCell</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1594,13 +1968,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit16TGUpdateResponse"></a>
-                    <a name="//apple_ref/swift/Class/TGUpdateResponse" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit16TGUpdateResponse">TGUpdateResponse</a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnListViewController"></a>
+                    <a name="//apple_ref/swift/Class/TGTurnListViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnListViewController">TGTurnListViewController</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1610,6 +1984,7 @@
                       <div class="abstract">
                         <p>Undocumented</p>
 
+                        <a href="Classes/TGTurnListViewController.html" class="slightly-smaller">See more</a>
                       </div>
                     </section>
                   </div>
@@ -1617,13 +1992,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit16TGViewController"></a>
-                    <a name="//apple_ref/swift/Class/TGViewController" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit16TGViewController">TGViewController</a>
+                    <a name="/s:10TallyGoKit7TGVoiceC"></a>
+                    <a name="//apple_ref/swift/Class/TGVoice" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit7TGVoiceC">TGVoice</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1631,15 +2006,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>View controller with TallyGo navigation and Mapbox mapview</p>
+                        <p>Reserved for future use.</p>
 
-                        <a href="Classes/TGViewController.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGViewController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGVoice</span></code></pre>
 
                         </div>
                       </div>
@@ -1649,13 +2023,13 @@
               </ul>
             </div>
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:C10TallyGoKit16TGVoiceSynthesis"></a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGVoiceSynthesis"></a>
                     <a name="//apple_ref/swift/Class/TGVoiceSynthesis" class="dashAnchor"></a>
-                    <a class="token" href="#/s:C10TallyGoKit16TGVoiceSynthesis">TGVoiceSynthesis</a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGVoiceSynthesis">TGVoiceSynthesis</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1663,23 +2037,32 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Service to speak and preload voice prompts.</p>
 
                         <a href="Classes/TGVoiceSynthesis.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGVoiceSynthesis</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
                 </li>
               </ul>
             </div>
-          </section>
+          </div>
         </section>
-        <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">Anthony Picciano</a>. All rights reserved. (Last updated: 2017-02-09)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
-        </section>
+
       </article>
     </div>
+    <section class="footer">
+      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-11-03)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
   </body>
 </div>
 </html>
