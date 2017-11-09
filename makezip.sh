@@ -1,7 +1,7 @@
 zip -r ~/Desktop/TallyGoKit.zip LICENSE TallyGoKit.framework
 
 cd "Reference Implementation Swift"
-pod update
+pod install
 cd ..
 
 cp -a "Reference Implementation Swift/Pods/Mapbox-iOS-SDK" .
