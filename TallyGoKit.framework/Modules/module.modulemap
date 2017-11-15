@@ -7,5 +7,4 @@ framework module TallyGoKit {
 
 module TallyGoKit.Swift {
     header "TallyGoKit-Swift.h"
-    requires objc
 }
