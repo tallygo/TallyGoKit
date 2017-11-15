@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Custom', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :http => 'https://github.com/tallygo/TallyGoKit/releases/download/1.5.0-Xcode8.3/TallyGoKit.zip' }
+    s.source            = { :http => 'https://github.com/tallygo/TallyGoKit/releases/download/xcode-8.3%2F1.6.0/TallyGoKit.zip' }
 
     s.ios.deployment_target = '9.0'
     s.ios.vendored_frameworks = 'TallyGoKit.framework'
