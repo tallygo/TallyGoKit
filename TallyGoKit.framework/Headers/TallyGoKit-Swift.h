@@ -201,7 +201,7 @@ SWIFT_MODULE_NAMESPACE_PUSH("TallyGoKit")
 /// A stylized subclass of UIButton
 SWIFT_CLASS("_TtC10TallyGoKit8TGButton")
 @interface TGButton : UIButton
-/// Redraws the button is the highlighting is changed.
+/// Redraws the button if the highlighting is changed.
 @property (nonatomic, getter=isHighlighted) BOOL highlighted;
 /// Redraws the button if the enabled value is changed.
 @property (nonatomic, getter=isEnabled) BOOL enabled;
