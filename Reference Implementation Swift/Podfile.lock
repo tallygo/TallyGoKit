@@ -1,18 +1,22 @@
 PODS:
   - Mapbox-iOS-SDK (3.6.4)
   - SwiftyJSON (3.1.4)
-  - TallyGoKit (1.5.0):
-    - Mapbox-iOS-SDK
-    - SwiftyJSON
+  - TallyGoKit-Xcode9.0 (1.6.0):
+    - Mapbox-iOS-SDK (= 3.6.4)
+    - SwiftyJSON (= 3.1.4)
 
 DEPENDENCIES:
-  - TallyGoKit
+  - TallyGoKit-Xcode9.0 (from `../`)
+
+EXTERNAL SOURCES:
+  TallyGoKit-Xcode9.0:
+    :path: ../
 
 SPEC CHECKSUMS:
   Mapbox-iOS-SDK: 47847dd44285477e0dfffd0130f65c8a52823ada
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
-  TallyGoKit: eb58beef71dd0d2c21b4233ceb22554b7febe4db
+  TallyGoKit-Xcode9.0: f69ca4e87e547dd29f3994d723fdddbd551defda
 
-PODFILE CHECKSUM: 04ad9a0f63b83043257cd092415d6e0663d7ec52
+PODFILE CHECKSUM: 8e577bd596f479449b57a8475c9ecebd468c8513
 
 COCOAPODS: 1.3.1
