@@ -92,13 +92,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGGuidanceViewController.swift",
-      "line": 193,
-      "symbol": "TGGuidanceViewController.viewWillDisappear(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
       "line": null,
       "symbol": "TGOverviewViewController",
@@ -169,107 +162,107 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": null,
-      "symbol": "TGRoutePreviewViewController",
+      "symbol": "TGPreviewViewController",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 12,
-      "symbol": "TGRoutePreviewViewController",
+      "symbol": "TGPreviewViewController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 27,
-      "symbol": "TGRoutePreviewViewController.storyboardName",
+      "symbol": "TGPreviewViewController.storyboardName",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 31,
-      "symbol": "TGRoutePreviewViewController.segment",
+      "symbol": "TGPreviewViewController.segment",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 32,
-      "symbol": "TGRoutePreviewViewController.origin",
+      "symbol": "TGPreviewViewController.origin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 34,
-      "symbol": "TGRoutePreviewViewController.originAddress",
+      "symbol": "TGPreviewViewController.originAddress",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 40,
-      "symbol": "TGRoutePreviewViewController.destinationAddress",
+      "symbol": "TGPreviewViewController.destinationAddress",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 48,
-      "symbol": "TGRoutePreviewViewController.viewDidLoad()",
+      "symbol": "TGPreviewViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 122,
-      "symbol": "TGRoutePreviewViewController.viewWillAppear(_:)",
+      "symbol": "TGPreviewViewController.viewWillAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 126,
-      "symbol": "TGRoutePreviewViewController.viewDidLayoutSubviews()",
+      "symbol": "TGPreviewViewController.viewDidLayoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 143,
-      "symbol": "TGRoutePreviewViewController.onTallyGo",
+      "symbol": "TGPreviewViewController.onTallyGo",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 175,
-      "symbol": "TGRoutePreviewViewController.mapView(_:imageFor:)",
+      "symbol": "TGPreviewViewController.mapView(_:imageFor:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 191,
-      "symbol": "TGRoutePreviewViewController.mapView(_:lineWidthForPolylineAnnotation:)",
+      "symbol": "TGPreviewViewController.mapView(_:lineWidthForPolylineAnnotation:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 195,
-      "symbol": "TGRoutePreviewViewController.mapView(_:strokeColorForShapeAnnotation:)",
+      "symbol": "TGPreviewViewController.mapView(_:strokeColorForShapeAnnotation:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGRoutePreviewViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
       "line": 199,
-      "symbol": "TGRoutePreviewViewController.mapView(_:alphaForShapeAnnotation:)",
+      "symbol": "TGPreviewViewController.mapView(_:alphaForShapeAnnotation:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -683,6 +676,13 @@
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
       "line": 44,
       "symbol": "TGStoryboardInitializable.embedInNavigationController(navBarClass:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGTurnByTurnViewController.swift",
+      "line": 193,
+      "symbol": "TGTurnByTurnViewController.viewWillDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },

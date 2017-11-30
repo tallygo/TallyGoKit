@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TGGuidanceViewController Class Reference</title>
+    <title>TGTurnByTurnViewController Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset="utf-8">
@@ -14,9 +14,9 @@
   </head>
   <body>
 
-    <a name="//apple_ref/swift/Class/TGGuidanceViewController" class="dashAnchor"></a>
+    <a name="//apple_ref/swift/Class/TGTurnByTurnViewController" class="dashAnchor"></a>
 
-    <a title="TGGuidanceViewController Class Reference"></a>
+    <a title="TGTurnByTurnViewController Class Reference"></a>
 
     <header class="header">
       <p class="header-col header-col--primary">
@@ -38,7 +38,7 @@
     <p class="breadcrumbs">
       <a class="breadcrumb" href="../index.html">TallyGoKit Reference</a>
       <img class="carat" src="../img/carat.png" />
-      TGGuidanceViewController Class Reference
+      TGTurnByTurnViewController Class Reference
     </p>
 
     <div class="content-wrapper">
@@ -47,9 +47,6 @@
           <li class="nav-group-name">
             <a class="nav-group-name-link" href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGAddress.html">TGAddress</a>
-              </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGBaseObject.html">TGBaseObject</a>
               </li>
@@ -114,9 +111,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGGeoJSONPolygon.html">TGGeoJSONPolygon</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGGuidanceViewController.html">TGGuidanceViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGHighway.html">TGHighway</a>
               </li>
               <li class="nav-group-task">
@@ -135,6 +129,9 @@
                 <a class="nav-group-task-link" href="../Classes/TGPoint.html">TGPoint</a>
               </li>
               <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGPreviewViewController.html">TGPreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a>
               </li>
               <li class="nav-group-task">
@@ -144,9 +141,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGRoute.html">TGRoute</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGRoutePreviewViewController.html">TGRoutePreviewViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGRouteRequest.html">TGRouteRequest</a>
               </li>
               <li class="nav-group-task">
@@ -154,6 +148,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRouteSegment.html">TGRouteSegment</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGSearchCategory.html">TGSearchCategory</a>
@@ -186,9 +183,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGSearchViewController.html">TGSearchViewController</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGSegment.html">TGSegment</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStreet.html">TGStreet</a>
               </li>
               <li class="nav-group-task">
@@ -199,6 +193,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStreet/TGStreetDirection.html">– TGStreetDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGStreetAddress.html">TGStreetAddress</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStyledMapView.html">TGStyledMapView</a>
@@ -217,6 +214,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGTurn/TGTurnDirection.html">– TGTurnDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGTurnByTurnViewController.html">TGTurnByTurnViewController</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes.html#/c:@M@TallyGoKit@objc(cs)TGTurnListBaseTableViewCell">TGTurnListBaseTableViewCell</a>
@@ -374,10 +374,10 @@
 
         <section class="section">
           <div class="section-content">
-            <h1>TGGuidanceViewController</h1>
+            <h1>TGTurnByTurnViewController</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">final</span> <span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGGuidanceViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt"><a href="../Protocols/TGStoryboardInitializable.html">TGStoryboardInitializable</a></span></code></pre>
+                  <pre class="highlight"><code><span class="kd">final</span> <span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGTurnByTurnViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt"><a href="../Protocols/TGStoryboardInitializable.html">TGStoryboardInitializable</a></span></code></pre>
 
                 </div>
               </div>
@@ -393,9 +393,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC14storyboardNameSSvZ"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC14storyboardNameSSvZ"></a>
                     <a name="//apple_ref/swift/Variable/storyboardName" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC14storyboardNameSSvZ">storyboardName</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC14storyboardNameSSvZ">storyboardName</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -420,9 +420,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC7mapviewSo06MGLMapE0Cv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC7mapviewSo06MGLMapG0Cv"></a>
                     <a name="//apple_ref/swift/Property/mapview" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC7mapviewSo06MGLMapE0Cv">mapview</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC7mapviewSo06MGLMapG0Cv">mapview</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -447,9 +447,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC6originSC22CLLocationCoordinate2DVSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC6originSC22CLLocationCoordinate2DVSgv"></a>
                     <a name="//apple_ref/swift/Property/origin" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC6originSC22CLLocationCoordinate2DVSgv">origin</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC6originSC22CLLocationCoordinate2DVSgv">origin</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -474,9 +474,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC11destinationSC22CLLocationCoordinate2DVSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC11destinationSC22CLLocationCoordinate2DVSgv"></a>
                     <a name="//apple_ref/swift/Property/destination" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC11destinationSC22CLLocationCoordinate2DVSgv">destination</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC11destinationSC22CLLocationCoordinate2DVSgv">destination</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -501,9 +501,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC7segmentAA9TGSegmentCSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC7segmentAA14TGRouteSegmentCSgv"></a>
                     <a name="//apple_ref/swift/Property/segment" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC7segmentAA9TGSegmentCSgv">segment</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC7segmentAA14TGRouteSegmentCSgv">segment</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -518,7 +518,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">segment</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGSegment.html">TGSegment</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">segment</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGRouteSegment.html">TGRouteSegment</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -528,9 +528,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC15showsOriginIconSbv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC15showsOriginIconSbv"></a>
                     <a name="//apple_ref/swift/Property/showsOriginIcon" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC15showsOriginIconSbv">showsOriginIcon</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC15showsOriginIconSbv">showsOriginIcon</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -555,9 +555,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC20showsDestinationIconSbv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC20showsDestinationIconSbv"></a>
                     <a name="//apple_ref/swift/Property/showsDestinationIcon" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC20showsDestinationIconSbv">showsDestinationIcon</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC20showsDestinationIconSbv">showsDestinationIcon</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -582,9 +582,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC18commencementSpeechSSSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC18commencementSpeechSSSgv"></a>
                     <a name="//apple_ref/swift/Property/commencementSpeech" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC18commencementSpeechSSSgv">commencementSpeech</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC18commencementSpeechSSSgv">commencementSpeech</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -609,9 +609,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC20proceedToRouteSpeechSSSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC20proceedToRouteSpeechSSSgv"></a>
                     <a name="//apple_ref/swift/Property/proceedToRouteSpeech" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC20proceedToRouteSpeechSSSgv">proceedToRouteSpeech</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC20proceedToRouteSpeechSSSgv">proceedToRouteSpeech</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -636,9 +636,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC13arrivalSpeechSSSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC13arrivalSpeechSSSgv"></a>
                     <a name="//apple_ref/swift/Property/arrivalSpeech" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC13arrivalSpeechSSSgv">arrivalSpeech</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC13arrivalSpeechSSSgv">arrivalSpeech</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -663,9 +663,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC19arrivalNotificationSSSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC19arrivalNotificationSSSgv"></a>
                     <a name="//apple_ref/swift/Property/arrivalNotification" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC19arrivalNotificationSSSgv">arrivalNotification</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC19arrivalNotificationSSSgv">arrivalNotification</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -690,9 +690,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC5voiceSo22AVSpeechSynthesisVoiceCSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC5voiceSo22AVSpeechSynthesisVoiceCSgv"></a>
                     <a name="//apple_ref/swift/Property/voice" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC5voiceSo22AVSpeechSynthesisVoiceCSgv">voice</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC5voiceSo22AVSpeechSynthesisVoiceCSgv">voice</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -717,9 +717,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC23showMakeWrongTurnButtonSbv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC013showMakeWrongF6ButtonSbv"></a>
                     <a name="//apple_ref/swift/Property/showMakeWrongTurnButton" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC23showMakeWrongTurnButtonSbv">showMakeWrongTurnButton</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC013showMakeWrongF6ButtonSbv">showMakeWrongTurnButton</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -744,9 +744,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC23destinationAddressShortSSSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC23destinationAddressShortSSSgv"></a>
                     <a name="//apple_ref/swift/Property/destinationAddressShort" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC23destinationAddressShortSSSgv">destinationAddressShort</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC23destinationAddressShortSSSgv">destinationAddressShort</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -771,9 +771,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC13originAddressSSSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC13originAddressSSSgv"></a>
                     <a name="//apple_ref/swift/Property/originAddress" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC13originAddressSSSgv">originAddress</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC13originAddressSSSgv">originAddress</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -798,9 +798,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC18destinationAddressSSSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC18destinationAddressSSSgv"></a>
                     <a name="//apple_ref/swift/Property/destinationAddress" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC18destinationAddressSSSgv">destinationAddress</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC18destinationAddressSSSgv">destinationAddress</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -825,9 +825,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(im)viewDidLoad"></a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewDidLoad"></a>
                     <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(im)viewDidLoad">viewDidLoad()</a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewDidLoad">viewDidLoad()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -852,9 +852,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(py)preferredStatusBarStyle"></a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(py)preferredStatusBarStyle"></a>
                     <a name="//apple_ref/swift/Property/preferredStatusBarStyle" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(py)preferredStatusBarStyle">preferredStatusBarStyle</a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(py)preferredStatusBarStyle">preferredStatusBarStyle</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -879,9 +879,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(im)viewWillAppear:"></a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewWillAppear:"></a>
                     <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(im)viewWillAppear:">viewWillAppear(_:)</a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewWillAppear:">viewWillAppear(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -906,9 +906,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(im)viewWillDisappear:"></a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewWillDisappear:"></a>
                     <a name="//apple_ref/swift/Method/viewWillDisappear(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(im)viewWillDisappear:">viewWillDisappear(_:)</a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewWillDisappear:">viewWillDisappear(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -933,9 +933,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(im)viewDidAppear:"></a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewDidAppear:"></a>
                     <a name="//apple_ref/swift/Method/viewDidAppear(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(im)viewDidAppear:">viewDidAppear(_:)</a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewDidAppear:">viewDidAppear(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -960,9 +960,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(im)viewDidLayoutSubviews"></a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewDidLayoutSubviews"></a>
                     <a name="//apple_ref/swift/Method/viewDidLayoutSubviews()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(im)viewDidLayoutSubviews">viewDidLayoutSubviews()</a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewDidLayoutSubviews">viewDidLayoutSubviews()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -987,9 +987,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(im)backAction:"></a>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)backAction:"></a>
                     <a name="//apple_ref/swift/Method/backAction(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGGuidanceViewController(im)backAction:">backAction(_:)</a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)backAction:">backAction(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1014,9 +1014,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC23performAdditionalLayoutyycSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC23performAdditionalLayoutyycSgv"></a>
                     <a name="//apple_ref/swift/Property/performAdditionalLayout" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC23performAdditionalLayoutyycSgv">performAdditionalLayout</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC23performAdditionalLayoutyycSgv">performAdditionalLayout</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1041,9 +1041,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit24TGGuidanceViewControllerC22performActionOnArrivalyycSgv"></a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC22performActionOnArrivalyycSgv"></a>
                     <a name="//apple_ref/swift/Property/performActionOnArrival" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit24TGGuidanceViewControllerC22performActionOnArrivalyycSgv">performActionOnArrival</a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC22performActionOnArrivalyycSgv">performActionOnArrival</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1073,7 +1073,7 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-11-15)</p>
+      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-11-30)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

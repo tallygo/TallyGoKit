@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TGAddress Class Reference</title>
+    <title>TGRouteSegment Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset="utf-8">
@@ -14,9 +14,9 @@
   </head>
   <body>
 
-    <a name="//apple_ref/swift/Class/TGAddress" class="dashAnchor"></a>
+    <a name="//apple_ref/swift/Class/TGRouteSegment" class="dashAnchor"></a>
 
-    <a title="TGAddress Class Reference"></a>
+    <a title="TGRouteSegment Class Reference"></a>
 
     <header class="header">
       <p class="header-col header-col--primary">
@@ -38,7 +38,7 @@
     <p class="breadcrumbs">
       <a class="breadcrumb" href="../index.html">TallyGoKit Reference</a>
       <img class="carat" src="../img/carat.png" />
-      TGAddress Class Reference
+      TGRouteSegment Class Reference
     </p>
 
     <div class="content-wrapper">
@@ -47,9 +47,6 @@
           <li class="nav-group-name">
             <a class="nav-group-name-link" href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGAddress.html">TGAddress</a>
-              </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGBaseObject.html">TGBaseObject</a>
               </li>
@@ -114,9 +111,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGGeoJSONPolygon.html">TGGeoJSONPolygon</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGGuidanceViewController.html">TGGuidanceViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGHighway.html">TGHighway</a>
               </li>
               <li class="nav-group-task">
@@ -135,6 +129,9 @@
                 <a class="nav-group-task-link" href="../Classes/TGPoint.html">TGPoint</a>
               </li>
               <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGPreviewViewController.html">TGPreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a>
               </li>
               <li class="nav-group-task">
@@ -144,9 +141,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGRoute.html">TGRoute</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGRoutePreviewViewController.html">TGRoutePreviewViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGRouteRequest.html">TGRouteRequest</a>
               </li>
               <li class="nav-group-task">
@@ -154,6 +148,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRouteSegment.html">TGRouteSegment</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGSearchCategory.html">TGSearchCategory</a>
@@ -186,9 +183,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGSearchViewController.html">TGSearchViewController</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGSegment.html">TGSegment</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStreet.html">TGStreet</a>
               </li>
               <li class="nav-group-task">
@@ -199,6 +193,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStreet/TGStreetDirection.html">– TGStreetDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGStreetAddress.html">TGStreetAddress</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStyledMapView.html">TGStyledMapView</a>
@@ -217,6 +214,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGTurn/TGTurnDirection.html">– TGTurnDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGTurnByTurnViewController.html">TGTurnByTurnViewController</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes.html#/c:@M@TallyGoKit@objc(cs)TGTurnListBaseTableViewCell">TGTurnListBaseTableViewCell</a>
@@ -374,14 +374,16 @@
 
         <section class="section">
           <div class="section-content">
-            <h1>TGAddress</h1>
+            <h1>TGRouteSegment</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGAddress</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGBaseObject.html">TGBaseObject</a></span></code></pre>
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGRouteSegment</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGBaseObject.html">TGBaseObject</a></span></code></pre>
 
                 </div>
               </div>
-            <p>Represents a street address.</p>
+            <p>TGRouteSegment represets one segment of a route. A route from location A to B will consist of only one segment. Introducing a stop along the way will result in two segments, from A to B, and B to C. Similar to routes, each segment has its own distance, and estimated travel time.</p>
+
+<p>A segment consists of a sequence of points which represent the geographic shape of the route. Points may also include information about turns or other instructions necessary to navigate the route. See TGPoint.</p>
 
           </div>
         </section>
@@ -393,9 +395,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC6regionSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/region" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC6regionSSSgv">region</a>
+                    <a name="/s:10TallyGoKit14TGRouteSegmentC6pointsSayAA7TGPointCGv"></a>
+                    <a name="//apple_ref/swift/Property/points" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit14TGRouteSegmentC6pointsSayAA7TGPointCGv">points</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -403,14 +405,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Contains the state for U.S. addresses.</p>
+                        <p>Every point in the route in sequence.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">region</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">points</span> <span class="o">=</span> <span class="p">[</span><span class="kt"><a href="../Classes/TGPoint.html">TGPoint</a></span><span class="p">]()</span></code></pre>
 
                         </div>
                       </div>
@@ -420,9 +422,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC6postalSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/postal" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC6postalSSSgv">postal</a>
+                    <a name="/s:10TallyGoKit14TGRouteSegmentC13totalDistanceSdSgv"></a>
+                    <a name="//apple_ref/swift/Property/totalDistance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit14TGRouteSegmentC13totalDistanceSdSgv">totalDistance</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -430,14 +432,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Contains the first 5 digits of the U.S. Zip Code</p>
+                        <p>The total travel distance in meters.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">postal</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">totalDistance</span><span class="p">:</span> <span class="kt">CLLocationDistance</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -447,9 +449,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC12matchAddressSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/matchAddress" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC12matchAddressSSSgv">matchAddress</a>
+                    <a name="/s:10TallyGoKit14TGRouteSegmentC13totalDurationSdSgv"></a>
+                    <a name="//apple_ref/swift/Property/totalDuration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit14TGRouteSegmentC13totalDurationSdSgv">totalDuration</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -457,14 +459,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The complete matched address.</p>
+                        <p>Estimated travel time in seconds.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">matchAddress</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">totalDuration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -474,9 +476,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC12locationNameSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/locationName" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC12locationNameSSSgv">locationName</a>
+                    <a name="/s:10TallyGoKit14TGRouteSegmentC6tripIdSSv"></a>
+                    <a name="//apple_ref/swift/Property/tripId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit14TGRouteSegmentC6tripIdSSv">tripId</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -484,203 +486,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The type of address found. Contents varies.</p>
+                        <p>A unique ID representing a sequence of segments from different rerouting event.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">locationName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10TallyGoKit9TGAddressC9placeNameSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/placeName" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC9placeNameSSSgv">placeName</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The name of place found. Contents varies.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">placeName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10TallyGoKit9TGAddressC7addressSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/address" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC7addressSSSgv">address</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The street address portion of the result.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">address</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10TallyGoKit9TGAddressC10countyCodeSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/countyCode" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC10countyCodeSSSgv">countyCode</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>A three character country code.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">countyCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10TallyGoKit9TGAddressC15postalExtensionSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/postalExtension" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC15postalExtensionSSSgv">postalExtension</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The last 4 digits of a 9-digit U.S. Zip Code.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">postalExtension</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10TallyGoKit9TGAddressC12neighborhoodSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/neighborhood" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC12neighborhoodSSSgv">neighborhood</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The name of the neighborhood.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">neighborhood</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10TallyGoKit9TGAddressC9subregionSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/subregion" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC9subregionSSSgv">subregion</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The subregion. Not normally used for U.S. locations.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">subregion</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10TallyGoKit9TGAddressC4citySSSgv"></a>
-                    <a name="//apple_ref/swift/Property/city" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC4citySSSgv">city</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The name of the city.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">city</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">tripId</span><span class="p">:</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -695,7 +508,7 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-11-15)</p>
+      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-11-30)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
