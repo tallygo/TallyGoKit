@@ -239,33 +239,6 @@ SWIFT_CLASS("_TtC10TallyGoKit24TGFeedbackViewController")
 @end
 
 
-/// View controller with TallyGo navigation and Mapbox mapview
-SWIFT_CLASS("_TtC10TallyGoKit24TGGuidanceViewController")
-@interface TGGuidanceViewController : UIViewController
-/// Configures the map, add notification observers, and requests the route.
-- (void)viewDidLoad;
-/// Sets the status bar style.
-@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
-/// Hides the navigation bar
-- (void)viewWillAppear:(BOOL)animated;
-- (void)viewWillDisappear:(BOOL)animated;
-/// Shows the user’s location
-- (void)viewDidAppear:(BOOL)animated;
-/// Position the subviews.
-- (void)viewDidLayoutSubviews;
-/// IBAction for unwind segues.
-- (IBAction)backAction:(UIStoryboardSegue * _Nonnull)segue;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-
-
-
-
-
 /// A class that facilitiates disabling the device’s idle timer.
 SWIFT_CLASS("_TtC10TallyGoKit11TGIdleTimer")
 @interface TGIdleTimer : NSObject
@@ -297,8 +270,8 @@ SWIFT_CLASS("_TtC10TallyGoKit24TGOverviewViewController")
 @end
 
 
-SWIFT_CLASS("_TtC10TallyGoKit28TGRoutePreviewViewController")
-@interface TGRoutePreviewViewController : UIViewController
+SWIFT_CLASS("_TtC10TallyGoKit23TGPreviewViewController")
+@interface TGPreviewViewController : UIViewController
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
@@ -307,7 +280,7 @@ SWIFT_CLASS("_TtC10TallyGoKit28TGRoutePreviewViewController")
 @end
 
 
-@interface TGRoutePreviewViewController (SWIFT_EXTENSION(TallyGoKit)) <MGLMapViewDelegate>
+@interface TGPreviewViewController (SWIFT_EXTENSION(TallyGoKit)) <MGLMapViewDelegate>
 - (MGLAnnotationImage * _Nullable)mapView:(MGLMapView * _Nonnull)mapView imageForAnnotation:(id <MGLAnnotation> _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)mapView:(MGLMapView * _Nonnull)mapView lineWidthForPolylineAnnotation:(MGLPolyline * _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
 - (UIColor * _Nonnull)mapView:(MGLMapView * _Nonnull)mapView strokeColorForShapeAnnotation:(MGLShape * _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
@@ -374,6 +347,33 @@ SWIFT_CLASS("_TtC10TallyGoKit15TGStyledMapView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame styleURL:(NSURL * _Nullable)styleURL OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+/// View controller with TallyGo navigation and Mapbox mapview
+SWIFT_CLASS("_TtC10TallyGoKit26TGTurnByTurnViewController")
+@interface TGTurnByTurnViewController : UIViewController
+/// Configures the map, add notification observers, and requests the route.
+- (void)viewDidLoad;
+/// Sets the status bar style.
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+/// Hides the navigation bar
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+/// Shows the user’s location
+- (void)viewDidAppear:(BOOL)animated;
+/// Position the subviews.
+- (void)viewDidLayoutSubviews;
+/// IBAction for unwind segues.
+- (IBAction)backAction:(UIStoryboardSegue * _Nonnull)segue;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+
+
 
 
 SWIFT_CLASS("_TtC10TallyGoKit27TGTurnListBaseTableViewCell")
