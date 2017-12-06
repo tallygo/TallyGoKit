@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TGSegment Class Reference</title>
+    <title>TGPreviewViewController Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset="utf-8">
@@ -14,9 +14,9 @@
   </head>
   <body>
 
-    <a name="//apple_ref/swift/Class/TGSegment" class="dashAnchor"></a>
+    <a name="//apple_ref/swift/Class/TGPreviewViewController" class="dashAnchor"></a>
 
-    <a title="TGSegment Class Reference"></a>
+    <a title="TGPreviewViewController Class Reference"></a>
 
     <header class="header">
       <p class="header-col header-col--primary">
@@ -38,7 +38,7 @@
     <p class="breadcrumbs">
       <a class="breadcrumb" href="../index.html">TallyGoKit Reference</a>
       <img class="carat" src="../img/carat.png" />
-      TGSegment Class Reference
+      TGPreviewViewController Class Reference
     </p>
 
     <div class="content-wrapper">
@@ -47,9 +47,6 @@
           <li class="nav-group-name">
             <a class="nav-group-name-link" href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGAddress.html">TGAddress</a>
-              </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGBaseObject.html">TGBaseObject</a>
               </li>
@@ -114,9 +111,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGGeoJSONPolygon.html">TGGeoJSONPolygon</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGGuidanceViewController.html">TGGuidanceViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGHighway.html">TGHighway</a>
               </li>
               <li class="nav-group-task">
@@ -135,6 +129,9 @@
                 <a class="nav-group-task-link" href="../Classes/TGPoint.html">TGPoint</a>
               </li>
               <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGPreviewViewController.html">TGPreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a>
               </li>
               <li class="nav-group-task">
@@ -144,9 +141,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGRoute.html">TGRoute</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGRoutePreviewViewController.html">TGRoutePreviewViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGRouteRequest.html">TGRouteRequest</a>
               </li>
               <li class="nav-group-task">
@@ -154,6 +148,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRouteSegment.html">TGRouteSegment</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGSearchCategory.html">TGSearchCategory</a>
@@ -186,9 +183,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGSearchViewController.html">TGSearchViewController</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGSegment.html">TGSegment</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStreet.html">TGStreet</a>
               </li>
               <li class="nav-group-task">
@@ -199,6 +193,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStreet/TGStreetDirection.html">– TGStreetDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGStreetAddress.html">TGStreetAddress</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStyledMapView.html">TGStyledMapView</a>
@@ -217,6 +214,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGTurn/TGTurnDirection.html">– TGTurnDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGTurnByTurnViewController.html">TGTurnByTurnViewController</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes.html#/c:@M@TallyGoKit@objc(cs)TGTurnListBaseTableViewCell">TGTurnListBaseTableViewCell</a>
@@ -374,16 +374,14 @@
 
         <section class="section">
           <div class="section-content">
-            <h1>TGSegment</h1>
+            <h1>TGPreviewViewController</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGSegment</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGBaseObject.html">TGBaseObject</a></span></code></pre>
+                  <pre class="highlight"><code><span class="kd">final</span> <span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGPreviewViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt"><a href="../Protocols/TGStoryboardInitializable.html">TGStoryboardInitializable</a></span></code></pre>
 
                 </div>
               </div>
-            <p>TGSegment represets one segment of a route. A route from location A to B will consist of only one segment. Introducing a stop along the way will result in two segments, from A to B, and B to C. Similar to routes, each segment has its own distance, and estimated travel time.</p>
-
-<p>A segment consists of a sequence of points which represent the geographic shape of the route. Points may also include information about turns or other instructions necessary to navigate the route. See TGPoint.</p>
+            <p>Undocumented</p>
 
           </div>
         </section>
@@ -395,9 +393,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGSegmentC6pointsSayAA7TGPointCGv"></a>
-                    <a name="//apple_ref/swift/Property/points" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGSegmentC6pointsSayAA7TGPointCGv">points</a>
+                    <a name="/s:10TallyGoKit23TGPreviewViewControllerC14storyboardNameSSvZ"></a>
+                    <a name="//apple_ref/swift/Variable/storyboardName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit23TGPreviewViewControllerC14storyboardNameSSvZ">storyboardName</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -405,14 +403,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Every point in the route in sequence.</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">points</span> <span class="o">=</span> <span class="p">[</span><span class="kt"><a href="../Classes/TGPoint.html">TGPoint</a></span><span class="p">]()</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">storyboardName</span><span class="p">:</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -422,9 +420,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGSegmentC13totalDistanceSdSgv"></a>
-                    <a name="//apple_ref/swift/Property/totalDistance" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGSegmentC13totalDistanceSdSgv">totalDistance</a>
+                    <a name="/s:10TallyGoKit23TGPreviewViewControllerC7segmentAA14TGRouteSegmentCSgv"></a>
+                    <a name="//apple_ref/swift/Property/segment" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit23TGPreviewViewControllerC7segmentAA14TGRouteSegmentCSgv">segment</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -432,14 +430,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The total travel distance in meters.</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">totalDistance</span><span class="p">:</span> <span class="kt">CLLocationDistance</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">segment</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGRouteSegment.html">TGRouteSegment</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -449,9 +447,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGSegmentC13totalDurationSdSgv"></a>
-                    <a name="//apple_ref/swift/Property/totalDuration" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGSegmentC13totalDurationSdSgv">totalDuration</a>
+                    <a name="/s:10TallyGoKit23TGPreviewViewControllerC6originSC22CLLocationCoordinate2DVSgv"></a>
+                    <a name="//apple_ref/swift/Property/origin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit23TGPreviewViewControllerC6originSC22CLLocationCoordinate2DVSgv">origin</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -459,14 +457,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Estimated travel time in seconds.</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">totalDuration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">origin</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -476,9 +474,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGSegmentC6tripIdSSv"></a>
-                    <a name="//apple_ref/swift/Property/tripId" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGSegmentC6tripIdSSv">tripId</a>
+                    <a name="/s:10TallyGoKit23TGPreviewViewControllerC13originAddressSSSgv"></a>
+                    <a name="//apple_ref/swift/Property/originAddress" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit23TGPreviewViewControllerC13originAddressSSSgv">originAddress</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -486,14 +484,261 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A unique ID representing a sequence of segments from different rerouting event.</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">tripId</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">originAddress</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit23TGPreviewViewControllerC18destinationAddressSSSgv"></a>
+                    <a name="//apple_ref/swift/Property/destinationAddress" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit23TGPreviewViewControllerC18destinationAddressSSSgv">destinationAddress</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">destinationAddress</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGPreviewViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGPreviewViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGPreviewViewController(im)viewWillAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGPreviewViewController(im)viewWillAppear:">viewWillAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGPreviewViewController(im)viewDidLayoutSubviews"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLayoutSubviews()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGPreviewViewController(im)viewDidLayoutSubviews">viewDidLayoutSubviews()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">viewDidLayoutSubviews</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit23TGPreviewViewControllerC02onaB0yycSgv"></a>
+                    <a name="//apple_ref/swift/Property/onTallyGo" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit23TGPreviewViewControllerC02onaB0yycSgv">onTallyGo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">onTallyGo</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">())?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@TallyGoKit@objc(cs)TGPreviewViewController(im)mapView:imageForAnnotation:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:imageFor:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@TallyGoKit@objc(cs)TGPreviewViewController(im)mapView:imageForAnnotation:">mapView(_:imageFor:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MGLMapView</span><span class="p">,</span> <span class="n">imageFor</span> <span class="nv">annotation</span><span class="p">:</span> <span class="kt">MGLAnnotation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">MGLAnnotationImage</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@TallyGoKit@objc(cs)TGPreviewViewController(im)mapView:lineWidthForPolylineAnnotation:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:lineWidthForPolylineAnnotation:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@TallyGoKit@objc(cs)TGPreviewViewController(im)mapView:lineWidthForPolylineAnnotation:">mapView(_:lineWidthForPolylineAnnotation:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MGLMapView</span><span class="p">,</span> <span class="n">lineWidthForPolylineAnnotation</span> <span class="nv">annotation</span><span class="p">:</span> <span class="kt">MGLPolyline</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@TallyGoKit@objc(cs)TGPreviewViewController(im)mapView:strokeColorForShapeAnnotation:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:strokeColorForShapeAnnotation:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@TallyGoKit@objc(cs)TGPreviewViewController(im)mapView:strokeColorForShapeAnnotation:">mapView(_:strokeColorForShapeAnnotation:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MGLMapView</span><span class="p">,</span> <span class="n">strokeColorForShapeAnnotation</span> <span class="nv">annotation</span><span class="p">:</span> <span class="kt">MGLShape</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@TallyGoKit@objc(cs)TGPreviewViewController(im)mapView:alphaForShapeAnnotation:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:alphaForShapeAnnotation:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@TallyGoKit@objc(cs)TGPreviewViewController(im)mapView:alphaForShapeAnnotation:">mapView(_:alphaForShapeAnnotation:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MGLMapView</span><span class="p">,</span> <span class="n">alphaForShapeAnnotation</span> <span class="nv">annotation</span><span class="p">:</span> <span class="kt">MGLShape</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
 
                         </div>
                       </div>
@@ -508,7 +753,7 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-11-15)</p>
+      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-12-06)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

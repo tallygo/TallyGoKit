@@ -199,71 +199,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class AVSpeechSynthesisVoice;
-
-/// View controller with TallyGo navigation and Mapbox mapview
-SWIFT_CLASS("_TtC10TallyGoKit24TGGuidanceViewController")
-@interface TGGuidanceViewController : UIViewController
-/// Storyboad name
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull storyboardName;)
-+ (NSString * _Nonnull)storyboardName SWIFT_WARN_UNUSED_RESULT;
-/// Mapbox MGLMapView
-@property (nonatomic, readonly, strong) MGLMapView * _Nonnull mapview;
-/// Determines whether origin icon is displayed
-@property (nonatomic) BOOL showsOriginIcon;
-/// Determines whether destination icon is displayed
-@property (nonatomic) BOOL showsDestinationIcon;
-/// Text that will be spoken as view is displayed
-@property (nonatomic, copy) NSString * _Nullable commencementSpeech;
-/// Text that will be spoken when the user needs to proceed to the route
-@property (nonatomic, copy) NSString * _Nullable proceedToRouteSpeech;
-/// Text that will be spoken upon arrival
-@property (nonatomic, copy) NSString * _Nullable arrivalSpeech;
-/// Text used in local notification if app is in background
-@property (nonatomic, copy) NSString * _Nullable arrivalNotification;
-/// The voice that should be used for voice prompts during the route.
-@property (nonatomic, strong) AVSpeechSynthesisVoice * _Nullable voice;
-/// Do not use. For internal testing only.
-@property (nonatomic) BOOL showMakeWrongTurnButton;
-/// Address to be displayed in the route progress bar
-@property (nonatomic, copy) NSString * _Nullable destinationAddressShort;
-/// Address to be displayed on the turn list
-@property (nonatomic, copy) NSString * _Nullable originAddress;
-/// Address to be displayed in the arrival overlay under the address, and on the turn list
-@property (nonatomic, copy) NSString * _Nullable destinationAddress;
-/// Configures the map, add notification observers, and requests the route.
-- (void)viewDidLoad;
-/// Sets the status bar style.
-@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
-/// Hides the navigation bar
-- (void)viewWillAppear:(BOOL)animated;
-- (void)viewWillDisappear:(BOOL)animated;
-/// Shows the user’s location
-- (void)viewDidAppear:(BOOL)animated;
-/// Position the subviews.
-- (void)viewDidLayoutSubviews;
-/// IBAction for unwind segues.
-- (IBAction)backAction:(UIStoryboardSegue * _Nonnull)segue;
-/// Override point to perform addtional layout tasks. Default implementation does nothing.
-@property (nonatomic, copy) void (^ _Nullable performAdditionalLayout)(void);
-/// Override point to perform tasks at arrival. Default implementation does nothing.
-@property (nonatomic, copy) void (^ _Nullable performActionOnArrival)(void);
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface TGGuidanceViewController (SWIFT_EXTENSION(TallyGoKit))
-@end
-
-
-@interface TGGuidanceViewController (SWIFT_EXTENSION(TallyGoKit))
-@end
-
-
-@interface TGGuidanceViewController (SWIFT_EXTENSION(TallyGoKit))
-@end
-
 
 /// A class that facilitiates disabling the device’s idle timer.
 SWIFT_CLASS("_TtC10TallyGoKit11TGIdleTimer")
@@ -303,8 +238,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 
-SWIFT_CLASS("_TtC10TallyGoKit28TGRoutePreviewViewController")
-@interface TGRoutePreviewViewController : UIViewController
+SWIFT_CLASS("_TtC10TallyGoKit23TGPreviewViewController")
+@interface TGPreviewViewController : UIViewController
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull storyboardName;)
 + (NSString * _Nonnull)storyboardName SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, copy) NSString * _Nullable originAddress;
@@ -318,7 +253,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 
-@interface TGRoutePreviewViewController (SWIFT_EXTENSION(TallyGoKit)) <MGLMapViewDelegate>
+@interface TGPreviewViewController (SWIFT_EXTENSION(TallyGoKit)) <MGLMapViewDelegate>
 - (MGLAnnotationImage * _Nullable)mapView:(MGLMapView * _Nonnull)mapView imageForAnnotation:(id <MGLAnnotation> _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)mapView:(MGLMapView * _Nonnull)mapView lineWidthForPolylineAnnotation:(MGLPolyline * _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
 - (UIColor * _Nonnull)mapView:(MGLMapView * _Nonnull)mapView strokeColorForShapeAnnotation:(MGLShape * _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
@@ -390,6 +325,71 @@ SWIFT_CLASS("_TtC10TallyGoKit15TGStyledMapView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame styleURL:(NSURL * _Nullable)styleURL OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class AVSpeechSynthesisVoice;
+
+/// View controller with TallyGo navigation and Mapbox mapview
+SWIFT_CLASS("_TtC10TallyGoKit26TGTurnByTurnViewController")
+@interface TGTurnByTurnViewController : UIViewController
+/// Storyboad name
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull storyboardName;)
++ (NSString * _Nonnull)storyboardName SWIFT_WARN_UNUSED_RESULT;
+/// Mapbox MGLMapView
+@property (nonatomic, readonly, strong) MGLMapView * _Nonnull mapview;
+/// Determines whether origin icon is displayed
+@property (nonatomic) BOOL showsOriginIcon;
+/// Determines whether destination icon is displayed
+@property (nonatomic) BOOL showsDestinationIcon;
+/// Text that will be spoken as view is displayed
+@property (nonatomic, copy) NSString * _Nullable commencementSpeech;
+/// Text that will be spoken when the user needs to proceed to the route
+@property (nonatomic, copy) NSString * _Nullable proceedToRouteSpeech;
+/// Text that will be spoken upon arrival
+@property (nonatomic, copy) NSString * _Nullable arrivalSpeech;
+/// Text used in local notification if app is in background
+@property (nonatomic, copy) NSString * _Nullable arrivalNotification;
+/// The voice that should be used for voice prompts during the route.
+@property (nonatomic, strong) AVSpeechSynthesisVoice * _Nullable voice;
+/// Do not use. For internal testing only.
+@property (nonatomic) BOOL showMakeWrongTurnButton;
+/// Address to be displayed in the route progress bar
+@property (nonatomic, copy) NSString * _Nullable destinationAddressShort;
+/// Address to be displayed on the turn list
+@property (nonatomic, copy) NSString * _Nullable originAddress;
+/// Address to be displayed in the arrival overlay under the address, and on the turn list
+@property (nonatomic, copy) NSString * _Nullable destinationAddress;
+/// Configures the map, add notification observers, and requests the route.
+- (void)viewDidLoad;
+/// Sets the status bar style.
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+/// Hides the navigation bar
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+/// Shows the user’s location
+- (void)viewDidAppear:(BOOL)animated;
+/// Position the subviews.
+- (void)viewDidLayoutSubviews;
+/// IBAction for unwind segues.
+- (IBAction)backAction:(UIStoryboardSegue * _Nonnull)segue;
+/// Override point to perform addtional layout tasks. Default implementation does nothing.
+@property (nonatomic, copy) void (^ _Nullable performAdditionalLayout)(void);
+/// Override point to perform tasks at arrival. Default implementation does nothing.
+@property (nonatomic, copy) void (^ _Nullable performActionOnArrival)(void);
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface TGTurnByTurnViewController (SWIFT_EXTENSION(TallyGoKit))
+@end
+
+
+@interface TGTurnByTurnViewController (SWIFT_EXTENSION(TallyGoKit))
+@end
+
+
+@interface TGTurnByTurnViewController (SWIFT_EXTENSION(TallyGoKit))
 @end
 
 

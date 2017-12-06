@@ -48,9 +48,6 @@
             <a class="nav-group-name-link" href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGAddress.html">TGAddress</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGBaseObject.html">TGBaseObject</a>
               </li>
               <li class="nav-group-task">
@@ -114,9 +111,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGGeoJSONPolygon.html">TGGeoJSONPolygon</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGGuidanceViewController.html">TGGuidanceViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGHighway.html">TGHighway</a>
               </li>
               <li class="nav-group-task">
@@ -135,6 +129,9 @@
                 <a class="nav-group-task-link" href="../Classes/TGPoint.html">TGPoint</a>
               </li>
               <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGPreviewViewController.html">TGPreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a>
               </li>
               <li class="nav-group-task">
@@ -144,9 +141,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGRoute.html">TGRoute</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGRoutePreviewViewController.html">TGRoutePreviewViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGRouteRequest.html">TGRouteRequest</a>
               </li>
               <li class="nav-group-task">
@@ -154,6 +148,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRouteSegment.html">TGRouteSegment</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGSearchCategory.html">TGSearchCategory</a>
@@ -186,9 +183,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGSearchViewController.html">TGSearchViewController</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGSegment.html">TGSegment</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStreet.html">TGStreet</a>
               </li>
               <li class="nav-group-task">
@@ -199,6 +193,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStreet/TGStreetDirection.html">– TGStreetDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGStreetAddress.html">TGStreetAddress</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStyledMapView.html">TGStyledMapView</a>
@@ -217,6 +214,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGTurn/TGTurnDirection.html">– TGTurnDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGTurnByTurnViewController.html">TGTurnByTurnViewController</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes.html#/c:@M@TallyGoKit@objc(cs)TGTurnListBaseTableViewCell">TGTurnListBaseTableViewCell</a>
@@ -385,7 +385,7 @@
 
 <p>A segment consists of an ordered collection of points. Points serve a few purposes. First, they express the shape of the path along the road. Points also allow the routing engine to insert specific instructions, like an instruction to prepare for an upcoming highway exit.</p>
 
-<p>See TGSegment and TGPoint for details.</p>
+<p>See TGRouteSegment and TGPoint for details.</p>
 
           </div>
         </section>
@@ -397,9 +397,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit7TGRouteC8segmentsSayAA9TGSegmentCGv"></a>
+                    <a name="/s:10TallyGoKit7TGRouteC8segmentsSayAA0D7SegmentCGv"></a>
                     <a name="//apple_ref/swift/Property/segments" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit7TGRouteC8segmentsSayAA9TGSegmentCGv">segments</a>
+                    <a class="token" href="#/s:10TallyGoKit7TGRouteC8segmentsSayAA0D7SegmentCGv">segments</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -414,7 +414,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">segments</span> <span class="o">=</span> <span class="p">[</span><span class="kt"><a href="../Classes/TGSegment.html">TGSegment</a></span><span class="p">]()</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">segments</span> <span class="o">=</span> <span class="p">[</span><span class="kt"><a href="../Classes/TGRouteSegment.html">TGRouteSegment</a></span><span class="p">]()</span></code></pre>
 
                         </div>
                       </div>
@@ -483,7 +483,7 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-11-15)</p>
+      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-12-06)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
