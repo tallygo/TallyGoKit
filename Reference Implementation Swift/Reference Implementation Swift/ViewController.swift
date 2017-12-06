@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func goAction(_ sender: Any) {
-        let viewController = TGGuidanceViewController.makeFromStoryboard()
+        let viewController = TGTurnByTurnViewController.makeFromStoryboard()
         viewController.showsOriginIcon = false
         viewController.origin = origin
         viewController.destination = destination
