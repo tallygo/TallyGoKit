@@ -6,7 +6,7 @@ target 'Reference Implementation Swift' do
   use_frameworks!
 
   # Pods for Reference Implementation Swift
-  pod 'TallyGoKit-Xcode8.3'
-  #pod 'TallyGoKit-Xcode8.3', path: '../'
+  #pod 'TallyGoKit-Xcode8.3'
+  pod 'TallyGoKit-Xcode8.3', path: '../'
 
 end

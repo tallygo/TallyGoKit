@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,16 +22,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TallyGoKit Reference Implementation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ve8-4b-aUv">
+                                <rect key="frame" x="46.5" y="323.5" width="282" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uses Mapbox and OpenStreetMap" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjS-XP-8SQ">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="165" id="ixj-WK-arz"/>
-                                    <constraint firstAttribute="height" constant="12" id="vwR-hl-BVH"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -36,8 +32,6 @@
                         <constraints>
                             <constraint firstItem="Ve8-4b-aUv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HXy-Z1-3tH"/>
                             <constraint firstItem="Ve8-4b-aUv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Pz8-Dy-gPm"/>
-                            <constraint firstItem="jjS-XP-8SQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Tl4-P4-DZx"/>
-                            <constraint firstItem="jjS-XP-8SQ" firstAttribute="top" secondItem="Ve8-4b-aUv" secondAttribute="bottom" constant="8" id="gtS-P9-G4Y"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -193,7 +193,7 @@
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${PODS_ROOT}/TallyGoKit-Xcode8.3/TallyGoKit.framework",
+				"${PODS_ROOT}/../../TallyGoKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
