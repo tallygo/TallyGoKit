@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TGAddress Class Reference</title>
+    <title>TGTurnByTurnViewController Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset="utf-8">
@@ -14,9 +14,9 @@
   </head>
   <body>
 
-    <a name="//apple_ref/swift/Class/TGAddress" class="dashAnchor"></a>
+    <a name="//apple_ref/swift/Class/TGTurnByTurnViewController" class="dashAnchor"></a>
 
-    <a title="TGAddress Class Reference"></a>
+    <a title="TGTurnByTurnViewController Class Reference"></a>
 
     <header class="header">
       <p class="header-col header-col--primary">
@@ -38,7 +38,7 @@
     <p class="breadcrumbs">
       <a class="breadcrumb" href="../index.html">TallyGoKit Reference</a>
       <img class="carat" src="../img/carat.png" />
-      TGAddress Class Reference
+      TGTurnByTurnViewController Class Reference
     </p>
 
     <div class="content-wrapper">
@@ -47,9 +47,6 @@
           <li class="nav-group-name">
             <a class="nav-group-name-link" href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGAddress.html">TGAddress</a>
-              </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGBaseObject.html">TGBaseObject</a>
               </li>
@@ -114,9 +111,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGGeoJSONPolygon.html">TGGeoJSONPolygon</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGGuidanceViewController.html">TGGuidanceViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGHighway.html">TGHighway</a>
               </li>
               <li class="nav-group-task">
@@ -135,6 +129,9 @@
                 <a class="nav-group-task-link" href="../Classes/TGPoint.html">TGPoint</a>
               </li>
               <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGPreviewViewController.html">TGPreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a>
               </li>
               <li class="nav-group-task">
@@ -144,9 +141,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGRoute.html">TGRoute</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGRoutePreviewViewController.html">TGRoutePreviewViewController</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGRouteRequest.html">TGRouteRequest</a>
               </li>
               <li class="nav-group-task">
@@ -154,6 +148,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRouteSegment.html">TGRouteSegment</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGSearchCategory.html">TGSearchCategory</a>
@@ -186,9 +183,6 @@
                 <a class="nav-group-task-link" href="../Classes/TGSearchViewController.html">TGSearchViewController</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/TGSegment.html">TGSegment</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStreet.html">TGStreet</a>
               </li>
               <li class="nav-group-task">
@@ -199,6 +193,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStreet/TGStreetDirection.html">– TGStreetDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGStreetAddress.html">TGStreetAddress</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGStyledMapView.html">TGStyledMapView</a>
@@ -217,6 +214,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGTurn/TGTurnDirection.html">– TGTurnDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGTurnByTurnViewController.html">TGTurnByTurnViewController</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes.html#/c:@M@TallyGoKit@objc(cs)TGTurnListBaseTableViewCell">TGTurnListBaseTableViewCell</a>
@@ -374,14 +374,14 @@
 
         <section class="section">
           <div class="section-content">
-            <h1>TGAddress</h1>
+            <h1>TGTurnByTurnViewController</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGAddress</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGBaseObject.html">TGBaseObject</a></span></code></pre>
+                  <pre class="highlight"><code><span class="kd">final</span> <span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGTurnByTurnViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt"><a href="../Protocols/TGStoryboardInitializable.html">TGStoryboardInitializable</a></span></code></pre>
 
                 </div>
               </div>
-            <p>Represents a street address.</p>
+            <p>View controller with TallyGo navigation and Mapbox mapview</p>
 
           </div>
         </section>
@@ -393,9 +393,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC6regionSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/region" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC6regionSSSgv">region</a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC14storyboardNameSSvZ"></a>
+                    <a name="//apple_ref/swift/Variable/storyboardName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC14storyboardNameSSvZ">storyboardName</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -403,14 +403,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Contains the state for U.S. addresses.</p>
+                        <p>Storyboad name</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">region</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">storyboardName</span><span class="p">:</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -420,9 +420,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC6postalSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/postal" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC6postalSSSgv">postal</a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC7mapviewSo06MGLMapG0Cv"></a>
+                    <a name="//apple_ref/swift/Property/mapview" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC7mapviewSo06MGLMapG0Cv">mapview</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -430,14 +430,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Contains the first 5 digits of the U.S. Zip Code</p>
+                        <p>Mapbox MGLMapView</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">postal</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">mapview</span> <span class="o">=</span> <span class="kt"><a href="../Classes/TallyGoKit.html">TallyGoKit</a></span><span class="o">.</span><span class="nf">createMapView</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
@@ -447,9 +447,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC12matchAddressSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/matchAddress" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC12matchAddressSSSgv">matchAddress</a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC6originSC22CLLocationCoordinate2DVSgv"></a>
+                    <a name="//apple_ref/swift/Property/origin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC6originSC22CLLocationCoordinate2DVSgv">origin</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -457,14 +457,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The complete matched address.</p>
+                        <p>The requested origin location</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">matchAddress</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">origin</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -474,9 +474,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC12locationNameSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/locationName" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC12locationNameSSSgv">locationName</a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC11destinationSC22CLLocationCoordinate2DVSgv"></a>
+                    <a name="//apple_ref/swift/Property/destination" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC11destinationSC22CLLocationCoordinate2DVSgv">destination</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -484,14 +484,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The type of address found. Contents varies.</p>
+                        <p>The requested destination. If this is changed while en route, a reroute will be triggered.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">locationName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">destination</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -501,9 +501,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC9placeNameSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/placeName" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC9placeNameSSSgv">placeName</a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC7segmentAA14TGRouteSegmentCSgv"></a>
+                    <a name="//apple_ref/swift/Property/segment" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC7segmentAA14TGRouteSegmentCSgv">segment</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -511,14 +511,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The name of place found. Contents varies.</p>
+                        <p>The current segment</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">placeName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">segment</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGRouteSegment.html">TGRouteSegment</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -528,9 +528,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC7addressSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/address" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC7addressSSSgv">address</a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC15showsOriginIconSbv"></a>
+                    <a name="//apple_ref/swift/Property/showsOriginIcon" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC15showsOriginIconSbv">showsOriginIcon</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -538,14 +538,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The street address portion of the result.</p>
+                        <p>Determines whether origin icon is displayed</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">address</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">showsOriginIcon</span> <span class="o">=</span> <span class="kc">true</span></code></pre>
 
                         </div>
                       </div>
@@ -555,9 +555,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC10countyCodeSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/countyCode" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC10countyCodeSSSgv">countyCode</a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC20showsDestinationIconSbv"></a>
+                    <a name="//apple_ref/swift/Property/showsDestinationIcon" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC20showsDestinationIconSbv">showsDestinationIcon</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -565,14 +565,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A three character country code.</p>
+                        <p>Determines whether destination icon is displayed</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">countyCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">showsDestinationIcon</span> <span class="o">=</span> <span class="kc">true</span></code></pre>
 
                         </div>
                       </div>
@@ -582,9 +582,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC15postalExtensionSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/postalExtension" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC15postalExtensionSSSgv">postalExtension</a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC18commencementSpeechSSSgv"></a>
+                    <a name="//apple_ref/swift/Property/commencementSpeech" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC18commencementSpeechSSSgv">commencementSpeech</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -592,14 +592,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The last 4 digits of a 9-digit U.S. Zip Code.</p>
+                        <p>Text that will be spoken as view is displayed</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">postalExtension</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">commencementSpeech</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -609,9 +609,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC12neighborhoodSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/neighborhood" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC12neighborhoodSSSgv">neighborhood</a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC20proceedToRouteSpeechSSSgv"></a>
+                    <a name="//apple_ref/swift/Property/proceedToRouteSpeech" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC20proceedToRouteSpeechSSSgv">proceedToRouteSpeech</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -619,14 +619,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The name of the neighborhood.</p>
+                        <p>Text that will be spoken when the user needs to proceed to the route</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">neighborhood</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">proceedToRouteSpeech</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -636,9 +636,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC9subregionSSSgv"></a>
-                    <a name="//apple_ref/swift/Property/subregion" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC9subregionSSSgv">subregion</a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC13arrivalSpeechSSSgv"></a>
+                    <a name="//apple_ref/swift/Property/arrivalSpeech" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC13arrivalSpeechSSSgv">arrivalSpeech</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -646,14 +646,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The subregion. Not normally used for U.S. locations.</p>
+                        <p>Text that will be spoken upon arrival</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">subregion</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">arrivalSpeech</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -663,9 +663,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10TallyGoKit9TGAddressC4citySSSgv"></a>
-                    <a name="//apple_ref/swift/Property/city" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10TallyGoKit9TGAddressC4citySSSgv">city</a>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC19arrivalNotificationSSSgv"></a>
+                    <a name="//apple_ref/swift/Property/arrivalNotification" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC19arrivalNotificationSSSgv">arrivalNotification</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -673,14 +673,392 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The name of the city.</p>
+                        <p>Text used in local notification if app is in background</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">city</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">arrivalNotification</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="s">"Well done! You've arrived at your destination."</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC5voiceSo22AVSpeechSynthesisVoiceCSgv"></a>
+                    <a name="//apple_ref/swift/Property/voice" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC5voiceSo22AVSpeechSynthesisVoiceCSgv">voice</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The voice that should be used for voice prompts during the route.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">voice</span><span class="p">:</span> <span class="kt">AVSpeechSynthesisVoice</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC013showMakeWrongF6ButtonSbv"></a>
+                    <a name="//apple_ref/swift/Property/showMakeWrongTurnButton" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC013showMakeWrongF6ButtonSbv">showMakeWrongTurnButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Do not use. For internal testing only.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">showMakeWrongTurnButton</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC23destinationAddressShortSSSgv"></a>
+                    <a name="//apple_ref/swift/Property/destinationAddressShort" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC23destinationAddressShortSSSgv">destinationAddressShort</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Address to be displayed in the route progress bar</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">destinationAddressShort</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC13originAddressSSSgv"></a>
+                    <a name="//apple_ref/swift/Property/originAddress" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC13originAddressSSSgv">originAddress</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Address to be displayed on the turn list</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">originAddress</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC18destinationAddressSSSgv"></a>
+                    <a name="//apple_ref/swift/Property/destinationAddress" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC18destinationAddressSSSgv">destinationAddress</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Address to be displayed in the arrival overlay under the address, and on the turn list</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">destinationAddress</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Configures the map, add notification observers, and requests the route.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(py)preferredStatusBarStyle"></a>
+                    <a name="//apple_ref/swift/Property/preferredStatusBarStyle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(py)preferredStatusBarStyle">preferredStatusBarStyle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the status bar style.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">preferredStatusBarStyle</span><span class="p">:</span> <span class="kt">UIStatusBarStyle</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewWillAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewWillAppear:">viewWillAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hides the navigation bar</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewWillDisappear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillDisappear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewWillDisappear:">viewWillDisappear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewDidAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewDidAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewDidAppear:">viewDidAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shows the user&rsquo;s location</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewDidLayoutSubviews"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLayoutSubviews()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)viewDidLayoutSubviews">viewDidLayoutSubviews()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Position the subviews.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">viewDidLayoutSubviews</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)backAction:"></a>
+                    <a name="//apple_ref/swift/Method/backAction(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@TallyGoKit@objc(cs)TGTurnByTurnViewController(im)backAction:">backAction(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>IBAction for unwind segues.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBAction</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">backAction</span><span class="p">(</span><span class="n">_</span> <span class="nv">segue</span><span class="p">:</span> <span class="kt">UIStoryboardSegue</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC23performAdditionalLayoutyycSgv"></a>
+                    <a name="//apple_ref/swift/Property/performAdditionalLayout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC23performAdditionalLayoutyycSgv">performAdditionalLayout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Override point to perform addtional layout tasks. Default implementation does nothing.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">performAdditionalLayout</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">())?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10TallyGoKit26TGTurnByTurnViewControllerC22performActionOnArrivalyycSgv"></a>
+                    <a name="//apple_ref/swift/Property/performActionOnArrival" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10TallyGoKit26TGTurnByTurnViewControllerC22performActionOnArrivalyycSgv">performActionOnArrival</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Override point to perform tasks at arrival. Default implementation does nothing.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">performActionOnArrival</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">())?</span></code></pre>
 
                         </div>
                       </div>
@@ -695,7 +1073,7 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-11-15)</p>
+      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-12-06)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
