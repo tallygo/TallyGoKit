@@ -13,6 +13,5 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.0'
     s.ios.vendored_frameworks = 'TallyGoKit.framework'
 
-    s.dependency 'SwiftyJSON', '3.1.4'
-    s.dependency 'Mapbox-iOS-SDK', '3.6.4'
+    s.dependency 'Mapbox-iOS-SDK', '~> 3.0', '>= 3.6.4', '< 3.8'
 end
