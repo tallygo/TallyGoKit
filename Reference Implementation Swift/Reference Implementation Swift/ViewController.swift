@@ -38,16 +38,16 @@ class ViewController: UIViewController {
         if sender.isOn {
             TallyGo.simulatedCoordinate = origin
         } else {
-            TallyGo.simulatedCoordinate = nil
+            TallyGo.simulatedCoordinate = kCLLocationCoordinate2DInvalid
         }
     }
     
     @IBAction func enableTraffic(_ sender: UISwitch) {
-        TallyGoKit.showsTraffic = sender.isOn
+        TallyGo.showsTraffic = sender.isOn
     }
     
     @IBAction func testAudioAction(_ sender: AnyObject) {
-        TGVoiceSynthesis.shared.say(text: "Welcome to TallyGo.")
+        TGVoiceSynthesis.shared.say("Welcome to TallyGo.")
     }
     
     @IBAction func goAction(_ sender: Any) {
@@ -55,9 +55,9 @@ class ViewController: UIViewController {
         viewController.showsOriginIcon = false
         viewController.origin = origin
         viewController.destination = destination
-        viewController.mapview.delegate = mapViewDelegate
-        viewController.mapview.tintColor = UIColor.red
-        viewController.mapview.attributionButton.isHidden = true
+        viewController.mapView.delegate = mapViewDelegate
+        viewController.mapView.tintColor = UIColor.red
+        viewController.mapView.attributionButton.isHidden = true
         viewController.commencementSpeech = "Let's go."
         viewController.proceedToRouteSpeech = "Please proceed to the route."
         viewController.arrivalSpeech = "You have arrived."
