@@ -25,8 +25,8 @@ class ViewController: UIViewController {
     var mapViewDelegate = MapViewDelegate()
     
     override func viewDidLoad() {
-        TallyGoKit.initialize(withAccessToken: "YOUR ACCESS TOKEN")
-        TallyGoKit.allowsDebug = true
+        TallyGo.initialize(withAccessToken: "YOUR ACCESS TOKEN")
+        TallyGo.allowsDebug = true
         
         originLat.text = String(origin.latitude)
         originLon.text = String(origin.longitude)
@@ -36,9 +36,9 @@ class ViewController: UIViewController {
     
     @IBAction func enableSimulator(_ sender: UISwitch) {
         if sender.isOn {
-            TallyGoKit.simulatedCoordinate = origin
+            TallyGo.simulatedCoordinate = origin
         } else {
-            TallyGoKit.simulatedCoordinate = nil
+            TallyGo.simulatedCoordinate = nil
         }
     }
     

@@ -4,8 +4,3 @@ framework module TallyGoKit {
   export *
   module * { export * }
 }
-
-module TallyGoKit.Swift {
-    header "TallyGoKit-Swift.h"
-    requires objc
-}
