@@ -377,7 +377,7 @@
             <h1>TGFind</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGFind</span><span class="p">:</span> <span class="kt"><a href="../Classes.html#/s:10TallyGoKit13TGBaseServiceC">TGBaseService</a></span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">TGFind</span><span class="p">:</span> <span class="kt"><a href="../Classes.html#/s:10TallyGoKit13TGBaseServiceC">TGBaseService</a></span></code></pre>
 
                 </div>
               </div>
@@ -419,20 +419,20 @@ See TGSearchRequest for more details.</p>
 <p>Note that you may pass a suggestionKey obtained from a TGSuggestion returned by suggest() to request all information about that suggestion.</p>
 
 <p><strong>Usage Example:</strong></p>
-<pre class="highlight plaintext"><code> let request = TGSearchRequest(singleLine: "restaurant",
-                                 location: CLLocationCoordinate2DMake(34.050000, -118.250000),
-                             searchExtent: nil,
-                            suggestionKey: suggestionKey)
+<pre class="highlight swift"><code> <span class="k">let</span> <span class="nv">request</span> <span class="o">=</span> <span class="nf">TGSearchRequest</span><span class="p">(</span><span class="nv">singleLine</span><span class="p">:</span> <span class="s">"restaurant"</span><span class="p">,</span>
+                                 <span class="nv">location</span><span class="p">:</span> <span class="nf">CLLocationCoordinate2DMake</span><span class="p">(</span><span class="mf">34.050000</span><span class="p">,</span> <span class="o">-</span><span class="mf">118.250000</span><span class="p">),</span>
+                             <span class="nv">searchExtent</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span>
+                            <span class="nv">suggestionKey</span><span class="p">:</span> <span class="n">suggestionKey</span><span class="p">)</span>
 
- TGFind.search(request: request) { resp in
-    if let bestResult = resp.results.first {
-        // Use or display the address
-        debugPrint(bestResult.placeAddress)
+ <span class="kt">TGFind</span><span class="o">.</span><span class="nf">search</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="n">request</span><span class="p">)</span> <span class="p">{</span> <span class="n">resp</span> <span class="k">in</span>
+    <span class="k">if</span> <span class="k">let</span> <span class="nv">bestResult</span> <span class="o">=</span> <span class="n">resp</span><span class="o">.</span><span class="n">results</span><span class="o">.</span><span class="nf">first</span> <span class="p">{</span>
+        <span class="c1">// Use or display the address</span>
+        <span class="nf">debugPrint</span><span class="p">(</span><span class="n">bestResult</span><span class="o">.</span><span class="n">placeAddress</span><span class="p">)</span>
 
-        // Use or display the location (CLLocationCoordinate2D)
-        debugPrint(bestResult.location)
-    }
- }
+        <span class="c1">// Use or display the location (CLLocationCoordinate2D)</span>
+        <span class="nf">debugPrint</span><span class="p">(</span><span class="n">bestResult</span><span class="o">.</span><span class="n">location</span><span class="p">)</span>
+    <span class="p">}</span>
+ <span class="p">}</span>
 </code></pre>
 
                       </div>
@@ -440,7 +440,7 @@ See TGSearchRequest for more details.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">static</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">search</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGSearchRequest.html">TGSearchRequest</a></span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/TGSearchResponse.html">TGSearchResponse</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())</span> <span class="o">-&gt;</span> <span class="kt">URLSessionDataTask</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span> <span class="kd">static</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">search</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGSearchRequest.html">TGSearchRequest</a></span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/TGSearchResponse.html">TGSearchResponse</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())</span> <span class="o">-&gt;</span> <span class="kt">URLSessionDataTask</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -467,16 +467,16 @@ Intended to be called while a user is typing in a search field to anticipate wha
 pass that object&rsquo;s suggestionKey value to search() to retrieve the location of the suggestion.</p>
 
 <p><strong>Usage Example:</strong></p>
-<pre class="highlight plaintext"><code> let request = TGSuggestRequest(text: "restaurant", location: CLLocationCoordinate2DMake(34.050000, -118.250000))
+<pre class="highlight swift"><code> <span class="k">let</span> <span class="nv">request</span> <span class="o">=</span> <span class="nf">TGSuggestRequest</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="s">"restaurant"</span><span class="p">,</span> <span class="nv">location</span><span class="p">:</span> <span class="nf">CLLocationCoordinate2DMake</span><span class="p">(</span><span class="mf">34.050000</span><span class="p">,</span> <span class="o">-</span><span class="mf">118.250000</span><span class="p">))</span>
 
- let task = TGFind.suggest(request: request) { resp in
+ <span class="k">let</span> <span class="nv">task</span> <span class="o">=</span> <span class="kt">TGFind</span><span class="o">.</span><span class="nf">suggest</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="n">request</span><span class="p">)</span> <span class="p">{</span> <span class="n">resp</span> <span class="k">in</span>
 
-    if let firstSuggestionKey = response?.suggestions.first?.suggestionKey {
-        // Use this key later with the search function to get complete information.
-        debugPrint(firstSuggestionKey)
-    }
+    <span class="k">if</span> <span class="k">let</span> <span class="nv">firstSuggestionKey</span> <span class="o">=</span> <span class="n">response</span><span class="p">?</span><span class="o">.</span><span class="n">suggestions</span><span class="o">.</span><span class="n">first</span><span class="p">?</span><span class="o">.</span><span class="nf">suggestionKey</span> <span class="p">{</span>
+        <span class="c1">// Use this key later with the search function to get complete information.</span>
+        <span class="nf">debugPrint</span><span class="p">(</span><span class="n">firstSuggestionKey</span><span class="p">)</span>
+    <span class="p">}</span>
 
- }
+ <span class="p">}</span>
 </code></pre>
 
                       </div>
@@ -484,7 +484,7 @@ pass that object&rsquo;s suggestionKey value to search() to retrieve the locatio
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">static</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">suggest</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGSuggestRequest.html">TGSuggestRequest</a></span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/TGSuggestResponse.html">TGSuggestResponse</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())</span> <span class="o">-&gt;</span> <span class="kt">URLSessionDataTask</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span> <span class="kd">static</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">suggest</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGSuggestRequest.html">TGSuggestRequest</a></span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/TGSuggestResponse.html">TGSuggestResponse</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())</span> <span class="o">-&gt;</span> <span class="kt">URLSessionDataTask</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -509,21 +509,21 @@ pass that object&rsquo;s suggestionKey value to search() to retrieve the locatio
 <p>If the API is not able to map a given location to an address, an error response (code 400) will be returned instead.</p>
 
 <p><strong>Usage Example:</strong></p>
-<pre class="highlight plaintext"><code> var selectedAddress: TGStreetAddress?
- var selectedLocation: CLLocationCoordinate2D?
+<pre class="highlight swift"><code> <span class="k">var</span> <span class="nv">selectedAddress</span><span class="p">:</span> <span class="kt">TGStreetAddress</span><span class="p">?</span>
+ <span class="k">var</span> <span class="nv">selectedLocation</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="p">?</span>
 
- func reverseGeocode(coordinate: CLLocationCoordinate2D) {
-    let request = TGReverseGeocodeRequest(location: coordinate)
+ <span class="kd">func</span> <span class="nf">reverseGeocode</span><span class="p">(</span><span class="nv">coordinate</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">request</span> <span class="o">=</span> <span class="nf">TGReverseGeocodeRequest</span><span class="p">(</span><span class="nv">location</span><span class="p">:</span> <span class="n">coordinate</span><span class="p">)</span>
 
-    TGFind.reverseGeocode(request: request) { (response) in
-        if let error = response.error {
-            debugPrint("Reverse Geocoding Error: \(error)")
-        }
+    <span class="kt">TGFind</span><span class="o">.</span><span class="nf">reverseGeocode</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="n">request</span><span class="p">)</span> <span class="p">{</span> <span class="p">(</span><span class="n">response</span><span class="p">)</span> <span class="k">in</span>
+        <span class="k">if</span> <span class="k">let</span> <span class="nv">error</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="nf">error</span> <span class="p">{</span>
+            <span class="nf">debugPrint</span><span class="p">(</span><span class="s">"Reverse Geocoding Error: </span><span class="se">\(</span><span class="n">error</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+        <span class="p">}</span>
 
-        self.selectedAddress = response.address
-        self.selectedLocation = response.location
-    }
- }
+        <span class="k">self</span><span class="o">.</span><span class="n">selectedAddress</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">address</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">selectedLocation</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">location</span>
+    <span class="p">}</span>
+ <span class="p">}</span>
 </code></pre>
 
                       </div>
@@ -531,7 +531,7 @@ pass that object&rsquo;s suggestionKey value to search() to retrieve the locatio
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">static</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">reverseGeocode</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a></span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/TGReverseGeocodeResponse.html">TGReverseGeocodeResponse</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())</span> <span class="o">-&gt;</span> <span class="kt">URLSessionDataTask</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span> <span class="kd">static</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">reverseGeocode</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a></span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/TGReverseGeocodeResponse.html">TGReverseGeocodeResponse</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())</span> <span class="o">-&gt;</span> <span class="kt">URLSessionDataTask</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -546,8 +546,8 @@ pass that object&rsquo;s suggestionKey value to search() to retrieve the locatio
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2017 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2017-11-30)</p>
-      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-02-14)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
 </div>
