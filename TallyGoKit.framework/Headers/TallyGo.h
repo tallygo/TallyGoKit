@@ -11,6 +11,7 @@
 
 typedef void (^TGInitializeCompletionHandler)(BOOL success);
 
+/// The main TallyGoKit class.
 @interface TallyGo : NSObject
 
 /// Client ID used for internal analytics.
@@ -46,8 +47,12 @@ typedef void (^TGInitializeCompletionHandler)(BOOL success);
  @param configurationName The configuration name that will be used for all API requests. If nil, uses the default configuration name.
  */
 + (void)initializeWithAccessToken:(nonnull NSString *)accessToken configurationName:(nullable NSString *)configurationName;
-
-/// Returns a new instance of MGLMapView using the TallyGo map style. If the driving simulator is on, the map view will use it instead of the location manager.
-+ (nonnull MGLMapView *)createMapView;
+/**
+ Asynchronously initializes the TallyGoKit framework with your access token.
+ @param accessToken The access token that will be used for all API requests.
+ @param configurationName The configuration name that will be used for all API requests. If nil, uses the default configuration name.
+ @param simulatedCoordinate The starting location for the driving simulator
+ */
++ (void)initializeWithAccessToken:(nonnull NSString *)accessToken configurationName:(nullable NSString *)configurationName simulatedCoordinate:(CLLocationCoordinate2D)simulatedCoordinate;
 
 @end

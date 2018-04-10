@@ -15,4 +15,8 @@
 
 @property (nonatomic, nullable) TGRouteSegment *segment;
 
+@property (nonatomic, nullable) NSString *originDescription;
+
+@property (nonatomic, nullable) NSString *destinationDescription;
+
 @end

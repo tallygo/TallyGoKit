@@ -1,1699 +1,558 @@
 {
   "warnings": [
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/MGLCoordinateBounds+SearchExtent.swift",
-      "line": 14,
-      "symbol": "MGLCoordinateBounds.searchExtent",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit/TallyGo.h",
+      "line": 12,
+      "symbol": "TGInitializeCompletionHandler",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGEventRequest.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit/TallyGoKit.h",
+      "line": 12,
+      "symbol": "TallyGoKitVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit/TallyGoKit.h",
+      "line": 15,
+      "symbol": "TallyGoKitVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/DeviceTypes.h",
+      "line": 36,
+      "symbol": "DeviceTypes",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGBaseObject.h",
+      "line": 11,
+      "symbol": "TGBaseObject",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGBaseRequest.h",
+      "line": 11,
+      "symbol": "TGBaseRequest",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGBaseResponse.h",
+      "line": 12,
+      "symbol": "TGBaseResponse",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGBaseService.h",
+      "line": 12,
+      "symbol": "TGBaseService",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGBaseService.h",
+      "line": 14,
+      "symbol": "TGServiceHandler",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGBoundaryResponse.h",
+      "line": 16,
+      "symbol": "TGBoundaryResponse.featureCollection",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGButton.h",
+      "line": 14,
+      "symbol": "TGButton.buttonText",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGButton.h",
+      "line": 15,
+      "symbol": "TGButton.disabledButtonText",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGButton.h",
+      "line": 16,
+      "symbol": "TGButton.fontSize",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGButton.h",
+      "line": 17,
+      "symbol": "TGButton.hideOnDisabled",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGButton.h",
+      "line": 18,
+      "symbol": "TGButton.red",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGButton.h",
+      "line": 19,
+      "symbol": "TGButton.white",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGButton.h",
+      "line": 20,
+      "symbol": "TGButton.dark",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGButton.h",
+      "line": 21,
+      "symbol": "TGButton.resumeNavigation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGButton.h",
+      "line": 22,
+      "symbol": "TGButton.stopNavigation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGButton.h",
+      "line": 23,
+      "symbol": "TGButton.close",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGConfigurationRequest.h",
+      "line": 11,
+      "symbol": "TGConfigurationRequest",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGConfigurationResponse.h",
+      "line": 11,
+      "symbol": "TGConfigurationResponse",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGConfigurationService.h",
+      "line": 13,
+      "symbol": "TGConfigurationHandler",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGConfigurationService.h",
+      "line": 15,
+      "symbol": "TGConfigurationService",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGConstants.h",
+      "line": 11,
+      "symbol": "TallyGoKitSimulatedCoordinateDidChangeNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGConstants.h",
+      "line": 13,
+      "symbol": "TallyGoKitConfigurationLoadedNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGConstants.h",
+      "line": 14,
+      "symbol": "TallyGoKitConfigurationFailedToLoadNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGEventRequest.h",
       "line": 11,
       "symbol": "TGEventRequest",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGEventResponse.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGEventResponse.h",
       "line": 11,
       "symbol": "TGEventResponse",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGFeedbackViewController.swift",
-      "line": null,
-      "symbol": "TGFeedbackViewController",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGFeedbackViewController.swift",
-      "line": null,
-      "symbol": "TGFeedbackViewController",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGFeedbackViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGFeedbackViewController.h",
       "line": 13,
       "symbol": "TGFeedbackViewController",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGFeedbackViewController.swift",
-      "line": 15,
-      "symbol": "TGFeedbackViewController.storyboardName",
-      "symbol_kind": "source.lang.swift.decl.var.static",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGFindService.h",
+      "line": 13,
+      "symbol": "TGFindErrorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGFeedbackViewController.swift",
-      "line": 27,
-      "symbol": "TGFeedbackViewController.viewDidLoad()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGFeedbackViewController.swift",
-      "line": 35,
-      "symbol": "TGFeedbackViewController.viewDidAppear(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGFeedbackViewController.swift",
-      "line": 75,
-      "symbol": "TGFeedbackViewController.prepare(for:sender:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGFeedbackViewController.swift",
-      "line": 92,
-      "symbol": "TGFeedbackViewController.tableView(_:didSelectRowAt:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGFeedbackViewController.swift",
-      "line": 108,
-      "symbol": "TGFeedbackViewController.tableView(_:numberOfRowsInSection:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGFeedbackViewController.swift",
-      "line": 112,
-      "symbol": "TGFeedbackViewController.tableView(_:cellForRowAt:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
-      "line": null,
-      "symbol": "TGOverviewViewController",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
-      "line": 12,
-      "symbol": "TGOverviewViewController",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
-      "line": 19,
-      "symbol": "TGOverviewViewController.storyboardName",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
-      "line": 23,
-      "symbol": "TGOverviewViewController.segment",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
-      "line": 25,
-      "symbol": "TGOverviewViewController.viewDidLoad()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
-      "line": 48,
-      "symbol": "TGOverviewViewController.viewDidLayoutSubviews()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
-      "line": 83,
-      "symbol": "TGOverviewViewController.mapView(_:imageFor:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
-      "line": 99,
-      "symbol": "TGOverviewViewController.mapView(_:lineWidthForPolylineAnnotation:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
-      "line": 103,
-      "symbol": "TGOverviewViewController.mapView(_:strokeColorForShapeAnnotation:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGOverviewViewController.swift",
-      "line": 107,
-      "symbol": "TGOverviewViewController.mapView(_:alphaForShapeAnnotation:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": null,
-      "symbol": "TGPreviewViewController",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 12,
-      "symbol": "TGPreviewViewController",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 27,
-      "symbol": "TGPreviewViewController.storyboardName",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 31,
-      "symbol": "TGPreviewViewController.segment",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 32,
-      "symbol": "TGPreviewViewController.origin",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 34,
-      "symbol": "TGPreviewViewController.originAddress",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 40,
-      "symbol": "TGPreviewViewController.destinationAddress",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 48,
-      "symbol": "TGPreviewViewController.viewDidLoad()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 122,
-      "symbol": "TGPreviewViewController.viewWillAppear(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 126,
-      "symbol": "TGPreviewViewController.viewDidLayoutSubviews()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 143,
-      "symbol": "TGPreviewViewController.onTallyGo",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 175,
-      "symbol": "TGPreviewViewController.mapView(_:imageFor:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 191,
-      "symbol": "TGPreviewViewController.mapView(_:lineWidthForPolylineAnnotation:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 195,
-      "symbol": "TGPreviewViewController.mapView(_:strokeColorForShapeAnnotation:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGPreviewViewController.swift",
-      "line": 199,
-      "symbol": "TGPreviewViewController.mapView(_:alphaForShapeAnnotation:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 12,
-      "symbol": "TGSearchCategory",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 14,
-      "symbol": "TGSearchCategory.ShortName",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 15,
-      "symbol": "TGSearchCategory.ShortName.atms",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGGeoJSONFeatureCollection.h",
       "line": 16,
-      "symbol": "TGSearchCategory.ShortName.autoRepair",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "symbol": "TGGeoJSONFeatureCollection.features",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 17,
-      "symbol": "TGSearchCategory.ShortName.carWash",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 18,
-      "symbol": "TGSearchCategory.ShortName.coffee",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 19,
-      "symbol": "TGSearchCategory.ShortName.convenience",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 20,
-      "symbol": "TGSearchCategory.ShortName.copyShops",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 21,
-      "symbol": "TGSearchCategory.ShortName.departmentStores",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 22,
-      "symbol": "TGSearchCategory.ShortName.drugStores",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 23,
-      "symbol": "TGSearchCategory.ShortName.gas",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 24,
-      "symbol": "TGSearchCategory.ShortName.groceries",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 25,
-      "symbol": "TGSearchCategory.ShortName.hardware",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 26,
-      "symbol": "TGSearchCategory.ShortName.hospitals",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 27,
-      "symbol": "TGSearchCategory.ShortName.hotels",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGGeoJSONObject.h",
       "line": 28,
-      "symbol": "TGSearchCategory.ShortName.parking",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "symbol": "TGGeoJSONObjectTypeUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 29,
-      "symbol": "TGSearchCategory.ShortName.parks",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 30,
-      "symbol": "TGSearchCategory.ShortName.postOffice",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 31,
-      "symbol": "TGSearchCategory.ShortName.restaurants",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGHighway.h",
       "line": 38,
-      "symbol": "TGSearchCategory.displayName",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "symbol": "TGHighway.type",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 42,
-      "symbol": "TGSearchCategory.defaultSortOrder",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGMapStyle.h",
+      "line": 11,
+      "symbol": "TGMapStyleTrafficTestString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 46,
-      "symbol": "TGSearchCategory.shortName",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGOverviewViewController.h",
+      "line": 15,
+      "symbol": "TGOverviewViewController",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategory.swift",
-      "line": 53,
-      "symbol": "TGSearchCategory.image(completion:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGPreviewViewController.h",
+      "line": 16,
+      "symbol": "TGPreviewViewController",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategoryRequest.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGRoute.h",
+      "line": 24,
+      "symbol": "TGRoute.segments",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGRoute.h",
+      "line": 35,
+      "symbol": "TGRoute.-initWithDictionary:tripId:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGRouteSegment.h",
+      "line": 34,
+      "symbol": "TGRouteSegment.-initWithDictionary:route:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 13,
+      "symbol": "TGSearchCategoryShortName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 15,
+      "symbol": "TGSearchCategoryShortNameATMs",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 16,
+      "symbol": "TGSearchCategoryShortNameAutoRepair",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 17,
+      "symbol": "TGSearchCategoryShortNameCarWash",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 18,
+      "symbol": "TGSearchCategoryShortNameCoffee",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 19,
+      "symbol": "TGSearchCategoryShortNameConvenience",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 20,
+      "symbol": "TGSearchCategoryShortNameCopyShops",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 21,
+      "symbol": "TGSearchCategoryShortNameDepartmentStores",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 22,
+      "symbol": "TGSearchCategoryShortNameDrugStores",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 23,
+      "symbol": "TGSearchCategoryShortNameGas",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 24,
+      "symbol": "TGSearchCategoryShortNameGroceries",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 25,
+      "symbol": "TGSearchCategoryShortNameHardware",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 26,
+      "symbol": "TGSearchCategoryShortNameHospitals",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 27,
+      "symbol": "TGSearchCategoryShortNameHotels",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 28,
+      "symbol": "TGSearchCategoryShortNameParking",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 29,
+      "symbol": "TGSearchCategoryShortNameParks",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 30,
+      "symbol": "TGSearchCategoryShortNamePostOffice",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 31,
+      "symbol": "TGSearchCategoryShortNameRestaurants",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 32,
+      "symbol": "TGSearchCategoryShortNameUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategory.h",
+      "line": 34,
+      "symbol": "TGSearchCategory",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategoryRequest.h",
       "line": 11,
       "symbol": "TGSearchCategoryRequest",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategoryResponse.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategoryResponse.h",
       "line": 11,
       "symbol": "TGSearchCategoryResponse",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategoryService.swift",
-      "line": 11,
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategoryService.h",
+      "line": 13,
       "symbol": "TGSearchCategoryService",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchCategoryService.swift",
-      "line": 15,
-      "symbol": "TGSearchCategoryService.get(request:completionHandler:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchExtent.h",
+      "line": 25,
+      "symbol": "TGSearchExtent.-initWithCoordinateBounds:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchResultsViewController.swift",
-      "line": null,
-      "symbol": "TGSearchResultsViewController",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchResultsViewController.swift",
-      "line": null,
-      "symbol": "TGSearchResultsViewController",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchResultsViewController.swift",
-      "line": 15,
-      "symbol": "TGSearchResultsViewControllerDelegate.userDidSelect(searchResult:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchResultsViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchResultsViewController.h",
       "line": 16,
-      "symbol": "TGSearchResultsViewControllerDelegate.doneButtonPressed()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "symbol": "TGSearchResultsViewController",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchResultsViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchResultsViewControllerDelegate.h",
+      "line": 16,
+      "symbol": "TGSearchResultsViewControllerDelegate.-didSelectSearchResult:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchResultsViewControllerDelegate.h",
       "line": 20,
-      "symbol": "TGSearchResultsViewController",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "symbol": "TGSearchResultsViewControllerDelegate.-didPressDoneButton",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchResultsViewController.swift",
-      "line": 53,
-      "symbol": "TGSearchResultsViewController.viewDidLoad()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchResultsViewController.swift",
-      "line": 76,
-      "symbol": "TGSearchResultsViewController.tableView(_:didSelectRowAt:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchResultsViewController.swift",
-      "line": 85,
-      "symbol": "TGSearchResultsViewController.tableView(_:willDisplay:forRowAt:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchResultsViewController.swift",
-      "line": 93,
-      "symbol": "TGSearchResultsViewController.tableView(_:cellForRowAt:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchResultsViewController.swift",
-      "line": 112,
-      "symbol": "TGSearchResultsViewController.tableView(_:numberOfRowsInSection:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 340,
-      "symbol": "TGSearchViewController.textFieldShouldReturn(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 365,
-      "symbol": "TGSearchViewController.tableView(_:didSelectRowAt:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 380,
-      "symbol": "TGSearchViewController.tableView(_:willDisplay:forRowAt:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 388,
-      "symbol": "TGSearchViewController.tableView(_:cellForRowAt:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchViewController.swift",
-      "line": 419,
-      "symbol": "TGSearchViewController.tableView(_:numberOfRowsInSection:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchViewControllerDelegate.swift",
-      "line": 45,
-      "symbol": "TGSearchViewControllerDelegate.coordinateForSuggestions",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchViewControllerDelegate.swift",
-      "line": 49,
-      "symbol": "TGSearchViewControllerDelegate.coordinateForSearch",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchViewControllerDelegate.swift",
-      "line": 53,
-      "symbol": "TGSearchViewControllerDelegate.searchExtentForSearch",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchViewControllerDelegate.swift",
-      "line": 57,
-      "symbol": "TGSearchViewControllerDelegate.searchExtentForSuggest",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGSearchViewControllerDelegate.swift",
-      "line": 61,
-      "symbol": "TGSearchViewControllerDelegate.mapviewForSearch",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
-      "line": null,
-      "symbol": "TGStoryboardInitializable",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
-      "line": 11,
-      "symbol": "TGStoryboardInitializable",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
-      "line": 12,
-      "symbol": "TGStoryboardInitializable.storyboardName",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
-      "line": 13,
-      "symbol": "TGStoryboardInitializable.storyboardBundle",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchViewControllerDelegate.h",
       "line": 15,
-      "symbol": "TGStoryboardInitializable.makeFromStoryboard()",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "TGSearchViewControllerRequestType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
-      "line": 17,
-      "symbol": "TGStoryboardInitializable.embedInNavigationController()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchViewControllerDelegate.h",
+      "line": 15,
+      "symbol": "TGSearchViewControllerRequestType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
-      "line": 18,
-      "symbol": "TGStoryboardInitializable.embedInNavigationController(navBarClass:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
-      "line": 22,
-      "symbol": "TGStoryboardInitializable.storyboardName",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
-      "line": 26,
-      "symbol": "TGStoryboardInitializable.storyboardBundle",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
-      "line": 34,
-      "symbol": "TGStoryboardInitializable.makeFromStoryboard()",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
-      "line": 40,
-      "symbol": "TGStoryboardInitializable.embedInNavigationController()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGStoryboardInitializable.swift",
-      "line": 44,
-      "symbol": "TGStoryboardInitializable.embedInNavigationController(navBarClass:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGTurnByTurnViewController.swift",
-      "line": 193,
-      "symbol": "TGTurnByTurnViewController.viewWillDisappear(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGTurnListBaseTableViewCell.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGStoryboardInitializableViewController.h",
       "line": 11,
+      "symbol": "TGStoryboardInitializableViewController",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGTurnListBaseTableViewCell.h",
+      "line": 13,
       "symbol": "TGTurnListBaseTableViewCell",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 11,
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGTurnListViewController.h",
+      "line": 14,
       "symbol": "TGTurnListViewController",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGVoice.h",
+      "line": 15,
+      "symbol": "TGVoice.+enhancedVoice",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGVoiceSynthesis.h",
       "line": 13,
-      "symbol": "TGTurnListViewController.storyboardName",
-      "symbol_kind": "source.lang.swift.decl.var.static",
+      "symbol": "TGVoiceSynthesisResponseCode",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 17,
-      "symbol": "TGTurnListViewController.segment",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGVoiceSynthesis.h",
+      "line": 13,
+      "symbol": "TGVoiceSynthesisResponseCode",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 23,
-      "symbol": "TGTurnListViewController.viewDidLoad()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 38,
-      "symbol": "TGTurnListViewController.tableView(_:numberOfRowsInSection:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 42,
-      "symbol": "TGTurnListViewController.tableView(_:cellForRowAt:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 62,
-      "symbol": "TGTurnListViewController.tableView(_:heightForRowAt:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGTurnListViewController.swift",
-      "line": 70,
-      "symbol": "TGTurnListViewController.tableView(_:willDisplay:forRowAt:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 98,
-      "symbol": "TGVoiceSynthesis.speechSynthesizer(_:didPause:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 102,
-      "symbol": "TGVoiceSynthesis.speechSynthesizer(_:didStart:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 106,
-      "symbol": "TGVoiceSynthesis.speechSynthesizer(_:didCancel:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 110,
-      "symbol": "TGVoiceSynthesis.speechSynthesizer(_:didFinish:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TGVoiceSynthesis.swift",
-      "line": 114,
-      "symbol": "TGVoiceSynthesis.speechSynthesizer(_:didContinue:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TallyGoStyleKit.h",
       "line": 16,
+      "symbol": "",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TallyGoStyleKit.h",
+      "line": 16,
+      "symbol": "TallyGoStyleKitResizingBehavior",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TallyGoStyleKit.h",
+      "line": 25,
+      "symbol": "TallyGoStyleKitResizingBehaviorApply",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.function",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TallyGoStyleKit.h",
+      "line": 28,
       "symbol": "TallyGoStyleKit",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 134,
-      "symbol": "TallyGoStyleKit.tGRed",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 135,
-      "symbol": "TallyGoStyleKit.tGGreen",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 136,
-      "symbol": "TallyGoStyleKit.tGBlue",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 137,
-      "symbol": "TallyGoStyleKit.tGYellow",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 138,
-      "symbol": "TallyGoStyleKit.tGButtonTextColor",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 139,
-      "symbol": "TallyGoStyleKit.tGYellowGreen",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 140,
-      "symbol": "TallyGoStyleKit.mediumGrey",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 220,
-      "symbol": "TallyGoStyleKit.drawVisualTurnIndicatorWithSign(frame:approachColor:sign:image:approachIndicatorWidth:street:distance:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 317,
-      "symbol": "TallyGoStyleKit.drawUTurnLeft()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 341,
-      "symbol": "TallyGoStyleKit.drawExitRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 369,
-      "symbol": "TallyGoStyleKit.drawMergeRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 403,
-      "symbol": "TallyGoStyleKit.drawUTurnRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 428,
-      "symbol": "TallyGoStyleKit.drawVTIDestination()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 449,
-      "symbol": "TallyGoStyleKit.drawHardLeft()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 471,
-      "symbol": "TallyGoStyleKit.drawHardRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 493,
-      "symbol": "TallyGoStyleKit.drawTurnLeft()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 515,
-      "symbol": "TallyGoStyleKit.drawVTIDestinationLeft()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 547,
-      "symbol": "TallyGoStyleKit.drawSlightRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 569,
-      "symbol": "TallyGoStyleKit.drawTurnRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 591,
-      "symbol": "TallyGoStyleKit.drawMerge()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 624,
-      "symbol": "TallyGoStyleKit.drawExitLeft()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 652,
-      "symbol": "TallyGoStyleKit.drawRightAtTheFork()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 686,
-      "symbol": "TallyGoStyleKit.drawVTIDestinationRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 718,
-      "symbol": "TallyGoStyleKit.drawSlightLeft()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 740,
-      "symbol": "TallyGoStyleKit.drawLeftAtTheFork()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 774,
-      "symbol": "TallyGoStyleKit.drawForward()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 792,
-      "symbol": "TallyGoStyleKit.drawCAHighway(highwayNumber:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 851,
-      "symbol": "TallyGoStyleKit.drawUSHighway(highwayNumber:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 899,
-      "symbol": "TallyGoStyleKit.drawInterstate(highwayNumber:nudge:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 978,
-      "symbol": "TallyGoStyleKit.drawRouteProgress(frame:approachIndicatorWidth:firstLine:secondLine:thirdLine:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1106,
-      "symbol": "TallyGoStyleKit.drawStopNavigationButton(frame:highlighted:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1243,
-      "symbol": "TallyGoStyleKit.drawBigRedButton(frame:fontSize:highlighted:buttonText:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1319,
-      "symbol": "TallyGoStyleKit.drawBigWhiteButton(frame:fontSize:highlighted:buttonText:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1384,
-      "symbol": "TallyGoStyleKit.drawBigGreenButton(frame:fontSize:highlighted:buttonText:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1459,
-      "symbol": "TallyGoStyleKit.drawBigGrayButton(frame:fontSize:highlighted:buttonText:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1534,
-      "symbol": "TallyGoStyleKit.drawResumeNavigationButton(frame:highlighted:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1641,
-      "symbol": "TallyGoStyleKit.drawCloseButton(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 1678,
-      "symbol": "TallyGoStyleKit.drawKeyboardInstructions(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3230,
-      "symbol": "TallyGoStyleKit.drawGreenCheckmark(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3269,
-      "symbol": "TallyGoStyleKit.drawErrorIcon(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3306,
-      "symbol": "TallyGoStyleKit.drawTurnListButton(highlighted:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3521,
-      "symbol": "TallyGoStyleKit.drawTLMerge()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3555,
-      "symbol": "TallyGoStyleKit.drawTLRightAtTheFork()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3590,
-      "symbol": "TallyGoStyleKit.drawTLSlightRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3614,
-      "symbol": "TallyGoStyleKit.drawTLExitRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3643,
-      "symbol": "TallyGoStyleKit.drawTLUTurnLeft()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3669,
-      "symbol": "TallyGoStyleKit.drawTLLeftAtTheFork()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3704,
-      "symbol": "TallyGoStyleKit.drawTLTurnRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3728,
-      "symbol": "TallyGoStyleKit.drawTLMergeRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3763,
-      "symbol": "TallyGoStyleKit.drawTLTurnLeft()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3787,
-      "symbol": "TallyGoStyleKit.drawTLExitLeft()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3816,
-      "symbol": "TallyGoStyleKit.drawTLUTurnRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3843,
-      "symbol": "TallyGoStyleKit.drawTLHardRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3867,
-      "symbol": "TallyGoStyleKit.drawTLHardLeft()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3891,
-      "symbol": "TallyGoStyleKit.drawTLDestinationLeft()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3926,
-      "symbol": "TallyGoStyleKit.drawTLDistanceIcon(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3952,
-      "symbol": "TallyGoStyleKit.drawTLForward()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3972,
-      "symbol": "TallyGoStyleKit.drawTLDestination()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 3986,
-      "symbol": "TallyGoStyleKit.drawTLOrigin()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4010,
-      "symbol": "TallyGoStyleKit.drawTLDestinationRight()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4045,
-      "symbol": "TallyGoStyleKit.drawTLSlightLeft()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4069,
-      "symbol": "TallyGoStyleKit.drawBackButton(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4100,
-      "symbol": "TallyGoStyleKit.drawMapMarker(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4197,
-      "symbol": "TallyGoStyleKit.drawSmallMapMarker(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4221,
-      "symbol": "TallyGoStyleKit.drawBackArrow(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4270,
-      "symbol": "TallyGoStyleKit.drawSearchBackground(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4299,
-      "symbol": "TallyGoStyleKit.drawSearchIcon(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4343,
-      "symbol": "TallyGoStyleKit.drawMenuButton(highlighted:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4425,
-      "symbol": "TallyGoStyleKit.drawStopNavigationIcon(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4520,
-      "symbol": "TallyGoStyleKit.drawSendFeedbackIcon(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4568,
-      "symbol": "TallyGoStyleKit.drawRouteOverviewIcon(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4703,
-      "symbol": "TallyGoStyleKit.drawTurnListIcon(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4867,
-      "symbol": "TallyGoStyleKit.drawSoundIcon(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4942,
-      "symbol": "TallyGoStyleKit.drawSelectionArrow(frame:resizing:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 4995,
-      "symbol": "TallyGoStyleKit.imageOfExitRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5009,
-      "symbol": "TallyGoStyleKit.imageOfMergeRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5023,
-      "symbol": "TallyGoStyleKit.imageOfUTurnRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5037,
-      "symbol": "TallyGoStyleKit.imageOfVTIDestination",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5051,
-      "symbol": "TallyGoStyleKit.imageOfHardLeft",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5065,
-      "symbol": "TallyGoStyleKit.imageOfHardRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5079,
-      "symbol": "TallyGoStyleKit.imageOfTurnLeft",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5093,
-      "symbol": "TallyGoStyleKit.imageOfVTIDestinationLeft",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5107,
-      "symbol": "TallyGoStyleKit.imageOfSlightRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5121,
-      "symbol": "TallyGoStyleKit.imageOfTurnRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5135,
-      "symbol": "TallyGoStyleKit.imageOfMerge",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5149,
-      "symbol": "TallyGoStyleKit.imageOfExitLeft",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5163,
-      "symbol": "TallyGoStyleKit.imageOfRightAtTheFork",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5177,
-      "symbol": "TallyGoStyleKit.imageOfVTIDestinationRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5191,
-      "symbol": "TallyGoStyleKit.imageOfSlightLeft",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5205,
-      "symbol": "TallyGoStyleKit.imageOfLeftAtTheFork",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5219,
-      "symbol": "TallyGoStyleKit.imageOfForward",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5233,
-      "symbol": "TallyGoStyleKit.imageOfCAHighway(highwayNumber:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5243,
-      "symbol": "TallyGoStyleKit.imageOfUSHighway(highwayNumber:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5253,
-      "symbol": "TallyGoStyleKit.imageOfInterstate(highwayNumber:nudge:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5263,
-      "symbol": "TallyGoStyleKit.imageOfKeyboardInstructions",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5277,
-      "symbol": "TallyGoStyleKit.imageOfGreenCheckmark",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5291,
-      "symbol": "TallyGoStyleKit.imageOfTLMerge",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5305,
-      "symbol": "TallyGoStyleKit.imageOfTLRightAtTheFork",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5319,
-      "symbol": "TallyGoStyleKit.imageOfTLSlightRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5333,
-      "symbol": "TallyGoStyleKit.imageOfTLExitRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5347,
-      "symbol": "TallyGoStyleKit.imageOfTLUTurnLeft",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5361,
-      "symbol": "TallyGoStyleKit.imageOfTLLeftAtTheFork",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5375,
-      "symbol": "TallyGoStyleKit.imageOfTLTurnRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5389,
-      "symbol": "TallyGoStyleKit.imageOfTLMergeRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5403,
-      "symbol": "TallyGoStyleKit.imageOfTLTurnLeft",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5417,
-      "symbol": "TallyGoStyleKit.imageOfTLExitLeft",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5431,
-      "symbol": "TallyGoStyleKit.imageOfTLUTurnRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5445,
-      "symbol": "TallyGoStyleKit.imageOfTLHardRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5459,
-      "symbol": "TallyGoStyleKit.imageOfTLHardLeft",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5473,
-      "symbol": "TallyGoStyleKit.imageOfTLDestinationLeft",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5487,
-      "symbol": "TallyGoStyleKit.imageOfTLDistanceIcon",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5501,
-      "symbol": "TallyGoStyleKit.imageOfTLForward",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5515,
-      "symbol": "TallyGoStyleKit.imageOfTLDestination",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5529,
-      "symbol": "TallyGoStyleKit.imageOfTLOrigin",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5543,
-      "symbol": "TallyGoStyleKit.imageOfTLDestinationRight",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5557,
-      "symbol": "TallyGoStyleKit.imageOfTLSlightLeft",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5571,
-      "symbol": "TallyGoStyleKit.imageOfBackButton",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5585,
-      "symbol": "TallyGoStyleKit.imageOfMapMarker",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5599,
-      "symbol": "TallyGoStyleKit.imageOfSmallMapMarker",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5613,
-      "symbol": "TallyGoStyleKit.imageOfSearchIcon",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5627,
-      "symbol": "TallyGoStyleKit.imageOfStopNavigationIcon",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5641,
-      "symbol": "TallyGoStyleKit.imageOfSendFeedbackIcon",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5655,
-      "symbol": "TallyGoStyleKit.imageOfRouteOverviewIcon",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5669,
-      "symbol": "TallyGoStyleKit.imageOfTurnListIcon",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5683,
-      "symbol": "TallyGoStyleKit.imageOfSoundIcon",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 5697,
-      "symbol": "TallyGoStyleKit.imageOfSelectionArrow",
-      "symbol_kind": "source.lang.swift.decl.var.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 6217,
-      "symbol": "TallyGoStyleKit.ResizingBehavior",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/TallyGoStyleKit.swift",
-      "line": 6218,
-      "symbol": "TallyGoStyleKit.ResizingBehavior.aspectFit",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-Source/TallyGoKit/UIDevice+ModelName.swift",
-      "line": 13,
-      "symbol": "UIDevice.modelName",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/davidwork2/Code/iOS/TallyGoKit-Source"
+  "source_directory": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC"
 }

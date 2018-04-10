@@ -19,8 +19,8 @@
 /// Storyboad name
 FOUNDATION_EXPORT NSString * _Nonnull const TGTurnByTurnControllerStoryboardName;
 
-/// View controller with TallyGo navigation and Mapbox mapview
-@interface TGTurnByTurnViewController : TGStoryboardInitializableViewController
+/// View controller with TallyGo navigation and map view
+@interface TGTurnByTurnViewController : TGStoryboardInitializableViewController <MGLMapViewDelegate>
 
 /// Map view
 @property (nonatomic, readonly, nonnull) MGLMapView *mapView;
@@ -55,19 +55,16 @@ FOUNDATION_EXPORT NSString * _Nonnull const TGTurnByTurnControllerStoryboardName
 /// The voice that should be used for voice prompts during the route.
 @property (nonatomic, nullable) AVSpeechSynthesisVoice *voice;
 
-/// Do not use. For internal testing only.
-@property (nonatomic) BOOL showMakeWrongTurnButton;
-
 /// Address to be displayed in the route progress bar
 @property (nonatomic, nullable) NSString *destinationAddressShort;
 
 /// Address to be displayed on the turn list
-@property (nonatomic, nullable) NSString *originAddress;
+@property (nonatomic, nullable) NSString *originDescription;
 
 /// Address to be displayed in the arrival overlay under the address, and on the turn list
-@property (nonatomic, nullable) NSString *destinationAddress;
+@property (nonatomic, nullable) NSString *destinationDescription;
 
-/// Override point to perform addtional layout tasks. Default implementation does nothing.
+/// Override point to perform additional layout tasks. Default implementation does nothing.
 @property (nonatomic, copy, nullable) void (^performAdditionalLayout)(void);
 
 /// Override point to perform tasks at arrival. Default implementation does nothing.

@@ -10,7 +10,7 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-@class TGPoint;
+@class TGPoint, TGRoute;
 
 /**
  TGRouteSegment represets one segment of a route. A route from location A to B will consist of only one segment. Introducing a stop along the way will result in two segments, from A to B, and B to C. Similar to routes, each segment has its own distance, and estimated travel time.
@@ -28,9 +28,9 @@
 /// Estimated travel time in seconds.
 @property (nonatomic, readonly) NSTimeInterval totalDuration;
 
-/// A unique ID representing a sequence of segments from different rerouting event.
-@property (nonatomic, readwrite, nonnull) NSString *tripId;
+/// The route this segment belongs to
+@property (nonatomic, weak, readonly, nullable) TGRoute *route;
 
-- (nonnull instancetype)initWithDictionary:(nonnull NSDictionary *)dictionary tripId:(nullable NSString *)tripId;
+- (nonnull instancetype)initWithDictionary:(nonnull NSDictionary *)dictionary route:(nullable TGRoute *)route;
 
 @end

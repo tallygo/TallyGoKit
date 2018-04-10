@@ -14,108 +14,105 @@ FOUNDATION_EXPORT double TallyGoKitVersionNumber;
 //! Project version string for TallyGoKit.
 FOUNDATION_EXPORT const unsigned char TallyGoKitVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <TallyGoKit/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import "PublicHeader.h"
 
-#import <TallyGoKit/TallyGo.h>
+#import "TallyGo.h"
 
 // Audio
-#import <TallyGoKit/TGVoiceSynthesis.h>
-#import <TallyGoKit/TGVoice.h>
+#import "TGVoiceSynthesis.h"
+#import "TGVoice.h"
 
 // Base Classes
-#import <TallyGoKit/TGBaseService.h>
-#import <TallyGoKit/TGBaseRequest.h>
-#import <TallyGoKit/TGBaseResponse.h>
-#import <TallyGoKit/TGBaseObject.h>
+#import "TGBaseService.h"
+#import "TGBaseRequest.h"
+#import "TGBaseResponse.h"
+#import "TGBaseObject.h"
 
 // Common
-#import <TallyGoKit/DeviceTypes.h>
-#import <TallyGoKit/TGConstants.h>
-
-// Categories
-#import <TallyGoKit/MGLMapView+LocationValidation.h>
+#import "DeviceTypes.h"
+#import "TGConstants.h"
 
 // Configuration
-#import <TallyGoKit/TGConfigurationService.h>
-#import <TallyGoKit/TGConfigurationRequest.h>
-#import <TallyGoKit/TGConfigurationResponse.h>
+#import "TGConfigurationService.h"
+#import "TGConfigurationRequest.h"
+#import "TGConfigurationResponse.h"
 
 // Events
-#import <TallyGoKit/TGEventService.h>
-#import <TallyGoKit/TGEventRequest.h>
-#import <TallyGoKit/TGEventResponse.h>
+#import "TGEventService.h"
+#import "TGEventRequest.h"
+#import "TGEventResponse.h"
 
 // Find
-#import <TallyGoKit/TGFindService.h>
-#import <TallyGoKit/TGSearchRequest.h>
-#import <TallyGoKit/TGSearchResponse.h>
-#import <TallyGoKit/TGReverseGeocodeRequest.h>
-#import <TallyGoKit/TGReverseGeocodeResponse.h>
-#import <TallyGoKit/TGSuggestRequest.h>
-#import <TallyGoKit/TGSuggestResponse.h>
-#import <TallyGoKit/TGStreetAddress.h>
-#import <TallyGoKit/TGSearchResult.h>
-#import <TallyGoKit/TGOrigin.h>
-#import <TallyGoKit/TGSearchExtent.h>
-#import <TallyGoKit/TGSuggestion.h>
+#import "TGFindService.h"
+#import "TGSearchRequest.h"
+#import "TGSearchResponse.h"
+#import "TGReverseGeocodeRequest.h"
+#import "TGReverseGeocodeResponse.h"
+#import "TGSuggestRequest.h"
+#import "TGSuggestResponse.h"
+#import "TGStreetAddress.h"
+#import "TGSearchResult.h"
+#import "TGOrigin.h"
+#import "TGSearchExtent.h"
+#import "TGSuggestion.h"
 
 // Navigation
-#import <TallyGoKit/TGNavigationService.h>
-#import <TallyGoKit/TGRouteRequest.h>
-#import <TallyGoKit/TGRouteResponse.h>
-#import <TallyGoKit/TGBoundaryRequest.h>
-#import <TallyGoKit/TGBoundaryResponse.h>
-#import <TallyGoKit/TGRoute.h>
-#import <TallyGoKit/TGRouteSegment.h>
-#import <TallyGoKit/TGPoint.h>
-#import <TallyGoKit/TGTurn.h>
-#import <TallyGoKit/TGStreet.h>
-#import <TallyGoKit/TGHighway.h>
-#import <TallyGoKit/TGGeoJSONObject.h>
-#import <TallyGoKit/TGGeoJSONFeatureCollection.h>
-#import <TallyGoKit/TGGeoJSONFeature.h>
-#import <TallyGoKit/TGGeoJSONPolygon.h>
-#import <TallyGoKit/TGGeoJSONPoint.h>
+#import "TGNavigationService.h"
+#import "TGRouteRequest.h"
+#import "TGRouteResponse.h"
+#import "TGBoundaryRequest.h"
+#import "TGBoundaryResponse.h"
+#import "TGRoute.h"
+#import "TGRouteSegment.h"
+#import "TGPoint.h"
+#import "TGTurn.h"
+#import "TGStreet.h"
+#import "TGHighway.h"
+#import "TGGeoJSONObject.h"
+#import "TGGeoJSONFeatureCollection.h"
+#import "TGGeoJSONFeature.h"
+#import "TGGeoJSONPolygon.h"
+#import "TGGeoJSONPoint.h"
 
 // Search Category
-#import <TallyGoKit/TGSearchCategoryService.h>
-#import <TallyGoKit/TGSearchCategoryRequest.h>
-#import <TallyGoKit/TGSearchCategoryResponse.h>
-#import <TallyGoKit/TGSearchCategory.h>
+#import "TGSearchCategoryService.h"
+#import "TGSearchCategoryRequest.h"
+#import "TGSearchCategoryResponse.h"
+#import "TGSearchCategory.h"
 
 // Telemetry
-#import <TallyGoKit/TGStyledMapView.h>
-#import <TallyGoKit/TGMapStyle.h>
+#import "TGMapView.h"
+#import "TGMapStyle.h"
 
 // UI
 
 // Assets
-#import <TallyGoKit/TallyGoStyleKit.h>
+#import "TallyGoStyleKit.h"
 
 // Turn-By-Turn
-#import <TallyGoKit/TGTurnByTurnViewController.h>
+#import "TGTurnByTurnViewController.h"
 
 // Preview
-#import <TallyGoKit/TGPreviewViewController.h>
+#import "TGPreviewViewController.h"
 
 // Search
-#import <TallyGoKit/TGSearchViewController.h>
-#import <TallyGoKit/TGSearchResultsViewController.h>
-#import <TallyGoKit/TGSearchViewControllerDelegate.h>
+#import "TGSearchViewController.h"
+#import "TGSearchResultsViewController.h"
+#import "TGSearchViewControllerDelegate.h"
 
 // Overview
-#import <TallyGoKit/TGOverviewViewController.h>
+#import "TGOverviewViewController.h"
 
 // Turn List
-#import <TallyGoKit/TGTurnListViewController.h>
-#import <TallyGoKit/TGTurnListBaseTableViewCell.h>
+#import "TGTurnListViewController.h"
+#import "TGTurnListBaseTableViewCell.h"
 
 // Classes
-#import <TallyGoKit/TGIdleTimer.h>
-#import <TallyGoKit/TGStoryboardInitializableViewController.h>
+#import "TGIdleTimer.h"
+#import "TGStoryboardInitializableViewController.h"
 
 // Feedback
-#import <TallyGoKit/TGFeedbackViewController.h>
+#import "TGFeedbackViewController.h"
 
 // Buttons
-#import <TallyGoKit/TGButton.h>
+#import "TGButton.h"

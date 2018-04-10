@@ -18,9 +18,9 @@
 @property (nonatomic, nullable) TGRouteSegment *segment;
 @property (nonatomic) CLLocationCoordinate2D origin;
 
-@property (nonatomic, nullable) NSString *originAddress;
+@property (nonatomic, nullable) NSString *originDescription;
 
-@property (nonatomic, nullable) NSString *destinationAddress;
+@property (nonatomic, nullable) NSString *destinationDescription;
 
 @property (nonatomic, copy, nullable) void (^onTallyGo)(void);
 

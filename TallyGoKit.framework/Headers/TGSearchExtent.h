@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
+#import <Mapbox/Mapbox.h>
 
 /// Represents a rectagular area.
 @interface TGSearchExtent : NSObject
@@ -19,7 +20,9 @@
 @property (nonatomic, readonly) CLLocationCoordinate2D northeastCoordinate;
 
 /// Create a rectangular area.
-- (instancetype _Nonnull)initWithSouthwestCoordinate:(CLLocationCoordinate2D)southwestCoordinate northeastCoordinate:(CLLocationCoordinate2D)northeastCoordinate;
+- (nonnull instancetype)initWithSouthwestCoordinate:(CLLocationCoordinate2D)southwestCoordinate northeastCoordinate:(CLLocationCoordinate2D)northeastCoordinate;
+
+- (nonnull instancetype)initWithCoordinateBounds:(MGLCoordinateBounds)coordinateBounds;
 
 /// A comma separated string of longitude and latitude.
 - (NSString * _Nonnull)string;

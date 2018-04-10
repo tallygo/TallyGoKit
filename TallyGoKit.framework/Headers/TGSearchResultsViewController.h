@@ -9,17 +9,9 @@
 #import <TallyGoKit/TallyGoKit.h>
 
 #import "TGStoryboardInitializableViewController.h"
+#import "TGSearchResultsViewControllerDelegate.h"
 
 @class TGSearchResult;
-
-/// Implement this protocol to be notified of user search results activity.
-@protocol TGSearchResultsViewControllerDelegate
-
-- (void)userDidSelectSearchResult:(nonnull TGSearchResult *)searchResult;
-
-- (void)doneButtonPressed;
-
-@end
 
 @interface TGSearchResultsViewController : TGStoryboardInitializableViewController <UITableViewDataSource, UITableViewDelegate>
 

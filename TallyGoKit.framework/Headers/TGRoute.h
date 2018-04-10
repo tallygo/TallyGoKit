@@ -29,6 +29,9 @@
 /// Estimated driven travel time across all segments, in seconds.
 @property (nonatomic, readonly) NSTimeInterval totalDuration;
 
+/// A unique ID representing a sequence of segments from different rerouting event.
+@property (nonatomic, readwrite, nonnull) NSString *tripId;
+
 - (nonnull instancetype)initWithDictionary:(nonnull NSDictionary *)dictionary tripId:(nullable NSString *)tripId;
 
 @end

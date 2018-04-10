@@ -10,6 +10,8 @@
 
 #import <CoreLocation/CoreLocation.h>
 
+@class TGWaypoint;
+
 /// The request type defines the time parameter as either the desired arrival time or the departure time.
 typedef NSString *TGRouteRequestType NS_TYPED_ENUM;
 
@@ -22,8 +24,11 @@ FOUNDATION_EXPORT TGRouteRequestType _Nonnull const TGRouteRequestTypeDepartureT
 /// Request for turn by turn navigation with multiple waypoints.
 @interface TGRouteRequest : TGBaseRequest
 
-/// Array of corrdinates. First coordinate is the start, last coordinate is the end, coordinates in between are waypoints.
+/// Array of corrdinates.
 @property (nonatomic, readonly, nonnull) NSArray *coords;
+
+/// Array of waypoints. Alternative way of providing coordinates.
+@property (nonatomic, readonly, nonnull) NSArray<TGWaypoint *> *waypoints;
 
 /// The desired departure (or arrival) time
 @property (nonatomic, readonly, nonnull) NSDate *time;
@@ -45,5 +50,11 @@ FOUNDATION_EXPORT TGRouteRequestType _Nonnull const TGRouteRequestTypeDepartureT
 
 /// Create a route request with the required and optional parameters.
 - (nonnull instancetype)initWithCoords:(nonnull NSArray *)coords time:(nullable NSDate *)time requestType:(nullable TGRouteRequestType)requestType speed:(CLLocationSpeed)speed course:(CLLocationDirection)course existingTripId:(nullable NSString *)existingTripId;
+
+/// Create a route request with waypoints (which allow you to specify textual descriptions in the UI)
+- (nonnull instancetype)initWithWaypoints:(nonnull NSArray<TGWaypoint *> *)waypoints;
+
+/// Create a route request with waypoints (which allow you to specify textual descriptions in the UI) along with optional parameters
+- (nonnull instancetype)initWithWaypoints:(nonnull NSArray<TGWaypoint *> *)waypoints time:(nullable NSDate *)time requestType:(nullable TGRouteRequestType)requestType speed:(CLLocationSpeed)speed course:(CLLocationDirection)course existingTripId:(nullable NSString *)existingTripId;
 
 @end

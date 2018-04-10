@@ -11,9 +11,10 @@
 
 #import "TGStoryboardInitializableViewController.h"
 #import "TGSearchViewControllerDelegate.h"
+#import "TGSearchResultsViewControllerDelegate.h"
 
-/// View controller that allows the user to find locations by entering text searches. This feature is currently in beta and the implementation may change.
-@interface TGSearchViewController : TGStoryboardInitializableViewController <UITextFieldDelegate, UITableViewDataSource, UITableViewDelegate>
+/// View controller that allows the user to find locations by entering text searches.
+@interface TGSearchViewController : TGStoryboardInitializableViewController <UITextFieldDelegate, UITableViewDataSource, UITableViewDelegate, TGSearchResultsViewControllerDelegate>
 
 /// The search bar text field.
 @property (nonatomic, nonnull) IBOutlet UITextField *searchBar;
