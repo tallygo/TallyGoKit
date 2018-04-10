@@ -104,7 +104,6 @@
 				AF16AFEC1D6DD8C7001F9802 /* Resources */,
 				AFDF77431DA4607C00BE4DBE /* Bump Build Number */,
 				67E83E73FF73226CBDC1DEFD /* [CP] Embed Pods Frameworks */,
-				DC39C344EBDD3082BA66E85D /* [CP] Copy Pods Resources */,
 				AF16B0181D6DE6D4001F9802 /* Strip Frameworks */,
 			);
 			buildRules = (
@@ -232,21 +231,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "REV=`git rev-list HEAD | wc -l`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $REV\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"";
-		};
-		DC39C344EBDD3082BA66E85D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reference Implementation Swift/Pods-Reference Implementation Swift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
