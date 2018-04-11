@@ -1,4 +1,4 @@
-# TallyGo iOS SDK `BETA`
+# TallyGo iOS SDK
 
 The TallyGo iOS SDK (TallyGoKit) enables you to embed state-of-the-art real-time navigation into your iOS app with virtually no development effort. Built for the future with the following state-of-the-art features, the TallyGo SDK redefines the possibilities of a navigation stack — and what's more, this navigation stack is now yours! Harness its power however you see fit!
 
