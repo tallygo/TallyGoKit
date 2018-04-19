@@ -10,10 +10,11 @@
 #import <Mapbox/Mapbox.h>
 
 #import "TGStoryboardInitializableViewController.h"
+#import "TGTurnByTurnConfiguration.h"
 
 @class TGRouteSegment;
 
-@interface TGPreviewViewController : TGStoryboardInitializableViewController <MGLMapViewDelegate>
+@interface TGPreviewViewController : TGStoryboardInitializableViewController <MGLMapViewDelegate, TGTurnByTurnConfigurable>
 
 @property (nonatomic, nullable) TGRouteSegment *segment;
 @property (nonatomic) CLLocationCoordinate2D origin;
@@ -22,6 +23,8 @@
 
 @property (nonatomic, nullable) NSString *destinationDescription;
 
-@property (nonatomic, copy, nullable) void (^onTallyGo)(void);
+@property (nonatomic, copy, nullable) void (^onStartTurnByTurn)(void);
+
+@property (nonatomic, readonly, nonnull) TGTurnByTurnConfiguration *configuration;
 
 @end

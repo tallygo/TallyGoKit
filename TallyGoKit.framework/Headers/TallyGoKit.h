@@ -64,6 +64,7 @@ FOUNDATION_EXPORT const unsigned char TallyGoKitVersionString[];
 #import "TGBoundaryResponse.h"
 #import "TGRoute.h"
 #import "TGRouteSegment.h"
+#import "TGWaypoint.h"
 #import "TGPoint.h"
 #import "TGTurn.h"
 #import "TGStreet.h"
@@ -81,16 +82,21 @@ FOUNDATION_EXPORT const unsigned char TallyGoKitVersionString[];
 #import "TGSearchCategory.h"
 
 // Telemetry
-#import "TGMapView.h"
-#import "TGMapStyle.h"
+#import "TGTelemetry.h"
 
 // UI
 
 // Assets
 #import "TallyGoStyleKit.h"
 
+// Map
+#import "TGMapViewController.h"
+#import "TGMapView.h"
+#import "TGMapStyle.h"
+
 // Turn-By-Turn
 #import "TGTurnByTurnViewController.h"
+#import "TGTurnByTurnConfiguration.h"
 
 // Preview
 #import "TGPreviewViewController.h"
@@ -99,6 +105,7 @@ FOUNDATION_EXPORT const unsigned char TallyGoKitVersionString[];
 #import "TGSearchViewController.h"
 #import "TGSearchResultsViewController.h"
 #import "TGSearchViewControllerDelegate.h"
+#import "TGSearchResultsViewControllerDelegate.h"
 
 // Overview
 #import "TGOverviewViewController.h"

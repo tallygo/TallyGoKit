@@ -6,12 +6,18 @@
 //  Copyright © 2018 TallyGo. All rights reserved.
 //
 
-#import <TallyGoKit/TallyGoKit.h>
 #import <Mapbox/Mapbox.h>
+
+#import "TGStoryboardInitializableViewController.h"
+#import "TGSearchResultsViewControllerDelegate.h"
+#import "TGSearchViewControllerDelegate.h"
+#import "TGMapView.h"
 
 @class TGCompassButton;
 
-/// A view controller that shows a map, complete with search bar, compass toggle button, and hamburger menu button (the latter of which can be customized).
+/**
+ * A view controller that shows a map, complete with search bar, compass toggle button, and hamburger menu button (the latter of which can be customized).
+ */
 @interface TGMapViewController : TGStoryboardInitializableViewController <TGSearchResultsViewControllerDelegate, TGSearchViewControllerDelegate, UIGestureRecognizerDelegate, MGLMapViewDelegate>
 
 /**

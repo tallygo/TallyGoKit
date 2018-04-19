@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TGTurnByTurnConfiguration Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/objc/Class/TGTurnByTurnConfiguration" class="dashAnchor"></a>
+
+    <a title="TGTurnByTurnConfiguration Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          TallyGoKit Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">TallyGoKit Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      TGTurnByTurnConfiguration Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGBoundaryRequest">TGBoundaryRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGBoundaryResponse">TGBoundaryResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGButton">TGButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGEventService.html">TGEventService</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGFindService.html">TGFindService</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONFeature.html">TGGeoJSONFeature</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGGeoJSONFeatureCollection">TGGeoJSONFeatureCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONObject.html">TGGeoJSONObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONPoint.html">TGGeoJSONPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONPolygon.html">TGGeoJSONPolygon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGHighway">TGHighway</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGIdleTimer.html">TGIdleTimer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGMapStyle.html">TGMapStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGMapView">TGMapView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGMapViewController.html">TGMapViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGNavigationService.html">TGNavigationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGPoint.html">TGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGReverseGeocodeResponse.html">TGReverseGeocodeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRoute.html">TGRoute</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRouteRequest.html">TGRouteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRouteSegment.html">TGRouteSegment</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSearchExtent.html">TGSearchExtent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSearchRequest.html">TGSearchRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSearchResponse.html">TGSearchResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSearchResult.html">TGSearchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSearchViewController.html">TGSearchViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGStreet.html">TGStreet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGStreetAddress.html">TGStreetAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSuggestRequest.html">TGSuggestRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSuggestResponse.html">TGSuggestResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSuggestion.html">TGSuggestion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGTurn.html">TGTurn</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGTurnByTurnConfiguration.html">TGTurnByTurnConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGTurnByTurnViewController.html">TGTurnByTurnViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGVoice">TGVoice</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGVoiceSynthesis.html">TGVoiceSynthesis</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGWaypoint.html">TGWaypoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TallyGo.html">TallyGo</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGGeoJSONObjectTypeFeature">TGGeoJSONObjectTypeFeature</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGGeoJSONObjectTypeFeatureCollection">TGGeoJSONObjectTypeFeatureCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGGeoJSONObjectTypePoint">TGGeoJSONObjectTypePoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGGeoJSONObjectTypePolygon">TGGeoJSONObjectTypePolygon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeCalifornia">TGHighwayTypeCalifornia</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeCountyRoad">TGHighwayTypeCountyRoad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeHighway">TGHighwayTypeHighway</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeInterstate">TGHighwayTypeInterstate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeStateRoad">TGHighwayTypeStateRoad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeUnitedStates">TGHighwayTypeUnitedStates</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeUnknown">TGHighwayTypeUnknown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginArcGIS">TGOriginArcGIS</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginFoursquare">TGOriginFoursquare</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginMapBox">TGOriginMapBox</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginOSM">TGOriginOSM</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginTallyGo">TGOriginTallyGo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginUnknown">TGOriginUnknown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginYelp">TGOriginYelp</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGRouteRequestTypeArrivalTime">TGRouteRequestTypeArrivalTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGRouteRequestTypeDepartureTime">TGRouteRequestTypeDepartureTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionConnector">TGStreetConnectionConnector</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionDestination">TGStreetConnectionDestination</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionInterchange">TGStreetConnectionInterchange</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionOfframp">TGStreetConnectionOfframp</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionOnramp">TGStreetConnectionOnramp</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionOrigin">TGStreetConnectionOrigin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionUnknown">TGStreetConnectionUnknown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetDirectionEast">TGStreetDirectionEast</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetDirectionNorth">TGStreetDirectionNorth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetDirectionSouth">TGStreetDirectionSouth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetDirectionUnknown">TGStreetDirectionUnknown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetDirectionWest">TGStreetDirectionWest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionArterial">TGStreetFunctionArterial</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionHighway">TGStreetFunctionHighway</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionLocalArterial">TGStreetFunctionLocalArterial</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionLocalHighway">TGStreetFunctionLocalHighway</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionResidential">TGStreetFunctionResidential</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionService">TGStreetFunctionService</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionUnknown">TGStreetFunctionUnknown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryCancelledNotification">TGTelemetryCancelledNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryConcludedNotification">TGTelemetryConcludedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryCurrentPointChangeNotification">TGTelemetryCurrentPointChangeNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryInitializedNotification">TGTelemetryInitializedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryNextTurnChangeNotification">TGTelemetryNextTurnChangeNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryOffRouteNotification">TGTelemetryOffRouteNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryProceedingToRouteNotification">TGTelemetryProceedingToRouteNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryReroutedNotification">TGTelemetryReroutedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryReroutingNotification">TGTelemetryReroutingNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryStartedNotification">TGTelemetryStartedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoETA">TGTelemetryUserInfoETA</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoFromPoint">TGTelemetryUserInfoFromPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoFromPointIndex">TGTelemetryUserInfoFromPointIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoRouteSegment">TGTelemetryUserInfoRouteSegment</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoToPoint">TGTelemetryUserInfoToPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoToPointIndex">TGTelemetryUserInfoToPointIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoTurnPoint">TGTelemetryUserInfoTurnPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoTurnPointIndex">TGTelemetryUserInfoTurnPointIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnByTurnControllerStoryboardName">TGTurnByTurnControllerStoryboardName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionExitLeft">TGTurnDirectionExitLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionExitRight">TGTurnDirectionExitRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionForward">TGTurnDirectionForward</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionHardLeft">TGTurnDirectionHardLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionHardRight">TGTurnDirectionHardRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionLeft">TGTurnDirectionLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionLeftAtTheFork">TGTurnDirectionLeftAtTheFork</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionMergeLeft">TGTurnDirectionMergeLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionMergeRight">TGTurnDirectionMergeRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionRight">TGTurnDirectionRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionRightAtTheFork">TGTurnDirectionRightAtTheFork</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionSlightLeft">TGTurnDirectionSlightLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionSlightRight">TGTurnDirectionSlightRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionUTurn">TGTurnDirectionUTurn</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionUTurnLeft">TGTurnDirectionUTurnLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionUTurnRight">TGTurnDirectionUTurnRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionUnknown">TGTurnDirectionUnknown</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols.html#/c:objc(pl)TGSearchResultsViewControllerDelegate">TGSearchResultsViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/TGSearchViewControllerDelegate.html">TGSearchViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/TGTurnByTurnConfigurable.html">TGTurnByTurnConfigurable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Type Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGGeoJSONObject.h@T@TGGeoJSONObjectType">TGGeoJSONObjectType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGHighway.h@T@TGHighwayType">TGHighwayType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGOrigin.h@T@TGOrigin">TGOrigin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGRouteRequest.h@T@TGRouteRequestType">TGRouteRequestType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGStreet.h@T@TGStreetConnection">TGStreetConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGStreet.h@T@TGStreetDirection">TGStreetDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGStreet.h@T@TGStreetFunction">TGStreetFunction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGTurn.h@T@TGTurnDirection">TGTurnDirection</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>TGTurnByTurnConfiguration</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">TGTurnByTurnConfiguration</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Contains configuration settings that can be used by the various view controllers related to turn-by-turn navigation.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)origin"></a>
+                    <a name="//apple_ref/objc/Property/origin" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)origin">origin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The requested origin location</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">CLLocationCoordinate2D</span> <span class="n">origin</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">origin</span><span class="p">:</span> <span class="nf">CLLocationCoordinate2D</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)destination"></a>
+                    <a name="//apple_ref/objc/Property/destination" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)destination">destination</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The requested destination. If this is changed while en route, a reroute will be triggered.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">CLLocationCoordinate2D</span> <span class="n">destination</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">destination</span><span class="p">:</span> <span class="nf">CLLocationCoordinate2D</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)segment"></a>
+                    <a name="//apple_ref/objc/Property/segment" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)segment">segment</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The current segment</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n"><a href="../Classes/TGRouteSegment.html">TGRouteSegment</a></span> <span class="o">*</span><span class="n">segment</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">segment</span><span class="p">:</span> <span class="nf">TGRouteSegment</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)showsOriginIcon"></a>
+                    <a name="//apple_ref/objc/Property/showsOriginIcon" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)showsOriginIcon">showsOriginIcon</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Determines whether origin icon is displayed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">showsOriginIcon</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showsOriginIcon</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)showsDestinationIcon"></a>
+                    <a name="//apple_ref/objc/Property/showsDestinationIcon" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)showsDestinationIcon">showsDestinationIcon</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Determines whether destination icon is displayed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">showsDestinationIcon</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showsDestinationIcon</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)commencementSpeech"></a>
+                    <a name="//apple_ref/objc/Property/commencementSpeech" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)commencementSpeech">commencementSpeech</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Text that will be spoken as view is displayed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">commencementSpeech</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">commencementSpeech</span><span class="p">:</span> <span class="nf">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)proceedToRouteSpeech"></a>
+                    <a name="//apple_ref/objc/Property/proceedToRouteSpeech" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)proceedToRouteSpeech">proceedToRouteSpeech</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Text that will be spoken when the user needs to proceed to the route</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span>
+    <span class="n">NSString</span> <span class="o">*</span><span class="n">proceedToRouteSpeech</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">proceedToRouteSpeech</span><span class="p">:</span> <span class="nf">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)arrivalSpeech"></a>
+                    <a name="//apple_ref/objc/Property/arrivalSpeech" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)arrivalSpeech">arrivalSpeech</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Text that will be spoken upon arrival</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">arrivalSpeech</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">arrivalSpeech</span><span class="p">:</span> <span class="nf">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)arrivalNotificationMessage"></a>
+                    <a name="//apple_ref/objc/Property/arrivalNotificationMessage" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)arrivalNotificationMessage">arrivalNotificationMessage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Text used in local notification if app is in background</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span>
+    <span class="n">NSString</span> <span class="o">*</span><span class="n">arrivalNotificationMessage</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">arrivalNotificationMessage</span><span class="p">:</span> <span class="nf">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)voice"></a>
+                    <a name="//apple_ref/objc/Property/voice" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)voice">voice</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The voice that should be used for voice prompts during the route.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">AVSpeechSynthesisVoice</span> <span class="o">*</span><span class="n">voice</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">voice</span><span class="p">:</span> <span class="nf">AVSpeechSynthesisVoice</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)showMakeWrongTurnButton"></a>
+                    <a name="//apple_ref/objc/Property/showMakeWrongTurnButton" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)showMakeWrongTurnButton">showMakeWrongTurnButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Do not use. For internal testing only.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">showMakeWrongTurnButton</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showMakeWrongTurnButton</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)destinationAddressShort"></a>
+                    <a name="//apple_ref/objc/Property/destinationAddressShort" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)destinationAddressShort">destinationAddressShort</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Address to be displayed in the route progress bar</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span>
+    <span class="n">NSString</span> <span class="o">*</span><span class="n">destinationAddressShort</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">destinationAddressShort</span><span class="p">:</span> <span class="nf">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)originDescription"></a>
+                    <a name="//apple_ref/objc/Property/originDescription" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)originDescription">originDescription</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Address to be displayed on the turn list</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">originDescription</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">originDescription</span><span class="p">:</span> <span class="nf">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)destinationDescription"></a>
+                    <a name="//apple_ref/objc/Property/destinationDescription" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)destinationDescription">destinationDescription</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Address to be displayed in the arrival overlay under the address, and on the turn list</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span>
+    <span class="n">NSString</span> <span class="o">*</span><span class="n">destinationDescription</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">destinationDescription</span><span class="p">:</span> <span class="nf">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)performAdditionalLayout"></a>
+                    <a name="//apple_ref/objc/Property/performAdditionalLayout" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)performAdditionalLayout">performAdditionalLayout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Override point to perform additional layout tasks. Default implementation does nothing.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">)</span>
+    <span class="n">performAdditionalLayout</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">performAdditionalLayout</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)performActionOnArrival"></a>
+                    <a name="//apple_ref/objc/Property/performActionOnArrival" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)performActionOnArrival">performActionOnArrival</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Override point to perform tasks at arrival. Default implementation does nothing.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">)</span>
+    <span class="n">performActionOnArrival</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">performActionOnArrival</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-04-19)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

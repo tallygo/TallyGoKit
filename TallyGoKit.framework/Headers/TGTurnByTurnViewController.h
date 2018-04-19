@@ -10,6 +10,7 @@
 #import <Mapbox/Mapbox.h>
 #import <AVFoundation/AVFoundation.h>
 #import "TGStoryboardInitializableViewController.h"
+#import "TGTurnByTurnConfiguration.h"
 
 @class TGRouteSegment;
 
@@ -20,7 +21,7 @@
 FOUNDATION_EXPORT NSString * _Nonnull const TGTurnByTurnControllerStoryboardName;
 
 /// View controller with TallyGo navigation and map view
-@interface TGTurnByTurnViewController : TGStoryboardInitializableViewController <MGLMapViewDelegate>
+@interface TGTurnByTurnViewController : TGStoryboardInitializableViewController <MGLMapViewDelegate, TGTurnByTurnConfigurable>
 
 /// Map view
 @property (nonatomic, readonly, nonnull) MGLMapView *mapView;
@@ -68,7 +69,9 @@ FOUNDATION_EXPORT NSString * _Nonnull const TGTurnByTurnControllerStoryboardName
 @property (nonatomic, copy, nullable) void (^performAdditionalLayout)(void);
 
 /// Override point to perform tasks at arrival. Default implementation does nothing.
-@property (nonatomic, copy, nullable) void (^performAactionOnArrival)(void);
+@property (nonatomic, copy, nullable) void (^performActionOnArrival)(void);
+
+@property (nonatomic, readonly, nonnull) TGTurnByTurnConfiguration *configuration;
 
 /// IBAction for unwind segues.
 - (IBAction)backAction:(nonnull UIStoryboardSegue *)segue;

@@ -246,6 +246,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGMapViewController.h",
+      "line": 42,
+      "symbol": "TGMapViewController.mapView",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGOverviewViewController.h",
       "line": 15,
       "symbol": "TGOverviewViewController",
@@ -254,7 +261,7 @@
     },
     {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGPreviewViewController.h",
-      "line": 16,
+      "line": 17,
       "symbol": "TGPreviewViewController",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
@@ -488,6 +495,27 @@
       "line": 11,
       "symbol": "TGStoryboardInitializableViewController",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGTelemetry.h",
+      "line": 13,
+      "symbol": "TGTelemetry",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGTelemetry.h",
+      "line": 68,
+      "symbol": "TGTelemetryUserInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGTurnByTurnViewController.h",
+      "line": 74,
+      "symbol": "TGTurnByTurnViewController.configuration",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
