@@ -31,6 +31,7 @@ FOUNDATION_EXPORT const unsigned char TallyGoKitVersionString[];
 // Common
 #import "DeviceTypes.h"
 #import "TGConstants.h"
+#import "TGLocationUtilities.h"
 
 // Configuration
 #import "TGConfigurationService.h"
