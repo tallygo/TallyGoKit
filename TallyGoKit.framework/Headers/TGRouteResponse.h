@@ -10,6 +10,12 @@
 
 @class TGRoute;
 
+FOUNDATION_EXPORT NSErrorDomain const TGRouteResponseErrorDomain;
+
+NS_ERROR_ENUM(TGRouteResponseErrorDomain) {
+    TGRouteResponseErrorOutsideNetwork = 449,
+};
+
 /// Response object from navigation API call.
 @interface TGRouteResponse : TGBaseResponse
 

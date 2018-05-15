@@ -10,7 +10,11 @@
 
 @class TGSearchRequest, TGSearchResponse, TGSuggestRequest, TGSuggestResponse, TGReverseGeocodeRequest, TGReverseGeocodeResponse;
 
-FOUNDATION_EXPORT NSErrorDomain _Nonnull TGFindErrorDomain;
+FOUNDATION_EXPORT NSErrorDomain const TGFindServiceErrorDomain;
+
+NS_ERROR_ENUM(TGFindServiceErrorDomain) {
+    TGFindServiceErrorWaitingForConnection,
+};
 
 /**
  Provides access to the TallyGo Find service for street address and point-of-interest searching, as well as reverse geocoding.

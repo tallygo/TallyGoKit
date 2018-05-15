@@ -9,6 +9,21 @@
 #import "TGBaseObject.h"
 #import "TGBaseRequest.h"
 
+FOUNDATION_EXPORT NSErrorDomain const TGBaseResponseErrorDomain;
+
+NS_ERROR_ENUM(TGBaseResponseErrorDomain) {
+    TGBaseResponseErrorServerIndicatedFailure,
+    TGBaseResponseErrorHTTPStatusCodeFailure,
+    TGBaseResponseErrorJSONUnexpectedFormat,
+};
+
+typedef NSString *TGBaseResponseErrorUserInfoKey NS_TYPED_ENUM;
+
+FOUNDATION_EXPORT TGBaseResponseErrorUserInfoKey const TGBaseResponseErrorUserInfoKeyServerErrorCode;
+FOUNDATION_EXPORT TGBaseResponseErrorUserInfoKey const TGBaseResponseErrorUserInfoKeyDetails;
+FOUNDATION_EXPORT TGBaseResponseErrorUserInfoKey const TGBaseResponseErrorUserInfoKeyMessage;
+FOUNDATION_EXPORT TGBaseResponseErrorUserInfoKey const TGBaseResponseErrorUserInfoKeyHTTPStatusCode;
+
 @interface TGBaseResponse : TGBaseObject
 
 @property (nonatomic, readonly, nullable) NSData *data;
@@ -26,5 +41,7 @@
 - (void)processErrors;
 - (void)processResponse;
 - (void)processTracking;
+
+- (BOOL)shouldProcessTracking;
 
 @end

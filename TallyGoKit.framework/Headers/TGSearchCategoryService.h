@@ -10,6 +10,12 @@
 
 @class TGSearchCategoryRequest, TGSearchCategoryResponse;
 
+FOUNDATION_EXPORT NSErrorDomain const TGSearchCategoryServiceErrorDomain;
+
+NS_ERROR_ENUM(TGSearchCategoryServiceErrorDomain) {
+    TGSearchCategoryServiceErrorConfigurationNotLoaded,
+};
+
 @interface TGSearchCategoryService : TGBaseService
 
 @property (class, nonatomic, nullable) TGSearchCategoryResponse *cachedResponse;
