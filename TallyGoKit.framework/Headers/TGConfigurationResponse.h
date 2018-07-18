@@ -8,6 +8,12 @@
 
 #import "TGBaseResponse.h"
 
+FOUNDATION_EXPORT NSErrorDomain const TGConfigurationResponseErrorDomain;
+
+NS_ERROR_ENUM(TGConfigurationResponseErrorDomain) {
+    TGConfigurationResponseErrorInvalidAccessToken = 401,
+};
+
 @interface TGConfigurationResponse : TGBaseResponse
 
 @property (nonatomic, readonly, nullable) NSURL *findRootURL;

@@ -397,6 +397,12 @@
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionUnknown">TGTurnDirectionUnknown</a>
               </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TallyGoKitInitializeDidFinishNotification">TallyGoKitInitializeDidFinishNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TallyGoKitInitializeWillRetryNotification">TallyGoKitInitializeWillRetryNotification</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -897,6 +903,97 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TallyGo(cm)initializeWithAccessToken:configurationName:simulatedCoordinate:completion:"></a>
+                    <a name="//apple_ref/objc/Method/+initializeWithAccessToken:configurationName:simulatedCoordinate:completion:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TallyGo(cm)initializeWithAccessToken:configurationName:simulatedCoordinate:completion:">+initializeWithAccessToken:configurationName:simulatedCoordinate:completion:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Asynchronously initializes the TallyGoKit framework with your access token.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">initializeWithAccessToken</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">accessToken</span>
+                <span class="nf">configurationName</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">configurationName</span>
+              <span class="nf">simulatedCoordinate</span><span class="p">:(</span><span class="n">CLLocationCoordinate2D</span><span class="p">)</span><span class="nv">simulatedCoordinate</span>
+                       <span class="nf">completion</span><span class="p">:</span>
+                           <span class="p">(</span><span class="n">nullable</span> <span class="n">TGInitializeCompletionHandler</span><span class="p">)</span><span class="nv">completion</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">withAccessToken</span> <span class="nv">accessToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">configurationName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">simulatedCoordinate</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kt">TGInitializeCompletionHandler</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>accessToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The access token that will be used for all API requests.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>configurationName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The configuration name that will be used for all API requests.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>simulatedCoordinate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The starting location for the driving simulator</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An optional block to call after the initialization is complete. You may wish to use this to check for errors before proceeding. An alternative is to listen for <code><a href="../Constants.html#/c:@TallyGoKitInitializeDidFinishNotification">TallyGoKitInitializeDidFinishNotification</a></code>, <code><a href="../Constants.html#/c:@TallyGoKitInitializeWillRetryNotification">TallyGoKitInitializeWillRetryNotification</a></code>, and <code>TallyGoKitInitializeDidFailNotification</code>. If you are using <code><a href="../Classes/TGMapViewController.html">TGMapViewController</a></code>, you do not need to wait for the completion block, because that controller listens for errors via the notifications and handles them in its UI accordingly.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -905,7 +1002,7 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-05-15)</p>
+      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-07-18)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

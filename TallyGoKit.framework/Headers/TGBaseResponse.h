@@ -28,7 +28,7 @@ FOUNDATION_EXPORT TGBaseResponseErrorUserInfoKey const TGBaseResponseErrorUserIn
 
 @property (nonatomic, readonly, nullable) NSData *data;
 @property (nonatomic, readonly, nullable) TGBaseRequest *request;
-@property (nonatomic, readonly, nullable) NSURLResponse *response;
+@property (nonatomic, readonly, nullable) NSHTTPURLResponse *response;
 @property (nonatomic, readonly, nullable) NSError *error;
 @property (nonatomic, readonly, nonnull) NSDate *timestamp;
 @property (nonatomic, readonly) BOOL isCancelled;

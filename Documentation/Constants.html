@@ -396,6 +396,12 @@
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="Constants.html#/c:@TGTurnDirectionUnknown">TGTurnDirectionUnknown</a>
               </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Constants.html#/c:@TallyGoKitInitializeDidFinishNotification">TallyGoKitInitializeDidFinishNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Constants.html#/c:@TallyGoKitInitializeWillRetryNotification">TallyGoKitInitializeWillRetryNotification</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -469,6 +475,74 @@
 
         <section class="section">
           <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@TallyGoKitInitializeDidFinishNotification"></a>
+                    <a name="//apple_ref/objc/Constant/TallyGoKitInitializeDidFinishNotification" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@TallyGoKitInitializeDidFinishNotification">TallyGoKitInitializeDidFinishNotification</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification posted when the SDK finishes initializing successfully.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="k">const</span> <span class="n">NSNotificationName</span> <span class="n">TallyGoKitInitializeDidFinishNotification</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">TallyGoKitInitializeDidFinish</span><span class="p">:</span> <span class="kt">NSNotification</span><span class="o">.</span><span class="kt">Name</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@TallyGoKitInitializeWillRetryNotification"></a>
+                    <a name="//apple_ref/objc/Constant/TallyGoKitInitializeWillRetryNotification" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@TallyGoKitInitializeWillRetryNotification">TallyGoKitInitializeWillRetryNotification</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification posted when the SDK is taking a long time to initialize (likely due to network connectivity) but is continuing to retry. You may receive this notification repeatedly, and if the situation does not improve, you may never receive a DidFinish or DidFail notification. If you do not wish to retry indefinitely, you should provide your own logic to time out or cancel, if desired.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="k">const</span> <span class="n">NSNotificationName</span> <span class="n">TallyGoKitInitializeWillRetryNotification</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">TallyGoKitInitializeWillRetry</span><span class="p">:</span> <span class="kt">NSNotification</span><span class="o">.</span><span class="kt">Name</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
             <div class="task-group">
               <ul class="item-container">
                 <li class="item">
@@ -2925,7 +2999,7 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-05-15)</p>
+      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-07-18)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

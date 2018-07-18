@@ -101,15 +101,22 @@
     {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGBaseService.h",
       "line": 12,
-      "symbol": "TGBaseService",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "symbol": "TGBaseServiceErrorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGBaseService.h",
       "line": 14,
-      "symbol": "TGServiceHandler",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "symbol": "",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGBaseService.h",
+      "line": 19,
+      "symbol": "TGBaseService",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
@@ -199,6 +206,20 @@
     {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGConfigurationResponse.h",
       "line": 11,
+      "symbol": "TGConfigurationResponseErrorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGConfigurationResponse.h",
+      "line": 13,
+      "symbol": "",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGConfigurationResponse.h",
+      "line": 17,
       "symbol": "TGConfigurationResponse",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
@@ -226,15 +247,15 @@
     },
     {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGConstants.h",
-      "line": 13,
-      "symbol": "TallyGoKitConfigurationLoadedNotification",
+      "line": 20,
+      "symbol": "TallyGoKitInitializeDidFailNotification",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGConstants.h",
-      "line": 14,
-      "symbol": "TallyGoKitConfigurationFailedToLoadNotification",
+      "line": 22,
+      "symbol": "TallyGoKitInitializeUserInfoKeyError",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
@@ -257,20 +278,6 @@
       "line": 13,
       "symbol": "TGFeedbackViewController",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGFindService.h",
-      "line": 13,
-      "symbol": "TGFindServiceErrorDomain",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGFindService.h",
-      "line": 15,
-      "symbol": "",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
     },
     {
@@ -514,20 +521,6 @@
     {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategoryService.h",
       "line": 13,
-      "symbol": "TGSearchCategoryServiceErrorDomain",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategoryService.h",
-      "line": 15,
-      "symbol": "",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchCategoryService.h",
-      "line": 19,
       "symbol": "TGSearchCategoryService",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"

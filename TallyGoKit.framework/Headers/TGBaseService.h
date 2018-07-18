@@ -9,12 +9,15 @@
 #import <Foundation/Foundation.h>
 #import "TGConfigurationResponse.h"
 
+FOUNDATION_EXPORT NSErrorDomain const TGBaseServiceErrorDomain;
+
+NS_ERROR_ENUM(TGBaseServiceErrorDomain) {
+    TGBaseServiceErrorNotInitialized,
+    TGBaseServiceErrorWaitingForConnection,
+};
+
 @interface TGBaseService : NSObject
 
-typedef void (^TGServiceHandler)(void);
-
 @property (class, readonly) NSURLSession *sharedSession;
-
-+ (void)loadConfiguration:(TGServiceHandler)completion;
 
 @end
