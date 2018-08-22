@@ -45,16 +45,17 @@ FOUNDATION_EXPORT TGRouteRequestType _Nonnull const TGRouteRequestTypeDepartureT
 /// Optional. For reroutes you may pass in an existing Trip ID to be used on the first returned segment.
 @property (nonatomic, readonly, nullable) NSString *existingTripId;
 
-/// Create a route request with the required and optional parameters.
-- (nonnull instancetype)initWithCoords:(nonnull NSArray *)coords;
+- (nonnull instancetype)initWithCoords:(nonnull NSArray *)coords __attribute__((deprecated("Replace with initWithOrigin:destination: or initWithWaypoints:")));
 
-/// Create a route request with the required and optional parameters.
-- (nonnull instancetype)initWithCoords:(nonnull NSArray *)coords time:(nullable NSDate *)time requestType:(nullable TGRouteRequestType)requestType speed:(CLLocationSpeed)speed course:(CLLocationDirection)course existingTripId:(nullable NSString *)existingTripId;
+- (nonnull instancetype)initWithCoords:(nonnull NSArray *)coords time:(nullable NSDate *)time requestType:(nullable TGRouteRequestType)requestType speed:(CLLocationSpeed)speed course:(CLLocationDirection)course existingTripId:(nullable NSString *)existingTripId __attribute__((deprecated("Replace with initWithWaypoints:time:requestType:speed:course:existingTripId:")));
 
 /// Create a route request with waypoints (which allow you to specify textual descriptions in the UI)
 - (nonnull instancetype)initWithWaypoints:(nonnull NSArray<TGWaypoint *> *)waypoints;
 
 /// Create a route request with waypoints (which allow you to specify textual descriptions in the UI) along with optional parameters
 - (nonnull instancetype)initWithWaypoints:(nonnull NSArray<TGWaypoint *> *)waypoints time:(nullable NSDate *)time requestType:(nullable TGRouteRequestType)requestType speed:(CLLocationSpeed)speed course:(CLLocationDirection)course existingTripId:(nullable NSString *)existingTripId;
+
+/// Convenience method to quickly create a request with a single origin and destination
+- (nonnull instancetype)initWithOrigin:(CLLocationCoordinate2D)origin destination:(CLLocationCoordinate2D)destination;
 
 @end

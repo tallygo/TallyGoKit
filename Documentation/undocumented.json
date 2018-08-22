@@ -310,8 +310,15 @@
     },
     {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGMapViewController.h",
-      "line": 42,
+      "line": 43,
       "symbol": "TGMapViewController.mapView",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGMapViewController.h",
+      "line": 51,
+      "symbol": "TGMapViewController.configuration",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
@@ -344,6 +351,20 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGRouteRequest.h",
+      "line": 48,
+      "symbol": "TGRouteRequest.-initWithCoords:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGRouteRequest.h",
+      "line": 50,
+      "symbol": "TGRouteRequest.-initWithCoords:time:requestType:speed:course:existingTripId:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGRouteResponse.h",
       "line": 13,
       "symbol": "TGRouteResponseErrorDomain",
@@ -359,7 +380,7 @@
     },
     {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGRouteSegment.h",
-      "line": 34,
+      "line": 40,
       "symbol": "TGRouteSegment.-initWithDictionary:route:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
@@ -533,6 +554,41 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchResult.h",
+      "line": 14,
+      "symbol": "TGSearchResultProvider",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchResult.h",
+      "line": 16,
+      "symbol": "TGSearchResultProviderFoursquare",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchResult.h",
+      "line": 17,
+      "symbol": "TGSearchResultProviderYelp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchResult.h",
+      "line": 18,
+      "symbol": "TGSearchResultProviderUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchResult.h",
+      "line": 77,
+      "symbol": "TGSearchResult.-toAddressObject",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchResultsViewController.h",
       "line": 16,
       "symbol": "TGSearchResultsViewController",
@@ -551,6 +607,20 @@
       "line": 20,
       "symbol": "TGSearchResultsViewControllerDelegate.-didPressDoneButton",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchViewController.h",
+      "line": 26,
+      "symbol": "TGSearchViewController.configuration",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGSearchViewController.h",
+      "line": 28,
+      "symbol": "TGSearchViewController.showRecentSearches",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -590,7 +660,14 @@
     },
     {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGTurnByTurnViewController.h",
-      "line": 74,
+      "line": 21,
+      "symbol": "TGTurnByTurnAddWaypointCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGTurnByTurnViewController.h",
+      "line": 77,
       "symbol": "TGTurnByTurnViewController.configuration",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
@@ -631,9 +708,23 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGWaypointsListViewController.h",
+      "line": 17,
+      "symbol": "TGWaypointsListRouteChangeBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TGWaypointsListViewController.h",
+      "line": 19,
+      "symbol": "TGWaypointsListViewController",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/davidwork2/Code/iOS/TallyGoKit-ObjC/TallyGoKit.framework/Headers/TallyGoStyleKit.h",
       "line": 16,
-      "symbol": "",
+      "symbol": "TallyGoStyleKitResizingBehavior",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
     },

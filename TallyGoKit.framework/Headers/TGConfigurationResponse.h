@@ -23,5 +23,6 @@ NS_ERROR_ENUM(TGConfigurationResponseErrorDomain) {
 @property (nonatomic, readonly, nullable) NSString *parseApplicationID;
 @property (nonatomic, readonly, nullable) NSURL *parseRootURL;
 @property (nonatomic, readonly, nullable) NSURL *voxRootURL;
+@property (nonatomic, readonly) NSInteger navigationWaypointLimit;
 
 @end

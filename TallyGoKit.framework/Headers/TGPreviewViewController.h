@@ -11,19 +11,24 @@
 
 #import "TGStoryboardInitializableViewController.h"
 #import "TGTurnByTurnConfiguration.h"
-
-@class TGRouteSegment;
+#import "TGSearchViewControllerDelegate.h"
+#import "TGWaypointsListViewController.h"
 
 @interface TGPreviewViewController : TGStoryboardInitializableViewController <MGLMapViewDelegate, TGTurnByTurnConfigurable>
 
-@property (nonatomic, nullable) TGRouteSegment *segment;
-@property (nonatomic) CLLocationCoordinate2D origin;
+/// The route to use for navigation. You can specify this directly if you already made a request and have the result. Otherwise, this property will reflect the route after it has been requested.
+@property (nonatomic, nullable) TGRoute *route;
 
-@property (nonatomic, nullable) NSString *originDescription;
+/// The current trip ID, if any. Used when requesting a new route, necessary if the user adds a new waypoint.
+@property (nonatomic, nullable) NSString *tripId;
 
-@property (nonatomic, nullable) NSString *destinationDescription;
+/// Whether to provide a UI for adding waypoints. Defaults to `YES`.
+@property (nonatomic) BOOL allowAddingWaypoints;
 
-@property (nonatomic, copy, nullable) void (^onStartTurnByTurn)(void);
+@property (nonatomic, copy, nullable) void (^onStartTurnByTurn)(TGRoute *route);
+
+/// This optional block is called whenever the user's actions result in a new route being generated.
+@property (nonatomic, copy, nullable) TGWaypointsListRouteChangeBlock onRouteChange;
 
 @property (nonatomic, readonly, nonnull) TGTurnByTurnConfiguration *configuration;
 

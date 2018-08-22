@@ -10,7 +10,7 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-@class TGPoint, TGRoute;
+@class TGPoint, TGRoute, TGWaypoint;
 
 /**
  TGRouteSegment represets one segment of a route. A route from location A to B will consist of only one segment. Introducing a stop along the way will result in two segments, from A to B, and B to C. Similar to routes, each segment has its own distance, and estimated travel time.
@@ -30,6 +30,12 @@
 
 /// The route this segment belongs to
 @property (nonatomic, weak, readonly, nullable) TGRoute *route;
+
+/// The waypoint at the beginning of this segment
+@property (nonatomic, nonnull) TGWaypoint *originWaypoint;
+
+/// The waypoint at the end of this segment
+@property (nonatomic, nonnull) TGWaypoint *destinationWaypoint;
 
 - (nonnull instancetype)initWithDictionary:(nonnull NSDictionary *)dictionary route:(nullable TGRoute *)route;
 

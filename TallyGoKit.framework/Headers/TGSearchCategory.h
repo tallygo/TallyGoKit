@@ -41,6 +41,8 @@ FOUNDATION_EXPORT TGSearchCategoryShortName _Nonnull const TGSearchCategoryShort
 
 @property (nonatomic, readonly, nullable) TGSearchCategoryShortName shortName;
 
-- (void)image:(void (^_Nonnull)(UIImage * _Nullable))completion;
+@property (nonatomic, nullable, readonly) UIImage *cachedImage;
+
+- (NSURLSessionDataTask *)image:(void (^)(UIImage * _Nullable))completion;
 
 @end

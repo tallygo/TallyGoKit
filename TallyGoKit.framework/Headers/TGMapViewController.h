@@ -12,25 +12,26 @@
 #import "TGSearchResultsViewControllerDelegate.h"
 #import "TGSearchViewControllerDelegate.h"
 #import "TGMapView.h"
+#import "TGTurnByTurnConfiguration.h"
 
 @class TGCompassButton;
 
 /**
  * A view controller that shows a map, complete with search bar, compass toggle button, and hamburger menu button (the latter of which can be customized).
  */
-@interface TGMapViewController : TGStoryboardInitializableViewController <TGSearchResultsViewControllerDelegate, TGSearchViewControllerDelegate, UIGestureRecognizerDelegate, MGLMapViewDelegate>
+@interface TGMapViewController : TGStoryboardInitializableViewController <TGSearchResultsViewControllerDelegate, TGSearchViewControllerDelegate, UIGestureRecognizerDelegate, MGLMapViewDelegate, TGTurnByTurnConfigurable>
 
 /**
- * A 'hambuger' style menu button. By default, it does nothing when tapped, but you can implement a handler with `didSelectMenuButton`. You can hide this
- * button if you don't need it.
+ * Whether to show a 'hambuger' style menu button. By default, it does nothing when tapped, but you can implement a handler with `didSelectMenuButton`.
+ * @default YES
  */
-@property (nonatomic, nonnull) IBOutlet UIButton *menuButton;
+@property (nonatomic) BOOL showMenuButton;
 
 /**
- * A button that toggles the compass mode of the map (whether up is north, or whether up is the direction the user is facing). You can hide this button if
- * you don't need it.
+ * Whether to show a button that toggles the compass mode of the map (whether up is north, or whether up is the direction the user is facing).
+ * @default YES
  */
-@property (nonatomic, nonnull) IBOutlet TGCompassButton *compassButton;
+@property (nonatomic) BOOL showCompassButton;
 
 /**
  * Whether to show the TallyGo logo at the bottom of the map view.
@@ -46,5 +47,13 @@
  * to the rest of your app.
  */
 @property (nonatomic, copy, nullable) void (^onSelectMenuButton)(void);
+
+@property (nonatomic, readonly, nonnull) TGTurnByTurnConfiguration *configuration;
+
+/**
+ * When the user is searching for or selecting a location, whether to show additional details such as Yelp or
+ * Foursquare rating, phone number, web site, etc. Not available for every location. Defaults to `NO`.
+ */
+@property (nonatomic) BOOL showExtendedLocationDetails;
 
 @end

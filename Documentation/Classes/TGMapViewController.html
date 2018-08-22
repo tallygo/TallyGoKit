@@ -474,7 +474,8 @@
                   <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">TGMapViewController</span>
     <span class="p">:</span> <span class="nc">TGStoryboardInitializableViewController</span> <span class="o">&lt;</span>
           <span class="n"><a href="../Protocols.html#/c:objc(pl)TGSearchResultsViewControllerDelegate">TGSearchResultsViewControllerDelegate</a></span><span class="p">,</span> <span class="n"><a href="../Protocols/TGSearchViewControllerDelegate.html">TGSearchViewControllerDelegate</a></span><span class="p">,</span>
-          <span class="n">UIGestureRecognizerDelegate</span><span class="p">,</span> <span class="n">MGLMapViewDelegate</span><span class="o">&gt;</span></code></pre>
+          <span class="n">UIGestureRecognizerDelegate</span><span class="p">,</span> <span class="n">MGLMapViewDelegate</span><span class="p">,</span>
+          <span class="n"><a href="../Protocols/TGTurnByTurnConfigurable.html">TGTurnByTurnConfigurable</a></span><span class="o">&gt;</span></code></pre>
 
                 </div>
               </div>
@@ -490,9 +491,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(cs)TGMapViewController(py)menuButton"></a>
-                    <a name="//apple_ref/objc/Property/menuButton" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)TGMapViewController(py)menuButton">menuButton</a>
+                    <a name="/c:objc(cs)TGMapViewController(py)showMenuButton"></a>
+                    <a name="//apple_ref/objc/Property/showMenuButton" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGMapViewController(py)showMenuButton">showMenuButton</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -500,20 +501,20 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A &lsquo;hambuger&rsquo; style menu button. By default, it does nothing when tapped, but you can implement a handler with <code>didSelectMenuButton</code>. You can hide this
-button if you don&rsquo;t need it.</p>
+                        <p>Whether to show a &lsquo;hambuger&rsquo; style menu button. By default, it does nothing when tapped, but you can implement a handler with <code>didSelectMenuButton</code>.
+@default YES</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nonnull</span><span class="p">)</span> <span class="n">UIButton</span> <span class="o">*</span><span class="n">menuButton</span><span class="p">;</span></code></pre>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">showMenuButton</span><span class="p">;</span></code></pre>
 
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span> <span class="k">var</span> <span class="nv">menuButton</span><span class="p">:</span> <span class="nf">UIButton</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showMenuButton</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -523,9 +524,9 @@ button if you don&rsquo;t need it.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(cs)TGMapViewController(py)compassButton"></a>
-                    <a name="//apple_ref/objc/Property/compassButton" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)TGMapViewController(py)compassButton">compassButton</a>
+                    <a name="/c:objc(cs)TGMapViewController(py)showCompassButton"></a>
+                    <a name="//apple_ref/objc/Property/showCompassButton" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGMapViewController(py)showCompassButton">showCompassButton</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -533,20 +534,20 @@ button if you don&rsquo;t need it.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A button that toggles the compass mode of the map (whether up is north, or whether up is the direction the user is facing). You can hide this button if
-you don&rsquo;t need it.</p>
+                        <p>Whether to show a button that toggles the compass mode of the map (whether up is north, or whether up is the direction the user is facing).
+@default YES</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nonnull</span><span class="p">)</span> <span class="n">TGCompassButton</span> <span class="o">*</span><span class="n">compassButton</span><span class="p">;</span></code></pre>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">showCompassButton</span><span class="p">;</span></code></pre>
 
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span> <span class="k">var</span> <span class="nv">compassButton</span><span class="p">:</span> <span class="nf">TGCompassButton</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showCompassButton</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -579,7 +580,7 @@ you don&rsquo;t need it.</p>
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showTallyGoLogo</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showTallyGoLogo</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -620,6 +621,39 @@ to the rest of your app.</p>
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGMapViewController(py)showExtendedLocationDetails"></a>
+                    <a name="//apple_ref/objc/Property/showExtendedLocationDetails" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGMapViewController(py)showExtendedLocationDetails">showExtendedLocationDetails</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When the user is searching for or selecting a location, whether to show additional details such as Yelp or
+Foursquare rating, phone number, web site, etc. Not available for every location. Defaults to <code>NO</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">showExtendedLocationDetails</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showExtendedLocationDetails</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -628,8 +662,8 @@ to the rest of your app.</p>
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-07-18)</p>
-      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-08-22)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
 </div>

@@ -1,6 +1,6 @@
 PODS:
   - Mapbox-iOS-SDK (3.6.4)
-  - TallyGoKit (2.0.4):
+  - TallyGoKit (2.1.0-beta1):
     - Mapbox-iOS-SDK (< 3.8, >= 3.6.4, ~> 3.0)
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Mapbox-iOS-SDK: 47847dd44285477e0dfffd0130f65c8a52823ada
-  TallyGoKit: 163914ab69836b0c08495753cbbb46a69660f4c9
+  TallyGoKit: 6c7f9daa28a5228404cca231ce6ce939ecc4fe17
 
 PODFILE CHECKSUM: e593406838a8f451b6985efcc7c7ed799e0b2c4e
 

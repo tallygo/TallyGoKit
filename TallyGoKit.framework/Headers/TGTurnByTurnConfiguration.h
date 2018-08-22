@@ -10,7 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import <AVFoundation/AVFoundation.h>
 
-@class TGRouteSegment, TGTurnByTurnConfiguration;
+@class TGRouteSegment, TGTurnByTurnConfiguration, TGRouteRequest, TGRoute, TGWaypoint;
 
 /**
  * Protocol for view controllers that can use a TGTurnByTurnConfiguration
@@ -30,14 +30,17 @@
  */
 @interface TGTurnByTurnConfiguration : NSObject
 
-/// The requested origin location
+/// The origin coordinate to request. This is a quick convenient alternative to providing a full `routeRequest`. If specified, a `destination` must also be specified.
 @property (nonatomic) CLLocationCoordinate2D origin;
 
-/// The requested destination. If this is changed while en route, a reroute will be triggered.
+/// The destination coordinate to request. This is a quick convenient alternative to providing a full `routeRequest`. If specified, an `origin` must also be specified.
 @property (nonatomic) CLLocationCoordinate2D destination;
 
-/// The current segment
-@property (nonatomic, nullable) TGRouteSegment *segment;
+/// The route to request for navigation. If specified, it will be requested and the resulting route will be used.
+@property (nonatomic, nullable) TGRouteRequest *routeRequest;
+
+/// The route to use for navigation. You can specify this directly if you already made a request and have the result.
+@property (nonatomic, nullable) TGRoute *route;
 
 /// Determines whether origin icon is displayed
 @property (nonatomic) BOOL showsOriginIcon;
@@ -63,19 +66,28 @@
 /// Do not use. For internal testing only.
 @property (nonatomic) BOOL showMakeWrongTurnButton;
 
-/// Address to be displayed in the route progress bar
-@property (nonatomic, nullable) NSString *destinationAddressShort;
-
-/// Address to be displayed on the turn list
-@property (nonatomic, nullable) NSString *originDescription;
-
-/// Address to be displayed in the arrival overlay under the address, and on the turn list
-@property (nonatomic, nullable) NSString *destinationDescription;
-
-/// Override point to perform additional layout tasks. Default implementation does nothing.
-@property (nonatomic, copy, nullable) void (^performAdditionalLayout)(void);
-
 /// Override point to perform tasks at arrival. Default implementation does nothing.
-@property (nonatomic, copy, nullable) void (^performActionOnArrival)(void);
+@property (nonatomic, copy, nullable) void (^onArrival)(TGWaypoint *_Nonnull destination);
+
+
+/// Whether to provide a UI for adding waypoints. Defaults to `YES`.
+@property (nonatomic) BOOL allowAddingWaypoints;
+
+/// Whether to provide a UI for reordering waypoints. Defaults to `YES`.
+@property (nonatomic) BOOL allowReorderingWaypoints;
+
+/// Whether to provide a UI for removing waypoints. Defaults to `YES`.
+@property (nonatomic) BOOL allowRemovingWaypoints;
+
+/**
+ * When the user is searching for a location, whether to show recent searches. These will be stored in NSUserDefaults.
+ */
+@property (nonatomic) BOOL showRecentSearches;
+
+/**
+ * When the user is searching for or selecting a location, whether to show additional details such as Yelp or
+ * Foursquare rating, phone number, web site, etc. Not available for every location. Defaults to `NO`.
+ */
+@property (nonatomic) BOOL showExtendedLocationDetails;
 
 @end

@@ -11,7 +11,13 @@
 #import <CoreLocation/CoreLocation.h>
 #import "TGOrigin.h"
 
-@class TGStreetAddress;
+typedef NSString *TGSearchResultProvider NS_TYPED_ENUM;
+
+FOUNDATION_EXPORT TGSearchResultProvider TGSearchResultProviderFoursquare;
+FOUNDATION_EXPORT TGSearchResultProvider TGSearchResultProviderYelp;
+FOUNDATION_EXPORT TGSearchResultProvider TGSearchResultProviderUnknown;
+
+@class TGStreetAddress, TGWaypoint;
 
 /// A search result, including geographic location.
 /// Returned from TGFind.search
@@ -27,13 +33,19 @@
 @property (nonatomic, readonly) NSInteger reviewCount;
 
 /// Provider's name.
-@property (nonatomic, readonly, nullable) NSString *provider;
+@property (nonatomic, readonly, nullable) TGSearchResultProvider provider;
 
 /// Phone number.
 @property (nonatomic, readonly, nullable) NSString *phone;
 
 /// Rating value depending on provider
 @property (nonatomic, readonly) double rating;
+
+/// Whether or not this search result has a rating
+@property (nonatomic, readonly) BOOL hasRating;
+
+/// URL associated with this search result.
+@property (nonatomic, readonly, nullable) NSString *url;
 
 /// URL to a profile on the provider's website.
 @property (nonatomic, readonly, nullable) NSString *providerUrl;
@@ -60,6 +72,11 @@
 @property (nonatomic, readonly) double score;
 
 /// Get a TGAddress object from search result. Only location name, match address, and address may be populated.
-- (nonnull TGStreetAddress *)toAddressObject;
+- (nonnull TGStreetAddress *)streetAddress;
+
+- (nonnull TGStreetAddress *)toAddressObject __attribute__((deprecated("Replace with streetAddress")));
+
+/// Get a TGWaypoint object from search result.
+- (nonnull TGWaypoint *)waypoint;
 
 @end

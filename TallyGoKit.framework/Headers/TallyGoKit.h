@@ -115,6 +115,9 @@ FOUNDATION_EXPORT const unsigned char TallyGoKitVersionString[];
 #import "TGTurnListViewController.h"
 #import "TGTurnListBaseTableViewCell.h"
 
+// Waypoints
+#import "TGWaypointsListViewController.h"
+
 // Classes
 #import "TGIdleTimer.h"
 #import "TGStoryboardInitializableViewController.h"
