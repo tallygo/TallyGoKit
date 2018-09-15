@@ -30,11 +30,17 @@
  */
 @interface TGTurnByTurnConfiguration : NSObject
 
-/// The origin coordinate to request. This is a quick convenient alternative to providing a full `routeRequest`. If specified, a `destination` must also be specified.
+/// The origin coordinate to request. This is an alternative to providing a full `routeRequest`. If specified, a `destination` must also be specified.
 @property (nonatomic) CLLocationCoordinate2D origin;
 
-/// The destination coordinate to request. This is a quick convenient alternative to providing a full `routeRequest`. If specified, an `origin` must also be specified.
+/// The destination coordinate to request. This is an alternative to providing a full `routeRequest`. If specified, an `origin` may also be specified. If `origin` is not specified, the user's current location will be used.
 @property (nonatomic) CLLocationCoordinate2D destination;
+
+/// The origin to request. This is an alternative to providing a full `routeRequest`. If specified, a `destinationWaypoint` must also be specified. If you would like to use the user's current location as the origin, you may choose to use `TGWaypoint`'s alternative constructor `initWithUserCurrentLocation`.
+@property (nonatomic, nullable) TGWaypoint *originWaypoint;
+
+/// The destination to request. This is an alternative to providing a full `routeRequest`. If specified, an `originWaypoint` must also be specified.
+@property (nonatomic, nullable) TGWaypoint *destinationWaypoint;
 
 /// The route to request for navigation. If specified, it will be requested and the resulting route will be used.
 @property (nonatomic, nullable) TGRouteRequest *routeRequest;

@@ -293,9 +293,6 @@
                 <a class="nav-group-task-link" href="Constants.html#/c:@TGTelemetryCancelledNotification">TGTelemetryCancelledNotification</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="Constants.html#/c:@TGTelemetryConcludedNotification">TGTelemetryConcludedNotification</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="Constants.html#/c:@TGTelemetryCurrentPointChangeNotification">TGTelemetryCurrentPointChangeNotification</a>
               </li>
               <li class="nav-group-task">
@@ -317,6 +314,15 @@
                 <a class="nav-group-task-link" href="Constants.html#/c:@TGTelemetryReroutingNotification">TGTelemetryReroutingNotification</a>
               </li>
               <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Constants.html#/c:@TGTelemetryRouteConcludedNotification">TGTelemetryRouteConcludedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Constants.html#/c:@TGTelemetrySegmentAdvancedNotification">TGTelemetrySegmentAdvancedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Constants.html#/c:@TGTelemetrySegmentConcludedNotification">TGTelemetrySegmentConcludedNotification</a>
+              </li>
+              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="Constants.html#/c:@TGTelemetryStartedNotification">TGTelemetryStartedNotification</a>
               </li>
               <li class="nav-group-task">
@@ -327,6 +333,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="Constants.html#/c:@TGTelemetryUserInfoFromPointIndex">TGTelemetryUserInfoFromPointIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Constants.html#/c:@TGTelemetryUserInfoRoute">TGTelemetryUserInfoRoute</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="Constants.html#/c:@TGTelemetryUserInfoRouteSegment">TGTelemetryUserInfoRouteSegment</a>
@@ -2091,9 +2100,73 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@TGTelemetryConcludedNotification"></a>
-                    <a name="//apple_ref/objc/Constant/TGTelemetryConcludedNotification" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@TGTelemetryConcludedNotification">TGTelemetryConcludedNotification</a>
+                    <a name="/c:@TGTelemetrySegmentConcludedNotification"></a>
+                    <a name="//apple_ref/objc/Constant/TGTelemetrySegmentConcludedNotification" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@TGTelemetrySegmentConcludedNotification">TGTelemetrySegmentConcludedNotification</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A notification that is posted when the user concludes the route segment.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSNotificationName</span> <span class="n">_Nonnull</span> <span class="k">const</span> <span class="n">TGTelemetrySegmentConcludedNotification</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">TGTelemetrySegmentConcluded</span><span class="p">:</span> <span class="kt">NSNotification</span><span class="o">.</span><span class="kt">Name</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@TGTelemetrySegmentAdvancedNotification"></a>
+                    <a name="//apple_ref/objc/Constant/TGTelemetrySegmentAdvancedNotification" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@TGTelemetrySegmentAdvancedNotification">TGTelemetrySegmentAdvancedNotification</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A notification that is posted when the user advances to the next route segment.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSNotificationName</span> <span class="n">_Nonnull</span> <span class="k">const</span> <span class="n">TGTelemetrySegmentAdvancedNotification</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">TGTelemetrySegmentAdvanced</span><span class="p">:</span> <span class="kt">NSNotification</span><span class="o">.</span><span class="kt">Name</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@TGTelemetryRouteConcludedNotification"></a>
+                    <a name="//apple_ref/objc/Constant/TGTelemetryRouteConcludedNotification" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@TGTelemetryRouteConcludedNotification">TGTelemetryRouteConcludedNotification</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2108,12 +2181,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSNotificationName</span> <span class="n">_Nonnull</span> <span class="k">const</span> <span class="n">TGTelemetryConcludedNotification</span></code></pre>
+                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSNotificationName</span> <span class="n">_Nonnull</span> <span class="k">const</span> <span class="n">TGTelemetryRouteConcludedNotification</span></code></pre>
 
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">TGTelemetryConcluded</span><span class="p">:</span> <span class="kt">NSNotification</span><span class="o">.</span><span class="kt">Name</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">TGTelemetryRouteConcluded</span><span class="p">:</span> <span class="kt">NSNotification</span><span class="o">.</span><span class="kt">Name</span></code></pre>
 
                         </div>
                       </div>
@@ -2370,6 +2443,38 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">ETA</span><span class="p">:</span> <span class="kt">TGTelemetryUserInfo</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@TGTelemetryUserInfoRoute"></a>
+                    <a name="//apple_ref/objc/Constant/TGTelemetryUserInfoRoute" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@TGTelemetryUserInfoRoute">TGTelemetryUserInfoRoute</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A userInfo key for the turn change notifications and represents the driver&rsquo;s route.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">TGTelemetryUserInfo</span> <span class="n">_Nonnull</span> <span class="k">const</span> <span class="n">TGTelemetryUserInfoRoute</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">route</span><span class="p">:</span> <span class="kt">TGTelemetryUserInfo</span></code></pre>
 
                         </div>
                       </div>
@@ -3000,7 +3105,7 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-08-22)</p>
+      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-09-14)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

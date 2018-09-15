@@ -293,9 +293,6 @@
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryCancelledNotification">TGTelemetryCancelledNotification</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryConcludedNotification">TGTelemetryConcludedNotification</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryCurrentPointChangeNotification">TGTelemetryCurrentPointChangeNotification</a>
               </li>
               <li class="nav-group-task">
@@ -317,6 +314,15 @@
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryReroutingNotification">TGTelemetryReroutingNotification</a>
               </li>
               <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryRouteConcludedNotification">TGTelemetryRouteConcludedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetrySegmentAdvancedNotification">TGTelemetrySegmentAdvancedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetrySegmentConcludedNotification">TGTelemetrySegmentConcludedNotification</a>
+              </li>
+              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryStartedNotification">TGTelemetryStartedNotification</a>
               </li>
               <li class="nav-group-task">
@@ -327,6 +333,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoFromPointIndex">TGTelemetryUserInfoFromPointIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoRoute">TGTelemetryUserInfoRoute</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoRouteSegment">TGTelemetryUserInfoRouteSegment</a>
@@ -497,7 +506,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The origin coordinate to request. This is a quick convenient alternative to providing a full <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)routeRequest">routeRequest</a></code>. If specified, a <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)destination">destination</a></code> must also be specified.</p>
+                        <p>The origin coordinate to request. This is an alternative to providing a full <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)routeRequest">routeRequest</a></code>. If specified, a <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)destination">destination</a></code> must also be specified.</p>
 
                       </div>
                       <div class="declaration">
@@ -529,7 +538,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The destination coordinate to request. This is a quick convenient alternative to providing a full <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)routeRequest">routeRequest</a></code>. If specified, an <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)origin">origin</a></code> must also be specified.</p>
+                        <p>The destination coordinate to request. This is an alternative to providing a full <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)routeRequest">routeRequest</a></code>. If specified, an <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)origin">origin</a></code> may also be specified. If <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)origin">origin</a></code> is not specified, the user&rsquo;s current location will be used.</p>
 
                       </div>
                       <div class="declaration">
@@ -542,6 +551,71 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">destination</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)originWaypoint"></a>
+                    <a name="//apple_ref/objc/Property/originWaypoint" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)originWaypoint">originWaypoint</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The origin to request. This is an alternative to providing a full <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)routeRequest">routeRequest</a></code>. If specified, a <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)destinationWaypoint">destinationWaypoint</a></code> must also be specified. If you would like to use the user&rsquo;s current location as the origin, you may choose to use <code><a href="../Classes/TGWaypoint.html">TGWaypoint</a></code>&lsquo;s alternative constructor <code>initWithUserCurrentLocation</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n"><a href="../Classes/TGWaypoint.html">TGWaypoint</a></span> <span class="o">*</span><span class="n">originWaypoint</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">originWaypoint</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGWaypoint.html">TGWaypoint</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGTurnByTurnConfiguration(py)destinationWaypoint"></a>
+                    <a name="//apple_ref/objc/Property/destinationWaypoint" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGTurnByTurnConfiguration(py)destinationWaypoint">destinationWaypoint</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The destination to request. This is an alternative to providing a full <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)routeRequest">routeRequest</a></code>. If specified, an <code><a href="../Classes/TGTurnByTurnConfiguration.html#/c:objc(cs)TGTurnByTurnConfiguration(py)originWaypoint">originWaypoint</a></code> must also be specified.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span>
+    <span class="n"><a href="../Classes/TGWaypoint.html">TGWaypoint</a></span> <span class="o">*</span><span class="n">destinationWaypoint</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">destinationWaypoint</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGWaypoint.html">TGWaypoint</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -1072,7 +1146,7 @@ Foursquare rating, phone number, web site, etc. Not available for every location
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-08-22)</p>
+      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-09-14)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

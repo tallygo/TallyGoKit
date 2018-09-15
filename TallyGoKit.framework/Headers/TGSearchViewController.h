@@ -25,7 +25,13 @@
 
 @property (nonatomic, readonly, nonnull) TGTurnByTurnConfiguration *configuration;
 
+/**
+ * When the user is searching for a location, whether to show recent searches. These will be stored in NSUserDefaults.
+ */
 @property (nonatomic) BOOL showRecentSearches;
+
+/// Allows you to delete existing saved recent searches. This will not prevent future searches from being saved; to do that, set `showRecentSearches` to `NO`.
++ (void)deleteAllRecentSearches;
 
 /// Use this function to force the cancel button to display. This is useful, for example, if your app has other means to select a location.
 - (void)showCancelButton;

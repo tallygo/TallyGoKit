@@ -32,7 +32,7 @@ FOUNDATION_EXPORT TGTurnDirection _Nonnull const TGTurnDirectionSlightRight;
 FOUNDATION_EXPORT TGTurnDirection _Nonnull const TGTurnDirectionRight;
 
 /// Rightwards more than 115 degrees.
-FOUNDATION_EXPORT TGTurnDirection _Nonnull const                TGTurnDirectionHardRight;
+FOUNDATION_EXPORT TGTurnDirection _Nonnull const TGTurnDirectionHardRight;
 
 /// A highway off-ramp or interchange that is to the left of the carriageway.
 FOUNDATION_EXPORT TGTurnDirection _Nonnull const TGTurnDirectionExitLeft;

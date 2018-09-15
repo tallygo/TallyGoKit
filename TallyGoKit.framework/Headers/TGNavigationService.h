@@ -10,6 +10,12 @@
 
 @class TGRouteRequest, TGRouteResponse, TGBoundaryRequest, TGBoundaryResponse;
 
+FOUNDATION_EXPORT NSErrorDomain const TGNavigationServiceErrorDomain;
+
+NS_ERROR_ENUM(TGBaseServiceErrorDomain) {
+    TGNavigationServiceErrorUnableToObtainUserCurrentLocation,
+};
+
 /// Provides an interface to TallyGo's navigation API.
 @interface TGNavigationService : TGBaseService
 

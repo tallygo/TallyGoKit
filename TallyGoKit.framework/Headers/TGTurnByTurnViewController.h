@@ -23,17 +23,29 @@ typedef void (^TGTurnByTurnAddWaypointCompletionBlock)(TGRoute *_Nullable newRou
 /// Storyboad name
 FOUNDATION_EXPORT NSString * _Nonnull const TGTurnByTurnControllerStoryboardName;
 
+FOUNDATION_EXPORT NSErrorDomain const TGTurnByTurnViewControllerErrorDomain;
+
+NS_ERROR_ENUM(TGTurnByTurnViewControllerErrorDomain) {
+    TGTurnByTurnViewControllerErrorPrecedingWaypointNotFound,
+};
+
 /// View controller with TallyGo navigation and map view
 @interface TGTurnByTurnViewController : TGStoryboardInitializableViewController <MGLMapViewDelegate, TGTurnByTurnConfigurable>
 
 /// Map view
 @property (nonatomic, readonly, nonnull) MGLMapView *mapView;
 
-/// The origin coordinate to request. This is a quick convenient alternative to providing a full `request`. If specified, a `destination` must also be specified.
+/// The origin coordinate to request. This is an alternative to providing a full `routeRequest`. If specified, a `destination` must also be specified.
 @property (nonatomic) CLLocationCoordinate2D origin;
 
-/// The destination coordinate to request. This is a quick convenient alternative to providing a full `request`. If specified, an `origin` must also be specified.
+/// The destination coordinate to request. This is an alternative to providing a full `routeRequest`. If specified, an `origin` may also be specified. If `origin` is not specified, the user's current location will be used.
 @property (nonatomic) CLLocationCoordinate2D destination;
+
+/// The origin to request. This is an alternative to providing a full `routeRequest`. If specified, a `destinationWaypoint` must also be specified. If you would like to use the user's current location as the origin, you may choose to use `TGWaypoint`'s alternative constructor `initWithUserCurrentLocation`.
+@property (nonatomic, nullable) TGWaypoint *originWaypoint;
+
+/// The destination to request. This is an alternative to providing a full `routeRequest`. If specified, an `originWaypoint` must also be specified.
+@property (nonatomic, nullable) TGWaypoint *destinationWaypoint;
 
 /// The route to request for navigation. If specified, it will be requested and the resulting route will be used.
 @property (nonatomic, nullable) TGRouteRequest *routeRequest;
@@ -85,5 +97,12 @@ FOUNDATION_EXPORT NSString * _Nonnull const TGTurnByTurnControllerStoryboardName
  * @param addToEnd If YES, the waypoint is added to the end of the current route, and the route will continue navigating to the original destination, followed by the new waypoint afterwards. If NO, the waypoint is added to the soonest possible position in the route, and navigation will immediately reroute to this new waypoint, after which it will resume navigating to the original list of waypoints.
  */
 - (void)addWaypoint:(TGWaypoint *)waypoint toEnd:(BOOL)addToEnd completion:(TGTurnByTurnAddWaypointCompletionBlock)completion;
+
+/**
+ * Programatically adds a waypoint to the current navigation session while it is already in progress. This does not display any additional UI, warning, or notification to the user; the change takes effect immediately and silently. You should probably provide your own UI to confirm with or inform the user that this is going to happen.
+ *
+ * @param precedingWaypoint The waypoint after which the new waypoint should be added. This parameter must be a waypoint that the driver has not yet arrived at. If you attempt to use a waypoint that the driver has already arrived at, or if you use any waypoint that is not included in the existing route, then the method will return a `TGTurnByTurnViewControllerErrorPrecedingWaypointNotFound` error in the completion block and the new waypoint will not be added.
+ */
+- (void)addWaypoint:(TGWaypoint *)waypoint afterWaypoint:(TGWaypoint *)precedingWaypoint completion:(TGTurnByTurnAddWaypointCompletionBlock)completion;
 
 @end

@@ -21,7 +21,7 @@ FOUNDATION_EXPORT TGSearchResultProvider TGSearchResultProviderUnknown;
 
 /// A search result, including geographic location.
 /// Returned from TGFind.search
-@interface TGSearchResult : TGBaseObject <NSCopying>
+@interface TGSearchResult : TGBaseObject <NSCopying, NSCoding>
 
 /// The point found for the closest address.
 @property (nonatomic, readonly) CLLocationCoordinate2D location;
@@ -78,5 +78,7 @@ FOUNDATION_EXPORT TGSearchResultProvider TGSearchResultProviderUnknown;
 
 /// Get a TGWaypoint object from search result.
 - (nonnull TGWaypoint *)waypoint;
+
+- (BOOL)isEqualToSearchResult:(nonnull TGSearchResult *)searchResult;
 
 @end

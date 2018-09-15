@@ -293,9 +293,6 @@
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryCancelledNotification">TGTelemetryCancelledNotification</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryConcludedNotification">TGTelemetryConcludedNotification</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryCurrentPointChangeNotification">TGTelemetryCurrentPointChangeNotification</a>
               </li>
               <li class="nav-group-task">
@@ -317,6 +314,15 @@
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryReroutingNotification">TGTelemetryReroutingNotification</a>
               </li>
               <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryRouteConcludedNotification">TGTelemetryRouteConcludedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetrySegmentAdvancedNotification">TGTelemetrySegmentAdvancedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetrySegmentConcludedNotification">TGTelemetrySegmentConcludedNotification</a>
+              </li>
+              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryStartedNotification">TGTelemetryStartedNotification</a>
               </li>
               <li class="nav-group-task">
@@ -327,6 +333,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoFromPointIndex">TGTelemetryUserInfoFromPointIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoRoute">TGTelemetryUserInfoRoute</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoRouteSegment">TGTelemetryUserInfoRouteSegment</a>
@@ -583,6 +592,38 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/c:objc(cs)TGWaypoint(py)placeholderForUserCurrentLocation"></a>
+                    <a name="//apple_ref/objc/Property/placeholderForUserCurrentLocation" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGWaypoint(py)placeholderForUserCurrentLocation">placeholderForUserCurrentLocation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Whether this waypoint is a placeholder for the user&rsquo;s current location. If <code>YES</code>, other properties such as coordinate and address will not contain any data yet. At some point in the future, the user&rsquo;s current location will attempt to be determined, after which this property will return <code>NO</code> and the coordinate (at least) will return a valid value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">placeholderForUserCurrentLocation</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">placeholderForUserCurrentLocation</span><span class="p">:</span> <span class="kt">Int32</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/c:objc(cs)TGWaypoint(im)initWithCoordinate:"></a>
                     <a name="//apple_ref/objc/Method/-initWithCoordinate:" class="dashAnchor"></a>
                     <a class="token" href="#/c:objc(cs)TGWaypoint(im)initWithCoordinate:">-initWithCoordinate:</a>
@@ -647,6 +688,107 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGWaypoint(im)initWithLatitude:longitude:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithLatitude:longitude:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGWaypoint(im)initWithLatitude:longitude:">-initWithLatitude:longitude:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize with a latitude and longitude. The address and a description will be loaded asynchronously, if possible.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithLatitude</span><span class="p">:(</span><span class="n">CLLocationDegrees</span><span class="p">)</span><span class="nv">latitude</span>
+                               <span class="nf">longitude</span><span class="p">:(</span><span class="n">CLLocationDegrees</span><span class="p">)</span><span class="nv">longitude</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">latitude</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="nv">longitude</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGWaypoint(im)initWithLatitude:longitude:address:description:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithLatitude:longitude:address:description:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGWaypoint(im)initWithLatitude:longitude:address:description:">-initWithLatitude:longitude:address:description:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize with a latitude and longitude, while specifying an address and description for display in the UI.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithLatitude</span><span class="p">:(</span><span class="n">CLLocationDegrees</span><span class="p">)</span><span class="nv">latitude</span>
+                               <span class="nf">longitude</span><span class="p">:(</span><span class="n">CLLocationDegrees</span><span class="p">)</span><span class="nv">longitude</span>
+                                 <span class="nf">address</span><span class="p">:(</span><span class="n">nullable</span> <span class="n"><a href="../Classes/TGStreetAddress.html">TGStreetAddress</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">address</span>
+                             <span class="nf">description</span><span class="p">:</span>
+                                 <span class="p">(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">addressDescription</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">latitude</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="nv">longitude</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="nv">address</span><span class="p">:</span> <span class="kt"><a href="../Classes/TGStreetAddress.html">TGStreetAddress</a></span><span class="p">?,</span> <span class="n">description</span> <span class="nv">addressDescription</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGWaypoint(cm)waypointWithUserCurrentLocation"></a>
+                    <a name="//apple_ref/objc/Method/+waypointWithUserCurrentLocation" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGWaypoint(cm)waypointWithUserCurrentLocation">+waypointWithUserCurrentLocation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize without providing a coordinate, and attempt to later determine the user&rsquo;s current location. You can use this kind of waypoint as a convenience to avoid writing your own code to determine the user&rsquo;s location. You should only use this kind of waypoint as the origin, or as the first item in a waypoints array in a route request. Otherwise, an exception may be thrown.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">instancetype</span><span class="p">)</span><span class="n">waypointWithUserCurrentLocation</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">withUserCurrentLocation</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -655,7 +797,7 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-08-22)</p>
+      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-09-14)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>

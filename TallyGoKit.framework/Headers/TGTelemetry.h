@@ -58,8 +58,14 @@ FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryReroutedNotificat
 /// A notification that is posted when the user cancels the route.
 FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryCancelledNotification;
 
+/// A notification that is posted when the user concludes the route segment.
+FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetrySegmentConcludedNotification;
+
+/// A notification that is posted when the user advances to the next route segment.
+FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetrySegmentAdvancedNotification;
+
 /// A notification that is posted when the user concludes the route.
-FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryConcludedNotification;
+FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryRouteConcludedNotification;
 
 /// A notification that is posted when user telemetry is initiated, but not yet started.
 FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryInitializedNotification;
@@ -87,6 +93,9 @@ FOUNDATION_EXPORT TGTelemetryUserInfo _Nonnull const TGTelemetryUserInfoTurnPoin
 
 /// A userInfo key for the turn change notifications and represents the driver's ETA at their destination.
 FOUNDATION_EXPORT TGTelemetryUserInfo _Nonnull const TGTelemetryUserInfoETA;
+
+/// A userInfo key for the turn change notifications and represents the driver's route.
+FOUNDATION_EXPORT TGTelemetryUserInfo _Nonnull const TGTelemetryUserInfoRoute;
 
 /// A userInfo key for the turn change notifications and represents the driver's route segment.
 FOUNDATION_EXPORT TGTelemetryUserInfo _Nonnull const TGTelemetryUserInfoRouteSegment;

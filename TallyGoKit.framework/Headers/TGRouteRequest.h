@@ -55,7 +55,10 @@ FOUNDATION_EXPORT TGRouteRequestType _Nonnull const TGRouteRequestTypeDepartureT
 /// Create a route request with waypoints (which allow you to specify textual descriptions in the UI) along with optional parameters
 - (nonnull instancetype)initWithWaypoints:(nonnull NSArray<TGWaypoint *> *)waypoints time:(nullable NSDate *)time requestType:(nullable TGRouteRequestType)requestType speed:(CLLocationSpeed)speed course:(CLLocationDirection)course existingTripId:(nullable NSString *)existingTripId;
 
-/// Convenience method to quickly create a request with a single origin and destination
+/// Convenience method to create a request with a single origin and destination
 - (nonnull instancetype)initWithOrigin:(CLLocationCoordinate2D)origin destination:(CLLocationCoordinate2D)destination;
+
+/// Convenience method to create a request with a single origin and destination as waypoints
+- (nonnull instancetype)initWithOriginWaypoint:(nonnull TGWaypoint *)origin destinationWaypoint:(nonnull TGWaypoint *)destination;
 
 @end
