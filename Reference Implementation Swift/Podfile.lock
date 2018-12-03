@@ -1,13 +1,16 @@
 PODS:
-  - Mapbox-iOS-SDK (3.6.4)
-  - TallyGoKit (2.1.0):
-    - Mapbox-iOS-SDK (< 3.8, >= 3.6.4, ~> 3.0)
+  - KissXML (5.2.3)
+  - Mapbox-iOS-SDK (4.5.0)
+  - TallyGoKit (2.2.0):
+    - KissXML (~> 5.2.3)
+    - Mapbox-iOS-SDK (< 4.6, >= 4.5.0, ~> 4.0)
 
 DEPENDENCIES:
   - TallyGoKit (from `../`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - KissXML
     - Mapbox-iOS-SDK
 
 EXTERNAL SOURCES:
@@ -15,8 +18,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Mapbox-iOS-SDK: 47847dd44285477e0dfffd0130f65c8a52823ada
-  TallyGoKit: 0f368f7ffc6713d991cccaf3420827ae8bc75f7d
+  KissXML: 09f88ff8161fd058d67b70740b8b516687b52823
+  Mapbox-iOS-SDK: fb9dde66106a8f10d351f9697ac198049c8e5511
+  TallyGoKit: 1404d8663b84d5f655ae177ce4b0ca2f22ebfa9e
 
 PODFILE CHECKSUM: e593406838a8f451b6985efcc7c7ed799e0b2c4e
 
