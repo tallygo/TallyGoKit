@@ -84,6 +84,7 @@ FOUNDATION_EXPORT const unsigned char TallyGoKitVersionString[];
 
 // Telemetry
 #import "TGTelemetry.h"
+#import "TGDrivingSimulator.h"
 
 // UI
 

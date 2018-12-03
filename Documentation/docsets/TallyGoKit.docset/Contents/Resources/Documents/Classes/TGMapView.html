@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TGMapView Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/objc/Class/TGMapView" class="dashAnchor"></a>
+
+    <a title="TGMapView Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          TallyGoKit Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">TallyGoKit Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      TGMapView Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGBoundaryRequest">TGBoundaryRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGBoundaryResponse">TGBoundaryResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGButton">TGButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGEventService.html">TGEventService</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGFindService.html">TGFindService</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONFeature.html">TGGeoJSONFeature</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGGeoJSONFeatureCollection">TGGeoJSONFeatureCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONObject.html">TGGeoJSONObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONPoint.html">TGGeoJSONPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGGeoJSONPolygon.html">TGGeoJSONPolygon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGHighway">TGHighway</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGIdleTimer.html">TGIdleTimer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGMapStyle.html">TGMapStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGMapView.html">TGMapView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGMapViewController.html">TGMapViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGNavigationService.html">TGNavigationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGPoint.html">TGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGReverseGeocodeRequest.html">TGReverseGeocodeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGReverseGeocodeResponse.html">TGReverseGeocodeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRoute.html">TGRoute</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRouteRequest.html">TGRouteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRouteResponse.html">TGRouteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGRouteSegment.html">TGRouteSegment</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSearchExtent.html">TGSearchExtent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSearchRequest.html">TGSearchRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSearchResponse.html">TGSearchResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSearchResult.html">TGSearchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSearchViewController.html">TGSearchViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGStreet.html">TGStreet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGStreetAddress.html">TGStreetAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSuggestRequest.html">TGSuggestRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSuggestResponse.html">TGSuggestResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGSuggestion.html">TGSuggestion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGTurn.html">TGTurn</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGTurnByTurnConfiguration.html">TGTurnByTurnConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGTurnByTurnViewController.html">TGTurnByTurnViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGVoice">TGVoice</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGVoiceSynthesis.html">TGVoiceSynthesis</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TGWaypoint.html">TGWaypoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TallyGo.html">TallyGo</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGGeoJSONObjectTypeFeature">TGGeoJSONObjectTypeFeature</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGGeoJSONObjectTypeFeatureCollection">TGGeoJSONObjectTypeFeatureCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGGeoJSONObjectTypePoint">TGGeoJSONObjectTypePoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGGeoJSONObjectTypePolygon">TGGeoJSONObjectTypePolygon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeCalifornia">TGHighwayTypeCalifornia</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeCountyRoad">TGHighwayTypeCountyRoad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeHighway">TGHighwayTypeHighway</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeInterstate">TGHighwayTypeInterstate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeStateRoad">TGHighwayTypeStateRoad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeUnitedStates">TGHighwayTypeUnitedStates</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGHighwayTypeUnknown">TGHighwayTypeUnknown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginArcGIS">TGOriginArcGIS</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginFoursquare">TGOriginFoursquare</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginMapBox">TGOriginMapBox</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginOSM">TGOriginOSM</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginTallyGo">TGOriginTallyGo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginUnknown">TGOriginUnknown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGOriginYelp">TGOriginYelp</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGRouteRequestTypeArrivalTime">TGRouteRequestTypeArrivalTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGRouteRequestTypeDepartureTime">TGRouteRequestTypeDepartureTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionConnector">TGStreetConnectionConnector</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionDestination">TGStreetConnectionDestination</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionInterchange">TGStreetConnectionInterchange</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionOfframp">TGStreetConnectionOfframp</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionOnramp">TGStreetConnectionOnramp</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionOrigin">TGStreetConnectionOrigin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetConnectionUnknown">TGStreetConnectionUnknown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetDirectionEast">TGStreetDirectionEast</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetDirectionNorth">TGStreetDirectionNorth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetDirectionSouth">TGStreetDirectionSouth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetDirectionUnknown">TGStreetDirectionUnknown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetDirectionWest">TGStreetDirectionWest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionArterial">TGStreetFunctionArterial</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionHighway">TGStreetFunctionHighway</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionLocalArterial">TGStreetFunctionLocalArterial</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionLocalHighway">TGStreetFunctionLocalHighway</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionResidential">TGStreetFunctionResidential</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionService">TGStreetFunctionService</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGStreetFunctionUnknown">TGStreetFunctionUnknown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryCancelledNotification">TGTelemetryCancelledNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryCurrentPointChangeNotification">TGTelemetryCurrentPointChangeNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryDidUpdateLocationNotification">TGTelemetryDidUpdateLocationNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryInitializedNotification">TGTelemetryInitializedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryNextTurnChangeNotification">TGTelemetryNextTurnChangeNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryOffRouteNotification">TGTelemetryOffRouteNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryOnRouteNotification">TGTelemetryOnRouteNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryProceedingToRouteNotification">TGTelemetryProceedingToRouteNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryReroutedNotification">TGTelemetryReroutedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryReroutingNotification">TGTelemetryReroutingNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryRouteConcludedNotification">TGTelemetryRouteConcludedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetrySegmentAdvancedNotification">TGTelemetrySegmentAdvancedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetrySegmentConcludedNotification">TGTelemetrySegmentConcludedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoETA">TGTelemetryUserInfoETA</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoFromPoint">TGTelemetryUserInfoFromPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoFromPointIndex">TGTelemetryUserInfoFromPointIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoRoute">TGTelemetryUserInfoRoute</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoRouteSegment">TGTelemetryUserInfoRouteSegment</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoToPoint">TGTelemetryUserInfoToPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoToPointIndex">TGTelemetryUserInfoToPointIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoTurnPoint">TGTelemetryUserInfoTurnPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoTurnPointIndex">TGTelemetryUserInfoTurnPointIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnByTurnControllerStoryboardName">TGTurnByTurnControllerStoryboardName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionExitLeft">TGTurnDirectionExitLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionExitRight">TGTurnDirectionExitRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionForward">TGTurnDirectionForward</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionHardLeft">TGTurnDirectionHardLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionHardRight">TGTurnDirectionHardRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionLeft">TGTurnDirectionLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionLeftAtTheFork">TGTurnDirectionLeftAtTheFork</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionMergeLeft">TGTurnDirectionMergeLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionMergeRight">TGTurnDirectionMergeRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionRight">TGTurnDirectionRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionRightAtTheFork">TGTurnDirectionRightAtTheFork</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionSlightLeft">TGTurnDirectionSlightLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionSlightRight">TGTurnDirectionSlightRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionUTurn">TGTurnDirectionUTurn</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionUTurnLeft">TGTurnDirectionUTurnLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionUTurnRight">TGTurnDirectionUTurnRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionUnknown">TGTurnDirectionUnknown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TallyGoKitInfoPlistKeyGPXLogging">TallyGoKitInfoPlistKeyGPXLogging</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TallyGoKitInitializeDidFailNotification">TallyGoKitInitializeDidFailNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TallyGoKitInitializeDidFinishNotification">TallyGoKitInitializeDidFinishNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TallyGoKitInitializeWillRetryNotification">TallyGoKitInitializeWillRetryNotification</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols.html#/c:objc(pl)TGSearchResultsViewControllerDelegate">TGSearchResultsViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/TGSearchViewControllerDelegate.html">TGSearchViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/TGTurnByTurnConfigurable.html">TGTurnByTurnConfigurable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Type Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGGeoJSONObject.h@T@TGGeoJSONObjectType">TGGeoJSONObjectType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGHighway.h@T@TGHighwayType">TGHighwayType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGOrigin.h@T@TGOrigin">TGOrigin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGRouteRequest.h@T@TGRouteRequestType">TGRouteRequestType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGStreet.h@T@TGStreetConnection">TGStreetConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGStreet.h@T@TGStreetDirection">TGStreetDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGStreet.h@T@TGStreetFunction">TGStreetFunction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:TGTurn.h@T@TGTurnDirection">TGTurnDirection</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@TGLocationCoordinate2DMakeLegacyString">TGLocationCoordinate2DMakeLegacyString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@TGLocationCoordinate2DMakeString">TGLocationCoordinate2DMakeString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@TGLocationCoordinateDistanceFromCoordinate">TGLocationCoordinateDistanceFromCoordinate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>TGMapView</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">TGMapView</span> <span class="p">:</span> <span class="nc">MGLMapView</span> <span class="o">&lt;</span><span class="n">CLLocationManagerDelegate</span><span class="o">&gt;</span></code></pre>
+
+                </div>
+              </div>
+            <p>A subclass of MGLMapView that uses the TallyGo map style and updates traffic lines.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGMapView(py)snapToRoute"></a>
+                    <a name="//apple_ref/objc/Property/snapToRoute" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGMapView(py)snapToRoute">snapToRoute</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If enabled, when turn-by-turn navigation is active, the user&rsquo;s location will be &lsquo;snapped&rsquo; onto the route; in other words, if the driver is slightly away from the route (most likely due to inaccuracy inherent in location services), the UI will show the driver at their most probable location on the route instead. This is enabled by default, but you can turn it off to show the driver&rsquo;s actual location as reported by Location Services. This is only available when turn-by-turn navigation is in progress; when using a map view without turn-by-turn, this property has no effect.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">snapToRoute</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">snapToRoute</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGMapView(py)showTraffic"></a>
+                    <a name="//apple_ref/objc/Property/showTraffic" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGMapView(py)showTraffic">showTraffic</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If enabled, shows colored traffic lines as an overlay on the map</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">showTraffic</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showTraffic</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGMapView(im)initWithFrame:showTraffic:snapToRoute:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithFrame:showTraffic:snapToRoute:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGMapView(im)initWithFrame:showTraffic:snapToRoute:">-initWithFrame:showTraffic:snapToRoute:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializer that allows specifying TallyGo configuration</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithFrame</span><span class="p">:(</span><span class="n">CGRect</span><span class="p">)</span><span class="nv">frame</span>
+                  <span class="nf">showTraffic</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">showTraffic</span>
+                  <span class="nf">snapToRoute</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">snapToRoute</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="nv">showTraffic</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">snapToRoute</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-12-03)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

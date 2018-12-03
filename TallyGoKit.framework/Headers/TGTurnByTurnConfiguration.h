@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import <AVFoundation/AVFoundation.h>
+#import <Mapbox/Mapbox.h>
 
 @class TGRouteSegment, TGTurnByTurnConfiguration, TGRouteRequest, TGRoute, TGWaypoint;
 
@@ -28,7 +29,7 @@
 /**
  * Contains configuration settings that can be used by the various view controllers related to turn-by-turn navigation.
  */
-@interface TGTurnByTurnConfiguration : NSObject
+@interface TGTurnByTurnConfiguration : NSObject<MGLLocationManagerDelegate>
 
 /// The origin coordinate to request. This is an alternative to providing a full `routeRequest`. If specified, a `destination` must also be specified.
 @property (nonatomic) CLLocationCoordinate2D origin;
@@ -47,6 +48,14 @@
 
 /// The route to use for navigation. You can specify this directly if you already made a request and have the result.
 @property (nonatomic, nullable) TGRoute *route;
+
+/**
+ * If enabled, when turn-by-turn navigation is active, the user's location will be 'snapped' onto the route; in other words, if the driver is slightly away from the route (most likely due to inaccuracy inherent in location services), the UI will show the driver at their most probable location on the route instead. This is enabled by default, but you can turn it off to show the driver's actual location as reported by Location Services. This is only available when turn-by-turn navigation is in progress; when using a map view without turn-by-turn, this property has no effect.
+ */
+@property (nonatomic) BOOL snapToRoute;
+
+/// If enabled, shows colored traffic lines as an overlay on the map
+@property (nonatomic) BOOL showTraffic;
 
 /// Determines whether origin icon is displayed
 @property (nonatomic) BOOL showsOriginIcon;

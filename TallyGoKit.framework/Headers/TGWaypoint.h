@@ -7,13 +7,14 @@
 //
 
 #import <TallyGoKit/TallyGoKit.h>
+#import <Mapbox/Mapbox.h>
 
 @class TGStreetAddress;
 
 /**
  * Represents a start or end point of a route segment
  */
-@interface TGWaypoint : NSObject
+@interface TGWaypoint : NSObject<MGLLocationManagerDelegate>
 
 /// The coordinate of the waypoint
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;

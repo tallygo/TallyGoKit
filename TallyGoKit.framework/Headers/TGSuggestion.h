@@ -9,6 +9,7 @@
 #import "TGBaseObject.h"
 
 #import "TGOrigin.h"
+#import "TGSearchResult.h"
 
 /**
  This is an autocomplete suggestion.
@@ -20,7 +21,7 @@
 @property (nonatomic, readonly, nonnull) TGOrigin origin;
 
 /// Provider's name.
-@property (nonatomic, readonly, nullable) NSString *provider;
+@property (nonatomic, readonly, nullable) TGSearchResultProvider provider;
 
 /// Provider's relevance score.
 @property (nonatomic, readonly) double score;

@@ -19,7 +19,7 @@
 /**
  * A view controller that shows a map, complete with search bar, compass toggle button, and hamburger menu button (the latter of which can be customized).
  */
-@interface TGMapViewController : TGStoryboardInitializableViewController <TGSearchResultsViewControllerDelegate, TGSearchViewControllerDelegate, UIGestureRecognizerDelegate, MGLMapViewDelegate, TGTurnByTurnConfigurable>
+@interface TGMapViewController : TGStoryboardInitializableViewController <TGSearchResultsViewControllerDelegate, TGSearchViewControllerDelegate, UIGestureRecognizerDelegate, MGLMapViewDelegate, TGTurnByTurnConfigurable, UINavigationControllerDelegate>
 
 /**
  * Whether to show a 'hambuger' style menu button. By default, it does nothing when tapped, but you can implement a handler with `didSelectMenuButton`.
@@ -38,6 +38,14 @@
  * @default NO
  */
 @property (nonatomic) BOOL showTallyGoLogo;
+
+/**
+ * If enabled, when turn-by-turn navigation is active, the user's location will be 'snapped' onto the route; in other words, if the driver is slightly away from the route (most likely due to inaccuracy inherent in location services), the UI will show the driver at their most probable location on the route instead. This is enabled by default, but you can turn it off to show the driver's actual location as reported by Location Services. This is only available when turn-by-turn navigation is in progress; when using a map view without turn-by-turn, this property has no effect.
+ */
+@property (nonatomic) BOOL snapToRoute;
+
+/// If enabled, shows colored traffic lines as an overlay on the map
+@property (nonatomic) BOOL showTraffic;
 
 
 @property (nonatomic, readonly, nonnull) TGMapView *mapView;

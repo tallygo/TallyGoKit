@@ -13,7 +13,7 @@
 #import "TGTurnByTurnConfiguration.h"
 #import "TGSearchViewControllerDelegate.h"
 
-@class TGRouteSegment, TGRoute;
+@class TGRouteSegment, TGRoute, TGMapView;
 
 // UIControl classes
 @class TGVisualTurnIndicator, TGRouteProgress, TGButton, TGMenuButton, TGWaypoint;
@@ -30,10 +30,10 @@ NS_ERROR_ENUM(TGTurnByTurnViewControllerErrorDomain) {
 };
 
 /// View controller with TallyGo navigation and map view
-@interface TGTurnByTurnViewController : TGStoryboardInitializableViewController <MGLMapViewDelegate, TGTurnByTurnConfigurable>
+@interface TGTurnByTurnViewController : TGStoryboardInitializableViewController <MGLMapViewDelegate, TGTurnByTurnConfigurable, UINavigationControllerDelegate>
 
 /// Map view
-@property (nonatomic, readonly, nonnull) MGLMapView *mapView;
+@property (nonatomic, readonly, nonnull) TGMapView *mapView;
 
 /// The origin coordinate to request. This is an alternative to providing a full `routeRequest`. If specified, a `destination` must also be specified.
 @property (nonatomic) CLLocationCoordinate2D origin;
@@ -55,6 +55,14 @@ NS_ERROR_ENUM(TGTurnByTurnViewControllerErrorDomain) {
 
 /// The route segment that is currently being navigated
 @property (nonatomic, readonly, nullable) TGRouteSegment *currentRouteSegment;
+
+/**
+ * If enabled, when turn-by-turn navigation is active, the user's location will be 'snapped' onto the route; in other words, if the driver is slightly away from the route (most likely due to inaccuracy inherent in location services), the UI will show the driver at their most probable location on the route instead. This is enabled by default, but you can turn it off to show the driver's actual location as reported by Location Services. This is only available when turn-by-turn navigation is in progress; when using a map view without turn-by-turn, this property has no effect.
+ */
+@property (nonatomic) BOOL snapToRoute;
+
+/// If enabled, shows colored traffic lines as an overlay on the map
+@property (nonatomic) BOOL showTraffic;
 
 /// Determines whether origin icon is displayed
 @property (nonatomic) BOOL showsOriginIcon;

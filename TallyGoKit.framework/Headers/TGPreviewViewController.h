@@ -30,6 +30,9 @@
 /// This optional block is called whenever the user's actions result in a new route being generated.
 @property (nonatomic, copy, nullable) TGWaypointsListRouteChangeBlock onRouteChange;
 
+/// If enabled, shows colored traffic lines as an overlay on the map
+@property (nonatomic) BOOL showTraffic;
+
 @property (nonatomic, readonly, nonnull) TGTurnByTurnConfiguration *configuration;
 
 @end

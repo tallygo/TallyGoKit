@@ -87,7 +87,7 @@
                 <a class="nav-group-task-link" href="../Classes/TGMapStyle.html">TGMapStyle</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGMapView">TGMapView</a>
+                <a class="nav-group-task-link" href="../Classes/TGMapView.html">TGMapView</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGMapViewController.html">TGMapViewController</a>
@@ -296,6 +296,9 @@
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryCurrentPointChangeNotification">TGTelemetryCurrentPointChangeNotification</a>
               </li>
               <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryDidUpdateLocationNotification">TGTelemetryDidUpdateLocationNotification</a>
+              </li>
+              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryInitializedNotification">TGTelemetryInitializedNotification</a>
               </li>
               <li class="nav-group-task">
@@ -303,6 +306,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryOffRouteNotification">TGTelemetryOffRouteNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryOnRouteNotification">TGTelemetryOnRouteNotification</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryProceedingToRouteNotification">TGTelemetryProceedingToRouteNotification</a>
@@ -321,9 +327,6 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetrySegmentConcludedNotification">TGTelemetrySegmentConcludedNotification</a>
-              </li>
-              <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryStartedNotification">TGTelemetryStartedNotification</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoETA">TGTelemetryUserInfoETA</a>
@@ -405,6 +408,12 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionUnknown">TGTurnDirectionUnknown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TallyGoKitInfoPlistKeyGPXLogging">TallyGoKitInfoPlistKeyGPXLogging</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TallyGoKitInitializeDidFailNotification">TallyGoKitInitializeDidFailNotification</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TallyGoKitInitializeDidFinishNotification">TallyGoKitInitializeDidFinishNotification</a>
@@ -518,202 +527,7 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="k">var</span> <span class="nv">clientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)TallyGo(cpy)allowsDebug"></a>
-                    <a name="//apple_ref/objc/Property/allowsDebug" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)TallyGo(cpy)allowsDebug">allowsDebug</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Turns debug mode on/off.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">class</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">allowsDebug</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="k">var</span> <span class="nv">allowsDebug</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)TallyGo(cpy)showsTraffic"></a>
-                    <a name="//apple_ref/objc/Property/showsTraffic" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)TallyGo(cpy)showsTraffic">showsTraffic</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Show colored traffic lines as an overlay on the map</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">class</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">showsTraffic</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="k">var</span> <span class="nv">showsTraffic</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)TallyGo(cpy)currentLocation"></a>
-                    <a name="//apple_ref/objc/Property/currentLocation" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)TallyGo(cpy)currentLocation">currentLocation</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The most recent location reported by the location manager</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">,</span> <span class="n">class</span><span class="p">)</span> <span class="n">CLLocation</span> <span class="o">*</span><span class="n">currentLocation</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="k">var</span> <span class="nv">currentLocation</span><span class="p">:</span> <span class="kt">CLLocation</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)TallyGo(cpy)simulatedCoordinate"></a>
-                    <a name="//apple_ref/objc/Property/simulatedCoordinate" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)TallyGo(cpy)simulatedCoordinate">simulatedCoordinate</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets the starting location for the driving simulator. Set to nil to disable simulated locations.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">class</span><span class="p">)</span>
-    <span class="n">CLLocationCoordinate2D</span> <span class="n">simulatedCoordinate</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="k">var</span> <span class="nv">simulatedCoordinate</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)TallyGo(cpy)simulatedHighwaySpeed"></a>
-                    <a name="//apple_ref/objc/Property/simulatedHighwaySpeed" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)TallyGo(cpy)simulatedHighwaySpeed">simulatedHighwaySpeed</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets the simulated driving speed on highways</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">class</span><span class="p">)</span>
-    <span class="n">CLLocationSpeed</span> <span class="n">simulatedHighwaySpeed</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="k">var</span> <span class="nv">simulatedHighwaySpeed</span><span class="p">:</span> <span class="kt">CLLocationSpeed</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)TallyGo(cpy)simulatedCitySpeed"></a>
-                    <a name="//apple_ref/objc/Property/simulatedCitySpeed" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)TallyGo(cpy)simulatedCitySpeed">simulatedCitySpeed</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets the simulated driving speed on city streets</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">class</span><span class="p">)</span>
-    <span class="n">CLLocationSpeed</span> <span class="n">simulatedCitySpeed</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="k">var</span> <span class="nv">simulatedCitySpeed</span><span class="p">:</span> <span class="kt">CLLocationSpeed</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="k">var</span> <span class="nv">clientId</span><span class="p">:</span> <span class="nf">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -993,7 +807,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>An optional block to call after the initialization is complete. You may wish to use this to check for errors before proceeding. An alternative is to listen for <code><a href="../Constants.html#/c:@TallyGoKitInitializeDidFinishNotification">TallyGoKitInitializeDidFinishNotification</a></code>, <code><a href="../Constants.html#/c:@TallyGoKitInitializeWillRetryNotification">TallyGoKitInitializeWillRetryNotification</a></code>, and <code>TallyGoKitInitializeDidFailNotification</code>. If you are using <code><a href="../Classes/TGMapViewController.html">TGMapViewController</a></code>, you do not need to wait for the completion block, because that controller listens for errors via the notifications and handles them in its UI accordingly.</p>
+                                  <p>An optional block to call after the initialization is complete. You may wish to use this to check for errors before proceeding. An alternative is to listen for <code><a href="../Constants.html#/c:@TallyGoKitInitializeDidFinishNotification">TallyGoKitInitializeDidFinishNotification</a></code>, <code><a href="../Constants.html#/c:@TallyGoKitInitializeWillRetryNotification">TallyGoKitInitializeWillRetryNotification</a></code>, and <code><a href="../Constants.html#/c:@TallyGoKitInitializeDidFailNotification">TallyGoKitInitializeDidFailNotification</a></code>. If you are using <code><a href="../Classes/TGMapViewController.html">TGMapViewController</a></code>, you do not need to wait for the completion block, because that controller listens for errors via the notifications and handles them in its UI accordingly.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1011,8 +825,8 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-09-14)</p>
-      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-12-03)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
 </div>

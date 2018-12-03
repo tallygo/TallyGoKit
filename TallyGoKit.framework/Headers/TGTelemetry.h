@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
 #import <CoreLocation/CoreLocation.h>
+#import <Mapbox/Mapbox.h>
 
-@interface TGTelemetry : NSObject
+@interface TGTelemetry : NSObject<MGLLocationManagerDelegate>
 
 /** A notification that is posted when the user passes a point on a segment. The userInfo dictionary will contain values for the keys TGTelemetryUserInfoFromPointIndex and TGTelemetryUserInfoToPointIndex.
  
@@ -37,6 +37,13 @@
  */
 FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryCurrentPointChangeNotification;
 
+/**
+ * A notification that is posted every time we receive a location update (usually about 1 Hz).
+ * This notification will always contain the user info key `TGTelemetryUserInfoCurrentLocation`.
+ * This notification may also contain the user info key `TGTelemetryUserInfoCurrentLocationSnappedToRoute`.
+ */
+FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryDidUpdateLocationNotification;
+
 /// A notification that is posted when the user passes a turn.  The userInfo dictionary will contain a value for the key TGTelemetryUserInfoTurnPointIndex.
 FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryNextTurnChangeNotification;
 
@@ -44,7 +51,7 @@ FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryNextTurnChangeNot
 FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryProceedingToRouteNotification;
 
 /// A notification that is posted when user telemetry is started.
-FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryStartedNotification;
+FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryOnRouteNotification;
 
 /// A notification that is posted when the user is determined to be off the route.
 FOUNDATION_EXPORT NSNotificationName _Nonnull const TGTelemetryOffRouteNotification;
@@ -99,5 +106,14 @@ FOUNDATION_EXPORT TGTelemetryUserInfo _Nonnull const TGTelemetryUserInfoRoute;
 
 /// A userInfo key for the turn change notifications and represents the driver's route segment.
 FOUNDATION_EXPORT TGTelemetryUserInfo _Nonnull const TGTelemetryUserInfoRouteSegment;
+
+// A userInfo key for the driver's current location, as reported by Location Services.
+FOUNDATION_EXPORT TGTelemetryUserInfo _Nonnull const TGTelemetryUserInfoCurrentLocation;
+
+// A userInfo key for the driver's current location, adjusted to the most probable location on the current route line (to compensate for inaccuracy inherent in Location Services).
+FOUNDATION_EXPORT TGTelemetryUserInfo _Nonnull const TGTelemetryUserInfoCurrentLocationSnappedToRoute;
+
+/// If GPX logging is enabled (see `TallyGoKitInfoPlistKeyGPXLogging`), this URL will be the directory where GPX log files can be found. You may read or delete files in this directory if you wish. If no files have been created yet, this directory may not exist.
++ (NSURL *)gpxFilesDirectoryURL;
 
 @end

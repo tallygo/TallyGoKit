@@ -17,24 +17,6 @@ typedef void (^TGInitializeCompletionHandler)(BOOL success, NSError *_Nullable e
 /// Client ID used for internal analytics.
 @property (class, nonatomic, nullable) NSString *clientId;
 
-/// Turns debug mode on/off.
-@property (class, nonatomic) BOOL allowsDebug;
-
-/// Show colored traffic lines as an overlay on the map
-@property (class, nonatomic) BOOL showsTraffic;
-
-/// The most recent location reported by the location manager
-@property (class, nonatomic, readonly, nullable) CLLocation *currentLocation;
-
-/// Sets the starting location for the driving simulator. Set to nil to disable simulated locations.
-@property (class, nonatomic) CLLocationCoordinate2D simulatedCoordinate;
-
-/// Sets the simulated driving speed on highways
-@property (class, nonatomic) CLLocationSpeed simulatedHighwaySpeed;
-
-/// Sets the simulated driving speed on city streets
-@property (class, nonatomic) CLLocationSpeed simulatedCitySpeed;
-
 /**
  Asynchronously initializes the TallyGoKit framework with your access token.
  @param accessToken The access token that will be used for all API requests.

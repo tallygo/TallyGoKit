@@ -87,7 +87,7 @@
                 <a class="nav-group-task-link" href="../Classes/TGMapStyle.html">TGMapStyle</a>
               </li>
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)TGMapView">TGMapView</a>
+                <a class="nav-group-task-link" href="../Classes/TGMapView.html">TGMapView</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/TGMapViewController.html">TGMapViewController</a>
@@ -296,6 +296,9 @@
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryCurrentPointChangeNotification">TGTelemetryCurrentPointChangeNotification</a>
               </li>
               <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryDidUpdateLocationNotification">TGTelemetryDidUpdateLocationNotification</a>
+              </li>
+              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryInitializedNotification">TGTelemetryInitializedNotification</a>
               </li>
               <li class="nav-group-task">
@@ -303,6 +306,9 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryOffRouteNotification">TGTelemetryOffRouteNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryOnRouteNotification">TGTelemetryOnRouteNotification</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryProceedingToRouteNotification">TGTelemetryProceedingToRouteNotification</a>
@@ -321,9 +327,6 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetrySegmentConcludedNotification">TGTelemetrySegmentConcludedNotification</a>
-              </li>
-              <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryStartedNotification">TGTelemetryStartedNotification</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTelemetryUserInfoETA">TGTelemetryUserInfoETA</a>
@@ -407,6 +410,12 @@
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TGTurnDirectionUnknown">TGTurnDirectionUnknown</a>
               </li>
               <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TallyGoKitInfoPlistKeyGPXLogging">TallyGoKitInfoPlistKeyGPXLogging</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TallyGoKitInitializeDidFailNotification">TallyGoKitInitializeDidFailNotification</a>
+              </li>
+              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Constants.html#/c:@TallyGoKitInitializeDidFinishNotification">TallyGoKitInitializeDidFinishNotification</a>
               </li>
               <li class="nav-group-task">
@@ -484,7 +493,7 @@
     <span class="p">:</span> <span class="nc">TGStoryboardInitializableViewController</span> <span class="o">&lt;</span>
           <span class="n"><a href="../Protocols.html#/c:objc(pl)TGSearchResultsViewControllerDelegate">TGSearchResultsViewControllerDelegate</a></span><span class="p">,</span> <span class="n"><a href="../Protocols/TGSearchViewControllerDelegate.html">TGSearchViewControllerDelegate</a></span><span class="p">,</span>
           <span class="n">UIGestureRecognizerDelegate</span><span class="p">,</span> <span class="n">MGLMapViewDelegate</span><span class="p">,</span>
-          <span class="n"><a href="../Protocols/TGTurnByTurnConfigurable.html">TGTurnByTurnConfigurable</a></span><span class="o">&gt;</span></code></pre>
+          <span class="n"><a href="../Protocols/TGTurnByTurnConfigurable.html">TGTurnByTurnConfigurable</a></span><span class="p">,</span> <span class="n">UINavigationControllerDelegate</span><span class="o">&gt;</span></code></pre>
 
                 </div>
               </div>
@@ -523,7 +532,7 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showMenuButton</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showMenuButton</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -556,7 +565,7 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showCompassButton</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showCompassButton</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -589,7 +598,71 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showTallyGoLogo</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showTallyGoLogo</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGMapViewController(py)snapToRoute"></a>
+                    <a name="//apple_ref/objc/Property/snapToRoute" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGMapViewController(py)snapToRoute">snapToRoute</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If enabled, when turn-by-turn navigation is active, the user&rsquo;s location will be &lsquo;snapped&rsquo; onto the route; in other words, if the driver is slightly away from the route (most likely due to inaccuracy inherent in location services), the UI will show the driver at their most probable location on the route instead. This is enabled by default, but you can turn it off to show the driver&rsquo;s actual location as reported by Location Services. This is only available when turn-by-turn navigation is in progress; when using a map view without turn-by-turn, this property has no effect.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">snapToRoute</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">snapToRoute</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)TGMapViewController(py)showTraffic"></a>
+                    <a name="//apple_ref/objc/Property/showTraffic" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)TGMapViewController(py)showTraffic">showTraffic</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If enabled, shows colored traffic lines as an overlay on the map</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">showTraffic</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showTraffic</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -656,7 +729,7 @@ Foursquare rating, phone number, web site, etc. Not available for every location
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showExtendedLocationDetails</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">showExtendedLocationDetails</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -671,8 +744,8 @@ Foursquare rating, phone number, web site, etc. Not available for every location
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-09-14)</p>
-      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      <p>&copy; 2018 <a class="link" href="https://www.tallygo.com/" target="_blank" rel="external">TallyGo LLC</a>. All rights reserved. (Last updated: 2018-12-03)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
 </div>
