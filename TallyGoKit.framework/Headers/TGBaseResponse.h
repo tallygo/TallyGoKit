@@ -40,7 +40,6 @@ FOUNDATION_EXPORT TGBaseResponseErrorUserInfoKey const TGBaseResponseErrorUserIn
 
 - (void)processErrors;
 - (void)processResponse;
-- (void)processTracking;
 
 - (BOOL)shouldProcessTracking;
 
